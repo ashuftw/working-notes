@@ -1,7 +1,7 @@
 ---
 title: Ahoy!
 ---
-I'm Ashu and these are my working notes. The organization of these notes is inspired by [[Niklas Luhmann's Slipbox]] and [[Andy Matuschak's Tools for Thought]] culminating in my own pithy approach with [[Purpose Driven Writing]]. 
+I'm Ashu and these are my working notes. The organization of these notes is inspired by [Luhmann's Slipbox](http://luhmann.surge.sh/communicating-with-slip-boxes) and [Andy Matuschak's Tools for Thought](https://andymatuschak.org/) culminating in my own pithy approach with [[Evergreen/220515 Purpose Driven Writing|Purpose Driven Writing]]. 
 
 > If writing is the medium of research and studying is nothing else than research, then there is no reason not to work as if nothing else counts than writing. 
 
