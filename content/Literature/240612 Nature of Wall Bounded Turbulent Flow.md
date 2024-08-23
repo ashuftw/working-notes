@@ -3,11 +3,6 @@ title: Nature of Wall Bounded Turbulent Flow
 draft: false
 tags:
 ---
- 
-
-
-
-
 
 
 ![[../Files/Pasted image 20240823121104.png]]
