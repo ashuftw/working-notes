@@ -1,4 +1,8 @@
-Status: #finished 
+---
+title: Error Term for Backward or Upwind Scheme
+draft: false
+tags:
+---
 **1D Convection Equation**
 $$
 \frac {\partial u} {\partial t} + c \frac {\partial u} {\partial x }=0
@@ -21,8 +25,3 @@ $$
 > In the Continuous form, the RHS is $0$
 
 
-
-
-
----
-# References

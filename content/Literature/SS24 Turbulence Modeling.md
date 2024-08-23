@@ -1,11 +1,15 @@
-Status: #inprogress 
+---
+title: Turbulence Modeling
+draft: false
+tags:
+---
 ## Introduction to Turbulence Modeling 
 - [[240404 Occurrence of Turbulence|Occurrence of Turbulence]]
 - [[240404 Eddy Viscosity|Eddy Viscosity]] 
 - [[240404 Turbulence Scales|Turbulence Scales]]
 - [[240404 Strain Rate and Rotation|Strain Rate and Rotation]]
 - [[240404 Vorticity|Vorticity]]
-- [[240410 Important Equations in Turbulence Modeling|Important Equations in Turbulence Modeling]]
+- [[240410 Basic Equations in Fluid Mechanics|Pre-requisite Equations]]
 - [[240424 Time Averaged Navier-Stokes Equations|Time Averaged Navier-Stokes Equations]]
 - [[240410 Isotropic vs Anisotropic Turbulence|Isotropic vs Anisotropic Turbulence]]
 - [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stress Tensor]]
@@ -32,20 +36,11 @@ Status: #inprogress
 - [[Reynolds Stress Models (RSM)]]
 - [[Eddy Viscosity Models (ESM)]]
 - [[240813 Eddy Viscosity or Boussinesq Hypothesis|Boussinesq Assumption]]
-- [[240814 Prandtl's Mixing Length Theory]]
+- [[240814 Prandtl's Mixing Length Theory|Prandtl's Mixing Length Theory]]
 ## Large Eddy Simulation 
 - [[240807 Large Eddy Simulation (LES)|Large Eddy Simulation]]
 - Implicit LES (no-SGS Model)
 - Explicit LES (Sub-grid Scale Model) 
 - Smagorinsky SGS
 ## Heat Transfer and Compressibility
-KE
-![[Pasted image 20240815092241.png]]
-![[Pasted image 20240815091856.png]]
-![[Pasted image 20240815091907.png]]
-komega
-![[Pasted image 20240815092413.png]]
-![[Pasted image 20240815091945.png]]
 
----
-# References

@@ -1,5 +1,10 @@
-Status: #finished 
+---
+title: Law of the Wall and Wall Units
+draft: false
+tags:
+---
 ![[Pasted image 20240617115121.png|center|600]]
+
 ## Assumption
 The turbulence near the a wall/solid boundary is only affected by the flow conditions at the wall and is independent of the flow conditions far away. 
 $$\text {or}$$

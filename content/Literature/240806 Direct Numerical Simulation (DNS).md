@@ -1,4 +1,8 @@
-Status: #finished 
+---
+title: Direct Numerical Simulation (DNS)
+draft: false
+tags:
+---
 ## Use case
 It a Method of Turbulence Modeling where are all the Turbulent scales are resolved directly i.e, without averaging or using a turbulence model. 
 ## Requirements
@@ -12,10 +16,3 @@ It a Method of Turbulence Modeling where are all the Turbulent scales are resolv
 - This means that the Energy dissipation occurs at a smallest *simulated scale* (which given the mesh is bigger than the dissipative scale). 
 - Thus the bigger vortices rotate faster than normal to accommodate for this. This is non-physical and creates numerical instabilities. 
 
-
-
-
-
-
----
-# References

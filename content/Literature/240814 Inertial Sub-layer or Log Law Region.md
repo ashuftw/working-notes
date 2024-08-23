@@ -1,5 +1,8 @@
-Status: #finished 
-
+---
+title: Inertial Sub-layer or Log Law Region
+draft: false
+tags:
+---
 ## Observations
 - This region lies $y^{+} \geq 40$ and $y / \delta \leq 0.1$ 
 - Turbulent Kinetic energy production and dissipation are almost equal in this region. 
@@ -20,8 +23,3 @@ Known as the [[240814 Inertial Sub-layer or Log Law Region|Log law]] where,
 - $\kappa= 0.41, \,  \,  B=5.2\rightarrow$ from experiments
 - $\Phi\rightarrow$ [[240814 Wake Function|Wake Function]]
 
-
-
-
----
-# References

@@ -1,4 +1,8 @@
-Status: #finished 
+---
+title: Basic Equations in Fluid Mechanics
+draft: false
+tags:
+---
 ## Continuity
 $$
 \frac{\partial u_j}{\partial x_j}=0
@@ -28,16 +32,7 @@ $$
 where,
 - $S_{i j}=\frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i}\right)$ is the Strain Rate Tensor
 - $d$ is the Dissipation rate of Turbulent Kinetic Energy
-	> Note: $d$ is different from $k$ which is the Turbulent Kinetic Energy per unit mass in the system. 
-	
-
-	
-	
  
+> Note: $d$ is different from $k$ which is the Turbulent Kinetic Energy per unit mass in the system. 
 
-
-
-
-
----
-# References
+ 

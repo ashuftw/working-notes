@@ -1,5 +1,8 @@
-Status: #finished 
-
+---
+title: Prandtl's Mixing Length Theory
+draft: false
+tags:
+---
 It proposes a way to express Turbulent Viscosity through dimensional analysis in order to solve the [[240813 The Closure Problem of RANS|the Closure problem]] in [[240813 Reynolds Averaged Navier Stokes (RANS)|RANS]]
 
 The Kinematic Turbulent Viscosity ($v_t$) in the [[240813 Eddy Viscosity or Boussinesq Hypothesis|Boussinesq Assumption]]
@@ -37,6 +40,3 @@ $$
 Thus we have an equation to calculate [[240404 Eddy Viscosity|Eddy Viscosity]]
 
 > Note: The Mixing length ($l^2_m$) is selected base on the kind of flow.  
-
----
-# References

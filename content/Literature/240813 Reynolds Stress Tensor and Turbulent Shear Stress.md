@@ -1,5 +1,8 @@
-Status: #finished  
-
+---
+title: Reynolds Stress Tensor and Turbulent Shear Stress
+draft: false
+tags:
+---
 These stresses when applying a [[240424 Time Averaged Navier-Stokes Equations|Time Average]] on the Navier stokes equations. 
 $$
 \overline{u'_i u'_j} = 
@@ -16,6 +19,3 @@ $$\boxed{
 \tau_{ij}^{turb}=-\overline{u'_i u'_j}
 }
 $$
-
----
-# References

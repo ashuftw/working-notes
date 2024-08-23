@@ -1,5 +1,8 @@
-Status: #finished 
-
+---
+title: Eddy Viscosity
+draft: false
+tags:
+---
 ## Definition
 The Macroscopic Viscosity increase caused due to enhanced mixing in a Turbulent Flow is called **Eddy Viscosity**. 
 
@@ -10,10 +13,3 @@ If Viscosity is the internal resistance to flow, then the enhanced mixing causes
   
 Although he viscosity of the fluid is the same at the molecular level, it is much higher on a Macroscopic level.
 
-
-
-
-
-
----
-# References

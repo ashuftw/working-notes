@@ -1,5 +1,8 @@
-Status: #finished 
-## Definition 
+---
+title: Numerical Diffusion and Dispersion
+draft: false
+tags:
+---
 Depending on how the [[230228 Navier-Stokes Equations|Navier-Stokes Equations]] are discretized, the Error term tends to behave in a certain way. 
  -  **Backward or Upwind Scheme** produces an Error term whose leading term has diffusive behaviour.
  - **Central Scheme** produces an Error term whose leading term have dispersive behaviour (oscillation).

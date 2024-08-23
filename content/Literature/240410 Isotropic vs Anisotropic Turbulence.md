@@ -1,4 +1,8 @@
-Status: #finished 
+---
+title: Isotropic vs Anisotropic Turbulence
+draft: false
+tags:
+---
 ## Anisotropic Turbulence 
 Here the diagonal components of the [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stresses]] have different values. This means that there is a preference for the direction of fluctuations i.e. non-Diagonal components have non-Zero values. 
 
@@ -10,9 +14,3 @@ Here the Reynolds Normal Stresses are equal to each other. Therefore the fluctua
 $$
 k = \frac{1}{2}(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}) = \frac{1}{2}\overline{u_i'^2}$$
 
-
-
-
-
----
-# References

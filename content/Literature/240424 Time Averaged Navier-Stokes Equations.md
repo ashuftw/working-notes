@@ -1,5 +1,8 @@
-Status: #finished 
-
+---
+title: Time Averaged Navier-Stokes Equations
+draft: false
+tags:
+---
 ![[Pasted image 20240424152702.png|center|600]]
 **Note**
 - The variables are split into a mean and a fluctuating component. 
