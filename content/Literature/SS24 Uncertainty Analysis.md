@@ -1,6 +1,10 @@
-Status: #finished 
+---
+title: Uncertainty Analysis
+draft: false
+tags:
+---
 ## Probability Theory
-- [[240221 Sample Space vs Event|Sample Space vs Event]]
+- [[240221 Sample Space, Event and Outcome|Sample Space vs Event]]
 - [[230424 Random Variable|Random Variable]]
 - [[230505 Expected Value|Expected Value]]
 - [[230712 Probability Space|Probability Space]]
@@ -18,7 +22,7 @@ Status: #finished
 	- [[240725 Continuous KLE Example|Continuous KLE Example]]
 - [[231201 KL expansion of random rigidity for a 1D bar|KL expansion of random rigidity for a 1D bar]]
 ## First Order Second Moment Method
-[[240729 FOSM]]
+[[240729 FOSM|FOSM]]
 - [[240730 FOSM Example]]
 ## Quadrature 
 - [[240730 Quadrature Example]]
@@ -29,6 +33,3 @@ Status: #finished
 - [[240723 Orthogonal Projection|Orthogonal Projection]]
 - [[240723 non-Intrusive Surrogate Modeling|non-Intrusive Surrogate Modeling]]
 
-
----
-# References
