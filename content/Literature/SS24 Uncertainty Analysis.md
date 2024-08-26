@@ -1,6 +1,6 @@
 ---
 title: Uncertainty Analysis
-draft: true
+draft: false
 tags:
 ---
 ## Probability Theory
