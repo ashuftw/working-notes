@@ -11,13 +11,17 @@ Status: #finished
 
 ![[Pasted image 20240723121603.png|center|700]]
 #### **∴** gPC Coefficient is given by
+
 $$
 q_i=\frac{\mathbb{E}\left[\mathcal{M}(\xi) \Phi_i(\xi)\right]}{\mathbb{E}\left[\Phi_i(\xi)^2\right]}
 $$
+
 #### Projected gPC expansion 
+
 $$
- \mathcal Y \approx \widetilde{\mathcal{M}}(\xi)=\sum_{i=0}^n \frac{\mathbb{E}\left[\mathcal{M}(\xi) \Phi_i(\xi)\right]}{\mathbb{E}\left[\Phi_i(\xi)^2\right]} \Phi_i(\xi)
+\mathcal Y \approx \widetilde{\mathcal{M}}(\xi)=\sum_{i=0}^n \frac{\mathbb{E}\left[\mathcal{M}(\xi) \Phi_i(\xi)\right]}{\mathbb{E}\left[\Phi_i(\xi)^2\right]} \Phi_i(\xi)
 $$
+
 
 
 

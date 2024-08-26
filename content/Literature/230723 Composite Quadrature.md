@@ -1,8 +1,12 @@
 Status: #finished
 It is a [[230507 Quadrature|Quadrature]] where the domain $x\in[a,b]$ is split into multiple grid points $i=0,1,2\dots N$ with $a = x_0 < x_1 < \dots < x_N = b$
-$$\boxed{
+
+$$
+\boxed{
 \int_a^b f(x) \mathrm{d} x=\sum_{i=0}^{N-1} \int_{x_i}^{x_{i+1}} f(x)\ \mathrm{d}x
-}$$
+}
+$$
+
 We sum only till $(N-1)$ because $i=N$ is the end point and $x_{N+1}$ doesn't exist.  
 ## Example 
 | Quadrature rule | Composite Quadrature | Fixed Step |

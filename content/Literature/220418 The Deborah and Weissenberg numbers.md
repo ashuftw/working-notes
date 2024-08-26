@@ -5,7 +5,11 @@ Tags: [[non-Newtonian Flow]]
 
 # The Deborah and Weissenberg numbers
 **Deborah Number**
-$$D=\dfrac{\text{time of relaxation}}{\text{time of observation}}$$
+
+$$
+D=\dfrac{\text{time of relaxation}}{\text{time of observation}}
+$$
+
 High Deborah numbers, material behaves like a solid.
 Low Deborah numbers, material behaves like a fluid. 
 

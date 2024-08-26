@@ -3,7 +3,11 @@ Status: #finished  #book
 ## Efficiency is your sword. Cut that Grind
 - You need to find strategies that work for _you_. 
 - Get work done quickly and minimize wasted effort.
-$$\text{Work accomplished = Time spent}\times \text{Intensity of focus}$$
+
+$$
+\text{Work accomplished = Time spent}\times \text{Intensity of focus}
+$$
+
 - Spread out sessions of intense work so that you are recharged.  
  > A little organization goes a hell of a long way.
  

@@ -11,6 +11,9 @@ Here the Reynolds Normal Stresses are equal to each other. Therefore the fluctua
 
 ![[Pasted image 20240424170322.png|center]]
 ## Turbulent Kinetic Energy
+
 $$
-k = \frac{1}{2}(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}) = \frac{1}{2}\overline{u_i'^2}$$
+k = \frac{1}{2}(\overline{u'^2} + \overline{v'^2} + \overline{w'^2}) = \frac{1}{2}\overline{u_i'^2}
+$$
+
 

@@ -1,5 +1,9 @@
 Status: #inprogress 
- $$\boxed{\text{\textbf{Expected impact }= pressingness of problem x effectiveness of opportunity x personal fit}}$$
+ 
+$$
+\boxed{\text{\textbf{Expected impact }= pressingness of problem x effectiveness of opportunity x personal fit}}
+$$
+
 1. **My definition of Positive impact**
 	Reduce suffering in the world. From my job, I want to figure out the best way I can use my being to achieve this goal. 
 2. **Personal  Fulfillment**

@@ -8,22 +8,29 @@ Status: #inprogress
 
 ## Step 1: Find the Center of the Droplet (copy from BubbleInterTrackFoam line 72, 96  Create Bubble.H)
 **Position of the Droplet**[^1]
-$$\begin{align}
+
+$$
+\begin{align}
 \text{Centroid}&=\frac{\text{Volume of Droplet Weighted with the Position Vector}}{\text{Volume of the Droplet}}\\
 x_{\mathrm{d}}(t)&=\frac{\int_{\Omega} x \alpha(\mathbf{x}, t) \mathrm{d} V}{\int_{\Omega} \alpha(\mathbf{x}, t) \mathrm{d} V}
 \end{align}
 $$
+
 Where $x$ is the position vector
 
 ## Step 2 Calculate the Reference frame velocity required to center the droplet ($x_d(t) =0$)
 **Corrected Position of droplet** 
+
 $$
 x_{\mathrm{d}}(t)=x_{\mathrm{d}}(0)+\int_0^t\left(v_{\mathrm{d}}-v_{\mathrm{RF}}\right) \mathrm{d} t
 $$
+
 **Error in each time step**: Maybe having error zero in first try isn't ideal. 
+
 $$
 e_x(t)=x_{\mathrm{d}}(t)-x^{\mathrm{SP}}
 $$
+
 where $x^{SP}$ is the position of the domain's center .
 ## Step 3 Update Wall Condition
 Subtract the Inlet velocity with the velocity of the reference frame. So that the newly adjusted input velocity along with the reference velocity will give the physical velocity. 

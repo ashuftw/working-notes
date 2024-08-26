@@ -8,7 +8,11 @@ The Navier-Stokes equations relate the rate of change of moThe Navier-Stokes equ
 
 ### Momentum: The Navier-Stokes Equations
 
-From Newton’s II law$$\begin{align*}\text{Force}\propto \text{Rate of change of Momentum}\end{align*}$$
+From Newton’s II law
+$$
+\begin{align*}\text{Force}\propto \text{Rate of change of Momentum}\end{align*}
+$$
+
 In Cartesian coordinate system ![[Pasted image 20220430154540.png]]
 For Fluids, we solve the Navier-Stokes equations which are analogous to Newton's II law. 
 For a fluid parcel of volume $V$, the Navier-Stokes equations can be written as![[Pasted image 20220430154704.png]]

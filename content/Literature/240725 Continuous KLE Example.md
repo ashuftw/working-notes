@@ -1,4 +1,8 @@
-Status: #finished 
+---
+title: Continuous KLE Example
+draft: false
+tags:
+---
 
 ![[Pasted image 20240725115038.png]]
 --- 
@@ -9,6 +13,3 @@ Status: #finished
 ![[../../Private/Excalidraw/Drawing 2024-07-25 12.30.12.excalidraw#^group=d-UHn-Eldaglg5gyFnWTp|1000]]
 
 
-
----
-# References

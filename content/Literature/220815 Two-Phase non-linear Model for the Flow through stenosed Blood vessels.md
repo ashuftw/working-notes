@@ -23,6 +23,7 @@ Tags: [[Multiphase flow]] [[Blood flow]] [[Journal Paper]]
   - Blood is incompressible. 
   - Radial velocity is negligibly small for small $R_e$ Hence neglected.
 - **Essential Nomenclature**
+
 $$
 \begin{array}{c c}
 \hline
@@ -39,9 +40,14 @@ $$
 \end{array}
 $$
 
+
 - **Domain**
 ![[Pasted image 20220315162014.png]]
-[^6]$$\beta =\dfrac{\text{core radius}}{\text{normal artery radius}}=0.95$$
+[^6]
+$$
+\beta =\dfrac{\text{core radius}}{\text{normal artery radius}}=0.95
+$$
+
 At $\beta=1$, the model reduces to single-fluid model
 Stenosis at periphery $0.05<\delta_p<0.3$
 

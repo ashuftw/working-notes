@@ -9,7 +9,11 @@ Tags: [[Blood flow]] [[non-Newtonian Flow]] [[Multiphase flow]] [[Journal Paper]
 ## Introduction 
 - Arterioles are blood vessels with diameter < 200 $\mu \ m$
 - Non-Newtonian behaviour of blood is because of [[Rouleaux formation in RBC's|rouleaux formation]], aggregation and flexibility of blood cells. 
-- Volume flow rate in of a non-Newtonian fluid in a pipe is given by $$Q=\dfrac{\pi R^4}{8\eta_a}\ \dfrac{\Delta P}{L}$$ $\eta_a\rightarrow$ apparent viscosity, $R\rightarrow$ inner radius, $L\rightarrow$ length of pipe, $P\rightarrow$ pressure difference across tube
+- Volume flow rate in of a non-Newtonian fluid in a pipe is given by 
+$$
+Q=\dfrac{\pi R^4}{8\eta_a}\ \dfrac{\Delta P}{L}
+$$
+ $\eta_a\rightarrow$ apparent viscosity, $R\rightarrow$ inner radius, $L\rightarrow$ length of pipe, $P\rightarrow$ pressure difference across tube
 - 80% of the pressure gradient in the circulation systems is caused by arterioles. [^2][^3]
 - Mathematical models that give a two fluid description of blood. [^10][^11][^12]
 - This paper describes proposes the Modified Herschel-Bulkley model mathematical model that is a modification of the existing H.B model, which considers blood to have a non-Newtonian core made of RBC's and a peripheral region of Plasma that behaves as a Newtonian fluid.  

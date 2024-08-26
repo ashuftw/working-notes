@@ -12,9 +12,11 @@ Where,
 
 ![[../Files/Pasted image 20240820112047.png|center|425]]
 
+
 $$
 \mathrm{P}(e)=\sum_{d \in \mathcal{D}} \mathrm{P}(e \mid d) \cdot \underbrace{\sum_{c \in \mathcal{C}} \sum_{a \in \mathcal{A}} \mathrm{P}(d \mid c, a) \cdot \mathrm{P}(a) \cdot \overbrace{\sum_{b \in \mathcal{B}} \mathrm{P}(c \mid b) \cdot \mathrm{P}(b)}^{\mathrm{P}(c)}}_{\mathrm{P}(d)}
 $$
+
 1. **Node A:** $P(a)$
 2. **Node B:** $P(b)$
 3. **Node C:** $P(c) = \sum_{b \in B} P(c|b) \cdot P(b)$

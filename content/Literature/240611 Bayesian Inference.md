@@ -2,8 +2,11 @@ Status: #finished
 ## Use case
 It is used to calculate the model parameters $\textbf w$ from the data.  **The a-Posteriori is given as the product of the Likelihood and the Prior.**
 
+
 $$
-p(\mathbf{w}|\mathbf{x}, \mathbf{t}, \alpha, \beta) \propto p(\mathbf{t}|\mathbf{x}, \mathbf{w}, \beta) p(\mathbf{w}|\alpha)$$
+p(\mathbf{w}|\mathbf{x}, \mathbf{t}, \alpha, \beta) \propto p(\mathbf{t}|\mathbf{x}, \mathbf{w}, \beta) p(\mathbf{w}|\alpha)
+$$
+
 where,
 - $\textbf w\rightarrow$ Model parameter that has to be learned (for example weights.)
 - $\textbf x\rightarrow$ Input vector

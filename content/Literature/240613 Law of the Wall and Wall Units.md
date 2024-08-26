@@ -7,7 +7,11 @@ tags:
 
 ## Assumption
 The turbulence near the a wall/solid boundary is only affected by the flow conditions at the wall and is independent of the flow conditions far away. 
-$$\text {or}$$
+
+$$
+\text {or}
+$$
+
 In the Outer Layer, the Turbulence is not affected by the the turbulence in the inner layer due to the huge difference in the Length scales ($\delta$)
 ## Wall Units / Plus Values
 Using the above assumption, a few flow variables are identified. 
@@ -18,19 +22,27 @@ Using the above assumption, a few flow variables are identified.
 - $\nu \rightarrow$ Fluid kinematic viscosity $\left[L^2 / T\right]$.
 After performing dimensional analysis we derive two new dimensionless quantities
 ## Dimensionless Distance $y+$
-$$\boxed{
+
+$$
+\boxed{
 y^{+} \equiv \frac y \nu \sqrt{\frac{\tau_W}{\rho}} = \frac{y u_\tau}{\nu}=\frac{y}{\delta_v}
-}$$
+}
+$$
+
 Easier to remember 
+
 $$
 \boxed{
 y^{+} =\frac{y}{\delta_v} =  \frac{y u_\tau}{\nu}= \frac y \nu \sqrt{\frac{\tau_W}{\rho}}
 }
 $$
+
 ## Dimensionless Velocity $u+$
+
 $$
 \boxed{u^{+} \equiv \frac{u}{u_\tau}}
 $$
+
 
 Where, 
 - $y\rightarrow$ Distance from the wall

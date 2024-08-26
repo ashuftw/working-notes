@@ -12,12 +12,24 @@ The cases modify the [[220908 German Articles|article]] to inform the role of a 
 
 Example: 
 - **Definite Case**
-$$\underbrace{\text{Der Mann}}_{\text{Subjekt}}\text{ gibt } \underbrace{\text{dem Hund}}_{\text{Indirektes Objekt}} \ \overbrace{\text{den Knochen.}}^{\text{Direktes Objekt}}$$
+
+$$
+\underbrace{\text{Der Mann}}_{\text{Subjekt}}\text{ gibt } \underbrace{\text{dem Hund}}_{\text{Indirektes Objekt}} \ \overbrace{\text{den Knochen.}}^{\text{Direktes Objekt}}
+$$
+
 - **Indefinite Case**
-$$\underbrace{\text{Ein Mann}}_{\text{Subjekt}}\text{ gibt } \underbrace{\text{einem Hund}}_{\text{Indirecktes Objekt}} \ \overbrace{\text{einen Knochen.}}^{\text{Direktes Objekt}}$$
+
+$$
+\underbrace{\text{Ein Mann}}_{\text{Subjekt}}\text{ gibt } \underbrace{\text{einem Hund}}_{\text{Indirecktes Objekt}} \ \overbrace{\text{einen Knochen.}}^{\text{Direktes Objekt}}
+$$
+
 
 - **Genitiv**
-$$\text{Das ist }\underbrace{\text{das Haus }}_{\text{Nominative}} \overbrace{\text{meines Bruders.}}^\text{Genitiv}$$
+
+$$
+\text{Das ist }\underbrace{\text{das Haus }}_{\text{Nominative}} \overbrace{\text{meines Bruders.}}^\text{Genitiv}
+$$
+
 
 
 

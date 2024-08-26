@@ -10,7 +10,11 @@ The transport equation defines how a quantity travels across a [[220511 Field|fi
 3. [[Species Transport equation]]
 4. [[Total Energy Equation]]
 
-Most transport equations take the form $$\text{Temporal term }+\text{Convection term }=\text{Diffusion term}+\text{Source term}$$
+Most transport equations take the form 
+$$
+\text{Temporal term }+\text{Convection term }=\text{Diffusion term}+\text{Source term}
+$$
+
 Additional quantities like turbulence, take the form of source term.
 
 

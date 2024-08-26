@@ -13,15 +13,23 @@ Flow is majorly turbulent. Makes use of the Turbulence model selected in the sim
 
 ## Calculating Cell height
 Formula for $y^+$ 
-$$y^{+} = \frac{y u_\tau}{\nu}$$
+
+$$
+y^{+} = \frac{y u_\tau}{\nu}
+$$
+
 Rearranging
+
 $$
 y=\frac{y^{+} \nu}{u_\tau}
 $$
+
 Given a kinematic viscosity $\nu=1 \times 10^{-5} \mathrm{~m}^2 / \mathrm{s}$ (typical for air), and $y^{+}=30$ :
+
 $$
 y=\frac{30 \times 1 \times 10^{-5}}{0.05}=0.006 \mathrm{~m}=6 \mathrm{~mm}
 $$
+
 
 
 

@@ -7,8 +7,16 @@ Status: #finished
 ## Example
 Potential function, $F(x, y)=\frac{1}{2} x^2+\frac{1}{2} y^2$.
 ![[Pasted image 20240207120750.png]]
-The *Exact Differential Equation* would be the gradient of the function obeying the condition stated above. $$A(x, y) d x+B(x, y) d y=0$$where $A(x, y)=\frac{\partial F}{\partial x}=x$ and $B(x, y)=\frac{\partial F}{\partial y}=y$.
-The *Exact Differential Equation*  $$x d x+y d y=0$$
+The *Exact Differential Equation* would be the gradient of the function obeying the condition stated above. 
+$$
+A(x, y) d x+B(x, y) d y=0
+$$
+where $A(x, y)=\frac{\partial F}{\partial x}=x$ and $B(x, y)=\frac{\partial F}{\partial y}=y$.
+The *Exact Differential Equation*  
+$$
+x d x+y d y=0
+$$
+
 > Note: The condition $\frac{\partial A}{\partial y} =\frac{\partial B}{\partial x}$, holds.          
 
 

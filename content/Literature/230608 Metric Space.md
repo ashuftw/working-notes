@@ -8,7 +8,11 @@ Some popular metric spaces are:
 ### Mathematical Definition
 A Metric space in an ordered pair $(M,d)$ where
 - $M\rightarrow$ Set of elements (points).
-- $d\rightarrow$ distance function (metric) is defined as $$d:X\times X\rightarrow \mathbb R$$
+- $d\rightarrow$ distance function (metric) is defined as 
+$$
+d:X\times X\rightarrow \mathbb R
+$$
+
 	Here the distance functions takes two elements from $M$ and maps it to a single real number which is supposed to represent the distance between the two points. 
 	
 

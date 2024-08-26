@@ -2,9 +2,13 @@ Status: #finished
 ## Use case 
 It is used to improve the accuracy of a Numerical Method to a higher order by combining results from different step sizes.  
 ## Mathematically 
-$$\boxed{
+
+$$
+\boxed{
 A_e=\frac{2^k\left[A(h / 2)-A(h)\right]}{2^k-1}
-}$$
+}
+$$
+
 
 Here, 
 - $k\rightarrow$is the order of convergence. 

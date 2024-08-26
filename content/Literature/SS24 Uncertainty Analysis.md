@@ -1,13 +1,12 @@
 ---
 title: Uncertainty Analysis
-draft: false
+draft: true
 tags:
 ---
 ## Probability Theory
 - [[240221 Sample Space, Event and Outcome|Sample Space vs Event]]
 - [[230424 Random Variable|Random Variable]]
 - [[230505 Expected Value|Expected Value]]
-- [[230712 Probability Space|Probability Space]]
 - [[240305 Normal Distribution and Lognormal Distribution|Normal Distribution and Lognormal Distribution]]
 - [[230424 Probability Density Function (PDF)|Probability Density Function (PDF)]]
 - [[230424 Cumulative Distribution Function (CDF)|Cumulative Distribution Function (CDF)]]
@@ -20,12 +19,11 @@ tags:
 - [[230516 Karhunen Loève Expansion|Karhunen-Loève Expansion]]
 	- [[240725 Discrete KLE Example|Discrete KLE Example]]
 	- [[240725 Continuous KLE Example|Continuous KLE Example]]
-- [[231201 KL expansion of random rigidity for a 1D bar|KL expansion of random rigidity for a 1D bar]]
 ## First Order Second Moment Method
-[[240729 FOSM|FOSM]]
-- [[240730 FOSM Example]]
+- [[240729 FOSM|FOSM]]
+- [[240730 FOSM Example|FOSM Example]]
 ## Quadrature 
-- [[240730 Quadrature Example]]
+- [[240730 Quadrature Example|Quadrature Example]]
 ## Surrogate Modeling 
 - [[240305 Definition of Surrogate Modeling|Definition of Surrogate Modeling]]
 - [[230731 Polynomial Chaos Expansion|Polynomial Chaos Expansion]]

@@ -11,19 +11,23 @@ tags: []
 
 **What is the error rate, if you randomly throw the dice? What is the error rate, if you employ the Bayes classifier?**
 
-- **Random**$$
+- **Random**
+$$
 \begin{align}
 \text{Error Rate} &= 1-\frac 1 n\\
 &= 0.75
 \end{align}
 $$
-- **[[240410 Bayes Classifier|Bayes Classifier]]** Chooses the class with the most probable [[240401 Bayes Theorem|A Posteriori]]. $$
- \begin{align}
+
+- **[[240410 Bayes Classifier|Bayes Classifier]]** Chooses the class with the most probable [[240401 Bayes Theorem|A Posteriori]]. 
+$$
+\begin{align}
 \text{Error Rate}&= 1 -\arg \max _{i \in \mathcal{S}} p(s=i\mid \mathbf{x}) \\
 &=1 - 0.7\\
 &=0.3
 \end{align}
- $$
+$$
+
 
  
 

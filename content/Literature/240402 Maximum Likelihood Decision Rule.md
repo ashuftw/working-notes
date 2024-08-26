@@ -6,9 +6,11 @@ tags: []
 ## Definition 
 It gives the formula to find the most like state for a given evidence.  
 
+
 $$
 s^*=\arg \max _{i \in \mathcal{S}} \underbrace{p(\mathbf{x} \mid s=i)}_{\text{Likelihood}}
 $$
+
 where, 
 - $s^*$: Class that maximizes the **Likelihood** function.
 - $\mathbf x$: feature vector

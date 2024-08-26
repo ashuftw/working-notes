@@ -1,10 +1,16 @@
 Status: #finished 
 ## Use-case
 The Base theorem gives an interface to revise pr-existing theories or hypothesis (Prior) with given new evidence. 
+
 $$
 \text { posterior }=\frac{\text { likelihood } \times \text { prior }}{\text { evidence }} \text {. }
 $$
-$$\boxed{P(H \mid E)=\frac{P(E \mid H) P(H)}{P(E)}}$$
+
+
+$$
+\boxed{P(H \mid E)=\frac{P(E \mid H) P(H)}{P(E)}}
+$$
+
 Where, 
 - $P(H|E)$, **Posterior Probability** is the probability of Hypothesis $H$ given that the evidence $E$ has occurred. (Note: $H$ is one event in the sample space.)
 - $P(E|H)$, **Likelihood** is the Probability of the evidence occurring give that the Hypothesis $H$ is true. 

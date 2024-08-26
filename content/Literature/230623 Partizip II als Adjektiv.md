@@ -1,6 +1,10 @@
 Status: #finished 
 ## Syntax
-$$\text{Verb in Partizip II +  Adjektivendung}$$
+
+$$
+\text{Verb in Partizip II +  Adjektivendung}
+$$
+
 
 ## Examples
 **Unbestimmt Artikel**

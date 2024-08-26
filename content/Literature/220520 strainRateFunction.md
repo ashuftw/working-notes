@@ -12,7 +12,11 @@ The viscosity is modeled as a function of strain rate.
         function polynomial ((a b) (c d));  
     }
 
-Corresponds to$$\nu=a\times \dot \gamma^{b}+c\times \dot \gamma^{d}$$
+Corresponds to
+$$
+\nu=a\times \dot \gamma^{b}+c\times \dot \gamma^{d}
+$$
+
 
 
 
