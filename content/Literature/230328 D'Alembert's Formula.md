@@ -1,3 +1,8 @@
+---
+title: D'Alembert's Formula
+draft: false
+tags:
+---
   
 
 $$

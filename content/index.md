@@ -10,3 +10,4 @@ I'm Ashu and these are my working notes. The organization of these notes is insp
 - [[SS24 Uncertainty Analysis|Uncertainty Analysis]]
 - [[Literature/SS24 Parallel Computing|Parallel Computing]]
 - [[Literature/SS23 Scientific Software Engineering|Scientific Software Engineering]]
+- [[Literature/221110 WS-PDE Script|Partial Differential Equations]]

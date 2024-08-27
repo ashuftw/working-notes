@@ -1,3 +1,8 @@
+---
+title: Classification of PDEs
+draft: false
+tags:
+---
   
 
 A general 2$^\text{nd}$ order PDE
@@ -12,9 +17,6 @@ $$
 $$
 
 $b$ is a source term
-
-In Multi-index notation
-![](http://127.0.0.1:43607/paste-e16d8220de1aebdd002eb92586d741ea9be3bbe6.png)
 
 1. **Elliptic**: $\lambda_{ij}$ do not vanish and have the same sign.
 $$

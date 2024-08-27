@@ -1,7 +1,10 @@
+---
+title: Work Integral or Line Integral of a Vector Field
+draft: false
+tags:
+---
    
-
 ![[221218 Work Integral.png]]
-
 
 
 
