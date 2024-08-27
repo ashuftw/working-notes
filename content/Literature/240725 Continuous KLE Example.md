@@ -16,5 +16,6 @@ Hint: Multiply throughout by $\varphi_j(r)$, integrate with respect to $r$, and 
 ![[../Files/Pasted image 20240827132223.png]]
 
 2. Express the covariance function of $a$ in terms of eigenvalues and eigenfunctions of the Karhunen-Loève expansion. You can assume that the $\xi_i$ are mean-free and orthogonal with unit variance.
+
 ![[../Files/Pasted image 20240827132242.png]]
 
