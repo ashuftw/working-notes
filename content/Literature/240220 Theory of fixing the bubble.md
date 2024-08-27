@@ -10,10 +10,10 @@
 **Position of the Droplet**[^1]
 
 $$
-\begin{align*}
+\end{align}
 \text{Centroid}&=\frac{\text{Volume of Droplet Weighted with the Position Vector}}{\text{Volume of the Droplet}}\\
 x_{\mathrm{d}}(t)&=\frac{\int_{\Omega} x \alpha(\mathbf{x}, t) \mathrm{d} V}{\int_{\Omega} \alpha(\mathbf{x}, t) \mathrm{d} V}
-\end{align*}
+\end{align}
 $$
 
 Where $x$ is the position vector

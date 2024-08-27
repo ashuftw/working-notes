@@ -31,11 +31,11 @@ Consider a Two Class problem such that
 Give that we use a Bayes Classifier to make diagnosis a on the Patient. The *Conditional Risk* can be calculated as follows. 
 
 $$
-\begin{align*}
+\end{align}
 R(1\mid \mathbf{x})=\lambda( 1  \mid s=1)\cdot P(s=1 \mid \mathbf{x})+\lambda( 1  \mid s=2) \cdot P(s=2 \mid \mathbf{x})
 \\
 R( 2 \mid \mathbf{x})=\lambda( 2 \mid s=1)\cdot  P(s=1 \mid \mathbf{x})+\lambda( 2  \mid s=2) \cdot P(s=2 \mid \mathbf{x})
-\end{align*}
+\end{align}
 $$
 
 ## Bayes Decision Rule for Actions
