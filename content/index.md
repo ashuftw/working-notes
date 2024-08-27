@@ -5,7 +5,8 @@ I'm Ashu and these are my working notes. The organization of these notes is insp
 
 > If writing is the medium of research and studying is nothing else than research, then there is no reason not to work as if nothing else counts than writing. 
 
-## Some Notes
+## Some Past Notes 
 - [[SS24 Turbulence Modeling|Turbulence Modeling]]
 - [[SS24 Uncertainty Analysis|Uncertainty Analysis]]
 - [[Literature/SS24 Parallel Computing|Parallel Computing]]
+- [[Literature/SS23 Scientific Software Engineering|Scientific Software Engineering]]
