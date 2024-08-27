@@ -14,5 +14,3 @@ Status: #finished
 ![[Pasted image 20230706085713.png]]
 
 
----
-# References

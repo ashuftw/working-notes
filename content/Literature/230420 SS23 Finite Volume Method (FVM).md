@@ -16,6 +16,3 @@ Status: #finished
 - Excercise 1.1 Which ansatz to use to solve differential equation. 
 - 
 
-
----
-# References

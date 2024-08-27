@@ -28,7 +28,3 @@ Tags:
 
 
 
-
----
-# References
-

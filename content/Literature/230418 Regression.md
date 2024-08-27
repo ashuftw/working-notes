@@ -10,6 +10,3 @@ It is a statistical method of fitting a given data set containing a finite numbe
 
 
 
-
----
-# References

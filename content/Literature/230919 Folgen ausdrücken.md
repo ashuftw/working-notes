@@ -20,6 +20,3 @@ Es gibt Klimaveränderungen. Es kommt häufiger zu Starkregen.
 - Es gibt Klimaveränderungen, **infolge** **von** denen es häufiger zu Starkregen kommt.
 
 
-
----
-# References

@@ -13,6 +13,3 @@ $$
 $\bar{x}, \bar{y} \rightarrow$ average value of the $x, y$ components. $n \rightarrow$ cardinality
 
 
-
----
-# References

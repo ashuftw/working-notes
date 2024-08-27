@@ -69,6 +69,3 @@ graph TD;
 - In SIMD, threads have independent data but the same instructions. 
 #### MIMD Work Flow
 - Threads with independent data and instructions. 
-
----
-# References

@@ -30,6 +30,3 @@ In general, this estimation of $|r(x)|$ does not get better with increasing $N$.
 
 
 
-
----
-# References

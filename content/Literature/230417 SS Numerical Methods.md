@@ -33,6 +33,3 @@ Status: #finished
 - [[230628 Order of Consistency|Order of Consistency]]
 ### 2.3 Error, consistency and convergence
 
-
----
-# References

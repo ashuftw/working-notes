@@ -11,6 +11,3 @@ Depending on the type of linking, there can be:
 
 
 
-
----
-# References

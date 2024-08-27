@@ -20,6 +20,3 @@ Note:
 
 
 
-
----
-# References

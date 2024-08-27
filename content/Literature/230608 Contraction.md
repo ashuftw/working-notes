@@ -5,6 +5,3 @@ It is a mathematical transformation that reduces the distance between all points
 
 
 
-
----
-# References

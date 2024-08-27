@@ -30,6 +30,3 @@ where,
 - Feature selection (selecting only necessary features reduces model complexity and variance error). 
 - Regularization. 
 
-
----
-# References

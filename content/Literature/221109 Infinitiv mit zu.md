@@ -25,6 +25,3 @@ If there is a separate subject, we need to use **dass** to refer to the second s
 Ich hoffe, **dass** **er** pünktlich zu kommt. 
 ### Reasen in nebensatz - damit
 Ich lüge manchmal, **damit** meine Freundin sich gut fühlt. 
-
----
-# References

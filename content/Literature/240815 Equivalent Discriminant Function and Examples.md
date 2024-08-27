@@ -22,6 +22,3 @@ Where $f(\cdot)$ is a monotonically increasing function
 
 
 
-
----
-# References

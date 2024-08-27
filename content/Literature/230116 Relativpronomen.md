@@ -25,6 +25,3 @@ daran
 darin
 
 
-
----
-# References

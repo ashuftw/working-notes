@@ -25,6 +25,3 @@ where, $g_i(\mathbf{x}) = -R(a = i|\mathbf{x})$, gives the **minimum risk decisi
 
 
 
-
----
-# References

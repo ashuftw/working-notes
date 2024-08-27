@@ -14,6 +14,3 @@ $$
 - Je höher man steigt, desto schwerer fällt es einem zu atmen.
 - Je fleißiger man ist, desto besser wird das Zeugnis ausfallen.
 
-
----
-# References

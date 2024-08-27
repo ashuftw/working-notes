@@ -28,6 +28,3 @@ Substitution in eqn. $(2)$
 
 
 
-
----
-# References

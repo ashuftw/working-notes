@@ -18,6 +18,3 @@ Depending on the type of sentence, [[220911 Trennbare Verben - Separable Verbs|T
 	- Ex: Wann **willst** du **aufstehen**?
 	
 
-
----
-# References

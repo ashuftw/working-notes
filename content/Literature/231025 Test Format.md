@@ -21,6 +21,3 @@ Status: #inprogress
 	- Vorgangspassiv: beschreiben Sie den Prozess
 	- Zustandspassiv: bezeichnen Sie das Ergebnis des Prozess
 
-
----
-# References

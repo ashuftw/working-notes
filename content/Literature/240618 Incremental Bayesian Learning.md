@@ -13,6 +13,3 @@ Where,
 > Note: Here the posterior from the previous step becomes the prior for the current step. 
 
 
-
----
-# References

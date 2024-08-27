@@ -7,6 +7,3 @@ It says that if a function $f(t,y)$ is [[221201 Lipschitz Continuity|Lipschitz c
 
 
 
-
----
-# References

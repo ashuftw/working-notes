@@ -63,6 +63,3 @@ Once the initial bias has been set, people tend to find creative ways to justify
 > The fragility of friendship proves its purity. 
 
 
-
----
-# References

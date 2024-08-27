@@ -31,6 +31,3 @@ Status: #finished
 | gut    | besser    | am besten   |
 | gern   | lieber    | am liebsten |
 1
-
----
-# References

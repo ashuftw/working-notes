@@ -17,7 +17,3 @@ The inductive bias of a learning algorithm is a set of assumptions that a learne
 
 
 
-
----
-# References
-

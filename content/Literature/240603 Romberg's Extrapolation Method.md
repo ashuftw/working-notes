@@ -22,6 +22,3 @@ Here,
 | Midpoint Rule     | $O(h^2)$             |
 | Trapezoidal Rule  | $O(h^2)$             |
 | Simpson's Rule    | $O(h^4)$             |
-
----
-# References

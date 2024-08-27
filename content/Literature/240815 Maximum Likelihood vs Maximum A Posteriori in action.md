@@ -39,6 +39,3 @@ The exact value of $x*$ is where $3p(x|s=1) = p(x|s=2)$, which appears to be aro
 
 
 
-
----
-# References

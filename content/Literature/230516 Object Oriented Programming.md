@@ -8,6 +8,3 @@ Status: #finished
 ---
 5. [[230802 Composition|Composition]]: It allows a class to leverage the behaviors and functionalities of its component classes without necessarily inheriting from them. This is done by including the other class in the body of the object. 
 
-
----
-# References

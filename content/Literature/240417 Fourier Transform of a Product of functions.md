@@ -22,6 +22,3 @@ The product $F(\nu) G(\omega-\nu)$ is then integrated over all frequencies. What
 
 
 
-
----
-# References

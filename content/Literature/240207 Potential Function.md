@@ -5,6 +5,3 @@ A Potential function is a scalar function whose slope (in case of 2D) or gradien
 
 
 
-
----
-# References

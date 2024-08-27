@@ -18,6 +18,3 @@ Also known as the *Kolmogorov* scale, where the energy is finally dissipated int
 
 
 
-
----
-# References

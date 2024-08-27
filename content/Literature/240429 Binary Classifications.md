@@ -54,6 +54,3 @@ $$
 | False Negative | False Rejection Rate / Miss Rate |
 
 
-
----
-# References

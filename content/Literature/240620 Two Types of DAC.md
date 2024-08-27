@@ -8,6 +8,3 @@ Status: #inprogress
 
 
 
-
----
-# References

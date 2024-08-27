@@ -6,6 +6,3 @@ It is seems to be the case that over-parameterising the model does not cause ove
 Where, $\mathcal H\rightarrow$ Hypothesis Class
 
 
-
----
-# References

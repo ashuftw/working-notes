@@ -31,7 +31,3 @@ Status: #inprogress
 >Importantly, unless you’re near the end of your career, **you don’t need to pick a single issue to focus on right now.**
 - But then that information is not very helpful now. 
 - 
----
-
-
-# References

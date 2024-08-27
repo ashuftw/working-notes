@@ -22,6 +22,3 @@ In Pattern recognition, the Hypothesis would be the Class and the Evidence would
 
 
 
-
----
-# References

@@ -56,6 +56,3 @@ Mmm... mmm... mmm... mmm...
 ```
 
 
-
----
-# References

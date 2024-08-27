@@ -103,6 +103,3 @@ where,
 **Syntax**  
 `MPI_Finalize()`  
 No arguments are required.
-
----
-# References

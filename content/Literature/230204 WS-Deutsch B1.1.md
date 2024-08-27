@@ -21,6 +21,3 @@ Status: #finished
  - [[230206 n-Deklination|n-Deklination]]
  - [[230101 Ending for Adjectives in Komparativ and Superlativ form|Adjektiv]]
 
-
----
-# References

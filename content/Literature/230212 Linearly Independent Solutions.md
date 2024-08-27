@@ -9,6 +9,3 @@ Not a rule as it possible for coefficients $\lambda_n$ to cause Independence
 
 
 
-
----
-# References

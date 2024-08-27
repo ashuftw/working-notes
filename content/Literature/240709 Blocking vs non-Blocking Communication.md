@@ -30,6 +30,3 @@ MPI_Wait(&recv_request, MPI_STATUS_IGNORE);
 
 
 
-
----
-# References

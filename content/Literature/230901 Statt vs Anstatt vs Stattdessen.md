@@ -8,5 +8,3 @@ Status: #finished
 - **Statt** Kino, gehe ich zu arbeiten. 
 - Wir fahren nicht ins Gebirge, **stattdessen** gehen wir zur Oma. 
 	*Note: syntax similar to Trotzdem*
----
-# References

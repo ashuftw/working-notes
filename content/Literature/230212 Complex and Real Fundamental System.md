@@ -16,6 +16,3 @@ Real Fundamental System = $\{v_1,v_2\}$
 
 
 
-
----
-# References

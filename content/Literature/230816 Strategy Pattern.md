@@ -11,6 +11,3 @@ It is a behavioural pattern that encapsulates each algorithm in a family of algo
 3. **Context:** This holds a reference to a strategy object and uses it to perform a certain task. The context can switch between different strategies dynamically.
 
 
-
----
-# References

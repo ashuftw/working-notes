@@ -13,6 +13,3 @@ Status: #finished
 > Note: The Hyper Parameters may be the Learning Rate $(\eta)$, Regularisation parameter $(\lambda)$ etc. 
 
 
-
----
-# References

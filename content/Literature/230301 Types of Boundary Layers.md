@@ -3,6 +3,3 @@ Status: #finished
 
 [[230304 Blasius Solution for the Laminar Boundary Layer Equations]]2
 
-
----
-# References

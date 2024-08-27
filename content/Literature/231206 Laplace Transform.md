@@ -17,6 +17,3 @@ The Laplace Transform is used to solve a particularly hairy Differential Equatio
 
 
 
-
----
-# References

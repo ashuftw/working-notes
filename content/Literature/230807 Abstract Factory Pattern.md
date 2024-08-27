@@ -42,6 +42,3 @@ if __name__ == "__main__":
 ```
 Objects `dog` and `cat` were created without refererring to their concrete classes. `Dog` and `Cat` 
 
-
----
-# References

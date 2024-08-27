@@ -23,6 +23,3 @@ Status: #finished
 
 ### wo? - Dativ, wohin?-Akkusativ
 in, an, auf, über, unter, vor, hinter, neben, zwischen
-
----
-# References

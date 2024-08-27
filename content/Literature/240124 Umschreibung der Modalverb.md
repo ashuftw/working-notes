@@ -40,6 +40,3 @@ vorgeschrieben sein
 
 **Ersatz Modalverb**
 unerlässlich sein
-
----
-# References

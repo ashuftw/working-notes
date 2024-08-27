@@ -41,6 +41,3 @@ player.attack()
 ```
 
 
-
----
-# References

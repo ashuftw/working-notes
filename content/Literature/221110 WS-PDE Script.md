@@ -30,6 +30,3 @@ Status: #finished
 
 - [[230217 Solution to the Wave Equation with Constant Velocity]]
 
-
----
-# References

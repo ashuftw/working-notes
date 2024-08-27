@@ -14,6 +14,3 @@ where,
 - $β\rightarrow$ Precision, is the inverse of the variance ($σ^2$).  It measures how tightly the data is clustered along the weights. 
 - $\alpha\rightarrow$ Hyper-parameter that is independent of the data Ex: Learning rate, batch size, regularization parameters etc. 
 
-
----
-# References

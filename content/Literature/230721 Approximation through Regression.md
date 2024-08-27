@@ -38,6 +38,3 @@ $$
 $$
 
 [[230418 Regression]]
-
----
-# References

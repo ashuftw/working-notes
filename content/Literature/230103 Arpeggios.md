@@ -8,6 +8,3 @@ Status: #inprogress
 ![[Pasted image 20240103204725.png|300]]
 
 
-
----
-# References

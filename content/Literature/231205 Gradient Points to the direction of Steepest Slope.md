@@ -31,6 +31,3 @@ $\therefore$ Thus the direction of the gradient is the same as the direction of 
 
 
 
-
----
-# References

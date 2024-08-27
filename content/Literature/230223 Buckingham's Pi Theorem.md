@@ -15,6 +15,3 @@ Where $\Pi_i$ is the non-dimensional parameter
 
 
 
-
----
-# References

@@ -13,6 +13,3 @@ Note: ISP is an instance of [[230613 Dependency Inversion Principle|Dependency I
 
 
 
-
----
-# References

@@ -24,6 +24,3 @@
 | ihr          | ~~wollet~~      | wolltet        |
 | sie/Sie      | ~~wollen~~      | wollten        |
 
-
----
-# References

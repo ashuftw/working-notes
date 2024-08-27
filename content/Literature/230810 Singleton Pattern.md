@@ -36,6 +36,3 @@ class ThreadSafeSingleton:
         return cls._instance
 
 ```
-
----
-# References

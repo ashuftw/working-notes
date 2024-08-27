@@ -20,6 +20,3 @@ This principle ensures extension of modules/components without changing the core
 
 
 
-
----
-# References

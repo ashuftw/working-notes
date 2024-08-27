@@ -16,6 +16,3 @@ Regelmäßige verbs are verbs that follow the following conjugation pattern.
 | sie        | they       | -                | komm*en*  | wohn*en*    |
 
 Verbs that don't follow this above conjugation pattern are called "[[220828 Unregelmäßige Verben|Unregelmäßige]]".
-
----
-# References

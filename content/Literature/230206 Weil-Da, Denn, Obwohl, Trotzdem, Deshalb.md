@@ -11,6 +11,3 @@ Status: #finished
 
 
 
-
----
-# References

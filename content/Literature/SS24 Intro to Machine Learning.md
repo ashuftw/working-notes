@@ -32,6 +32,3 @@ Status: #finished
 
 
 
-
----
-# References

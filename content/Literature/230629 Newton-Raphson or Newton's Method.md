@@ -22,6 +22,3 @@ $$
 g(x_{k+1})=x_{k}-\frac{f(x_{k})}{f'(x_{k})}
 $$
 
-
----
-# References

@@ -13,6 +13,3 @@ The result of implementing this is that you will have a code you will have compo
 **Note:** Single Responsibility Principle can be achieved through either Inheritance or Composition. But Composition is preferred. 
 
 [[Difference between Inheritance and Composition]]
-
----
-# References

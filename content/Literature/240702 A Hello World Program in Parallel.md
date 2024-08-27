@@ -32,6 +32,3 @@ int main(int argc, char** argv) {
 ## Output
 ![[Pasted image 20240704114230.png|center|700]]
 
-
----
-# References

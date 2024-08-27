@@ -18,6 +18,3 @@ class Ant(Protocol):
 
 
 
-
----
-# References

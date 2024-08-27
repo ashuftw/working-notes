@@ -9,6 +9,3 @@ It defines **One-to-Many** dependency between objects so that when objects chang
 ![[Pasted image 20230807125312.png]]
 > Note: In this example the the **Many** is replaced by an interface in order to have dependency inversion. 
 
-
----
-# References

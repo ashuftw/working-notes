@@ -328,6 +328,3 @@ MPI_Waitall(reqCount, requests, MPI_STATUSES_IGNORE);
     return 0;
 }
 ```
-
----
-# References

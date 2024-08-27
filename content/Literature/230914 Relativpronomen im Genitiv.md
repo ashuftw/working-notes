@@ -15,6 +15,3 @@ Status: #finished
 - Die Blumen sind wunderschön. Ich habe die Gärten dieser Stadt besucht. 
 	Die Blumen sind wunderschön, **deren** Gärten ich besucht habe.
 
-
----
-# References

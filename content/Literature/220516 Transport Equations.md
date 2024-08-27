@@ -41,6 +41,3 @@ Expanding the Convection term![[Pasted image 20220430171951.png]]
 
 
 
-
----
-# References

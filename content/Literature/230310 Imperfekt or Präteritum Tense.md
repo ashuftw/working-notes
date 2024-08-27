@@ -11,6 +11,3 @@ Out of the two ways of expressing sentences in the past:
 - **Präteritum**: Formal
 
 
-
----
-# References

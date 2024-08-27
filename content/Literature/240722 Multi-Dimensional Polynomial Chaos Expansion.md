@@ -44,6 +44,3 @@ $$
 > Note:  $q_i$ is calculated using methods like [[240723 non-Intrusive Surrogate Modeling|non-Intrusive Surrogate Modeling]]
 
 
-
----
-# References

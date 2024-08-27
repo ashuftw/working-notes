@@ -10,6 +10,3 @@ It is the rate at which a Numerical Method converges to the exact solution as st
 
 
 
-
----
-# References

@@ -20,6 +20,3 @@ Status: #inprogress
 **Sloppy Work:** Spelling mistake or a grammatical mistake
 **Questionable Practice:** Using a GPT to fix the errror or grammatical error.
 **Severe Misconduct:** Hiring someone to rewrite the thesis for you. 
-
----
-# References

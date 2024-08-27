@@ -48,6 +48,3 @@ $$
 ## Guided Self Scheduling 
  Here the Chunk size $k$ keeps varying. Usually starts with a larger chunk and gets smaller over time. The chunks are allotted based on available compute (idling processor). This method has better load balancing. 
 
-
----
-# References

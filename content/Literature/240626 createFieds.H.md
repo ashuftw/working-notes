@@ -144,6 +144,3 @@ tmp<surfaceScalarField> talphaPhiCorr0;
 
 
 
-
----
-# References

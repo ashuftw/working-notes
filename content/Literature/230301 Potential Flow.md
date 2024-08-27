@@ -12,6 +12,3 @@ $$
 u=\frac{\partial \phi}{d x}, v=\frac{\partial \phi}{d y} \text { and } w=\frac{\partial \phi}{d z}
 $$
 
-
----
-# References

@@ -22,6 +22,3 @@ Some Masculine Words get an additional **-n** at the ending
 5. A und ein einziges neutrales Nomen: das Herz ♡
 
 
-
----
-# References

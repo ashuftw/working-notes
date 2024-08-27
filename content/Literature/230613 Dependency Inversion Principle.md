@@ -19,6 +19,3 @@ The DIP principle says that High level modules should not depend on Low level mo
 
 
 
-
----
-# References

@@ -52,6 +52,3 @@ $$
 | Ihr              | wäret                   | 
 | Sie              | wären                   | 
 
-
----
-# References

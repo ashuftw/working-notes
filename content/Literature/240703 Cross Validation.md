@@ -17,6 +17,3 @@ Cross Validation is a model validation technique used to check how well a model 
 
 
 
-
----
-# References

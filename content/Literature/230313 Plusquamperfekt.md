@@ -29,6 +29,3 @@ Plusquamperfekt is used to denote actions in the past that are completed before 
 
 
 
-
----
-# References

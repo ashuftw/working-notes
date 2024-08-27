@@ -11,5 +11,3 @@ $$
 
 
 ![[Pasted image 20240418160819.png]]
----
-# References

@@ -23,6 +23,3 @@ where,
 
 
 
-
----
-# References

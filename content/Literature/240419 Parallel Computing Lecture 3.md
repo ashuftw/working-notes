@@ -36,5 +36,3 @@ Status: #finished
 ![[Pasted image 20240419113359.png]]
 ![[lecture-3_annotated.png]]
 ![[Pasted image 20240419113446.png]]
----
-# References

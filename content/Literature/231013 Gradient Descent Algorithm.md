@@ -49,6 +49,3 @@ $$
 $$
 
 *Repeat until convergence*
-
----
-# References

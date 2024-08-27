@@ -8,6 +8,3 @@ http://www.wolfdynamics.com/validations/supersonic_wedge/tut_2D_supersonic_wedge
 
 
 
-
----
-# References

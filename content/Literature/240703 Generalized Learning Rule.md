@@ -20,6 +20,3 @@ $$
 - The initial position is random or a good guess is taken. 
 - Iteration is run until $E(\textbf w)\approx 0$ 
 
-
----
-# References

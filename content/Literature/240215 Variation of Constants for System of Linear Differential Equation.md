@@ -39,6 +39,3 @@ q = q_h + q_p
 $$
 
 
-
----
-# References

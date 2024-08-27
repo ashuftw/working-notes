@@ -6,6 +6,3 @@ Status: #inprogress
 
 
 
-
----
-# References

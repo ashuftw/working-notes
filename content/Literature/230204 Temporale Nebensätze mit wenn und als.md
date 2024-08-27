@@ -9,6 +9,3 @@ Status: #finished
 - **Einmaliges Ereignis in der Vergangenheit**
 	- Als ich nach Hause kam, stand das Haus in Flammen. 
 
-
----
-# References

@@ -26,6 +26,3 @@ Where,
 - $\Lambda$  is a diagonal matrix with eigenvalues $\lambda_1, \lambda_2, \ldots, \lambda_n$ on the diagonal.
 - $V$ matrix whose columns are the corresponding eigenvectors of $A$.
 
-
----
-# References

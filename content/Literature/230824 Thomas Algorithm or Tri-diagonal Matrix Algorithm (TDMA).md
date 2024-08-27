@@ -94,6 +94,3 @@ $$
 \end{aligned}
 $$
 
-
----
-# References

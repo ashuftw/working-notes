@@ -30,6 +30,3 @@ where:
 - $\mathbf{o}_\tau$ is the $\tau$-th sample.
 
 
-
----
-# References

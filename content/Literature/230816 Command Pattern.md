@@ -14,6 +14,3 @@ It is a behavioural pattern that encapsulates requests into objects. Thus client
 
 
 
-
----
-# References

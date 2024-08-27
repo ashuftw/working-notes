@@ -10,6 +10,3 @@ tags:
 - **Evidence**: It is the probability of a data regardless of the hypothesis. 
 
 
-
----
-# References

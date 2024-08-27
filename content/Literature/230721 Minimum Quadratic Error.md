@@ -13,6 +13,3 @@ where,
 
 
 
-
----
-# References

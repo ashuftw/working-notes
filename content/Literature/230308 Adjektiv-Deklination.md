@@ -19,6 +19,3 @@ Status: #finished
 
 
 [[230101 Ending for Adjectives in Komparativ and Superlativ form]]
-
----
-# References

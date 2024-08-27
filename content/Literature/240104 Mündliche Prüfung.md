@@ -32,6 +32,3 @@ Zum schluss kann man sagen dass ...
 
 
 
-
----
-# References

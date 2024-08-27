@@ -7,6 +7,3 @@ Tags: [[CFD]]
 1. [[220516 Transport Equations|Transport Equations]]
 
 
-
----
-# References

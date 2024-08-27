@@ -24,6 +24,3 @@ $\mathbf w$ points in the same direction as $(\mathbf{m}_2-\mathbf{m}_1)$
 
 
 
-
----
-# References

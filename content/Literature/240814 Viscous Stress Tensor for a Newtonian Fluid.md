@@ -16,6 +16,3 @@ Where,
 
 
 
-
----
-# References

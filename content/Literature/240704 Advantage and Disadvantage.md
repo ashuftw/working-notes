@@ -9,6 +9,3 @@ These come with situations.
 
 
 
-
----
-# References

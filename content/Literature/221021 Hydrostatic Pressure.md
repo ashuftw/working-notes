@@ -36,6 +36,3 @@ $$
 \boxed{p_o = p-\rho \cdot g\cdot h}
 $$
 
-
----
-# References

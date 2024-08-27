@@ -51,6 +51,3 @@ The eigen vector can be found out by solving the matrix system. (Note: Here $\ve
 
 
 
-
----
-# References

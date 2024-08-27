@@ -35,5 +35,3 @@ The Differential equation then can be written
 ## Step 4: Plotting
 
 ![[Pasted image 20231206124718.png|600]]
----
-# References

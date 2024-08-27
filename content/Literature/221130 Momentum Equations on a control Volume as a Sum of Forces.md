@@ -7,6 +7,3 @@ Using the [[221125 Reynolds Transport Theorem|Reynolds Transport Theorem]] for s
 
 
 
-
----
-# References

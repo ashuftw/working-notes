@@ -12,6 +12,3 @@ Status: #inprogress
 - [[240704 Advantage and Disadvantage]]
 
 ## For DM
-
----
-# References

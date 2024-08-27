@@ -20,6 +20,3 @@ Is a type of learning that works with unlabeled data. The learning algorithm loo
 - **prototypes for dimension reduction**
 - **PCA dimension reduction********
 
-
----
-# References

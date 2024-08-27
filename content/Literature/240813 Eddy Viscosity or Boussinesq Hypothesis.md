@@ -23,6 +23,3 @@ Where,
 > Note: $k$ and $v_t$ are left are left as unknowns. Separate models are needed for them.  
 
 **See:** [[240814 Viscous Stress Tensor for a Newtonian Fluid]]
-
----
-# References

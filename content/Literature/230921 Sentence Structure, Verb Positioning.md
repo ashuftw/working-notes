@@ -33,6 +33,3 @@ Status: #inprogress
 
 
 
-
----
-# References

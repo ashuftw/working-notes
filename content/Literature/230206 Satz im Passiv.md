@@ -20,6 +20,3 @@ Status: #finished
 
 [[230904 Verb Exceptions for Passiv (that can't be in passiv) ]]
 
-
----
-# References

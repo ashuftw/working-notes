@@ -14,6 +14,3 @@ Anstatt translates to **instead of**
 
 
 
-
----
-# References

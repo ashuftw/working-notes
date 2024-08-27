@@ -15,6 +15,3 @@ Status: #finished
  
 
 während, wegen und trotz is often used in Dativ
-
----
-# References

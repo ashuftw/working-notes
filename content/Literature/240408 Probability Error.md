@@ -36,6 +36,3 @@ $$
 $\therefore$ The Lowest Probability Error is actually $30\%$
 
  > Note: In the two case problem, the situation is binary i.e. the least likely error corresponds to the best guess automatically making the other case the worst guess. 
-
----
-# References

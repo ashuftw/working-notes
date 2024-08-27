@@ -9,6 +9,3 @@ Where
 ![[Pasted image 20240213114446.png]]
 
 
-
----
-# References

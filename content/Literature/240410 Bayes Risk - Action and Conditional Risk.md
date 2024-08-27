@@ -48,6 +48,3 @@ $$
 
 
 Thus the best action would be the one that minimizes the risk. 
-
----
-# References

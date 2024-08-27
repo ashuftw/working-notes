@@ -11,6 +11,3 @@ Depending on how the [[230228 Navier-Stokes Equations|Navier-Stokes Equations]] 
 
 
 
-
----
-# References

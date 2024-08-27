@@ -4,6 +4,3 @@ Status: #inprogress
 [[231013 Gradient Descent Algorithm]]
 
 
-
----
-# References

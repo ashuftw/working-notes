@@ -25,5 +25,3 @@ The path on the solution field of the [[240207 Potential Function|Potential Func
 
 > Note: The example chosen was  Potential function whose Gradient was known to be an Exact differential equation. 
 > In the course, you are asked to build a potential function or verify if a differential equation is exact. 
----
-# References

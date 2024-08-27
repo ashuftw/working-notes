@@ -21,6 +21,3 @@ my_car = Car()    # Car starting...
 my_car.start()    # Engine started
 ```
 
-
----
-# References

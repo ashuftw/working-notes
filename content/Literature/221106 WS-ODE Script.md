@@ -51,5 +51,3 @@ Status: #finished
 - Basic Properties
 	- Multiplication, Differentiation and Damping Theorem
 - 
----
-# References

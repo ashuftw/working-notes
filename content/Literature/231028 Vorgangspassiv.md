@@ -9,6 +9,3 @@ Passiv description of a **process**. It is commonly used with verbs **sein** or 
 
 
 
-
----
-# References

@@ -27,6 +27,3 @@ Note: You cannot have an instance of an interface
 purpose of having a separate setup function: each test gets in own object. Which is a thing cause you don't have to worry about the object having an altered inititial state
 
 
-
----
-# References

@@ -27,6 +27,3 @@ To summarize, "doch" is used to contradict or affirm statements, add emphasis, a
 
 
 
-
----
-# References

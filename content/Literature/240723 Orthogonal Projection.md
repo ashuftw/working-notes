@@ -1,5 +1,2 @@
 Status: #finished 
 
-
----
-# References

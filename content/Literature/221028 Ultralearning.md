@@ -35,6 +35,3 @@ Author: [[Scott H. Young]]
 	- Ability to Meta learn improves with multiple finished projects and can make future projects easier to take on. 
 	- More often than not, Ultralearners end up valuing the Meta-learning capability acquired during a project more than the individual project itself.
 	- 
-
----
-# References

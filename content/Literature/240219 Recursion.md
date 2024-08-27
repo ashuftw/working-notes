@@ -19,6 +19,3 @@ def factorial(n):
 
 
 
-
----
-# References

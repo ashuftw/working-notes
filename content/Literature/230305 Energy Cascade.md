@@ -6,6 +6,3 @@ Note: $F\rightarrow$Power Spectra, $k\rightarrow$Wave number
 
 
 
-
----
-# References
