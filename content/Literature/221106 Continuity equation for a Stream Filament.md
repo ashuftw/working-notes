@@ -1,6 +1,12 @@
-   
+---
+title: Continuity equation for a Stream Filament
+draft: false
+tags:
+---
 
-![[Pasted image 20221106141239.png|350]]
+
+![[Pasted image 20221106141239.png|center|350]]
+
 For a Stream element
 
 $$
@@ -71,7 +77,7 @@ $$
 
 Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream Filament. 
 
-## Application:
+## Application
 1. **Compressible Steady Flow**
 	
 $$

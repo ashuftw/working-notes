@@ -20,26 +20,20 @@ $b$ is a source term
 
 1. **Elliptic**: $\lambda_{ij}$ do not vanish and have the same sign.
 $$
-\begin{equation}
 A_{ij}=\begin{pmatrix}1 &0& 0\\ 0 &1& 0\\0& 0& 1
 \end{pmatrix}
-\end{equation}
 $$
 
 2. **Parabolic**: One Eigen Value Vanishes.
 $$
-\begin{equation}
 A_{ij}=\begin{pmatrix}0 &0& 0\\ 0 &1& 0\\0& 0& 1
 \end{pmatrix}
-\end{equation}
 $$
 
 3. Hyperbolic: Eigen Values don't vanish and 1 of the eigen values have a different sign.
 $$
-\begin{equation}
 A_{ij}=\begin{pmatrix}-1 &0& 0\\ 0 &1& 0\\0& 0& 1
 \end{pmatrix}
-\end{equation}
 $$
 
 ---

@@ -15,7 +15,7 @@ $$
 F=\dfrac{D}{Dt}(m\mathbf U)
 $$
 
-The [[220430 Material Derivative or Substantial Derivative or Lagrangian Derivative]] is used here as the velocity is function of both time and space.
+The [[220430 Material, Substantial or Lagrangian Derivative]] is used here as the velocity is function of both time and space.
 When applied to a fluid parcel, the force per unit volume $f$ is given by 
 $$
 \dfrac{D}{Dt}(\rho \mathbf U)=f

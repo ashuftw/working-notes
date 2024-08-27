@@ -1,4 +1,8 @@
-Oct 2022
+---
+title: Hydrostatic Pressure
+draft: false
+tags:
+---
   
 
 
@@ -7,9 +11,12 @@ $$
 \boxed{p=p_0+\rho \ g \ h }
 $$
 
-**Derivation**: 
-![[Pasted image 20221027080739.png|350]]
-$F_x \ \& \ F_z=0$ 
+## Derivation 
+
+![[Pasted image 20221027080739.png|center|350]]
+
+We know that $F_x \ \& \ F_z=0$ 
+
 At Equilibrium (a=0), Forces in $y$ direction is given by
 $$
 \sum Fy = 0

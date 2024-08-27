@@ -1,8 +1,9 @@
-  
-[[221125 Reynolds Transport Theorem]]
-
-![[230222 Drag on a Flat Plate (Square Control Volume) 1.png]]
-
+---
+title: Drag on a Flat Plate (Square Control Volume)
+draft: false
+tags:
+---
+![[../Files/230222 Drag on a Flat Plate (Square Control Volume).png]]
 
 
 ---

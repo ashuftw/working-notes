@@ -1,6 +1,11 @@
+---
+title: Continuity Equation using Reynolds Transport Theorem
+draft: false
+tags:
+---
   
 
-**[[221125 Reynolds Transport Theorem|Reynolds Transport Theorem]] for a steady flow:**
+**[[221125 Reynolds Transport Theorem|Reynolds Transport Theorem]] for a steady flow**
 
 $$
 \frac{d}{dt}(B_\text{sys})= \int_{\text{CS}}\beta \rho (\vec v\cdot \vec n) \ dA

@@ -16,7 +16,7 @@ $$
 In Cartesian coordinate system ![[Pasted image 20220430154540.png]]
 For Fluids, we solve the Navier-Stokes equations which are analogous to Newton's II law. 
 For a fluid parcel of volume $V$, the Navier-Stokes equations can be written as![[Pasted image 20220430154704.png]]
-Where $m\rightarrow$ mass of fluid parcel, $D/Dt\rightarrow$ [[220430 Material Derivative or Substantial Derivative or Lagrangian Derivative|material derivative]] 
+Where $m\rightarrow$ mass of fluid parcel, $D/Dt\rightarrow$ [[220430 Material, Substantial or Lagrangian Derivative|material derivative]] 
 Since $V$ is constant, it is standard practice to divide it. ![[Pasted image 20220430155219.png]]
 $\rho\rightarrow$fluid density, $f\rightarrow$sum of external forces per unit volume, acting on a fluid parcel.
 

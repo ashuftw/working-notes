@@ -1,3 +1,8 @@
+---
+title: Blasius Solution for the Laminar Boundary Layer Equations
+draft: false
+tags:
+---
   
 ### Skin friction Coefficient
 

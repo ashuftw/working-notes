@@ -1,11 +1,14 @@
-Oct 2022
-  
-
-Tags: 
-
-Ashu's Shorthand definition: A material Derivative expresses the rate of change of a function of both time and space. 
+---
+title: Material, Substantial or Lagrangian Derivative
+draft: false
+tags:
+---
+## Ashu's Shorthand definition
+A material Derivative expresses the rate of change of a function of both time and space. 
 
 The substantial derivative $\frac{D}{Dt}$ of a quantity $\phi$ is the rate of change of  $\phi$ belonging to a certain particle moving within a material or substance.  
+
+## Proof 
 
 Temperature of a moving particle $p$.
 

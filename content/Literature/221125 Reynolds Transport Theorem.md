@@ -1,6 +1,11 @@
+---
+title: Reynolds Transport Theorem
+draft: false
+tags:
+---
   
 ## Theorem
-In real world situation it is easier to easier to analyse a control volume (control volume analysis) rather than keep track of an entire system (control system analysis). This means that we have to meaningfully convert the [[220430 Material Derivative or Substantial Derivative or Lagrangian Derivative|Lagrangian Derivatives]] to Eulerian Derivatives. 
+In real world situation it is easier to easier to analyse a control volume (control volume analysis) rather than keep track of an entire system (control system analysis). This means that we have to meaningfully convert the [[220430 Material, Substantial or Lagrangian Derivative|Lagrangian Derivatives]] to Eulerian Derivatives. 
 
 Say we have a Property $B$. The amount of $B$ in a control volume can be evaluated as follows
 

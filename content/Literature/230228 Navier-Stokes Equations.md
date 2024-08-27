@@ -1,3 +1,8 @@
+---
+title: Navier-Stokes Equations
+draft: false
+tags:
+---
   
 
 ## Continuity Equation

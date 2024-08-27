@@ -1,3 +1,8 @@
+---
+title: Drag on Flat Plate
+draft: false
+tags:
+---
   
 ![[230222 Drag on a Flat Plate-1.png]]
 ![[230222 Drag on a Flat Plate-2.png]]

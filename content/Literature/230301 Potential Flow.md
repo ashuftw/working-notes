@@ -1,3 +1,8 @@
+---
+title: Potential Flow
+draft: false
+tags:
+---
   
 
 It is a mathematical model used to describe fluids assuming that they are inviscid, incompressibe and irrotational. 
