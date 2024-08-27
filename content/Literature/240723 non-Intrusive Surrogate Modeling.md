@@ -1,3 +1,8 @@
+---
+title: non-Intrusive Surrogate Modeling
+draft: false
+tags:
+---
   
 ### From Orthogonal Projection the following analogies are drawn
 

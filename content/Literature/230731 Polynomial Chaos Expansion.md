@@ -1,3 +1,8 @@
+---
+title: Polynomial Chaos Expansion
+draft: false
+tags:
+---
   
 ## Definition
 It is a way to represent Random Variables with a *general probability distribution* through polynomials over random variables with well known distributions like Gaussian, Uniform etc. 
@@ -50,7 +55,8 @@ X=2+\xi
 $$
 
  Where,  $\xi \sim \mathcal{N}(0,1)$
-![[Pasted image 20240605153508.png]]
+ 
+![[Pasted image 20240605153508.png|center|600]]
 
 
 

@@ -28,6 +28,5 @@ tags:
 - [[240305 Definition of Surrogate Modeling|Definition of Surrogate Modeling]]
 - [[230731 Polynomial Chaos Expansion|Polynomial Chaos Expansion]]
 - [[240722 Multi-Dimensional Polynomial Chaos Expansion|Multi-Dimensional Polynomial Chaos Expansion]]
-- [[240723 Orthogonal Projection|Orthogonal Projection]]
 - [[240723 non-Intrusive Surrogate Modeling|non-Intrusive Surrogate Modeling]]
 

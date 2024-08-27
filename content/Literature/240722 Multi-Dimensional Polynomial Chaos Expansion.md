@@ -1,3 +1,8 @@
+---
+title: Multi-Dimensional Polynomial Chaos Expansion
+draft: false
+tags:
+---
   
 ## Case 1 
 $\xi=\left(\xi_1, \xi_2\right)^{\top} ;\, \xi_1 \sim \mathcal{U}(-\sqrt{3}, \sqrt{3})$ and $\xi_2 \sim \mathcal{N}(0,1)$
