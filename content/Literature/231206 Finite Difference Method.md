@@ -10,6 +10,7 @@ $$
 -a(x) u^{\prime \prime}(x)+b(x) u^{\prime}(x)+c(x) u(x)=f(x), \quad x \in(0,1)
 $$
 
+
 **Boundary conditions** 
 
 $$
