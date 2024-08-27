@@ -13,7 +13,7 @@ tags:
 
 - **Random**
 $$
-\end{align}
+\begin{align}
 \text{Error Rate} &= 1-\frac 1 n\\
 &= 0.75
 \end{align}
@@ -21,7 +21,7 @@ $$
 
 - **[[240410 Bayes Classifier|Bayes Classifier]]** Chooses the class with the most probable [[240401 Bayes Theorem|A Posteriori]]. 
 $$
-\end{align}
+\begin{align}
 \text{Error Rate}&= 1 -\arg \max _{i \in \mathcal{S}} p(s=i\mid \mathbf{x}) \\
 &=1 - 0.7\\
 &=0.3

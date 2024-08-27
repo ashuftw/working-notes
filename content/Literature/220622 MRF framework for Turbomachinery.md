@@ -29,18 +29,18 @@ $$
 #### Derivation
 Velocity in a frame rotating with the blade
 $$
-\end{align}U&= U_r+\Omega\times r\end{align}\tag{1}
+\begin{align}U&= U_r+\Omega\times r\end{align}\tag{1}
 $$
 
 Incompressible Navier-Stokes equations
 $$
-\end{align}\nabla\cdot (U\ U) &=-\dfrac{1}{\rho}\nabla p +\nabla \cdot(\nu\ \nabla U)\end{align}\tag{2}
+\begin{align}\nabla\cdot (U\ U) &=-\dfrac{1}{\rho}\nabla p +\nabla \cdot(\nu\ \nabla U)\end{align}\tag{2}
 $$
 
 After substitution and simplification,[^2] we have 
 **Single Reference Frame (Frame)**
 $$
-\end{align}\nabla\cdot (U_r\ U_r) &=-\nabla p +\nabla \cdot(\nu\ \nabla U_r)-\underbrace{\Omega\times\Omega\times r}_\text{Centrifugal}-\underbrace{2\Omega\times U_r}_\text{Coriolis}\end{align}
+\begin{align}\nabla\cdot (U_r\ U_r) &=-\nabla p +\nabla \cdot(\nu\ \nabla U_r)-\underbrace{\Omega\times\Omega\times r}_\text{Centrifugal}-\underbrace{2\Omega\times U_r}_\text{Coriolis}\end{align}
 $$
 
 - We end up with two source terms for the Centrifugal and Coriolis forces

@@ -12,7 +12,7 @@ tags:
   
 Consider an incompressible fluid in laminar flow sandwiched between two flat plates. When a force is applied to the plate, due to internal friction the fluid exerts an equal force in opposing direction. The opposing force takes the form of shear stress and can be expressed as the product of the viscosity of the fluid and it's rate of shear. 
 $$
-\end{align}\dfrac{F}{A}=\tau_{yx}=\mu\underbrace{\left(-\dfrac{dV_x}{dy}\right)}_{\text{Shear rate}} =\mu \ \dot \gamma_{yx}\end{align}\tag{1.1}
+\begin{align}\dfrac{F}{A}=\tau_{yx}=\mu\underbrace{\left(-\dfrac{dV_x}{dy}\right)}_{\text{Shear rate}} =\mu \ \dot \gamma_{yx}\end{align}\tag{1.1}
 $$
 
   - The subscripts in $\tau_{yx}$ and $\dot \gamma_{yx}$ denote the direction normal to the shearing force and the the direction along the force respectively.  
@@ -75,12 +75,12 @@ $$
 
 - The difference between the normal stresses are easier to measure and are defined as  
 $$
-\end{align}&\text{Primary normal stress difference, } N_1=P_{xx}-P_{yy}\\ &\text{Secondary normal stress difference, }N_2=P_{yy}-P_{zz}\end{align}
+\begin{align}&\text{Primary normal stress difference, } N_1=P_{xx}-P_{yy}\\ &\text{Secondary normal stress difference, }N_2=P_{yy}-P_{zz}\end{align}
 $$
 
 - Coupled with the shear rate, the normal stress difference is useful in describing the rheological properties. 
 $$
-\end{align}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align}
+\begin{align}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align}
 $$
  
 - Normal stress Difference in action

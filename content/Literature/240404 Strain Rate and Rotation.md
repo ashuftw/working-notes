@@ -24,7 +24,7 @@ $$
 Both Strain rate and rotation can be unpacked from the gradient of velocity.
 
 $$
-\end{align}
+\begin{align}
 \frac{\partial u_i}{\partial x_j}=&  \overbrace{\frac{1}{2} \frac{\partial u_i}{\partial x_j}+\frac{1}{2} \frac{\partial u_j}{\partial u_i}}^{\text{Symmetric part}}+\overbrace{\frac{1}{2} \frac{\partial u_i}{\partial u_j}-\frac{1}{2} \frac{\partial u_j}{\partial u_i}}^{\text{Asymmetric part}}\\ \\
 =& S_{ij}+\Omega_{ij}
 \end{align}

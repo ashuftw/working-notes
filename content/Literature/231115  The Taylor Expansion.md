@@ -28,7 +28,7 @@ Function to be evaluated at $(x+h)$.
 Center of the series $a = x$
 
 $$
-\end{align}
+\begin{align}
 f(x+h) &= f(x) + f'(x)((x+h) - x) + \frac{f''(x)}{2!}((x+h) - x)^2 + \ldots
 \\
 f(x+h) &= f(x) + f'(x)\cdot h + \frac{f''(x)}{2!}\cdot h^2 + \ldots

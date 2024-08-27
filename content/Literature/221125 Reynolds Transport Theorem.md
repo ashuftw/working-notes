@@ -17,7 +17,7 @@ Where $\beta \rightarrow \frac{dB}{dm}$
 The **Reynolds Transport theorem** states that: 
 
 $$
-\end{align}
+\begin{align}
 \text{Rate of Change of } B\text{ in the Sys} &= \text{(Accumulation rate of }\beta\text{ inside CV) + (Net Outflux of }\beta\text{ through CS)}\\
 \text{Rate of Change of } B\text{ in the Sys} &=\text{(Accumulation rate of }\beta\text{ inside CV )+ }(\beta\text{ Outflow from CV } - \beta\text{ Inflow to CV)}
 \end{align}
