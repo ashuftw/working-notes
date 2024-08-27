@@ -1,3 +1,8 @@
+---
+title: Master-Slave Approach
+draft: false
+tags:
+---
   
 ## Intuition
 

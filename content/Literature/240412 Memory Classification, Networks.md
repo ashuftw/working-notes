@@ -1,3 +1,8 @@
+---
+title: Memory Classification, Networks
+draft: false
+tags:
+---
   
 ### Classification of Parallel Computers
 ```mermaid

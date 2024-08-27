@@ -1,3 +1,8 @@
+---
+title: Machine Classification, Terminology
+draft: false
+tags:
+---
    
 ## Background
 - Data Starvation Crisis: Processing improves much faster than Memory Avancements. 

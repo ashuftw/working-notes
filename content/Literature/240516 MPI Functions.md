@@ -1,3 +1,8 @@
+---
+title: MPI Functions
+draft: false
+tags:
+---
   
 ## MPI_Init
 `MPI_Init` initializes the MPI environment. It must be called before any other MPI function. It defines the "Communicator" `MPI_COMM_WORLD`.

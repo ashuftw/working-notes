@@ -1,3 +1,8 @@
+---
+title: Parallel Computing the Heat Equation
+draft: false
+tags:
+---
   
 
 ### 1. Initialization and MPI Setup

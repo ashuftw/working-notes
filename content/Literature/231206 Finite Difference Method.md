@@ -24,7 +24,7 @@ $$
 ### Step 1: Meshing 
 $x\in [0,1]$ is divided with $n$ equidistant parts.   
 
-![[Pasted image 20231206123754.png|#center|500]]
+![[Pasted image 20231206123754.png|center|500]]
 
 $$
 x_j=j h, \quad j=0, \ldots, n, \quad h=\frac{1}{n}
@@ -32,10 +32,13 @@ $$
 
 ### Step 2: Discretization
 The derivative can be calculated using three different ways
-![[Pasted image 20231206124417.png|#center|600]]
+
+![[Pasted image 20231206124417.png|center|600]]
 
 The Differential equation then can be written
-![[Pasted image 20231206124537.png|#center|600]]
+
+![[Pasted image 20231206124537.png|center|600]]
+
 ## Step 4: Plotting
 
 ![[Pasted image 20231206124718.png|center|600]]

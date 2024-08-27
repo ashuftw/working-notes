@@ -1,21 +1,16 @@
-
-$$
-P_{xx}\ne P_{yy} \ne P_{zz}
-$$
-Apr 2022
-   
-
-Tags: [[non-Newtonian Flow]]
-
-# Bubbles, Drops, and Particles in Non-Newtonian Fluids
-*Chabra,e R. P.*
-
+---
+title: Bubbles, Drops, and Particles in Non-Newtonian Fluids
+draft: false
+tags:
+---
 # Chapter 1: Non-Newtonian Fluid behaviour
 ### Classification of Fluid behaviour
 ### Definition of a non-Newtonian fluid
 **Newtonian fluid**
+
   ![[Pasted image 20220408161132.png|350]]
-  Consider an incompressible fluid in laminar flow sandwiched between two flat plates. When a force is applied to the plate, due to internal friction the fluid exerts an equal force in opposing direction. The opposing force takes the form of shear stress and can be expressed as the product of the viscosity of the fluid and it's rate of shear. 
+  
+Consider an incompressible fluid in laminar flow sandwiched between two flat plates. When a force is applied to the plate, due to internal friction the fluid exerts an equal force in opposing direction. The opposing force takes the form of shear stress and can be expressed as the product of the viscosity of the fluid and it's rate of shear. 
 $$
 \begin{align}\dfrac{F}{A}=\tau_{yx}=\mu\underbrace{\left(-\dfrac{dV_x}{dy}\right)}_{\text{Shear rate}} =\mu \ \dot \gamma_{yx}\end{align}\tag{1.1}
 $$
@@ -114,8 +109,6 @@ $$
 $$
 
 
----
-# References
 [^1]: https://en.wikipedia.org/wiki/Generalized_Newtonian_fluid
 [^2]: WEISSENBERG K. A continuum theory of rheological phenomena. Nature. 1947 Mar 1;159(4035):310. doi: 10.1038/159310a0. PMID: 20293529.
 

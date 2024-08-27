@@ -1,3 +1,8 @@
+---
+title: Dynamic Loop Scheduling
+draft: false
+tags:
+---
   
 ## Self Scheduling: 
 - An idle processor requests for work. 

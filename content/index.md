@@ -8,3 +8,4 @@ I'm Ashu and these are my working notes. The organization of these notes is insp
 ## Some Notes
 - [[SS24 Turbulence Modeling|Turbulence Modeling]]
 - [[SS24 Uncertainty Analysis|Uncertainty Analysis]]
+- [[Literature/SS24 Parallel Computing|Parallel Computing]]

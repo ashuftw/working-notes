@@ -1,3 +1,8 @@
+---
+title: A Hello World Program in Parallel
+draft: false
+tags:
+---
   
 ## Code
 ```cpp
