@@ -1,3 +1,8 @@
+---
+title: Open-Closed Principle
+draft: false
+tags:
+---
    
 
 ## Definition

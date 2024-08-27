@@ -1,7 +1,13 @@
+---
+title: Command Pattern
+draft: false
+tags:
+---
   
 ## Definition 
 It is a behavioural pattern that encapsulates requests into objects. Thus clients can be parameterized with different requests which can also be queued and logged which allows for undoing actions.  
 ## GoF Template
+
 ![[Pasted image 20230816163711.png]]
 1. **Command:** This is an interface or abstract class that defines the `execute` method, which encapsulates a specific action.
     

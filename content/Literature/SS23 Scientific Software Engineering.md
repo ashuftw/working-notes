@@ -1,3 +1,8 @@
+---
+title: Scientific Software Engineering
+draft: false
+tags:
+---
   
 ## Introduction to Sustainable Software Engineering
 - [[230516 Object Oriented Programming|Object Oriented Programming]]
@@ -19,11 +24,6 @@ Are solution templates for a wide range of recurring problems in software engine
 	- [[230816 Strategy Pattern|Strategy Pattern]]
 3. **Structural Patterns**: They are concerned with how classes and objects are composed to form larger structures. 
 
-Other 
-[[231014 Dependency Injection Pattern|Dependency Injection Pattern]] 
-## Test Driven Development
-naming convention for tests: given_name_then 
-Note: You cannot have an instance of an interface 
-purpose of having a separate setup function: each test gets in own object. Which is a thing cause you don't have to worry about the object having an altered inititial state
-
+### Other 
+- [[231014 Dependency Injection Pattern|Dependency Injection Pattern]] 
 
