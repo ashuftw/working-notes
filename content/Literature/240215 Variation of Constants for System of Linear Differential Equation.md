@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### [[240214 General Solution of the for a Differential Equation in Matrix Form|Homogeneous Solution]]
 
 $$

@@ -1,4 +1,4 @@
-Status: #inprogress 
+  
 ## Motivation
 We try to find a weight vector $\mathbf w$ such that the Hyper Plane is $\bot$ to it.     
 ![[../../Private/Excalidraw/Drawing 2024-07-11 12.24.02.excalidraw#^area=hp6QKA36ghicwuo8VO50m|center]]

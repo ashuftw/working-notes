@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition 
 It is a behavioural pattern that encapsulates requests into objects. Thus clients can be parameterized with different requests which can also be queued and logged which allows for undoing actions.  
 ## GoF Template

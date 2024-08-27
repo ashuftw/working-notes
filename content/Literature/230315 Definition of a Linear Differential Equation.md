@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 A differential Equation where the dependent variable is linear in called  a Linear Differential Equation. 
 

@@ -1,4 +1,3 @@
-Status: #inprogress 
 
 ## Vorstellung
 Guten Tag. 
@@ -25,9 +24,9 @@ Guten Tag.
 - Im vergleich zu Deutschland ist die Situation in meinem Heimatland anders/besser/schlechter/schwieriger ...
 
 ## Conclusion
-Zum schluss kann man sagen dass ...
+Zum Schluss kann man sagen dass ...
 
-****
+
 
 
 

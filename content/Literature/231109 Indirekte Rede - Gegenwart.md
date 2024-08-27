@@ -1,4 +1,8 @@
-*Status*: #finished 
+---
+title: Indirekte Rede - Gegenwart
+draft: false
+tags:
+---
 ## Syntax - Three ways depending on context
 ### Option I
 **Indikativ** -> Straightforward passing of info

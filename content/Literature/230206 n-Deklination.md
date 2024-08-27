@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 Some Masculine Words get an additional **-n** at the ending 
 

@@ -1,4 +1,4 @@
-Status: #finished
+ 
 ### 1. Introduction:
 - [[230418 Deduction, Abduction & Induction|Fundamental Terminology]]
 - [[230418 Probability formulae|Probability Formulae]]

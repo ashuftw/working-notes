@@ -1,4 +1,4 @@
-Status: #inprogress 
+  
 
 ## Main Tutorial 
 https://wiki.openfoam.com/NACA0012_by_Michael_Alletto

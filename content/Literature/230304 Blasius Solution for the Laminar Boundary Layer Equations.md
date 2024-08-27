@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Skin friction Coefficient
 
 $$

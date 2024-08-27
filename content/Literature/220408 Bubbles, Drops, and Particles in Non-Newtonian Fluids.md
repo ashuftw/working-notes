@@ -3,7 +3,7 @@ $$
 P_{xx}\ne P_{yy} \ne P_{zz}
 $$
 Apr 2022
-Status: #finished  
+   
 
 Tags: [[non-Newtonian Flow]]
 

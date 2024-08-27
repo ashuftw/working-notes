@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 
 ![[Adobe Scan Jan 24, 2024_1.jpg]]

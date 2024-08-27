@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 If a Function $f$ has $n$ physical/geometric parameters with $m$ fundamental units. Then the entire physical behaviour can be expressed by $(m−n)$ non-dimensional parameters such that
 $$

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Use case 
 Cross Validation is a model validation technique used to check how well a model generalizes by checking how it performs against new unseen data. 
 

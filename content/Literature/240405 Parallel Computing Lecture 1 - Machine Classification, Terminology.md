@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Background
 - Data Starvation Crisis: Processing improves much faster than Memory Avancements. 
 - Hardware layout plays a big rule in the effectiveness of Parallel Computing. 

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Purpose & Use-case:
 ![[Pasted image 20230523100927.png]]
 Plusquamperfekt is used to denote actions in the past that are completed before another past action. 

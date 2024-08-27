@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 It is a mathematical model used to describe fluids assuming that they are inviscid, incompressibe and irrotational. 
 It defines a potential function, $\phi(t,x,y,z)$ as a continuous function satisfying conversation laws such that.

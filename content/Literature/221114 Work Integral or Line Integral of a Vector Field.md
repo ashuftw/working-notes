@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 ![[221218 Work Integral.png]]
 

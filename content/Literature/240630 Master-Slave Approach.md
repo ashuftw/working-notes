@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Intuition
 
 ![[Pasted image 20240628151022.png|center|600]]

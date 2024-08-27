@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 
 Using the [[220402 Newton's Law of Viscosity|Newton's Law of Viscosity]], the equation for Shear Stress can be written as

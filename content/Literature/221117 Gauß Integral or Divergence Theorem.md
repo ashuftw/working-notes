@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 ![[221117 Gauss Integral or Divergence Theorem.png]]
 

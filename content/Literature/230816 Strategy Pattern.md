@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Definition 
 It is a behavioural pattern that encapsulates each algorithm in a family of algorithms being used in a program. The encapsulation allows the program to chose any of the algorithms without having to modify the code used in the algorithm.
 

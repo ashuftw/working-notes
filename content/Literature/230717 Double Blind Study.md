@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Definition
 It is a kind of study/experiment where the both the examiner and the test candidate are unaware of the result of the study. 
 ### A horse named Hans

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Aktiv Satz: Ich esse den Apfel. 
 1. **Passiv Präsens** 
 	- **Syntax:** *werden* + *Partizip 2*   

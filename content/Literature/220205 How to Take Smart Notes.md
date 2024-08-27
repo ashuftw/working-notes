@@ -1,5 +1,5 @@
 Feb 2022
-Status: #book
+ #book
 
 # How To Take Smart Notes
 > "One cannot think without writing" - Niklas Luhmann

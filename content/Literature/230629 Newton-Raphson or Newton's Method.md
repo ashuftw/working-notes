@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 It is a type of [[230612 Fixed point or Banach's iteration|Banach's iteration]] 
 ### Mathematically

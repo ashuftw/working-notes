@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ![[genitiv.png]]
 
 

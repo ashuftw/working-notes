@@ -1,4 +1,4 @@
-Status: #finished 
+  
 - [[230228 Haupsatz vs Nebensatze|Haupsatz vs Nebensatze]]
 - [[Infitivkonstruktionen nach]]
 - [[230302 Nationalitäten|Nationalitäten]]

@@ -1,8 +1,7 @@
 ---
 title: Example Title
 draft: false
-tags:
-  - example-tag
+tags: []
 ---
 ### Using [[240401 Bayes Theorem|Bayes Theorem]]
 

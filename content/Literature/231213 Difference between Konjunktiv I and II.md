@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## **Konjunktiv I**
 Used for Indirekte Rede  and Feste Ausdrücke.
 **Example**

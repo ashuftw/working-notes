@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 An article indicates whether the reference of the noun in a sentence is specific or non-specific. 
 There are two types of articles 

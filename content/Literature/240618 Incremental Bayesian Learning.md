@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Use case 
 If the data is observed sequential, we can update our current predictions from the knowledge of the past predictions. 
 

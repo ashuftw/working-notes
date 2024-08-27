@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ![[221110 Line Integral or Curve Integral 1.png]]
 ---
 # References

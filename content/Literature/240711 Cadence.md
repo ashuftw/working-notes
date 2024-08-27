@@ -1,8 +1,7 @@
 ---
 title: Cadence
 draft: false
-tags:
-  - example-tag
+tags: []
 ---
  A cadence refers to the ending of a musical phrase that brings with it a sense of resolution. 
 

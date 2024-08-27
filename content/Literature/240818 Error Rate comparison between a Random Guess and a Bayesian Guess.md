@@ -1,7 +1,7 @@
 ---
 title: Error Rate comparison between a Random Guess and a Bayesian Guess
-draft: true
-tags: []
+draft: false
+tags:
 ---
 **For a 4-class problem and a known feature vector $\mathbf{x}=\mathbf{O}$ you obtain the following posteriors:**
 

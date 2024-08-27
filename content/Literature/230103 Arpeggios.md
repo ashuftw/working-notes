@@ -1,5 +1,8 @@
-Status: #inprogress 
-
+---
+title: Arpeggios
+draft: false
+tags:
+---
 ## C Shape Extended
 ![[Pasted image 20240103203731.png|300]]
 ## Cm Shape Extended

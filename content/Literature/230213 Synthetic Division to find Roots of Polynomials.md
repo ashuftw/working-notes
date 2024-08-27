@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ![[230213 Synthetic Division to find roots of Polynomials.png]]
 
 

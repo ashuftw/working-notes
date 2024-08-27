@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ### Präpositionen mit Akkusativ 
 - sich ärgern **über** 
 - sich interessieren **für** 

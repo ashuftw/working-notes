@@ -1,5 +1,5 @@
 Nov 2022
-Status: #finished  
+   
 
 There are three possibilities to use an infinitive with zu. 
 ```mermaid

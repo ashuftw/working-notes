@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 It is a way of using Objects of other Classes by creating an object externally and passing it as an argument. 
 ## Example

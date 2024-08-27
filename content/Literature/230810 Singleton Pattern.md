@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition 
 It is a **creational pattern** that ensure that a class has only one instance and has a global access point. 
 ## Example 

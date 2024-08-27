@@ -1,4 +1,4 @@
-Status: #finished 
+  
 For a system of $N+1$ points, the order is $N$
 
 The following ansatz is said to be true

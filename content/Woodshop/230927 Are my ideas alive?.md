@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 I often find myself quoting other people. I enjoy finding the right quote for the moment. Like this one: 
 > "Maybe our favorite quotations say more about us than about the stories and people we're quoting." 

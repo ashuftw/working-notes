@@ -1,6 +1,6 @@
-Status: #finished  
+   
 
-## [[221106-Formulary|Formulary]]
+## [[221106 Formulary|Formulary]]
 ## 1 Introduction
 1. **Basic Definitions**
 	- Autonomous Differential equation: $f$ is independent of $t$

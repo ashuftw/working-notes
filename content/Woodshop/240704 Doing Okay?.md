@@ -1,4 +1,4 @@
-#inprogress 
+ 
 
 > Because sometimes, doing good to others, and even doing good to one’s self, is amazingly destructive. Because it’s full of conceit: how do you know what’s good for other people? How do you know what’s good for you? If you say you want to improve, then you ought to know what’s good for you. But obviously you don’t, because if you did you would be improved. So we don’t know.
 > - *Alan Watts* 

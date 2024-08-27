@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 Buddhist tradition speaks a character called [Māra](https://en.wikipedia.org/wiki/Mara_(demon)) who takes the role of being the very embodiment of delusion. The night before [Siddhartha's](https://en.wikipedia.org/wiki/The_Buddha) enlightenment, he visits him under the Bodhi tree. He says to himself, "How dare a mere human seek enlightenment?". 
 

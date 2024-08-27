@@ -1,5 +1,5 @@
 IrregularAug 2022
-Status: #finished  
+   
 
 Tags: [[German]] [[Verbs]]
 

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Use case
 It is an Error correction technique that improves the result of the an Integration by improving the integral itself. (As opposed to doing so through iterations)
 

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 "Each class should have only one reason to change."
 

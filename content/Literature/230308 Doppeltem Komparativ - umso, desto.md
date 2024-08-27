@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Use case
 It is used to express **proportional** relationship between two things. 
 

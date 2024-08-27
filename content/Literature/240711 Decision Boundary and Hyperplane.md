@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Use case 
 A Decision boundary is a line or plane that separates classes. It determined by using a suitable discriminant function. 
 

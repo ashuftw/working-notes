@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ![[240322-SIMPLE-Algorithm-1.png]]
 

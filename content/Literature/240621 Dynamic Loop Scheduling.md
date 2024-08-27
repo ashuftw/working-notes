@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Self Scheduling: 
 - An idle processor requests for work. 
 - Master processor keeps record of available and assigned work. 

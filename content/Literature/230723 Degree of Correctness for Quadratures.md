@@ -1,4 +1,4 @@
-Status: #finished 
+  
 [[230507 Quadrature]]
 ## Definition
 ![[Pasted image 20231130103848.png]]

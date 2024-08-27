@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Deduction
 It is a way of arriving at a type of reasoning that by using multiple theorems as a basis. 
 **Example**: *No fruit is savoury, apple is a fruit. Therefore Apple is not savoury.* 

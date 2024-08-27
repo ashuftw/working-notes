@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 Prepositions answer to the questions **Wo** or **Wohin**. Hence they are also called Preposition of Place.
 

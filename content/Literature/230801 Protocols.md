@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Objective
 A protocol is an informal interface that contains a set of methods or rules that a class needs to adhere to.
 

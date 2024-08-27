@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Use case
 Describes the transport of a quantity by flow. 
 

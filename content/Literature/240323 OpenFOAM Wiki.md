@@ -1,3 +1,8 @@
+---
+title: 
+draft: false
+tags:
+---
 ## Solvers 
 1. simpleFoam
 	- [[240323 SIMPLE Algorithm]]

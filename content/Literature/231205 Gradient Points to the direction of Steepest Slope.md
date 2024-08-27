@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Lemma
 The gradient gives the direction of the largest directional derivative, hence it points to the direction of the steepest slope.
 

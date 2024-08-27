@@ -1,5 +1,5 @@
 Sep 2022
-Status: #finished  
+   
 
 Tags: [[German]] [[Verbs]] [[220828 Unregelmäßige Verben]]
 

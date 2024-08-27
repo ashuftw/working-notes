@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Simple shear in a fluid
 ![[Pasted image 20220408161132.png|center|390]]
 When a fluid is subjected to a shear force, due to internal friction it produces an equal and opposing force against the applied force in the form of Shear Stress. The Shear Stress can be expressed as the product of Viscosity and it's rate of shear. 

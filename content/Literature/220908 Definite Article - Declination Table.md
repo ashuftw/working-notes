@@ -1,5 +1,5 @@
 Sep 2022
-Status: #finished 
+  
 
 ![[Pasted image 20221218111525.png]]
 Examples:

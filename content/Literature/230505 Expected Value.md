@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ## Definition
 It is the average value (mean) of a random experiment. 

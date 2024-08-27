@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 A Relativpronomen connects the [[220922 Relativsätze (Relative Sentences)|Relativsatz]] to the main clause.
 ## Conjugation table 

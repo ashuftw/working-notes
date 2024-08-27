@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: doch vs jedoch
+draft: false
+tags:
+---
 
 ## doch
 - **affirmation** or **confirmation**
@@ -12,18 +16,11 @@ Status: #inprogress
 	- "Du kommst doch morgen, oder?" (You are coming tomorrow, aren't you?)
 ## jedoch
 
-Cleanup 
+- **However/Nevertheless:** "Jedoch" is used to introduce a contrast or contradiction, similar to the English words "however" or "nevertheless." It's used to show that the following statement contrasts with or qualifies the preceding one.
+	 - "Ich mag Pizza. Jedoch esse ich sie nicht oft." (I like pizza. However, I don't eat it often.)
+- **Formal Writing:** "Jedoch" is more commonly used in formal writing and is considered slightly more formal than "aber" (but) when expressing contrasts.
 
-1. **Jedoch:**
-    
-    - **However/Nevertheless:** "Jedoch" is used to introduce a contrast or contradiction, similar to the English words "however" or "nevertheless." It's used to show that the following statement contrasts with or qualifies the preceding one.
-        
-        - Example: "Ich mag Pizza. Jedoch esse ich sie nicht oft." (I like pizza. However, I don't eat it often.)
-    - **Formal Writing:** "Jedoch" is more commonly used in formal writing and is considered slightly more formal than "aber" (but) when expressing contrasts.
-        
-
-To summarize, "doch" is used to contradict or affirm statements, add emphasis, and seek confirmation in questions. On the other hand, "jedoch" is used to introduce contrasts or contradictions, often in more formal writing or speech. Understanding how and when to use these words is important for clear communication in German.
-
+To summarize, "doch" is used to contradict or affirm statements, add emphasis, and seek confirmation in questions. On the other hand, "jedoch" is used to introduce contrasts or contradictions, often in more formal writing or speech.
 
 
 

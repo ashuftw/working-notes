@@ -1,4 +1,4 @@
-Status: #finished 
+  
 [[230222 Drag on Flat Plate]]
 
 ![[Pasted image 20230223131004.png|500]]

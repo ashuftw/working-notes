@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 Also called [[230608 Contraction|Contraction]]-mapping theorem. 
 

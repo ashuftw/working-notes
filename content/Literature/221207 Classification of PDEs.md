@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 A general 2$^\text{nd}$ order PDE
 $$

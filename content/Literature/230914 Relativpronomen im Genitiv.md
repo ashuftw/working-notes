@@ -1,4 +1,4 @@
-Status: #finished 
+  
 **Maskulin**
 - Ich kenne diesen Schüler. Sein Buch liegt auf der Bank. 
 	Ich kenne diesen Schüler, **dessen** Buch liegt auf der Bank.

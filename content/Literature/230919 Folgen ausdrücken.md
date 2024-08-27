@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: Folgen ausdrücken
+draft: false
+tags:
+---
 ### sodass
 Landwirte verlieren große Teile ihrer Ernte. Es regnet zu wenig. 
 - Landwirte verlieren große Teile ihrer Ernte, **sodass** es zu wenig regnet.

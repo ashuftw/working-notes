@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 Using the [[221125 Reynolds Transport Theorem|Reynolds Transport Theorem]] for steady compressible flow, we take $B=mv, \beta = v$
 

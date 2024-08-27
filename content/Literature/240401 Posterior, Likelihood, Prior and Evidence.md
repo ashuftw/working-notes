@@ -1,8 +1,7 @@
 ---
 title: Posterior, Likelihood, Prior and Evidence
 draft: false
-tags:
-  - STEM
+tags: []
 ---
 - **Posterior**: It is the updated probability for given a Hypothesis after getting new data. It is a computed value. 
 - **Likelihood**: This is the probability of the data given the hypothesis.    

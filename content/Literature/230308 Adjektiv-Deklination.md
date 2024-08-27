@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ## [[220908 Definite Article - Declination Table|Definite Article]] 
 |Case   |Maskulin   |Feminin  |Neutral  |Plural   |

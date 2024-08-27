@@ -1,4 +1,8 @@
-Status: #finished 
+---
+title: Doppelkonnektoren or  Doppelkonjunktionen
+draft: false
+tags:
+---
 ### Most used Doppelkonnektoren
 | Doppelkonnektoren     | English Translation  |
 | ---------------------- | -------------------- |

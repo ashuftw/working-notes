@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ### 1. Initialization and MPI Setup
 ```cpp

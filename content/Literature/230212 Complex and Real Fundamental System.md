@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Solution Method
 For a **Complex Solution** $y_1(t)$ and $y_2(t)$ 
 The **Real Fundamental Solution** can be Calculated with the Forms

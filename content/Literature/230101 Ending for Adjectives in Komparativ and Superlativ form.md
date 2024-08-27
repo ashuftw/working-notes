@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ### Syntax
 |Positv   | Komparativ  | Superlativ     

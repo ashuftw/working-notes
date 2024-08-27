@@ -1,5 +1,5 @@
 Apr 2022
-Status: #finished 
+  
 
 Tags: [[Blood flow]] [[non-Newtonian Flow]]
 
@@ -19,7 +19,7 @@ k
 [^3]: Merrill, E. W, 1969, "Rheology of Blood," Physiological Reviews, Vol. 49, pp. 863~ 888.
 [^4]:The influence of the non-Newtonian properties of blood on the flow in large arteries: Steady flow in a carotid bifurcation model
 [^5]: S. Kim et al. / Journal of Mechanical Science and Technology 23 (2009) 1718~1726Apr 2022
-Status: 
+ 
 
 Tags: 
 

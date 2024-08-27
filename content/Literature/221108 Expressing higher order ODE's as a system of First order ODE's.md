@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 **Lemma**: An $\text n^\text{th}$ order differential equation written in explicit form can be written as a system of $\text n$ first order differential equations.
 **Proof**

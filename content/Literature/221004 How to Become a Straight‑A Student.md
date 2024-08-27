@@ -1,4 +1,4 @@
-Status: #finished  #book 
+   #book 
 # Part 1
 ## Efficiency is your sword. Cut that Grind
 - You need to find strategies that work for _you_. 

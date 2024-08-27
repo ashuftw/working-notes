@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Statt vs Anstatt vs Stattdessen
 - **Anstatt:** Used to negate an action. 
 - **Statt:** Used to negate a substantive (noun like).

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 An ODE is called a Bernoulli Differential equation if it can be represented in the form
 

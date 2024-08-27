@@ -1,4 +1,4 @@
-Status: #finished
+ 
 ## Definition
 A Fundamental Solution (Also called fundamental Set or Matrix) is a set of all linearly independent solutions which can express every possible solution of an ODE. 
 ## Example 

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Use case
 The Fourier Transform is used to transform a function of time to a function of frequency. With this, it is possible to tell what frequency is present in a particular sound and how strong each frequency is. 
 ## Mathematical Definition

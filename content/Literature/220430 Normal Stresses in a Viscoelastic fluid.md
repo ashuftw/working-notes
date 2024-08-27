@@ -1,5 +1,5 @@
 Apr 2022
-Status: #finished 
+  
 
  [[non-Newtonian Flow]] [[Viscoelastic Fluid]] [[Deviatoric Stress]] [[220419 Simple Shear flow]]
 A viscoelastic fluid in a simple shear flow produces unequal normal stresses that have non-zero values. 

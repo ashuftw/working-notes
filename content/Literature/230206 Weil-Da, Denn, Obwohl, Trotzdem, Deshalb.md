@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ## Zur Erinnerung: 
 - Ich esse, **weil / da** ich Hunger habe. (Hunger haben = **Grund**) 

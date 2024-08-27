@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Syntax 
 1. **In Hauptsatz:**
 	$\text{Modalverb + Partizip 2 + werden}$

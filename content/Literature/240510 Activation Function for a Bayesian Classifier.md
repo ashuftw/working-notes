@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Assignment of Nodes 
 ![[Pasted image 20240610165943.png|center|400]]
 

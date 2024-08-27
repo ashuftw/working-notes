@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Intuition 
 The [[240417 Fourier Transform|Fourier Transform]],  $\mathcal F\{f(t)\cdot g(t)\} \ne \mathcal F\{f(t)\}\cdot \mathcal F\{g(t)\}$ . Instead it is given by the convolution operation "$*$"
 ## Mathematically 

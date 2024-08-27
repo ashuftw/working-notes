@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 It is a Numerical Method used to find the solution to an equation (when the analytical solution is difficult or impossible to find). 
 

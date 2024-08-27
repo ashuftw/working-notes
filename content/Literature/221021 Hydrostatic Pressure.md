@@ -1,5 +1,5 @@
 Oct 2022
-Status: #finished 
+  
 
 
 It is the pressure at a point within a fluid at equilibrium. It is given by 

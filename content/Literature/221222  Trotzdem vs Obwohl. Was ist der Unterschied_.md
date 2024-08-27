@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ## Trotzdem
 1. Takes position 1 or 3 in the Haupsatz (main clause).

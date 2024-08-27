@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 The are solutions that cannot be written as a linear combination of each other to give a new solution.
 

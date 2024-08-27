@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 The three basic Tenses in German are:
 - **Präsens** (Simple present) 

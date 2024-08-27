@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: CAGED System
+draft: false
+tags:
+---
 
 
 ![[Pasted image 20240101212144.png]]

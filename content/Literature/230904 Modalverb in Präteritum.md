@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 | **Person** | **können** | **müssen** | **dürfen** | **sollen** | **wollen** | **möchten** |
 |--------|--------|--------|--------|--------|--------|--------|

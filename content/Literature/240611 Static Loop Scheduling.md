@@ -1,4 +1,4 @@
-Status:  #finished 
+   
 ## 1. Blocking
 **Blocking (Chunk Scheduling)** is a common static scheduling strategy where the outer iterations are divided into contiguous chunks (blocks) and assigned to a processor.
 

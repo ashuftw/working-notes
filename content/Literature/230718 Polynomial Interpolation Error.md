@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Interpolation Error at a point $\xi$
 
 $$

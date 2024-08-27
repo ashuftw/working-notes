@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Definition
 Euler Equations have the form 
 

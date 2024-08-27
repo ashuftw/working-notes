@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ```cpp
     // - Bubble center
     vector Cb;

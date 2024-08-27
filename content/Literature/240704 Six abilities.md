@@ -1,4 +1,4 @@
-Status: #finished 
+  
 - **Strength**: measure of physical power
 	- melee attacks and carrying capacity
 - **Dexterity**: agility, reflexes, and balance

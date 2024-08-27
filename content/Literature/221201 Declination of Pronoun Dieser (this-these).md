@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 | Case | Masculin | Feminin | Neutral | Plural |
 |---|---|---|---|---|

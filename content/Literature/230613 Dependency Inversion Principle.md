@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 The DIP principle says that High level modules should not depend on Low level modules that are volatile. Instead they both of them should depend on abstractions. 
 

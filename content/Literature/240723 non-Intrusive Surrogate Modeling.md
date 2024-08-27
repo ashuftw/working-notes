@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### From Orthogonal Projection the following analogies are drawn
 
 | Linear algebra              | Probability                                         |

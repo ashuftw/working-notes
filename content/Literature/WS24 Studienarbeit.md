@@ -1,4 +1,4 @@
-Status: #inprogress 
+  
 
 ## Direct Air Carbon Capture
 - [[240620 Advantages of Direct Air Carbon Capture]]

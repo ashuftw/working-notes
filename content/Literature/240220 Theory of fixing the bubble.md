@@ -1,4 +1,4 @@
-Status: #inprogress 
+  
 ## Objective
 ![[Pasted image 20240221153015.png]]
 

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ![[Pasted image 20240527153253.png|center|500]]
 ## Likelihood function

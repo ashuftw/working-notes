@@ -1,4 +1,4 @@
-Status: #finished  
+   
 - [[221109 Infinitiv mit zu|Infinitiv mit zu]]
 - [[230325 Um..zu vs Damit]]
 - [[220922 Relativsätze (Relative Sentences)|Relativsätze]]

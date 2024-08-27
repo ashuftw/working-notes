@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 ![[Pasted image 20221106141239.png|350]]
 For a Stream element

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 Prandtl simplified the Navier-Stokes Equations for the Laminar Boundary Layer. The main simplification is that the pressure is constant along the height of the boundary layer. 
 

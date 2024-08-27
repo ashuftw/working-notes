@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### Classification of Parallel Computers
 ```mermaid
 graph TD

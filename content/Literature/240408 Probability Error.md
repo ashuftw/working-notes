@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Two Class Problem 
 
 $$

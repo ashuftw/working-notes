@@ -1,4 +1,4 @@
-Status: #finished  
+   
 
 Verbs in [[231014 Partizip I vs Partizip II|Partizip I]] can be used as an adjective. 
 

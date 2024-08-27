@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 **Maskulin**
 - Ich habe einen Hund. Der Hund hat immer Hunger. 

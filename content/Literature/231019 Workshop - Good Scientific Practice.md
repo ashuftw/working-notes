@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: Workshop - Good Scientific Practice
+draft: false
+tags:
+---
 ## Ways to record research progress
 - My supervisor has reviews every quarter or so
 - In the lab: excel sheet

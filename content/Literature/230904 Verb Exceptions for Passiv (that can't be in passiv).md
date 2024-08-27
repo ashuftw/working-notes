@@ -1,4 +1,4 @@
-Status: #finished 
+  
 1. **Sterben** (to die)
     - Ich sterbe. (I am dying.)
     - Passive: X (Cannot be used in the passive voice)

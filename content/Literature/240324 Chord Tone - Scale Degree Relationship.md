@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Ionian
 
 | Scale Degree | Chord Tone   |

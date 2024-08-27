@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ## Root on 4$^\text{th}$ String 
 - Major	![[Pasted image 20230807151218.png]]

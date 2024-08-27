@@ -1,4 +1,4 @@
-Status: #finished
+ 
 # Use case: Als vs Wenn
 
 | als                                          | wenn                                                     |

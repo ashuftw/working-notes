@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: Sentence Structure, Verb Positioning
+draft: false
+tags:
+---
 ## Verb am ende: Nebensatz
 - weil 
 - als 

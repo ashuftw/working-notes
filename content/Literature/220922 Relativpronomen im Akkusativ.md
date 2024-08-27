@@ -1,4 +1,4 @@
-Status: #finished   
+    
 **Maskulin**
 - Der Stuhl ist teuer. Ich kaufe mir **den Stuhl**.
 	Der Stuhl, **den** ich mir **kaufe**, ist teuer.

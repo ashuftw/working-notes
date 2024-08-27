@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ![[230220 Complex Zeros 2.png]]
 
 

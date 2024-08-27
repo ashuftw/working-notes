@@ -1,6 +1,6 @@
 ---
 title: Equal Error Rate
-draft: true
+draft: false
 tags:
 ---
 ## $\text{FNR = f(FPR)}$

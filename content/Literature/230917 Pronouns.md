@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 ## Pronoun Declination
 | Nominative| Accusative | Dative | Genitive |

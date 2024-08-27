@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 - **während** (Lokal / 2 parallel Aktionen)
 	- Während des Essens raucht er.

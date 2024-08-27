@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Law of the Wall
 ![[Pasted image 20240617115457.png]]
 

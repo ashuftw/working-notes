@@ -1,4 +1,4 @@
-Status: #finished 
+  
 - [[240405 Parallel Computing Lecture 1 - Machine Classification, Terminology|Lecture 1 - Machine Classification, Terminology]]
 - [[240412 Parallel Computing Lecture 2|Lecture 2 - Memory Classification, Networks]]
 - [[240419 Parallel Computing Lecture 3|Lecture 3 - Parallelization, Scaling]]

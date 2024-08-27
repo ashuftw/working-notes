@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: What does a fulfilling, high impact career look for me?
+draft: false
+tags:
+---
  
 $$
 \boxed{\text{\textbf{Expected impact }= pressingness of problem x effectiveness of opportunity x personal fit}}

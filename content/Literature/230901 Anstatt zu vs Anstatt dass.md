@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Usages
 Anstatt translates to **instead of** 
 - Anstatt zu -> only one subject

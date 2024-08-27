@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ![[Pasted image 20240213114254.png]]
 **Example:**
 The Differential Equation

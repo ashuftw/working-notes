@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 > [There's a lot of narcissm in self-hatred.](https://youtu.be/iGLzWdT7vGc?t=2087) 
 

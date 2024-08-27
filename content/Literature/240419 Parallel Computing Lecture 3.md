@@ -1,4 +1,4 @@
-Status: #finished  
+   
 ## Parallel Computing
 ### Limiting factors 
 - Data dependencies => Can force you to do some task sequentially. 

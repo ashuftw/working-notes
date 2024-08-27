@@ -1,4 +1,4 @@
-Status: #finished 
+  
 The relationship scale and sensitivity is diminishing. Small changes in smaller scale tend to evoke a bigger sense of change than changes at larger scales. 
 
 Example:

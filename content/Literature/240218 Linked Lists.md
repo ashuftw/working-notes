@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition
 A linked list is a chain of data elements called nodes. Each node contains a piece of data and a reference (or link) to another node.   
   

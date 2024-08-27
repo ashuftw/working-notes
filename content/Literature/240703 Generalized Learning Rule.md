@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ![[Pasted image 20240703122006.png|center|500]]
 
 Using the Gradient Descent Method the **Generalized Learning Rule** can be obtained as 

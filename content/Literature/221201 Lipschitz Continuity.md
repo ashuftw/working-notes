@@ -1,5 +1,5 @@
-Status: #finished 
-![[221201 Lipschitz Continuity.png]]
+  
+![[../Files/221201 Lipschitz Continuity.png]]
 
 
 

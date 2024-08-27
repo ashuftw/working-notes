@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition 
 It states that Objects of a superclass should be replaceable with the objects of a subclass without affecting the correctness of the program. 
 

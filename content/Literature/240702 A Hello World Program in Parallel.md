@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Code
 ```cpp
 #include <mpi.h>        // Import the MPI library

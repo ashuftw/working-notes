@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Steps to check if a Solution is a Fundamental System 
 
 - Check if given Functions are solutions (In case it isn't clear. )

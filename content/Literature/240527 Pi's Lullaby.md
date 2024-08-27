@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Capo 1st Fret
 ```
 G          G6          C

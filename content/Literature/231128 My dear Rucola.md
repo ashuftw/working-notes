@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: My dear Rucola
+draft: false
+tags:
+---
 
 At the sea for years
 Holding up my fears

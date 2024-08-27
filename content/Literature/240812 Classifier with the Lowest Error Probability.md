@@ -1,4 +1,4 @@
-Status: #finished 
+  
  
  $\text {arg max}$ selects for $s$ that gives the biggest **Posteriori**. 
 

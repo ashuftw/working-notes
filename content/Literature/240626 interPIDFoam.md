@@ -1,4 +1,4 @@
-Status: #inprogress 
+  
 
 [[240220 Theory of fixing the bubble|Theory of fixing the bubble]]
 

@@ -1,4 +1,4 @@
-Status: #finished 
+  
 [[240408 Formulary]]
 ## Numerical Basics
 ### 1.1 Interpolation

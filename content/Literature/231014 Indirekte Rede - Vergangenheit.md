@@ -1,4 +1,8 @@
-Status: #inprogress 
+---
+title: Indirekte Rede - Vergangenheit
+draft: false
+tags:
+---
 ## Use case
 It is used to report what someone else said in without directly quoting them. 
 

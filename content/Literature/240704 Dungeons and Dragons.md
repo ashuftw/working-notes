@@ -1,4 +1,4 @@
-Status: #inprogress 
+  
 ## Mechanics 
 ![[../../Private/Excalidraw/Drawing 2024-07-04 18.36.08.excalidraw#^group=4IZ6S59h|1000]]
 > Note: Proficiency is marked by ●

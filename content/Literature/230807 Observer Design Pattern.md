@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Definition 
 It defines **One-to-Many** dependency between objects so that when objects change state all of it's dependencies are notified and updated immediately. 
 - **One** -> Subject i.e that which is changing. It keeps a list of observers so that when there is a change in state, it notifies each of the many observers by iterating through the list. 

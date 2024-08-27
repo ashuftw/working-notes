@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ![[Pasted image 20231115125339.png|center|300]]
 ## Taylor Series
 

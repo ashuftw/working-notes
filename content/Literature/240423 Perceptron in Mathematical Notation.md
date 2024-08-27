@@ -1,4 +1,4 @@
-Status: #finished
+ 
 
 ![[Pasted image 20240621105036.png|center|250]]
 

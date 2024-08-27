@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 - A Newtonian fluid is one whose viscosity is independent of the ratio of the shear stress and the shear rate. 
 - Thus, the Flow curve/ Rheogram of a Newtonian fluid is a straight line that passes through the origin. 

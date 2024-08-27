@@ -1,8 +1,8 @@
-Oct 2022
-Status: #inprogress  #book 
-
-Author: [[Scott H. Young]]
-
+---
+title: 
+draft: false
+tags:
+---
 ## Why Ultralearning Matters
 > Technology exaggerates both the vices and the virtues of humanity. Our vices are made worse because now they are downloadable, portable, and socially transmissible. 
 

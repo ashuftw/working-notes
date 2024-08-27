@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Use case
 | Partizip I | Partizip II | 
 | -------- | -------- | 

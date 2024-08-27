@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 $$
 \boxed{\mathbf{a}_{\min }=\left(A^{\top} A\right)^{-1} A^{\top} \mathbf{y}}

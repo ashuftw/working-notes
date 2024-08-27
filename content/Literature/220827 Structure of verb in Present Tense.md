@@ -1,4 +1,4 @@
-Status: #finished 
+  
 
 Tags: [[German]] [[Grammar]] [[Verbs]] [[220827 Finite Verb|Finite Verb]]
 

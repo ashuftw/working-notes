@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Introduction to Sustainable Software Engineering
 - [[230516 Object Oriented Programming|Object Oriented Programming]]
 ## S.O.L.I.D Principles

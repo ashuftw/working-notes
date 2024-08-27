@@ -1,6 +1,6 @@
 ---
 title: Log Likelihood Ratio
-draft: true
+draft: false
 tags:
 ---
  

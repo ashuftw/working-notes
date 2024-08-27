@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ## Homogeneous Solution 
 ### Compact vector form 
 

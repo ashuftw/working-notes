@@ -1,4 +1,4 @@
-Status: #finished 
+  
 ### 1. Discretization of  the PDE 
 - **Analytical Problem** 
 $$
