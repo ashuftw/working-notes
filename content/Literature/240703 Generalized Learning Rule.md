@@ -1,3 +1,8 @@
+---
+title: " Generalized Learning Rule"
+draft: false
+tags:
+---
   
 ![[Pasted image 20240703122006.png|center|500]]
 

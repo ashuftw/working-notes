@@ -1,3 +1,8 @@
+---
+title: Aleatoric vs Epistemic Uncertainty
+draft: false
+tags:
+---
   
 
 | Aleatoric Uncertainty                                                        | Epistemic Uncertainty                                                  |

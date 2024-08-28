@@ -1,4 +1,8 @@
-  
+---
+title: Probability formulae
+draft: false
+tags:
+---
 
 1. **Unconditional or Marginal Probability**
 	- **Overlapping Events** 
@@ -6,7 +10,7 @@ $$
 P(A \cap B)=P(A \mid B) P(B)=P(B \mid A) P(A)
 $$
 
-	- **Disjoint events**
+- **Disjoint events**
 $$
 P(A \cap B)=0
 $$

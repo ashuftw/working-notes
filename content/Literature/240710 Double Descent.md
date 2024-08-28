@@ -1,3 +1,8 @@
+---
+title: Double Descent
+draft: false
+tags:
+---
   
 ## Definition
 It is seems to be the case that over-parameterising the model does not cause overfitting.

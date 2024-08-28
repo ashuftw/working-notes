@@ -1,3 +1,8 @@
+---
+title: Finding Hyper Parameters
+draft: false
+tags:
+---
   
 ![[Pasted image 20240703124658.png|center|500]]
 ## Steps involved in selecting the Hyper Parameters

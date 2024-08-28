@@ -13,3 +13,4 @@ I'm Ashu and these are my working notes. The organization of these notes is insp
 - [[Literature/221110 WS-PDE Script|Partial Differential Equations]]
 - [[Literature/221106 Fluid Mechanics|Fluid Mechanics]]
 - [[Literature/221106 WS-ODE Script|Ordinary Differential Equations]]
+- [[Literature/SS24 Intro to Machine Learning|Machine Learning]]

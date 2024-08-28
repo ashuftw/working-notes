@@ -1,3 +1,8 @@
+---
+title: Using Likelihood to Model Probability
+draft: false
+tags:
+---
   
 
 ![[Pasted image 20240527153253.png|center|500]]

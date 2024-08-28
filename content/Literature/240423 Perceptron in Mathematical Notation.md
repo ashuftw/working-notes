@@ -1,3 +1,8 @@
+---
+title: Perceptron in Mathematical Notation
+draft: false
+tags:
+---
  
 
 ![[Pasted image 20240621105036.png|center|250]]

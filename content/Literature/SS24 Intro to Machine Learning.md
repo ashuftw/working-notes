@@ -1,6 +1,11 @@
+---
+title: Machine Learning
+draft: false
+tags:
+---
  
 ### 1. Introduction:
-- [[230418 Deduction, Abduction & Induction|Fundamental Terminology]]
+- [[230418 Deduction, Abduction & Induction|Deduction, Abduction & Induction]]
 - [[230418 Probability formulae|Probability Formulae]]
 - [[240415 Types of Machine Learning|Types of Machine Learning]]
 ### 2. Supervised Learning - Regression
@@ -17,13 +22,13 @@
 - [[240618 Incremental Bayesian Learning|Incremental Bayesian Learning]]
 ### 5. Error Minimization
 - [[240703 Generalized Learning Rule|Generalized Learning Rule]]
-- [[240703 Finding Hyper Parameter|Finding Hyper Parameter]]
+- [[240703 Finding Hyper Parameters|Finding Hyper Parameter]]
 - [[240703 Cross Validation|Cross Validation]]
 - [[240710 Bias vs Variance|Bias vs Variance]]
 - [[240710 Double Descent|Double Descent]]
 ### 6. Local and Unified Models
 ### 7. Definition of Decision Boundary
-- [[240711 Decision Boundary and Hyperplane|Decision Boundary and Hyperplane]]
+- [[240711 Decision Boundary and Hyperplanes|Decision Boundary and Hyperplane]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 	- [[Bayesian Modeling]]

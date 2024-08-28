@@ -1,3 +1,8 @@
+---
+title: Types of Machine Learning
+draft: false
+tags:
+---
   
 
 ```mermaid

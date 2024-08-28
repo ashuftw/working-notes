@@ -1,6 +1,12 @@
+---
+title: Fisher's Linear Discriminant Function
+draft: false
+tags:
+---
   
 ## Motivation
 We try to find a weight vector $\mathbf w$ such that the Hyper Plane is $\bot$ to it.     
+
 ![[../../Private/Excalidraw/Drawing 2024-07-11 12.24.02.excalidraw#^area=hp6QKA36ghicwuo8VO50m|center]]
 The position of the Hyper Plane however is not known. We can find it using the following methods.
 ## Approach 1: Maximize the inter-class variance
