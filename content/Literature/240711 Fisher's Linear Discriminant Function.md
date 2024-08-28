@@ -30,4 +30,4 @@ $$
 $\mathbf w$ points in the same direction as $(\mathbf{m}_2-\mathbf{m}_1)$
 
 
-![[private/Excalidraw/Drawing 2024-07-11 12.24.02.excalidraw.md#^group=hp6QKA36ghicwuo8VO50m|source]]
+[[private/Excalidraw/Drawing 2024-07-11 12.24.02.excalidraw.md#^group=hp6QKA36ghicwuo8VO50m|source]]
