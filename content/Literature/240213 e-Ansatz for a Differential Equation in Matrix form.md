@@ -1,3 +1,8 @@
+---
+title: e-Ansatz for a Differential Equation in Matrix form
+draft: false
+tags:
+---
   
 
 ### Linear differential equation 

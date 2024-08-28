@@ -1,3 +1,8 @@
+---
+title: Complex and Real Fundamental System
+draft: false
+tags:
+---
   
 ## Solution Method
 For a **Complex Solution** $y_1(t)$ and $y_2(t)$ 

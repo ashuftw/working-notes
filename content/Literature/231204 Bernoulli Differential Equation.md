@@ -1,3 +1,8 @@
+---
+title: Bernoulli Differential Equation
+draft: false
+tags:
+---
   
 ## Definition
 An ODE is called a Bernoulli Differential equation if it can be represented in the form
@@ -19,5 +24,6 @@ $$
 
 
 ## Solution Method
-![](http://127.0.0.1:34139/paste-c21e983844324c3809549370dcd6c56feb457365.png)
+
+![[../Files/Pasted image 20240828110127.png]]
 > Note: Calculate $u'$ with RHS the way it is. Bringing it to LHS makes it less clean.

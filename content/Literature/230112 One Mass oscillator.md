@@ -1,3 +1,8 @@
+---
+title: One Mass oscillator
+draft: false
+tags:
+---
   
 
 ![[230112 One Mass Oscillator-1 2.png]]

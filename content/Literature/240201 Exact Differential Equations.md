@@ -1,3 +1,8 @@
+---
+title: Exact Differential Equations
+draft: false
+tags:
+---
   
 ## Mathematical Definition
 ![[Pasted image 20240206145007.png]]
@@ -17,11 +22,11 @@ $$
 x d x+y d y=0
 $$
 
-> Note: The condition $\frac{\partial A}{\partial y} =\frac{\partial B}{\partial x}$, holds.          
+> **Note:** The condition $\frac{\partial A}{\partial y} =\frac{\partial B}{\partial x}$, holds.          
 
 
 The path on the solution field of the [[240207 Potential Function|Potential Function]] where the value is constant (Constant elevation) is given as  follows.  
 ![[Pasted image 20240207122029.png]]
 
-> Note: The example chosen was  Potential function whose Gradient was known to be an Exact differential equation. 
+> **Note:** The example chosen was  Potential function whose Gradient was known to be an Exact differential equation. 
 > In the course, you are asked to build a potential function or verify if a differential equation is exact. 

@@ -1,3 +1,8 @@
+---
+title: Euler Differential Equation
+draft: false
+tags:
+---
    
 ## Definition
 Euler Equations have the form 

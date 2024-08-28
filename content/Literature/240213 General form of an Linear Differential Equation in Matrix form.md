@@ -1,3 +1,8 @@
+---
+title: General form of an Linear Differential Equation in Matrix form
+draft: false
+tags:
+---
   
 ![[Pasted image 20240213114254.png]]
 **Example:**

@@ -1,3 +1,8 @@
+---
+title: General Solution of the for a Differential Equation in Matrix Form
+draft: false
+tags:
+---
   
 ## Homogeneous Solution 
 ### Compact vector form 

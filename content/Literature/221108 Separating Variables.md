@@ -1,3 +1,8 @@
+---
+title: Separating Variables
+draft: false
+tags:
+---
   
 
 If there exists differential equation such that

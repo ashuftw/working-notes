@@ -1,6 +1,9 @@
+---
+title: Steps to check if a Solution is a Fundamental System of an ODE
+draft: false
+tags:
+---
   
-## Steps to check if a Solution is a Fundamental System 
-
 - Check if given Functions are solutions (In case it isn't clear. )
 - [[230212 Conditions for a Differential Equation to be Linear|Check if Differential Equation is Linear]]
 - [[230212 Linearly Independent Solutions|Check if the Solutions are Linearly Independent]]

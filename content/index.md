@@ -12,3 +12,4 @@ I'm Ashu and these are my working notes. The organization of these notes is insp
 - [[Literature/SS23 Scientific Software Engineering|Scientific Software Engineering]]
 - [[Literature/221110 WS-PDE Script|Partial Differential Equations]]
 - [[Literature/221106 Fluid Mechanics|Fluid Mechanics]]
+- [[Literature/221106 WS-ODE Script|Ordinary Differential Equations]]
