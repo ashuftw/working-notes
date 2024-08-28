@@ -31,7 +31,7 @@ $$
 e_x(t)=x_{\mathrm{d}}(t)-x^{\mathrm{SP}}
 $$
 
-where $x^{SP}$ is the position of the domain's center .
+where $x^{SP}$ is the position of the domain's center.
 ## Step 3 Update Wall Condition
 Subtract the Inlet velocity with the velocity of the reference frame. So that the newly adjusted input velocity along with the reference velocity will give the physical velocity. 
 > Note: We have a steady simulation input boundary. So the Reference Velocity will always be lesser than or equal to the input velocity. 
