@@ -1,3 +1,8 @@
+---
+title: Fixed point or Banach's iteration
+draft: false
+tags:
+---
   
 
 It is a Numerical Method used to find the solution to an equation (when the analytical solution is difficult or impossible to find). 
@@ -17,7 +22,7 @@ $$
 x_{n+1}=g(x_n)
 $$
 
-	where $x_n$ starts as some guess value. 
+where $x_n$ starts as some guess value. 
 
 
 
