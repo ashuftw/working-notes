@@ -1,3 +1,8 @@
+---
+title: Banach's fixed-point theorem
+draft: false
+tags:
+---
   
 
 Also called [[230608 Contraction|Contraction]]-mapping theorem. 

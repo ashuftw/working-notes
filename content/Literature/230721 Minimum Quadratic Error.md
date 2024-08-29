@@ -1,3 +1,8 @@
+---
+title: Minimum Quadratic Error
+draft: false
+tags:
+---
   
 
 $$
@@ -8,8 +13,6 @@ where,
 - $\mathbf a\rightarrow$Weights 
 - $A\rightarrow$Ansatz points
 - $\mathbf y\rightarrow$Given dependent variables
-
-[[230721 Approximation through Regression]]
 
 
 

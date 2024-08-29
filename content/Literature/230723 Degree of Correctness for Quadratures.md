@@ -1,5 +1,8 @@
-  
-[[230507 Quadrature]]
+---
+title: Degree of Correctness for Quadratures
+draft: false
+tags:
+---
 ## Definition
 ![[Pasted image 20231130103848.png|center]]
 

@@ -1,3 +1,8 @@
+---
+title: Approximation through Regression
+draft: false
+tags:
+---
   
 
 For given *N* Data points

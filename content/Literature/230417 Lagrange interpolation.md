@@ -1,3 +1,8 @@
+---
+title: Lagrange interpolation
+draft: false
+tags:
+---
    
 
 The Lagrange interpolation defines a polynomial at each point. The Polynomial interpolating the entire data set is the sum of the product of value of the function $y_i$ at that point and individual polynomial calculated at that point. 

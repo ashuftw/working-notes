@@ -1,3 +1,8 @@
+---
+title: Quadrature
+draft: false
+tags:
+---
   
 
 It is a Numerical tool that is used to find the area under a curve without performing a symbolic integration. Some of the basic Quadratures are as follows. 

@@ -1,3 +1,8 @@
+---
+title: Polynomial Interpolation Error
+draft: false
+tags:
+---
   
 ## Interpolation Error at a point $\xi$
 

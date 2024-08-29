@@ -1,4 +1,8 @@
-   
+---
+title: Newton-Raphson or Newton's Method
+draft: false
+tags:
+---
 
 It is a type of [[230612 Fixed point or Banach's iteration|Banach's iteration]] 
 ### Mathematically
