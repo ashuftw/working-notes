@@ -1,6 +1,6 @@
   
 ## Law of the Wall
-![[Pasted image 20240617115457.png]]
+![[Pasted image 20240617115457.png|center]]
 
 ### Viscous Sub-layer ($0<y^+<5$)
 We know that the Turbulence at the wall is zero. Therefore regardless of what the flow is, away from the wall, there is always going to be a small layer next to the wall where the flow is laminar. The flow is viscous dominant, therefore linear.  

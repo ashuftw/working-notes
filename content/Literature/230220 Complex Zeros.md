@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
   
-![[230220 Complex Zeros 2.png]]
+![[230220 Complex Zeros 2.png|center]]
 
 
 

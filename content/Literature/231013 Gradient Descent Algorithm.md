@@ -21,7 +21,7 @@ Where,
 
 
 ## Example
-![[Pasted image 20231205145446.png]]
+![[Pasted image 20231205145446.png|center]]
 **Cost/Loss Function: Mean Squared Error**
 
 $$

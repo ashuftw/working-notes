@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
 
-![[Pasted image 20230428155805.png]]
+![[Pasted image 20230428155805.png|center]]
 
 
 

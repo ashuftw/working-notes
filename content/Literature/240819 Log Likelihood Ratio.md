@@ -27,7 +27,7 @@ $$
 
 ---
 
-![[../Files/Pasted image 20240819122252.png]]
+![[../Files/Pasted image 20240819122252.png|center]]
 
 ![[../Files/Pasted image 20240819124002.png|center]]
 

@@ -17,4 +17,4 @@
 ---
 # References
 
-![[Pasted image 20221229124458.png]]
+![[Pasted image 20221229124458.png|center]]

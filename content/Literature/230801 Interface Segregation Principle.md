@@ -12,8 +12,8 @@ Thus when one of the sub-classes requires a new functionality, the remaining sub
 Note: ISP is an instance of [[230613 Dependency Inversion Principle|Dependency Inversion]].
 
 ## Example 
-![[Pasted image 20230802175947.png]]
-![[Pasted image 20230802180019.png]]
+![[Pasted image 20230802175947.png|center]]
+![[Pasted image 20230802180019.png|center]]
 
 
 

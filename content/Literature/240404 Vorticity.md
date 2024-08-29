@@ -9,7 +9,7 @@ $$
  \end{array} } \right|=\left(\frac{\partial w}{\partial y}-\frac{\partial v}{\partial z}, \frac{\partial u}{\partial z}-\frac{\partial w}{\partial x}, \frac{\partial v}{\partial x}-\frac{\partial u}{\partial y}\right)
 $$
 
-![[Pasted image 20240404180958.png]]
+![[Pasted image 20240404180958.png|center]]
 
 
 

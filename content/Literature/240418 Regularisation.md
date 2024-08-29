@@ -19,7 +19,7 @@ $$
 where,
 - $\lambda\rightarrow$ balances the regularization term against the error term. It is different for each model.
 - $1/2\rightarrow$ is the scaling factor that simplifies the derivative during optimization (calculating the gradient). 
-![[Pasted image 20240418164715.png]]
+![[Pasted image 20240418164715.png|center]]
 
 
 

@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
   
-![[221120 Solution Method for Variation of Constants.png]]
+![[221120 Solution Method for Variation of Constants.png|center]]
 
 
 

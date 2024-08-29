@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
 
-![[221117 Gauss Integral or Divergence Theorem.png]]
+![[221117 Gauss Integral or Divergence Theorem.png|center]]
 
 ---
 

@@ -7,7 +7,7 @@ Depending on the type of linking, there can be:
 - **Double-linked List:** The list can travers in two directions through it's elements. 
 
 ## Visualization of a Single-linked List
-![[Pasted image 20240218173028.png]]
+![[Pasted image 20240218173028.png|center]]
 
 
 

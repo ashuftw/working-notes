@@ -3,7 +3,7 @@ title: Drag on a Flat Plate (Square Control Volume)
 draft: false
 tags:
 ---
-![[../Files/230222 Drag on a Flat Plate (Square Control Volume).png]]
+![[../Files/230222 Drag on a Flat Plate (Square Control Volume).png|center]]
 
 
 ---

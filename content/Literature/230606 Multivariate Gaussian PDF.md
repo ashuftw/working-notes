@@ -25,7 +25,7 @@ $$
 
 Example for Random Vector of size 2
 
-![[Pasted image 20230606142207.png]]
+![[Pasted image 20230606142207.png|center]]
 Here, $\mathcal N(0, 1)\rightarrow$ Normal distribution with Mean $0$ and Variance $1$
 
 

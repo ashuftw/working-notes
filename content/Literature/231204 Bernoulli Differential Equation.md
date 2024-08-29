@@ -25,5 +25,5 @@ $$
 
 ## Solution Method
 
-![[../Files/Pasted image 20240828110127.png]]
+![[../Files/Pasted image 20240828110127.png|center]]
 > Note: Calculate $u'$ with RHS the way it is. Bringing it to LHS makes it less clean.

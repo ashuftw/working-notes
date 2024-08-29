@@ -21,7 +21,7 @@ $$
 ![[../Files/Pasted image 20240820131142.png|center|450]]
 
 - **Specify the probability $\mathrm{P}(A, B, C, D, E)$ by using the single terms of the Bayesian belief network (hint: First reorder the terms!)**
-	![[../Files/Pasted image 20240820132045.png]]
+	![[../Files/Pasted image 20240820132045.png|center]]
 - **Now let $C$ be an unknown and the probability for $D$ be inquired.Write down the probability $\mathrm{P}(D \mid A, B, E)$ by using the single terms of the Bayesian belief network.**
 
 ## Example 3 
@@ -29,7 +29,7 @@ $$
 
 **Given:** $P(C)$ is unknown 
 WRONG
-![[../Files/Pasted image 20240821110233.png]]
+![[../Files/Pasted image 20240821110233.png|center]]
 
 
 [[Private/Excalidraw/Drawing 2024-08-20 12.30.43.excalidraw.md#^group=_RcEI7sUYhhXIDVItK--f|source]]

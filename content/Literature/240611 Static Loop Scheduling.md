@@ -12,7 +12,7 @@ tags:
 - Outer Loop is parallelized
 
 **Example:** If you have 100 iterations and 4 processors, each processor gets a block of 25 consecutive iterations.
-![[Pasted image 20240621121105.png]]
+![[Pasted image 20240621121105.png|center]]
 Where, 
  - `numProcesses` -> Total number of Processors in the Machine.
  - `N` -> Total number of iterations to be performed. 
@@ -27,7 +27,7 @@ Where,
 - Inner loop is parallelized. 
 
 **Example:** If you have 100 iterations and 4 processors, Processor 0 gets iterations 0, 4, 8, 12, ..., Processor 1 gets iterations 1, 5, 9, 13, ..., and so on.
-![[Pasted image 20240621122602.png]]
+![[Pasted image 20240621122602.png|center]]
 
 *In tiling the vector size is equal to tile size.*
 

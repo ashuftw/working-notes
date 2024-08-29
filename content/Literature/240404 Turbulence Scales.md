@@ -10,7 +10,7 @@ They comprise of the Vortices that transfer energy from the Integral scale to sm
 ## Dissipative Scale ($\eta$)
 Also known as the *Kolmogorov* scale, where the energy is finally dissipated into heat through molecular viscosity without further creation of smaller eddies. 
 
-![[Pasted image 20240404133234.png]]
+![[Pasted image 20240404133234.png|center]]
 
 
 

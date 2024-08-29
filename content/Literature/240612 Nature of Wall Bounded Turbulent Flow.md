@@ -5,6 +5,6 @@ tags:
 ---
 
 
-![[../Files/Pasted image 20240823121104.png]]
+![[../Files/Pasted image 20240823121104.png|center]]
 [[Private/Excalidraw/Drawing 2024-06-13 11.30.39.excalidraw.md#^group=BcSuvsJ_RXZjBn1xz7Kgb|source]]
 

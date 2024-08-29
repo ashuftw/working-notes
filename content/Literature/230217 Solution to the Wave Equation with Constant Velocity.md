@@ -5,7 +5,7 @@ tags:
 ---
   
 
-![[../Files/Pasted image 20240827155743.png]]
+![[../Files/Pasted image 20240827155743.png|center]]
 
 
 

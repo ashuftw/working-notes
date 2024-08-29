@@ -11,6 +11,6 @@ It defines **One-to-Many** dependency between objects so that when objects chang
 ## Example: 
 - **Subject** -> Stocks, **Object** -> Calculation of Stock Prices
 
-![[Pasted image 20230807125312.png]]
+![[Pasted image 20230807125312.png|center]]
 > Note: In this example the the **Many** is replaced by an interface in order to have dependency inversion. 
 

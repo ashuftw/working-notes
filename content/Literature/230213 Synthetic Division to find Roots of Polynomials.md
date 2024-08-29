@@ -1,5 +1,5 @@
   
-![[230213 Synthetic Division to find roots of Polynomials.png]]
+![[230213 Synthetic Division to find roots of Polynomials.png|center]]
 
 
 

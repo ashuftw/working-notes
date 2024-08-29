@@ -4,8 +4,8 @@ draft: false
 tags:
 ---
   
-![[230222 Drag on a Flat Plate-1.png]]
-![[230222 Drag on a Flat Plate-2.png]]
+![[230222 Drag on a Flat Plate-1.png|center]]
+![[230222 Drag on a Flat Plate-2.png|center]]
 
 
 

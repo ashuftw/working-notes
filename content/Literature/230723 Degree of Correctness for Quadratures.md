@@ -1,7 +1,7 @@
   
 [[230507 Quadrature]]
 ## Definition
-![[Pasted image 20231130103848.png]]
+![[Pasted image 20231130103848.png|center]]
 
 
 |         | Quadrature   | Sampling Points  ($N+1$)    | Order $(N)$    | Degree of Correctness $K$|  

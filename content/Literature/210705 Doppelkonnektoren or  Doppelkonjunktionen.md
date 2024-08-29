@@ -12,9 +12,9 @@ tags:
 | zwar  ... aber ...  | Indeed ... but ...    |
 
 ### Syntax
-![[Pasted image 20230705130855.png]]
+![[Pasted image 20230705130855.png|center]]
 
 ### Examples
-![[Pasted image 20230706085713.png]]
+![[Pasted image 20230706085713.png|center]]
 
 

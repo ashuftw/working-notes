@@ -14,4 +14,4 @@ It is a subset of the sample space. 
 ## Example
  Rolling of a Die  
  
-![[Pasted image 20240605121537.png]]
+![[Pasted image 20240605121537.png|center]]

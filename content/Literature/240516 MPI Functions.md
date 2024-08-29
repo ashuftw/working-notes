@@ -6,7 +6,7 @@ tags:
   
 ## MPI_Init
 `MPI_Init` initializes the MPI environment. It must be called before any other MPI function. It defines the "Communicator" `MPI_COMM_WORLD`.
-![[Pasted image 20240516124545.png]]
+![[Pasted image 20240516124545.png|center]]
 **Syntax**
 `MPI_Init(&argc, &argv)` 
 where `argc` and `argv` are the command-line arguments.

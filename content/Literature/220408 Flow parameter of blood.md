@@ -4,13 +4,13 @@ Apr 2022
 Tags: [[Blood flow]] [[non-Newtonian Flow]]
 
 # Flow parameter of blood
-![[Pasted image 20220405154320.png]][^1]
-![[Pasted image 20220407161758.png]][^2]
+![[Pasted image 20220405154320.png|center]][^1]
+![[Pasted image 20220407161758.png|center]][^2]
 Yield stress 0.04 dyne/cm$^2$ at hematocrit of 40 [^3]
 k
  
-![[Pasted image 20220407165443.png]][^4]
-![[Pasted image 20220408095902.png]][^5]
+![[Pasted image 20220407165443.png|center]][^4]
+![[Pasted image 20220408095902.png|center]][^5]
 
 ---
 # References

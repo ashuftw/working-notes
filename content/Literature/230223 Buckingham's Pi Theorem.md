@@ -17,7 +17,7 @@ Where $\Pi_i$ is the non-dimensional parameter
 
 ## Solution Step
 
-![[230223 Solution Step for Buckingham's Pi theorem.png]]
+![[230223 Solution Step for Buckingham's Pi theorem.png|center]]
 
 
 

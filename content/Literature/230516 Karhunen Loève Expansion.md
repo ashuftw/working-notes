@@ -10,8 +10,8 @@ It does this by finding the most important patterns or modes of variation in the
 
 [[230606 Multivariate Gaussian PDF|Multivariate Gaussian PDF]] 
 ## Discrete KL Expansion
-![[230726 Karhunen Loeve Expansion 1.png]]
+![[230726 Karhunen Loeve Expansion 1.png|center]]
 ## Continuous Karhunen Loève Expansion
-![[Pasted image 20230731153838.png]]
+![[Pasted image 20230731153838.png|center]]
 **Truncation Error**
-![[Pasted image 20230731153716.png]]
+![[Pasted image 20230731153716.png|center]]

@@ -24,7 +24,7 @@ $$
 In general, this estimation of $|r(x)|$ does not get better with increasing $N$.
 
 ## Solution Method
-![[230720 Solution method to find Interpolation Error.png]]
+![[230720 Solution method to find Interpolation Error.png|center]]
 	
 	
 

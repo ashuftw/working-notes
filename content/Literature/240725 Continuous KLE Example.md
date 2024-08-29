@@ -13,9 +13,9 @@ where $\lambda_i, \varphi_i$ refer to the eigenvalues and eigenfunctions that sa
 
 Hint: Multiply throughout by $\varphi_j(r)$, integrate with respect to $r$, and use the orthogonality relation.
 
-![[../Files/Pasted image 20240827132223.png]]
+![[../Files/Pasted image 20240827132223.png|center]]
 
 2. Express the covariance function of $a$ in terms of eigenvalues and eigenfunctions of the Karhunen-Loève expansion. You can assume that the $\xi_i$ are mean-free and orthogonal with unit variance.
 
-![[../Files/Pasted image 20240827132242.png]]
+![[../Files/Pasted image 20240827132242.png|center]]
 

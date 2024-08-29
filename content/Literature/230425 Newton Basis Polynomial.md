@@ -1,6 +1,6 @@
   
 
-![[Pasted image 20230425132926.png]]
+![[Pasted image 20230425132926.png|center]]
 
 
 

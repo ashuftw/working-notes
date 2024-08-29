@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
    
-![[221218 Work Integral.png]]
+![[221218 Work Integral.png|center]]
 
 
 

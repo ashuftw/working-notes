@@ -1,5 +1,5 @@
   
-![[genitiv.png]]
+![[genitiv.png|center]]
 
 
 

@@ -30,7 +30,7 @@ Given: $P(s=2) = \dfrac 1 3 \cdot P(s=1)$
 From the Prior the decision boundary can be expected to shift with the new decision boundary $x*$
 The Decision Boundary in [[240815 Bayes Decision Rule or Maximum A Posteriori|MAP]] is where the [[240410 Bayes Classifier|Posterior]] Probabilities are equal.
 
-![[../Files/Pasted image 20240818163835.png]]
+![[../Files/Pasted image 20240818163835.png|center]]
 - $x < x*$ i.e. $3\cdot p(x|s=1) < p(x|s=2)$, [[240815 Bayes Decision Rule or Maximum A Posteriori|MAP]] chooses red class
 - $x > x*$ i.e. $3\cdot p(x|s=1) > p(x|s=2)$, [[240815 Bayes Decision Rule or Maximum A Posteriori|MAP]] chooses blue class 
 

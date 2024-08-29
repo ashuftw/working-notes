@@ -9,4 +9,4 @@ An **activation function** is a mathematical function applied to the output of e
 
 ![[Pasted image 20240610161844.png|center|275]]
 
-![[Pasted image 20240610164948.png]]
+![[Pasted image 20240610164948.png|center]]

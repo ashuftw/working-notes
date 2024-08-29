@@ -10,4 +10,4 @@ CFL=\frac{\text { Fluid Distance }}{\text { Cell Distance }}=C\frac{\Delta t}{\D
 $$
 
 
-  ![[Pasted image 20240806115116.png]]
+  ![[Pasted image 20240806115116.png|center]]

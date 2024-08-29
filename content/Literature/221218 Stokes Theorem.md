@@ -5,7 +5,7 @@ tags:
 ---
   
 
-![[221121 Stokes' Theorem.png]]
+![[221121 Stokes' Theorem.png|center]]
 
 
 

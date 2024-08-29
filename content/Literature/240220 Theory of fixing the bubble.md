@@ -1,6 +1,6 @@
   
 ## Objective
-![[Pasted image 20240221153015.png]]
+![[Pasted image 20240221153015.png|center]]
 
 - Key step is to identify the reference frame velocity $V_\text{RF}$  . 
 - The Droplet Velocity $V_d$ gradually approaches to zero i.e the Moving reference frame is caught up to it's position. 

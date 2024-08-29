@@ -10,12 +10,12 @@ $$
 X \sim N(\mu, \sigma^2)
 $$
 
-![[Pasted image 20240305103835.png]]
+![[Pasted image 20240305103835.png|center]]
 ## Lognormal Distribution
 It is a probability distribution where the Logarithm of the Random variable is normally distributed. 
 i.e, 
 $$
 ln(X)\sim N(\mu,\sigma^2)
 $$
-![[Pasted image 20240305104535.png]]
+![[Pasted image 20240305104535.png|center]]
 

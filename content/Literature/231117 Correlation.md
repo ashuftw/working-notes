@@ -19,4 +19,4 @@ Note: $\rho[X, Y] \in[-1,1]$
 
 At $-1$ and $+1$, the Correlation is perfectly linear.
 
-![[Pasted image 20231124122730.png]]
+![[Pasted image 20231124122730.png|center]]

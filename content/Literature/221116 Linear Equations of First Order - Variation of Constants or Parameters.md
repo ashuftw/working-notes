@@ -5,7 +5,7 @@ tags:
 ---
   
 
-![[221110 Variation of Constant for Linear ODE.png]]
+![[221110 Variation of Constant for Linear ODE.png|center]]
 
 
 

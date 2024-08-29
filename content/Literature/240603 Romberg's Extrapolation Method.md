@@ -14,7 +14,7 @@ Here,
 - $k\rightarrow$is the order of convergence. 
 
 > Note: The $k$ is increased by two for every iteration. 
-> ![[Pasted image 20240709121917.png]]
+> ![[Pasted image 20240709121917.png|center]]
 
 | Quadrature Method | Order of Convergence |
 | ----------------- | -------------------- |

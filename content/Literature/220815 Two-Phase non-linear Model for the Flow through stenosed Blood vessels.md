@@ -42,7 +42,7 @@ $$
 
 
 - **Domain**
-![[Pasted image 20220315162014.png]]
+![[Pasted image 20220315162014.png|center]]
 [^6]
 $$
 \beta =\dfrac{\text{core radius}}{\text{normal artery radius}}=0.95
@@ -52,23 +52,23 @@ At $\beta=1$, the model reduces to single-fluid model
 Stenosis at periphery $0.05<\delta_p<0.3$
 
   R coordinates for Peripheral Region
-  ![[Pasted image 20220316135104.png]]
+  ![[Pasted image 20220316135104.png|center]]
   R coordinates for the core region 
-  ![[Pasted image 20220316135154.png]]
+  ![[Pasted image 20220316135154.png|center]]
 - **Boundary Conditions**
   - Because Plug flow is assumed at the center.
-  ![[Pasted image 20220316135434.png]]
+  ![[Pasted image 20220316135434.png|center]]
   - No slip at wall ($R(z)\rightarrow$ End of stenosed peripheral region)
-  ![[Pasted image 20220316135725.png]]
+  ![[Pasted image 20220316135725.png|center]]
   -  Interface between core and peripheral regions have same velocity ($R_1(z)\rightarrow$ end of stenosed core region)
-  ![[Pasted image 20220316140746.png]]
+  ![[Pasted image 20220316140746.png|center]]
   - Temporal Component for Pulsatile behavior (0<A<1, but used 0.2<A<0.5 to pronounce the effect)
-  ![[Pasted image 20220316141524.png]]
+  ![[Pasted image 20220316141524.png|center]]
   - Inlet velocity as a function of radius 
 	  - At Periphery $\zeta = \alpha_H ^2$   
-	  ![[Pasted image 20220316141838.png]]
+	  ![[Pasted image 20220316141838.png|center]]
 	  - At core
-		  ![[Pasted image 20220316141922.png]]
+		  ![[Pasted image 20220316141922.png|center]]
 	- Pulsatile Reynolds Number ratio $\alpha=\dfrac{\alpha_N}{\alpha_H}$
 		- $0<\alpha<1\approx 0.5$[^3]
 	- Reynolds Number

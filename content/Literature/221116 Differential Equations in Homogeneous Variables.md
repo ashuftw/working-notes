@@ -5,7 +5,7 @@ tags:
 ---
    
 
-![[221120 Solution method for Differential Equation in Homogenous Variables.png]]
+![[221120 Solution method for Differential Equation in Homogenous Variables.png|center]]
 
 
 

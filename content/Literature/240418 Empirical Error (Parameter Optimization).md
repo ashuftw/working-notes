@@ -15,4 +15,4 @@ E(\mathbf{w})=\frac{1}{2N} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\r
 $$
 
 
-![[Pasted image 20240418160819.png]]
+![[Pasted image 20240418160819.png|center]]

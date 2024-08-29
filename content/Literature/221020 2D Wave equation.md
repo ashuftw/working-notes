@@ -3,7 +3,7 @@ Oct 2022
 
 Tags: 
 
-![[Pasted image 20221021220509.png]]
+![[Pasted image 20221021220509.png|center]]
 
 
 $$

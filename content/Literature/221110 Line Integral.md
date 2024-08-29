@@ -4,7 +4,7 @@ draft: false
 tags:
 ---
    
-![[221110 Line Integral or Curve Integral 1.png]]
+![[221110 Line Integral or Curve Integral 1.png|center]]
 
 ---
 # References

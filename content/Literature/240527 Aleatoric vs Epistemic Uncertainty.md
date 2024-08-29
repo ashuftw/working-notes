@@ -11,7 +11,7 @@ tags:
 | Irreducible                                                                  | Lack of knowledge of the optimal parameters of the model (algorithmic) |
 |                                                                              | Reducible                                                              |
 
-![[Pasted image 20240527144020.png]]
+![[Pasted image 20240527144020.png|center]]
 
 
 
