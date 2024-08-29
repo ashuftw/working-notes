@@ -3,7 +3,12 @@ title: Pattern Recognition
 draft: false
 tags:
 ---
+## I. Bayesian Decision Theory
 
+### Fundamentals
+
+1. [[240401 Posterior, Likelihood, Prior and Evidence|Posterior, Likelihood, Prior and Evidence]]
+2. [[240401 Bayes Theorem|Bayes Theorem]]
 ### Bayesian Classification
 
 1. [[240410 Bayes Classifier|Bayes Classifier]]
