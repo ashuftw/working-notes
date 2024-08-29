@@ -1,3 +1,8 @@
+---
+title: Probability Error
+draft: false
+tags:
+---
   
 ## Two Class Problem 
 
@@ -17,6 +22,7 @@ $$
 Gives the Lowest Error Probability. 
 
 ### Why Doesn't the generalisation $\min [P(s=i \mid \mathbf{x})]$ work?
+
 **The actual chance of an error is bounded by how likely it is that our best guess is wrong.** 
 *Example:*
 - $P(s=1 \mid x)=0.7$ (Class 1 has a $70 \%$ chance)

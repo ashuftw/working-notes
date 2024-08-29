@@ -1,3 +1,8 @@
+---
+title: Bayes Theorem
+draft: false
+tags:
+---
   
 ## Use-case
 The Base theorem gives an interface to revise pr-existing theories or hypothesis (Prior) with given new evidence. 

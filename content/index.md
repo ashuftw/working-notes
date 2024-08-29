@@ -7,10 +7,11 @@ I'm Ashu and these are my working notes. The organization of these notes is insp
 
 ## Some Past Notes 
 - [[SS24 Turbulence Modeling|Turbulence Modeling]]
-- [[SS24 Uncertainty Analysis|Uncertainty Analysis]]
+- [[Literature/221106 Fluid Mechanics|Fluid Mechanics]]
 - [[Literature/SS24 Parallel Computing|Parallel Computing]]
 - [[Literature/SS23 Scientific Software Engineering|Scientific Software Engineering]]
-- [[Literature/221110 WS-PDE Script|Partial Differential Equations]]
-- [[Literature/221106 Fluid Mechanics|Fluid Mechanics]]
 - [[Literature/221106 WS-ODE Script|Ordinary Differential Equations]]
+- [[Literature/221110 WS-PDE Script|Partial Differential Equations]]
 - [[Literature/SS24 Intro to Machine Learning|Machine Learning]]
+- [[Literature/SS24 Pattern Recognition|Pattern Recognition]]
+- [[SS24 Uncertainty Analysis|Uncertainty Analysis]]

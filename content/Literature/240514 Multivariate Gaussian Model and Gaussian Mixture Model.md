@@ -1,3 +1,8 @@
+---
+title: Multivariate Gaussian Model and Gaussian Mixture Model
+draft: false
+tags:
+---
   
 
-![[../../Private/Excalidraw/Drawing 2024-05-14 15.40.38_0.excalidraw|1000]]
+![[../Files/Pasted image 20240829113451.png]]

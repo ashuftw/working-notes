@@ -1,7 +1,7 @@
 ---
-title: Example Title
+title: Bayes Classifier
 draft: false
-tags: []
+tags:
 ---
 ### Using [[240401 Bayes Theorem|Bayes Theorem]]
 

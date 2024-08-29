@@ -1,3 +1,8 @@
+---
+title: Activation Function for a Bayesian Classifier
+draft: false
+tags:
+---
   
 ## Assignment of Nodes 
 ![[Pasted image 20240610165943.png|center|400]]
@@ -10,8 +15,6 @@ y_i=\frac{e^{v_i}}{\sum_{j=1}^N e^{v_j}} \in[0,1]
 $$
 
 Where, 
-- $y_i\rightarrow$ 
 - $v_i\rightarrow$ It is the output from the Hidden Layer before applying the activation function. 
-- 
 
 

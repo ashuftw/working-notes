@@ -1,3 +1,8 @@
+---
+title: Classifier with the Lowest Error Probability
+draft: false
+tags:
+---
   
  
  $\text {arg max}$ selects for $s$ that gives the biggest **Posteriori**. 

@@ -1,3 +1,8 @@
+---
+title: Comparison of Likelihood Ratio between Max Likelihood and Bayes Decisions
+draft: false
+tags:
+---
   
 
 ### [[240423 Likelihood Ratio|Likelihood Ratio]] for Binary Classification
