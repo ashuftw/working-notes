@@ -32,11 +32,20 @@ tags:
 ![[Pasted image 20240419113154.png|center]]
 ### Roofline Graph
 ![[Pasted image 20240419113228.png|center]]
+
 ![[Pasted image 20240419113243.png|center]]
+
 ![[Pasted image 20240419113301.png|center]]
+
 ![[Pasted image 20240419113322.png|center]]
+
 ![[Pasted image 20240419113334.png|center]]
+
 ![[Pasted image 20240419113348.png|center]]
+
 ![[Pasted image 20240419113359.png|center]]
-![[lecture-3_annotated.png|center]]
+
+![[../Files/Pasted image 20240829125634.png]]
+
+
 ![[Pasted image 20240419113446.png|center]]
