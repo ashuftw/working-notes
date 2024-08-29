@@ -31,7 +31,7 @@ $$
 Where, $m\rightarrow$ Number of data points. 
 
 The cost function is computed for all the guess values can be visualized as follows. Visually, the point with the lowest cost function can be identified. However, it is not feasible to map the cost function to every possible guess value of $\theta_1, \theta_0$. 
-![[Pasted image 20231113101952.png|400]]
+![[Pasted image 20231113101952.png|center|400]]
 **Gradient algorithm** is then used to find a path to *a* minima of the cost function. 
 
 $$

@@ -24,7 +24,7 @@ $$
 	Where $x_p \rightarrow$ cell centroid, $x_o\rightarrow$ axis of rotation
 	Note: $r$ is unique to each cell in the mesh
 - **Relative Velocity ($U_r$)**:
-![[Pasted image 20220605170117.png|750]]
+![[Pasted image 20220605170117.png|center|750]]
 
 #### Derivation
 Velocity in a frame rotating with the blade
@@ -51,7 +51,7 @@ U=U_r+\Omega\times r
 $$
 
 **Multiple Reference Frames**
-![[Pasted image 20220608111755.png|600]]
+![[Pasted image 20220608111755.png|center|600]]
 
 $$
 \nabla\cdot(U\ U_r)=-\nabla p+\nabla\cdot(\nu \ \nabla U)-\Omega \times U

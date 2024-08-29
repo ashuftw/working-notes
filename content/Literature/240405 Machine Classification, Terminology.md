@@ -23,22 +23,22 @@ graph TD;
 1. **Single Instruction Single Data (SISD)**
 	- Single Core machine 
 	- Sequential Programming
-	![[Pasted image 20240425122306.png|500]]
+	![[Pasted image 20240425122306.png|center|500]]
 1. **Multiple Instruction Single Data (MISD)**
 	- **Data**<->**Multiple Processors**<-**Multiple Programs**
 	- Not used for Scientific computing 
 	- Used for redundancy.
-	![[Pasted image 20240425122349.png|500]]
+	![[Pasted image 20240425122349.png|center|500]]
 	
 1. **Single Instruction Multiple Data (SIMD)**
 	- **Multiple Data**<->**multiple processors**<-**single program**
 	- vector architectures eg: gpus, vector units. 
-	![[Pasted image 20240425123941.png|500]]
+	![[Pasted image 20240425123941.png|center|500]]
 1. **Multiple Instruction Multiple Data (MIMD)**
 	- **Multiple data**<->**Multiple processors**<-**Multiple Programs**
 	- The data can access each other. 
 	- Suitable for usage in Scientific computing, clusters etc.
-	![[Pasted image 20240425124029.png|500]]
+	![[Pasted image 20240425124029.png|center|500]]
 
 ## Terminology
 

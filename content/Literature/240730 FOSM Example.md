@@ -31,5 +31,5 @@ $$
 
 All parameters of the given distributions as well as $\bar{R}$ can be considered
 
-![[../../Private/Excalidraw/Drawing 2024-07-30 17.25.16.excalidraw#^group=nSz2VEPPlQ4GSo9kdkIiA|1000]]
+![[../../Private/Excalidraw/Drawing 2024-07-30 17.25.16.excalidraw#^group=nSz2VEPPlQ4GSo9kdkIiA|center|1000]]
 

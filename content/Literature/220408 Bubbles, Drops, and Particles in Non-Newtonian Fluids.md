@@ -8,7 +8,7 @@ tags:
 ### Definition of a non-Newtonian fluid
 **Newtonian fluid**
 
-  ![[Pasted image 20220408161132.png|350]]
+  ![[Pasted image 20220408161132.png|center|350]]
   
 Consider an incompressible fluid in laminar flow sandwiched between two flat plates. When a force is applied to the plate, due to internal friction the fluid exerts an equal force in opposing direction. The opposing force takes the form of shear stress and can be expressed as the product of the viscosity of the fluid and it's rate of shear. 
 $$
@@ -85,13 +85,13 @@ $$
  
 - Normal stress Difference in action
 	- $N_1$ 
-		![[Pasted image 20220421111555.png|400]]
+		![[Pasted image 20220421111555.png|center|400]]
 	- $N_2$ 
-		![[Pasted image 20220421111700.png|400]]
+		![[Pasted image 20220421111700.png|center|400]]
 
 **Elongational flow**
 Flow that results due to the stretching of fluids in one or more directions.
-![[Pasted image 20220415155641.png|500]]
+![[Pasted image 20220415155641.png|center|500]]
 For an incompressible fluid in elongational flow the volume of the element must remain constant. Hence, rate of elongation $\dot \epsilon$ in $x-$direction is accompanied by contraction in $y$ and $z$ directions. 
 Assuming the contractions are symmetric, components of velocity are given by
 $$

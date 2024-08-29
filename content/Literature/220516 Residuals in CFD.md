@@ -7,16 +7,16 @@ Tags: [[CFD]]
 
 - CFD codes use iterative approach to solve the solution matrix. 
 - Consider a CFD solution of [[Heat conduction in a 1D bar without a heat source]].
-	![[Pasted image 20220516165644.png|750]]
+	![[Pasted image 20220516165644.png|center|750]]
 -  The solution matrix for a bar with 5 cells
-	 ![[Pasted image 20220516171108.png|300]]
+	 ![[Pasted image 20220516171108.png|center|300]]
 	 
 $$
 AT=B
 $$
 $A\rightarrow$ Heat flux gradient, $T\rightarrow$ Temperature & $B\rightarrow$ Heat source
 - The Matrix equation for residual is defined as
-	 ![[Pasted image 20220516172618.png|500]]
+	 ![[Pasted image 20220516172618.png|center|500]]
 $$
 AT-B=r
 $$
@@ -25,7 +25,7 @@ $$
 - As $r\rightarrow 0$, the solution gets more accurate.
 - From the matrix definition, the residual is vector give the local error in each cell. 
 - Note that the residual has the same units as the quantity calculated by the solution algorithm.
-- In general ![[Pasted image 20220516173700.png|750]]  
+- In general ![[Pasted image 20220516173700.png|center|750]]  
 **Representative residual**
 - Since the residual vector contains the error for every cell in the mesh, it is not feasible to monitor it against iteration. A representative residual is a scalar that represents the residual for all the cells in the mesh. 
 - The three norms in calculating the residuals are as follows:
