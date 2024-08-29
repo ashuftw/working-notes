@@ -65,5 +65,3 @@ tags:
 
 1. [[240610 Activation Functions|Activation Functions]]
 2. [[240510 Activation Function for a Bayesian Classifier|Activation Function for a Bayesian Classifier]]
-
-[[Alternate Index]]
