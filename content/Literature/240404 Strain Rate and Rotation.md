@@ -1,5 +1,5 @@
 ---
-title: 
+title: Strain Rate and Rotation
 draft: false
 tags:
 ---
