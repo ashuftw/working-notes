@@ -10,13 +10,13 @@ The Thomas Algorithm is used to solve a linear [[230824 Tridiagonal matrix|Tridi
 We have the system of linear equations
 
 $$
-\begin{align}
+\begin{align*}
 a_1 x_1 + c_1 x_2 &= b_1 \\
 b_2 x_1 + a_2 x_2 + c_2 x_3 &= b_2 \\
 &\vdots \\
 b_{n-1} x_{n-2} + a_{n-1} x_{n-1} + c_{n-1} x_n &= b_{n-1} \\
 b_n x_{n-1} + a_n x_n &= b_n
-\end{align}
+\end{align*}
 $$
 
 In Matrix form 

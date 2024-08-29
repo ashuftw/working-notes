@@ -10,7 +10,7 @@ The Navier-Stokes equations relate the rate of change of moThe Navier-Stokes equ
 
 From Newton’s II law
 $$
-\begin{align}\text{Force}\propto \text{Rate of change of Momentum}\end{align}
+\begin{align*}\text{Force}\propto \text{Rate of change of Momentum}\end{align*}
 $$
 
 In Cartesian coordinate system ![[Pasted image 20220430154540.png]]
