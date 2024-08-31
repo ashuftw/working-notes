@@ -26,6 +26,7 @@ const config: QuartzConfig = {
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
+      /*
       colors: {
         lightMode: {
           light: "#faf8f8",
@@ -49,7 +50,35 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
-      },
+      },*/
+
+      colors: {
+
+lightMode: {
+  light: "#faf7f4", // Very light beige, almost white (main background)
+  lightgray: "#f0e6d9", // Light beige (subtle background variation)
+  gray: "#8c7a6b", // Darker muted brown (softer text or elements)
+  darkgray: "#5a4d40", // Darker brown (for stronger contrast elements)
+  dark: "#0a0908", // Nearly black (main text color)
+  secondary: "#3d3631", // Very dark brown (secondary text or elements)
+  tertiary: "#cec3b5", // Light grayish brown (for additional contrast)
+  highlight: "rgba(90, 77, 64, 0.15)", // Darker brown with reduced opacity
+  textHighlight: "#0a090888", // Nearly black with reduced opacity
+},
+  darkMode: {
+    light: "#0f0d0b",      // Theme (very dark brown)
+    lightgray: "#2c2520",  // Light Grey (slightly lighter than theme)
+    gray: "#5a4d40",       // Dark Grey (medium brown)
+    darkgray: "#b3a396",   // Typewriter (muted light brown)
+    dark: "#e0d6c9",       // Midnightblue (very light beige)
+    secondary: "#8c7a6b",  // Highlight Grey (light brown)
+    tertiary: "#f0e6d9",   // Text (light beige)
+    highlight: "rgba(140, 122, 107, 0.15)", // Highlight Grey with reduced opacity
+    textHighlight: "#0f0d0b88", // Theme color with reduced opacity
+  },
+},
+
+      
     },
   },
   plugins: {
