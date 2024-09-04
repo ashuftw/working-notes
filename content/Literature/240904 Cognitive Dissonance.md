@@ -1,6 +1,6 @@
 ---
 title: Cognitive Dissonance
-draft: true
+draft: false
 tags:
 ---
 It is the internal conflict one feels when their behaviour doesn't match their actions. 

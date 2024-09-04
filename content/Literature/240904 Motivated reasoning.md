@@ -1,6 +1,6 @@
 ---
 title: Motivated reasoning
-draft: true
+draft: false
 tags:
 ---
 It is a kind of reasoning that is motivated by a belief rather than being rational or looking at the evidence. 
