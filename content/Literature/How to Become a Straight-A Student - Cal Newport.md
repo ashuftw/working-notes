@@ -1,4 +1,16 @@
-   #book 
+---
+tags:
+  - 📚Book
+title: How to Become a Straight-A Student
+subtitle: The Unconventional Strategies Real College Students Use to Score High While Studying Less
+author:
+  - Cal Newport
+category:
+  - Study Aids
+localCover: content/Files/How to Become a Straight-A Student - Cal Newport.jpg
+draft: false
+---
+![[content/Files/How to Become a Straight-A Student - Cal Newport.jpg|150]]
 # Part 1
 ## Efficiency is your sword. Cut that Grind
 - You need to find strategies that work for _you_. 
