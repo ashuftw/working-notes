@@ -10,7 +10,7 @@ category:
 localCover: content/Files/How to Become a Straight-A Student - Cal Newport.jpg
 draft: false
 ---
-![[content/Files/How to Become a Straight-A Student - Cal Newport.jpg|150]]
+![[../Files/How to Become a Straight-A Student - Cal Newport.jpg|center|150]]
 # Part 1
 ## Efficiency is your sword. Cut that Grind
 - You need to find strategies that work for _you_. 
