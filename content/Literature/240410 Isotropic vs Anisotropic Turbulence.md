@@ -1,7 +1,8 @@
 ---
 title: Isotropic vs Anisotropic Turbulence
 draft: false
-tags:
+tags: 
+date: 2024-10-04
 ---
 ## Anisotropic Turbulence 
 Here the diagonal components of the [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stresses]] have different values. This means that there is a preference for the direction of fluctuations i.e. non-Diagonal components have non-Zero values. 

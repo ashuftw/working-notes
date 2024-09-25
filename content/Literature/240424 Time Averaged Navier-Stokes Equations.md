@@ -1,7 +1,8 @@
 ---
 title: Time Averaged Navier-Stokes Equations
 draft: false
-tags:
+tags: 
+date: 2024-04-04
 ---
 ## NS into RANS
 $$

@@ -1,7 +1,8 @@
 ---
 title: Eddy Viscosity
 draft: false
-tags:
+tags: 
+date: 2024-04-04
 ---
 ## Definition
 The Macroscopic Viscosity increase caused due to enhanced mixing in a Turbulent Flow is called **Eddy Viscosity**. 

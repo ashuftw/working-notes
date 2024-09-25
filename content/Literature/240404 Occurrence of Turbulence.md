@@ -1,7 +1,8 @@
 ---
 title: Occurrence of Turbulence
 draft: false
-tags:
+tags: 
+date: 2024-04-04
 ---
 ## In a flow 
 When the Kinetic Energy of a flow isn't dissipated through viscous effects, the flow becomes turbulent.   
