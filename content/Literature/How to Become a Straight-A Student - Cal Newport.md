@@ -115,6 +115,6 @@ On how to avoid a poor exam.
 - **Budget your time**: Subtract 10 mins from the test and assign ETA for each question. If you don't complete one on time, skip
 - **Create an Outline**: For dense answers, create a few points in short hand. They can even be questions. 
 - **Review answers**: If you finish before time, augment your answers. It's okay if you break format, exams are for answers. 
----
-# References
+
+
 [^1]: IPFW Center for Academic Support and Advancement

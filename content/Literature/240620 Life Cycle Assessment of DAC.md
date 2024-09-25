@@ -1,3 +1,8 @@
+---
+title: Life Cycle Assessment of DAC
+draft: true
+tags:
+---
   
 
 - Most new plants are low temperature regeneration based. 

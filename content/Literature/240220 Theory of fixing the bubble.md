@@ -38,6 +38,4 @@ Subtract the Inlet velocity with the velocity of the reference frame. So that th
 
 ## Step 4 
 
----
-# References
 [^1]: https://eng.libretexts.org/Bookshelves/Mechanical_Engineering/Mechanics_Map_(Moore_et_al.)/17%3A_Appendix_2_-_Moment_Integrals/17.2%3A_Centroids_of_Areas_via_Integration

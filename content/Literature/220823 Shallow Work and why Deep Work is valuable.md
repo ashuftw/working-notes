@@ -1,9 +1,9 @@
-Aug 2022
-  
+---
+title: Shallow Work and why Deep Work is valuable
+draft: false
+tags:
+---
 
-Tags: [[Deep Work]] [[Productivity]]
-
-# 22082 Shallow work and why Deep work is valuable 
 
 2012 McKinsey Report stated that up to 60% of an employee work hours is spent interacting with the internet, with 30% being just Email.  
 
@@ -15,7 +15,4 @@ Work that *is* done or *can* be done in a distracted state. It is work that can 
 **Deep Work Hypothesis**
 > Ability to perform Deep Work is becoming rare and hence valuable in our economy. Few that cultivate this skill, will thrive.
 
----
-# References
-[[Deep Work: Rules for Focused Success in a Distracted World|Cal Newport, "Introduction," in Deep Work: Rules for Focused Success in a Distracted World]]  
-https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy
+^[https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy]

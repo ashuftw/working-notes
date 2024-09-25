@@ -1,7 +1,8 @@
 ---
 title: Turbulence Modeling
 draft: false
-tags:
+tags: 
+date: 2024-04-04
 ---
 ## Introduction to Turbulence Modeling 
 - [[240404 Occurrence of Turbulence|Occurrence of Turbulence]]
