@@ -1,7 +1,8 @@
 ---
 title: Steps in Direct Air Carbon Capture
 draft: false
-tags:
+tags: 
+date: 2024-06-20
 ---
   
 
