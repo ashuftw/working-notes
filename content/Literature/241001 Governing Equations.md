@@ -4,7 +4,7 @@ draft: true
 tags: 
 date: 2024-10-01
 ---
-From Newton's First Law of Thermodynamics [^1]
+## First Law of Thermodynamics[^1]
 $$ \dot E = \dot{W} + \dot{Q} $$
 
 Where,
@@ -12,9 +12,9 @@ Where,
 - $\dot{W}\rightarrow$ rate of work done by external forces
 - $\dot{Q}\rightarrow$  rate of heat addition
 
+Using this, one can derive the Conservation of Species. Details. [^2]
 ## Conservation of Species in a 2D Binary Mixture
-Derivation[^2]
-
+Derivation[^3]
 $$
 \frac{\partial C_A}{\partial t}+u \frac{\partial C_A}{\partial x}+v \frac{\partial C_A}{\partial y}=D_{A B}\left(\frac{\partial^2 C_A}{\partial x^2}+\frac{\partial^2 C_A}{\partial y^2}\right)
 $$
@@ -28,15 +28,19 @@ where,
 - LHS -> Net Transport of Species $A$ due to advection (bulk fluid motion).
 - RHS -> Inflow due to diffusion and production due to chemical reaction (Edit: check the presence of $\dot N$ as shown in [[Fundamentals of heat and mass transfer|Incorpera]])
 
+## Transformation into Cylindrical Coordinates
 
---- 
-
-Assuming fully developed laminar flow within each cell, and using cylindrical coordinates, Eq. 1 becomes
+Assuming fully developed laminar flow within each cell. (Eqn. 1) becomes
 $$
 \frac{\partial C_A}{\partial t}+u_d \frac{\partial C_A}{\partial x}=D_{A B} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right)
 $$
 
-Here $u_d=u_m\left(1-\left(\frac{r}{R}\right)^2\right)$ is the usual parabolic velocity profile in each cell of diameter $R$ (with $u_m$ the maximum velocity and $r$ the radial coordinate). Note that in steady state, Eq. 2 reduces to the thin duct equation
+where, 
+- $u_d=u_m\left(1-\left(\frac{r}{R}\right)^2\right)$ parabolic velocity profile in each cell of diameter $R$ 
+- $u_m\rightarrow$ maximum velocity
+- $r\rightarrow$ radial coordinate
+---
+Note that in steady state, Eq. 2 reduces to the thin duct equation
 $$
 u_d \frac{\partial C_A}{\partial x}=D_{A B} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right) .
 $$
@@ -55,4 +59,5 @@ Here $k_s$ is a constant that models the kinetics of the adsorption, $q(t)$ is t
 Solving the adsorption problem consists of computing the concentration $C_A(x, r)$ over time. The breakthrough curve is obtained by integrating $C_A$ over the honeycomb exit and plotting the result over time.
 
 [^1]: https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/07%3A_The_First_and_Second_Laws_of_Thermodynamics/7.01%3A_The_First_Law_of_Thermodynamics_and_Internal_Energy
-[^2]: [[Fundamentals of heat and mass transfer]] Pg. 976q
+[^2]: [[Physical and Computational Aspects of Convective Heat Transfer]]
+[^3]: [[Fundamentals of heat and mass transfer]] Pg. 976

@@ -1,7 +1,18 @@
-Feb 2022
- #book
+---
+tags:
+  - 📚Book
+title: How to Take Smart Notes
+subtitle: One Simple Technique to Boost Writing, Learning and Thinking
+author:
+  - Sönke Ahrens
+category:
+  - Self-Help
+localCover: content/Files/How to Take Smart Notes - Sönke Ahrens.jpg
+draft: false
+---
+![[content/Files/How to Take Smart Notes - Sönke Ahrens.jpg|150]]
 
-# How To Take Smart Notes
+# How to Take Smart Notes
 > "One cannot think without writing" - Niklas Luhmann
 ## Introduction:
 - There is no correlation between Academic success and IQ. (Once you have the basic requirement > 120)
@@ -63,6 +74,3 @@ If you set a research question and answer it through the course of writing/devel
 On the other hand, you can focus on questions or ideas that your notes cluster around. If it isn't interesting, simply move on to another cluster. 
 > You can't force insight into a preconceived direction anyway. 
 
-
-# References
--  [AHRENS, S. (2017) *How to take smart notes: one simple technique to boost writing, learning and thinking--for students, academics and nonfiction book writers*.](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes)
