@@ -1,14 +1,8 @@
 ---
-title: _haben & sein_ - Special Irregular Verbs
+title: Special Irregular Verbs (haben, sein)
 draft: false
 date: 2022-09-02
 ---
-
-Sep 2022
-   
-
-Tags: [[German]] [[Verbs]] [[220828 Unregelmäßige Verben]]
-
 # "haben & sein" - Special Irregular Verbs
 |           | haben | sein |
 |-          | -     | -    |      
