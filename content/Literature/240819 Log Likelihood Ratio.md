@@ -1,9 +1,9 @@
 ---
 title: Log Likelihood Ratio
 draft: false
-tags:
+date: 2024-08-19
 ---
- 
+
 $$
 \text{LLR}(\mathbf x)=\log \frac{P(\mathbf{x} \mid s=1)}{P(\mathbf{x} \mid s=2)}
 $$

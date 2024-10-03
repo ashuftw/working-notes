@@ -1,7 +1,7 @@
 ---
 title: Newton-Raphson or Newton's Method
 draft: false
-tags:
+date: 2023-06-29
 ---
 
 It is a type of [[230612 Fixed point or Banach's iteration|Banach's iteration]] 

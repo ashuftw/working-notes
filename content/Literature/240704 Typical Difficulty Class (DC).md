@@ -1,3 +1,9 @@
+---
+title: Typical Difficulty Class (DC)
+draft: false
+date: 2024-07-04
+---
+
    
 
 | Difficulty      | DC   |

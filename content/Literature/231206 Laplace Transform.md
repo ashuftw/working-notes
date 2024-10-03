@@ -1,9 +1,9 @@
 ---
 title: Laplace Transform
 draft: false
-tags:
+date: 2023-12-06
 ---
-  
+
 ## Definition
 Laplace Transformation is an Integral Transformation which transforms a function of the time domain $f(t)$ into a function of the Laplace Frequency to give $F(s)$.
 

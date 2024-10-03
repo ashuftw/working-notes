@@ -1,8 +1,9 @@
 ---
 title: Maximum Likelihood Decision Rule
 draft: false
-tags: []
+date: 2024-04-02
 ---
+
 ## Definition 
 It gives the formula to find the most like state for a given evidence.  
 

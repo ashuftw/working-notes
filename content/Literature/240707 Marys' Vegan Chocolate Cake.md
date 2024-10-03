@@ -1,3 +1,9 @@
+---
+title: Marys' Vegan Chocolate Cake
+draft: false
+date: 2024-07-07
+---
+
   
 
 ## Ingredients 

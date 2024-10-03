@@ -1,8 +1,9 @@
 ---
 title: Precision, Accuracy & Error Rate
 draft: false
-tags:
+date: 2024-04-29
 ---
+
 ## Precision
 It is proportion of the **Positive** classifications that were actually correct. 
 

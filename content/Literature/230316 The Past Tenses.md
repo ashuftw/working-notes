@@ -1,4 +1,8 @@
-  
+---
+title: The Past Tenses
+draft: false
+date: 2023-03-16
+---
 
 The three basic Tenses in German are:
 - **Präsens** (Simple present) 

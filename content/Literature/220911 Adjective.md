@@ -1,3 +1,9 @@
+---
+title: Adjective
+draft: false
+date: 2022-09-11
+---
+
 Sep 2022
   
 

@@ -1,8 +1,9 @@
 ---
 title: Degree of Correctness for Quadratures
 draft: false
-tags:
+date: 2023-07-23
 ---
+
 ## Definition
 ![[Pasted image 20231130103848.png|center]]
 

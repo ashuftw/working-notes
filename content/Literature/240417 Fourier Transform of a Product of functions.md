@@ -1,3 +1,9 @@
+---
+title: Fourier Transform of a Product of functions
+draft: false
+date: 2024-04-17
+---
+
   
 ## Intuition 
 The [[240417 Fourier Transform|Fourier Transform]],  $\mathcal F\{f(t)\cdot g(t)\} \ne \mathcal F\{f(t)\}\cdot \mathcal F\{g(t)\}$ . Instead it is given by the convolution operation "$*$"

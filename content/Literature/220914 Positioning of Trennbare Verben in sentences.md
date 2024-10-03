@@ -1,3 +1,9 @@
+---
+title: Positioning of Trennbare Verben in sentences
+draft: false
+date: 2022-09-14
+---
+
 Sep 2022
    
 

@@ -1,9 +1,9 @@
 ---
 title: Line Integral
 draft: false
-tags:
+date: 2022-11-10
 ---
-   
+
 ![[221110 Line Integral or Curve Integral 1.png|center]]
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: Moment Generation Function
 draft: false
-tags:
+date: 2023-04-24
 ---
 
 The Moment Generating function is a Mathematical tool that can establish a relation between the Moment and the PDF of a Random variable. 

@@ -1,9 +1,9 @@
 ---
 title: Occurrence of Turbulence
 draft: false
-tags: 
 date: 2024-04-04
 ---
+
 ## In a flow 
 When the Kinetic Energy of a flow isn't dissipated through viscous effects, the flow becomes turbulent.   
 The mismatch cause instabilities in the flow which cause further instabilities leading to turbulence.

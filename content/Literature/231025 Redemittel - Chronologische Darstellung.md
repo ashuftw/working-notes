@@ -1,4 +1,9 @@
- 
+---
+title: Redemittel - Chronologische Darstellung
+draft: false
+date: 2023-10-25
+---
+
 ## Für den Anfang
 - Zuerst ...
 - Zunächst ...

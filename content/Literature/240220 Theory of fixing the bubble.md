@@ -1,3 +1,9 @@
+---
+title: Theory of fixing the bubble
+draft: false
+date: 2024-02-20
+---
+
   
 ## Objective
 ![[Pasted image 20240221153015.png|center]]

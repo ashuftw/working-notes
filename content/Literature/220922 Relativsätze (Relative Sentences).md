@@ -1,4 +1,9 @@
-  
+---
+title: Relativsätze (Relative Sentences)
+draft: false
+date: 2022-09-22
+---
+
 ### Definition
 A Relativsatz is a sub-ordinate clause that adds meaning to the main clause by attaching itself to the main clause using a [[230116 Relativpronomen|Relativpronomen]].  
 ### Syntax

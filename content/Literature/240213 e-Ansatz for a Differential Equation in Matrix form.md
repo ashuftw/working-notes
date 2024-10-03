@@ -1,9 +1,8 @@
 ---
 title: e-Ansatz for a Differential Equation in Matrix form
 draft: false
-tags:
+date: 2024-02-13
 ---
-  
 
 ### Linear differential equation 
 

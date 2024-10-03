@@ -1,4 +1,9 @@
-  
+---
+title:  The Taylor Expansion
+draft: false
+date: 2023-11-15
+---
+
 ![[Pasted image 20231115125339.png|center|300]]
 ## Taylor Series
 

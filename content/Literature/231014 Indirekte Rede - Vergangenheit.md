@@ -1,8 +1,9 @@
 ---
 title: Indirekte Rede - Vergangenheit
 draft: false
-tags:
+date: 2023-10-14
 ---
+
 ## Use case
 It is used to report what someone else said in without directly quoting them. 
 

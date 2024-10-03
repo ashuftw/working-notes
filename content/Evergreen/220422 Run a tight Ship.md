@@ -1,13 +1,8 @@
 ---
 title: Run a tight Ship
 draft: false
-tags:
+date: 2022-04-22
 ---
- 
-
-
-
-
 
 The answer is active-recall. 
 

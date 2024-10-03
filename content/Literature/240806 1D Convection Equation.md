@@ -1,3 +1,9 @@
+---
+title: 1D Convection Equation
+draft: false
+date: 2024-08-06
+---
+
   
 ## Use case
 Describes the transport of a quantity by flow. 

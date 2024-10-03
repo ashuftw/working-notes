@@ -1,3 +1,9 @@
+---
+title: What does it mean to Skedaddle?
+draft: false
+date: 2023-12-21
+---
+
   
 
 There's this play in basketball called the "fast break." It starts with an immediate change of possession in favor of the defense. Because of how quickly it happens, the offense, now the defense, is left in the dust. When everything goes right, it's beautiful. The easiest 2 points, in my opinion.

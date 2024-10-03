@@ -1,9 +1,8 @@
 ---
 title: Perceptron in Mathematical Notation
 draft: false
-tags:
+date: 2024-04-23
 ---
- 
 
 ![[Pasted image 20240621105036.png|center|250]]
 

@@ -1,4 +1,9 @@
-  
+---
+title: Richardson Extrapolation Method
+draft: false
+date: 2023-12-18
+---
+
 ## Use case
 It is an Error correction technique that improves the result of the an Integration by improving the integral itself. (As opposed to doing so through iterations)
 

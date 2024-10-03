@@ -1,4 +1,8 @@
-  
+---
+title: Präpositionen mit Genitiv
+draft: false
+date: 2023-02-05
+---
 
 - **während** (Lokal / 2 parallel Aktionen)
 	- Während des Essens raucht er.

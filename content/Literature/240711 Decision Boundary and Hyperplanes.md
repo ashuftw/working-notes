@@ -1,9 +1,9 @@
 ---
 title: Decision Boundary and Hyperplanes
 draft: false
-tags:
+date: 2024-07-11
 ---
-  
+
 ### Use case 
 A Decision boundary is a line or plane that separates classes. It determined by using a suitable discriminant function. 
 

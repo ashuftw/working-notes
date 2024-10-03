@@ -1,3 +1,9 @@
+---
+title: strainRateFunction
+draft: false
+date: 2022-05-20
+---
+
 May 2022
    
 

@@ -1,10 +1,8 @@
 ---
 title: Life Cycle Assessment of DAC
-draft: true
-tags: 
+draft: false
 date: 2024-06-20
 ---
-  
 
 - Most new plants are low temperature regeneration based. 
 - Climeworks has achieved efficiencies of 85% and 93%. 

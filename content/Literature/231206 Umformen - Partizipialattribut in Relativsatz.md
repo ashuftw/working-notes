@@ -1,4 +1,8 @@
-  
+---
+title: Umformen - Partizipialattribut in Relativsatz
+draft: false
+date: 2023-12-06
+---
 
 ## Possible tasks
 

@@ -1,9 +1,9 @@
 ---
 title: Directional Derivative
 draft: false
-tags:
+date: 2023-12-05
 ---
-  
+
 ## Definition
 The Directional Derivative at a point is the derivative along a specific direction $\mathbf n$. It can be calculated using the formula. 
 

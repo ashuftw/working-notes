@@ -1,3 +1,9 @@
+---
+title: Finite Verb
+draft: false
+date: 2022-08-27
+---
+
 Aug 2022
   
 

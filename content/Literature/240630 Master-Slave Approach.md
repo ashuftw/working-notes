@@ -1,9 +1,9 @@
 ---
 title: Master-Slave Approach
 draft: false
-tags:
+date: 2024-06-30
 ---
-  
+
 ## Intuition
 
 ![[Pasted image 20240628151022.png|center|600]]

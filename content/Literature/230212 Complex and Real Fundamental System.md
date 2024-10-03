@@ -1,9 +1,9 @@
 ---
 title: Complex and Real Fundamental System
 draft: false
-tags:
+date: 2023-02-12
 ---
-  
+
 ## Solution Method
 For a **Complex Solution** $y_1(t)$ and $y_2(t)$ 
 The **Real Fundamental Solution** can be Calculated with the Forms

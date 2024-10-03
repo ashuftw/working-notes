@@ -1,3 +1,9 @@
+---
+title: Quick way to find Eigenvalues
+draft: false
+date: 2024-02-14
+---
+
   
 ## Formula  
 

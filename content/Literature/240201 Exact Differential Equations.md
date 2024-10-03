@@ -1,9 +1,9 @@
 ---
 title: Exact Differential Equations
 draft: false
-tags:
+date: 2024-02-01
 ---
-  
+
 ## Mathematical Definition
 ![[Pasted image 20240206145007.png|center]]
 - RHS of the Exact differential equation is zero. This means that the [[240207 Potential Function|potential function]] does not change for small step $dx$ and $dy$. 

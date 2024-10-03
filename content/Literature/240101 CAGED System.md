@@ -1,9 +1,8 @@
 ---
 title: CAGED System
 draft: false
-tags:
+date: 2024-01-01
 ---
-
 
 ![[Pasted image 20240101212144.png|center]]
 

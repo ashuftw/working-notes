@@ -1,3 +1,9 @@
+---
+title: Which global problems do you think are most pressing?
+draft: false
+date: 2023-10-14
+---
+
 ## Unranked issues that I think are important
 - Building a robot workforce.
 - AI Alignment. 

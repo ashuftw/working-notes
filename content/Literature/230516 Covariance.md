@@ -1,8 +1,9 @@
 ---
 title: Covariance
 draft: false
-tags:
+date: 2023-05-16
 ---
+
 ## **Definition**
 - It is the mean value of the product of the deviations of two random variables from their respective means. 
 - It is a statistical measure that quantifies how changes in one variable are associated with changes in another variable. 

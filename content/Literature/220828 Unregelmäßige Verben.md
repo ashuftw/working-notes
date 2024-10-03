@@ -1,3 +1,9 @@
+---
+title: Unregelmäßige Verben
+draft: false
+date: 2022-08-28
+---
+
 IrregularAug 2022
    
 

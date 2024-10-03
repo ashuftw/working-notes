@@ -1,8 +1,9 @@
 ---
 title: Continuous KLE Example
 draft: false
-tags:
+date: 2024-07-25
 ---
+
 In the following we assume that $a$ is a random process, i.e., $a: \Theta \times\left[a_1, b_1\right] \rightarrow$ $\mathbb{R}$ with the Karhunen-Loève expansion
 $$
 a(\theta, r)=\mu_a(r)+\sum_{i=1}^{\infty} \sqrt{\lambda_i} \varphi_i(r) \xi_i(\theta)

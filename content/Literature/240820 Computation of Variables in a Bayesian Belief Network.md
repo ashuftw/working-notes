@@ -1,8 +1,9 @@
 ---
 title: Computation of Variables in a Bayesian Belief Network
 draft: false
-tags:
+date: 2024-08-20
 ---
+
 ## Example 1 
 
 ![[../Files/Pasted image 20240820112047.png|center|425]]

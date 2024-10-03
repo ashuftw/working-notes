@@ -1,9 +1,9 @@
 ---
 title: Regularisation
 draft: false
-tags:
+date: 2024-04-18
 ---
-  
+
 ## Use-case
 Regularization ensures that the weights of the regression model aren't too large. This is important because large weights usually cause over-fitting which leads to poor performance on test data. It also prevents oscillation and introduces smoothness (*which is however an inductive bias in itself!*)
 ## Mathematically

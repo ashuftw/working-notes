@@ -1,9 +1,9 @@
 ---
 title: Blasius Solution for the Laminar Boundary Layer Equations
 draft: false
-tags:
+date: 2023-03-04
 ---
-  
+
 ### Skin friction Coefficient
 
 $$

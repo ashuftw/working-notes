@@ -1,4 +1,9 @@
-   
+---
+title: Verben mit Präpositionen
+draft: false
+date: 2023-02-05
+---
+
 ### Präpositionen mit Akkusativ 
 - sich ärgern **über** 
 - sich interessieren **für** 

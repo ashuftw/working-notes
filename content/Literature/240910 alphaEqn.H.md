@@ -1,8 +1,9 @@
 ---
 title: alphaEqn.H
-draft: true
-tags:
+draft: false
+date: 2024-09-10
 ---
+
 ## 1. Scheme Selection and Off-Centering
 
 ```cpp

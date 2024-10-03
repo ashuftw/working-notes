@@ -1,8 +1,9 @@
 ---
 title: Cauchy Stress Tensor
 draft: false
-tags:
+date: 2022-05-10
 ---
+
 ![[Pasted image 20220510105522.png|center]]
 
 - Stress acting on a element has 9 components of Stress. This is because by definition, the stress is the response to the force acting per unit area. 

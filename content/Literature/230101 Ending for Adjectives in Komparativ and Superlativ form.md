@@ -1,4 +1,8 @@
-  
+---
+title: Ending for Adjectives in Komparativ and Superlativ form
+draft: false
+date: 2023-01-01
+---
 
 ### Syntax
 |Positv   | Komparativ  | Superlativ     

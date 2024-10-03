@@ -1,3 +1,9 @@
+---
+title: Infinitiv mit zu
+draft: false
+date: 2022-11-09
+---
+
 Nov 2022
    
 

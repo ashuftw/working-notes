@@ -1,8 +1,9 @@
 ---
 title: Order of Consistency
 draft: false
-tags:
+date: 2023-06-28
 ---
+
 ### Intuition
 It is the rate at which a Numerical Method converges to the exact solution as step size approaches zero. 
 

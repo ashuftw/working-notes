@@ -1,9 +1,9 @@
 ---
 title: Incremental Bayesian Learning
 draft: false
-tags:
+date: 2024-06-18
 ---
-   
+
 ## Use case 
 If the data is observed sequential, we can update our current predictions from the knowledge of the past predictions. 
 

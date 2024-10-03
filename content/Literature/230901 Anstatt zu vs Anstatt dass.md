@@ -1,4 +1,9 @@
-   
+---
+title: Anstatt zu vs Anstatt dass
+draft: false
+date: 2023-09-01
+---
+
 ## Usages
 Anstatt translates to **instead of** 
 - Anstatt zu -> only one subject

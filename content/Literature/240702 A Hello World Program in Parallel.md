@@ -1,9 +1,9 @@
 ---
 title: A Hello World Program in Parallel
 draft: false
-tags:
+date: 2024-07-02
 ---
-  
+
 ## Code
 ```cpp
 #include <mpi.h>        // Import the MPI library

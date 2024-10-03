@@ -1,10 +1,8 @@
 ---
 title: Eddy Viscosity or Boussinesq Hypothesis
 draft: false
-tags:
+date: 2024-08-13
 ---
-  
-
 
 $$
 \tau_{i j}^{\text {turb }}=2 v_t \bar{S}_{i j}-\frac{2}{3} k \delta_{i j}=v_t\left(\frac{\partial \bar{u}_i}{\partial x_j}+\frac{\partial \bar{u}_j}{\partial x_i}\right)-\frac{2}{3} k \delta_{i j}

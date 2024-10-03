@@ -1,9 +1,8 @@
 ---
 title: interFixedBubbleFoam
-draft: true
-tags:
+draft: false
+date: 2024-06-26
 ---
-  
 
 [[240220 Theory of fixing the bubble|Theory of fixing the bubble]]
 [[Inertial Reference Framework]]

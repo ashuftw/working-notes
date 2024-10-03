@@ -1,3 +1,9 @@
+---
+title: Herschel-Bulkley Equation
+draft: false
+date: 2022-06-13
+---
+
 Apr 2022
  
 

@@ -1,9 +1,9 @@
 ---
 title: Command Pattern
 draft: false
-tags:
+date: 2023-08-16
 ---
-  
+
 ## Definition 
 It is a behavioural pattern that encapsulates requests into objects. Thus clients can be parameterized with different requests which can also be queued and logged which allows for undoing actions.  
 ## GoF Template

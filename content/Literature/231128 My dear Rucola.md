@@ -1,7 +1,7 @@
 ---
 title: My dear Rucola
 draft: false
-tags:
+date: 2023-11-28
 ---
 
 At the sea for years

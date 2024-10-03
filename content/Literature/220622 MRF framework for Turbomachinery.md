@@ -1,3 +1,9 @@
+---
+title: MRF framework for Turbomachinery
+draft: false
+date: 2022-06-22
+---
+
  #abandoned 
 
 Tags: [[CFD]] [[Meshing]]

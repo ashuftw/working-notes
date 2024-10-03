@@ -1,8 +1,9 @@
 ---
 title: The Closure Problem of RANS
 draft: false
-tags:
+date: 2024-08-13
 ---
+
 In [[240813 Reynolds Averaged Navier Stokes (RANS)|RANS modeling]] the problem of figuring out a way to calculate $\tau^{turb}_{ij}$ in the Momentum Equations is called the [[240813 The Closure Problem of RANS|closure problem]]
 
 $$

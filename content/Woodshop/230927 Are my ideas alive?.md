@@ -1,3 +1,9 @@
+---
+title: Are my ideas alive?
+draft: false
+date: 2023-09-27
+---
+
   
 
 I often find myself quoting other people. I enjoy finding the right quote for the moment. Like this one: 

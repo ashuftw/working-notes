@@ -1,9 +1,9 @@
 ---
 title: Reynolds Stress Tensor and Turbulent Shear Stress
 draft: false
-tags: 
-date: 2024-12-08
+date: 2024-08-13
 ---
+
 These stresses when applying a [[240424 Time Averaged Navier-Stokes Equations|Time Average]] on the Navier stokes equations. 
 
 $$

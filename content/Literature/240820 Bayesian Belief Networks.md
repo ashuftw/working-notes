@@ -1,8 +1,9 @@
 ---
 title: Bayesian Belief Networks
 draft: false
-tags:
+date: 2024-08-20
 ---
+
 Are a representation of the probability of variables and their conditional dependencies through a graphical network. 
 
 Where, 

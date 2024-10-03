@@ -1,3 +1,9 @@
+---
+title: 2D Wave equation
+draft: false
+date: 2022-10-20
+---
+
 Oct 2022
   
 

@@ -1,9 +1,9 @@
 ---
 title: Parameter Estimation for Maximum Likelihood
 draft: false
-tags:
+date: 2024-05-14
 ---
- 
+
 ## Use-case
 In pattern recognition, we simplify the process of finding the distribution of a random variable by considering making an assumption that the distribution could be reasonably represented by a Gaußian. Thus we now only have to find the parameters that define the Gaußian. By selecting the right parameters that fit the data, we can use this model to make predictions based on new, unseen data. 
 ### Multivariate Gaussian model used to represent **Likelihood**

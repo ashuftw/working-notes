@@ -1,9 +1,8 @@
 ---
 title: Separating Variables
 draft: false
-tags:
+date: 2022-11-08
 ---
-  
 
 If there exists differential equation such that
 

@@ -1,9 +1,9 @@
 ---
 title: Polynomial Interpolation using Vandermonde Matrix
 draft: false
-tags:
+date: 2023-07-18
 ---
-  
+
 For a system of $N+1$ points, the order is $N$
 
 The following ansatz is said to be true

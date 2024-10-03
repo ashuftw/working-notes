@@ -1,9 +1,9 @@
 ---
-title: " Generalized Learning Rule"
+title: Generalized Learning Rule
 draft: false
-tags:
+date: 2024-07-03
 ---
-  
+
 ![[Pasted image 20240703122006.png|center|500]]
 
 Using the Gradient Descent Method the **Generalized Learning Rule** can be obtained as 

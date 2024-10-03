@@ -1,8 +1,9 @@
 ---
 title: Probability Density Function (PDF)
 draft: false
-tags:
+date: 2023-04-24
 ---
+
 ![[Pasted image 20240730120107.png|center]]
 ## Discrete PDF Example
 **Flip a coin twice and let $X$ be the number of heads. What is the prob-**

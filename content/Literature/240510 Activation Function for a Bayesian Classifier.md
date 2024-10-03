@@ -1,9 +1,9 @@
 ---
 title: Activation Function for a Bayesian Classifier
 draft: false
-tags:
+date: 2024-05-10
 ---
-  
+
 ## Assignment of Nodes 
 ![[Pasted image 20240610165943.png|center|400]]
 

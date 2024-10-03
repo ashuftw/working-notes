@@ -1,9 +1,8 @@
 ---
 title: Deduction, Abduction & Induction
 draft: false
-tags:
+date: 2023-04-18
 ---
-  
 
 ## Deduction
 

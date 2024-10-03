@@ -1,9 +1,9 @@
 ---
 title: Bayesian Inference
 draft: false
-tags:
+date: 2024-06-11
 ---
-   
+
 ## Use case
 It is used to calculate the model parameters $\textbf w$ from the data.  **The a-Posteriori is given as the product of the Likelihood and the Prior.**
 

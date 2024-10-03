@@ -1,9 +1,9 @@
 ---
 title: Abstract Factory Pattern
 draft: false
-tags:
+date: 2023-08-07
 ---
-  
+
 ## Definition
 It is an [[230812 Object Creational pattern|Object Creational pattern]] that enables a user to create objects without exposing how they are actually instantiated or by referring to the concrete class. It does this by introducing the **FactoryClass** which provides an interface that delegates this process. 
 

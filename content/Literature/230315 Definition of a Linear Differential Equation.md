@@ -1,9 +1,9 @@
 ---
 title: Definition of a Linear Differential Equation
 draft: false
-tags:
+date: 2023-03-15
 ---
-  
+
 ## Definition
 A differential Equation where the dependent variable is linear in called  a Linear Differential Equation. 
 

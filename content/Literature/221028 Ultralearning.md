@@ -1,8 +1,9 @@
 ---
-title: 
+title: Ultralearning
 draft: false
-tags:
+date: 2022-10-28
 ---
+
 ## Why Ultralearning Matters
 > Technology exaggerates both the vices and the virtues of humanity. Our vices are made worse because now they are downloadable, portable, and socially transmissible. 
 

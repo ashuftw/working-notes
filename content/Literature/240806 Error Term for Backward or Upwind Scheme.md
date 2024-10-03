@@ -1,8 +1,9 @@
 ---
 title: Error Term for Backward or Upwind Scheme
 draft: false
-tags:
+date: 2024-08-06
 ---
+
 **1D Convection Equation**
 
 $$

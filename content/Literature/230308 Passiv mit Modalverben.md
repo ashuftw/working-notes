@@ -1,4 +1,9 @@
-  
+---
+title: Passiv mit Modalverben
+draft: false
+date: 2023-03-08
+---
+
 ### Syntax 
 1. **In Hauptsatz:**
 	$\text{Modalverb + Partizip 2 + werden}$

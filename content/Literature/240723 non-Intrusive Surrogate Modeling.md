@@ -1,9 +1,9 @@
 ---
 title: non-Intrusive Surrogate Modeling
 draft: false
-tags:
+date: 2024-07-23
 ---
-  
+
 ### From Orthogonal Projection the following analogies are drawn
 
 | Linear algebra              | Probability                                         |

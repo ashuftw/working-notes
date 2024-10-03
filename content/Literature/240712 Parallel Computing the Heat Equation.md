@@ -1,9 +1,8 @@
 ---
 title: Parallel Computing the Heat Equation
 draft: false
-tags:
+date: 2024-07-12
 ---
-  
 
 ### 1. Initialization and MPI Setup
 ```cpp

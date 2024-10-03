@@ -1,8 +1,9 @@
 ---
 title: Equivalent Discriminant Function and Examples
 draft: false
-tags:
+date: 2024-08-15
 ---
+
 The Discriminant function can be modified without changing the classification results. 
 
 $$

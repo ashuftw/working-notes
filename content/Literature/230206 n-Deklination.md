@@ -1,4 +1,8 @@
-   
+---
+title: n-Deklination
+draft: false
+date: 2023-02-06
+---
 
 Some Masculine Words get an additional **-n** at the ending 
 

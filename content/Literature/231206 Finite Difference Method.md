@@ -1,8 +1,9 @@
 ---
 title: Finite Difference Method
 draft: false
-tags:
+date: 2023-12-06
 ---
+
 ## 1D Boundary value problem
 **Differential equation**
 

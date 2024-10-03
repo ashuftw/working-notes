@@ -1,8 +1,9 @@
 ---
 title: Moment of a Random Variable
 draft: false
-tags:
+date: 2023-05-09
 ---
+
 ## Definition
 The moment of a Random variable is the [[230505 Expected Value|expected value]] of the Random variable raised to some power. 
 

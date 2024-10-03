@@ -1,4 +1,9 @@
-  
+---
+title: Relativpronomen
+draft: false
+date: 2023-01-16
+---
+
 ## Definition
 A Relativpronomen connects the [[220922 Relativsätze (Relative Sentences)|Relativsatz]] to the main clause.
 ## Conjugation table 

@@ -1,8 +1,9 @@
 ---
 title: Sentence Structure, Verb Positioning
 draft: false
-tags:
+date: 2023-09-21
 ---
+
 ## Verb am ende: Nebensatz
 - weil 
 - als 

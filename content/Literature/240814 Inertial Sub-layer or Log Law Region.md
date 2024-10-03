@@ -1,9 +1,9 @@
 ---
 title: Inertial Sub-layer or Log Law Region
 draft: false
-tags: 
-date: 2024-12-08
+date: 2024-08-14
 ---
+
 ## Observations
 - This region lies $y^{+} \geq 40$ and $y / \delta \leq 0.1$ 
 - Turbulent Kinetic energy production and dissipation are almost equal in this region. 

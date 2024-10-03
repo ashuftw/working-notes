@@ -1,9 +1,8 @@
 ---
 title: Banach's fixed-point theorem
 draft: false
-tags:
+date: 2023-06-08
 ---
-  
 
 Also called [[230608 Contraction|Contraction]]-mapping theorem. 
 

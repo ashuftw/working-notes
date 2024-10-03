@@ -1,4 +1,9 @@
-  
+---
+title: Statt vs Anstatt vs Stattdessen
+draft: false
+date: 2023-09-01
+---
+
 ## Statt vs Anstatt vs Stattdessen
 - **Anstatt:** Used to negate an action. 
 - **Statt:** Used to negate a substantive (noun like).

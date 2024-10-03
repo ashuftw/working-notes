@@ -1,9 +1,9 @@
 ---
 title: Polynomial Chaos Expansion
 draft: false
-tags:
+date: 2023-07-31
 ---
-  
+
 ## Definition
 It is a way to represent Random Variables with a *general probability distribution* through polynomials over random variables with well known distributions like Gaussian, Uniform etc. 
 

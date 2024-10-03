@@ -1,7 +1,7 @@
 ---
 title: Cumulative Distribution Function (CDF)
 draft: false
-tags:
+date: 2023-04-24
 ---
 
 ![[Pasted image 20230428155805.png|center]]

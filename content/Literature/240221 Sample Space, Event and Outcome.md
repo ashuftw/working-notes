@@ -1,7 +1,7 @@
 ---
-title: Sample Space vs Event
+title: Sample Space, Event and Outcome
 draft: false
-tags:
+date: 2024-02-21
 ---
 
 ## Sample Space 

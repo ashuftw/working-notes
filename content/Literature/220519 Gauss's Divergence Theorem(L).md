@@ -1,3 +1,9 @@
+---
+title: Gauss's Divergence Theorem(L)
+draft: false
+date: 2022-05-19
+---
+
 ## Gauss's Divergence Theorem
 
 ![[Pasted image 20220508174314.png|center|300]]

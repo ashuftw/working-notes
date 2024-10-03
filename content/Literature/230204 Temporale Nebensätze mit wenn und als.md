@@ -1,4 +1,8 @@
-   
+---
+title: Temporale Nebensätze mit wenn und als
+draft: false
+date: 2023-02-04
+---
 
 ### Wenn
 - **Gegenwart & Zukunft**

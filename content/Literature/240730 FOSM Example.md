@@ -1,8 +1,9 @@
 ---
 title: FOSM Example
 draft: false
-tags:
+date: 2024-07-30
 ---
+
 FOSM (First order second moment) for a measurement problem. Many quantities can only be measured indirectly. In these cases a measurement model
 
 $$

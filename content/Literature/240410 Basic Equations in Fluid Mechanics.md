@@ -1,9 +1,9 @@
 ---
 title: Basic Equations in Fluid Mechanics
 draft: false
-tags: 
-date: 2024-04-04
+date: 2024-04-10
 ---
+
 ## Continuity
 
 $$

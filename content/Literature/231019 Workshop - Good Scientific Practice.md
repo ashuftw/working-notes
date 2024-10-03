@@ -1,8 +1,9 @@
 ---
 title: Workshop - Good Scientific Practice
 draft: false
-tags:
+date: 2023-10-19
 ---
+
 ## Ways to record research progress
 - My supervisor has reviews every quarter or so
 - In the lab: excel sheet

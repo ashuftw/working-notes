@@ -1,9 +1,9 @@
 ---
 title: Euler Differential Equation
 draft: false
-tags:
+date: 2023-12-04
 ---
-   
+
 ## Definition
 Euler Equations have the form 
 

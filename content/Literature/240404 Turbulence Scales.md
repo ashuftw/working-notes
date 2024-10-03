@@ -1,9 +1,9 @@
 ---
 title: Turbulence Scales
 draft: false
-tags: 
 date: 2024-04-04
 ---
+
 ## Integral ($L$)
 These Vortices occur at the scale of the Integral Motion of the fluid and are affected by the Integral Flow Quantities like geometry size $L$ and flow velocity $U_0$.
 ## Inertial ($l$)

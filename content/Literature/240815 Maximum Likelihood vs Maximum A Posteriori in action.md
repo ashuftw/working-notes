@@ -1,7 +1,7 @@
 ---
 title: Maximum Likelihood vs Maximum A Posteriori in action
 draft: false
-tags: []
+date: 2024-08-15
 ---
 
 ![[Pasted image 20240815154703.png|center|400]]

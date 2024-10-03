@@ -1,9 +1,8 @@
 ---
 title: Regression
 draft: false
-tags:
+date: 2023-04-18
 ---
-   
 
 **Definition:**
 It is a statistical method of fitting a given data set containing a finite number dependent and independent variables, with a continuous function that maps each possible independent variable with a dependant variable (Target variable)

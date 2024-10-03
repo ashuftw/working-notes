@@ -1,9 +1,9 @@
 ---
 title: Singleton Pattern
 draft: false
-tags:
+date: 2023-08-10
 ---
-  
+
 ## Definition 
 It is a **creational pattern** that ensure that a class has only one instance and has a global access point. 
 ## Example 

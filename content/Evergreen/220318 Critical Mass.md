@@ -1,11 +1,8 @@
 ---
 title: Critical Mass
 draft: false
-tags:
+date: 2022-03-18
 ---
-
-
-
 
 When sufficient notes cluster around a single note,  you achieve Critical mass. At this point you've witnessed an emergent structure amongst your notes. 
 

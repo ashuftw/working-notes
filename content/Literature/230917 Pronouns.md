@@ -1,4 +1,8 @@
-  
+---
+title: Pronouns
+draft: false
+date: 2023-09-17
+---
 
 ## Pronoun Declination
 | Nominative| Accusative | Dative | Genitive |

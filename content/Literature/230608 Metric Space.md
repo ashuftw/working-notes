@@ -1,4 +1,9 @@
-  
+---
+title: Metric Space
+draft: false
+date: 2023-06-08
+---
+
 A metric space is a mathematical formalization of space. So a metric space is a set elements called points. Each point is said to have a distance between them. The notion of what distance means differentiates different metric spaces. 
 
 Some popular metric spaces are: 

@@ -1,8 +1,9 @@
 ---
 title: Bubbles, Drops, and Particles in Non-Newtonian Fluids
 draft: false
-tags:
+date: 2022-04-08
 ---
+
 # Chapter 1: Non-Newtonian Fluid behaviour
 ### Classification of Fluid behaviour
 ### Definition of a non-Newtonian fluid

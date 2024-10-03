@@ -1,8 +1,9 @@
 ---
 title: Bayes Risk - Action and Conditional Risk
 draft: false
-tags: []
+date: 2024-04-10
 ---
+
 ## Conditional Risk
 The Risk associated with taking a decision $a$ given the observation $\mathbf x$ or simply the cost of a decision is given by,
 

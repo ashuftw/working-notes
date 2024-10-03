@@ -1,9 +1,9 @@
 ---
 title: Memory Classification, Networks
 draft: false
-tags:
+date: 2024-04-12
 ---
-  
+
 ### Classification of Parallel Computers
 ```mermaid
 graph TD

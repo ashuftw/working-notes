@@ -1,9 +1,8 @@
 ---
 title: Potential Flow
 draft: false
-tags:
+date: 2023-03-01
 ---
-  
 
 It is a mathematical model used to describe fluids assuming that they are inviscid, incompressibe and irrotational. 
 It defines a potential function, $\phi(t,x,y,z)$ as a continuous function satisfying conversation laws such that.

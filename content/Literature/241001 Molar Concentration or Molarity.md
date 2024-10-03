@@ -1,9 +1,9 @@
 ---
 title: Molar Concentration or Molarity
 draft: false
-tags: 
 date: 2024-10-01
 ---
+
 ## Definition 
 It is the number of moles of solute per litre of solution. 
 $$

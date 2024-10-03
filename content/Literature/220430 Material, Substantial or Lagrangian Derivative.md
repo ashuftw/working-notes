@@ -1,8 +1,9 @@
 ---
 title: Material, Substantial or Lagrangian Derivative
 draft: false
-tags:
+date: 2022-04-30
 ---
+
 ## Ashu's Shorthand definition
 A material Derivative expresses the rate of change of a function of both time and space. 
 

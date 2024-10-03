@@ -1,8 +1,9 @@
 ---
 title: Drag on a Flat Plate (Square Control Volume)
 draft: false
-tags:
+date: 2023-02-22
 ---
+
 ![[../Files/230222 Drag on a Flat Plate (Square Control Volume).png|center]]
 
 

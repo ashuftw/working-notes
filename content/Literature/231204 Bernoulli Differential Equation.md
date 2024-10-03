@@ -1,9 +1,9 @@
 ---
 title: Bernoulli Differential Equation
 draft: false
-tags:
+date: 2023-12-04
 ---
-  
+
 ## Definition
 An ODE is called a Bernoulli Differential equation if it can be represented in the form
 

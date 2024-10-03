@@ -1,13 +1,8 @@
 ---
 title: Why bother writing?
 draft: false
-tags:
+date: 2022-03-06
 ---
- 
-
-
-
-
 
 When writing a research paper, article or book. You don't wanna choose a topic and start writing your opinion or understanding as you go through the process. No, what you wanna do is arrange pre-conceived ideas so that each idea flows through the other as one continuous stream of thought. When these ideas are atomic, it's very likely that you have to bridge the gaps. That is where you *write* at the interfaces where ideas meet.  
 

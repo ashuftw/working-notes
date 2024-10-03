@@ -1,8 +1,9 @@
 ---
 title: Thomas Algorithm or Tri-diagonal Matrix Algorithm (TDMA)
 draft: false
-tags:
+date: 2023-08-24
 ---
+
 ## Definition
 The Thomas Algorithm is used to solve a linear [[230824 Tridiagonal matrix|Tridiagonal matrix]]
 

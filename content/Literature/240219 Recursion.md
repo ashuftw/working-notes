@@ -1,3 +1,9 @@
+---
+title: Recursion
+draft: false
+date: 2024-02-19
+---
+
    
 ## Definition
 A recursion is a concept where a function calls on itself to solve a problem. Instead of using loops (while , for), the function calls on itself. 

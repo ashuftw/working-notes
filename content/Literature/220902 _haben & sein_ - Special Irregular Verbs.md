@@ -1,3 +1,9 @@
+---
+title: _haben & sein_ - Special Irregular Verbs
+draft: false
+date: 2022-09-02
+---
+
 Sep 2022
    
 

@@ -1,4 +1,8 @@
-  
+---
+title: Modalverb in Präteritum
+draft: false
+date: 2023-09-04
+---
 
 | **Person** | **können** | **müssen** | **dürfen** | **sollen** | **wollen** | **möchten** |
 |--------|--------|--------|--------|--------|--------|--------|

@@ -1,10 +1,8 @@
 ---
 title: Purpose Driven Writing
 draft: false
-tags:
+date: 2022-05-15
 ---
- 
-
 
  [[220210 Taking literature notes|Literature notes]] are written in the perspective of the reference material and [[220210 How to take Permanent Notes?|Permanent notes]] are written in the perspective of your Knowledge infrastructure. 
 

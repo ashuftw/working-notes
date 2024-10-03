@@ -1,3 +1,9 @@
+---
+title: Six abilities
+draft: false
+date: 2024-07-04
+---
+
   
 - **Strength**: measure of physical power
 	- melee attacks and carrying capacity

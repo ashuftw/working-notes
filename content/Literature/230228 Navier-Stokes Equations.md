@@ -1,9 +1,8 @@
 ---
 title: Navier-Stokes Equations
 draft: false
-tags:
+date: 2023-02-28
 ---
-  
 
 ## Continuity Equation
 

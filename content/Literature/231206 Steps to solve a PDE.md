@@ -1,10 +1,9 @@
 ---
 title: Steps to solve a PDE
 draft: false
-tags: 
 date: 2023-12-06
 ---
-  
+
 ### 1. Discretization of  the PDE 
 - **Analytical Problem** 
 $$

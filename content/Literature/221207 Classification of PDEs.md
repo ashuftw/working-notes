@@ -1,9 +1,8 @@
 ---
 title: Classification of PDEs
 draft: false
-tags:
+date: 2022-12-07
 ---
-  
 
 A general 2$^\text{nd}$ order PDE
 $$

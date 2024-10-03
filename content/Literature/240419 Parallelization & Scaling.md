@@ -1,8 +1,9 @@
 ---
 title: Parallelization & Scaling
 draft: false
-tags:
+date: 2024-04-19
 ---
+
 ## Parallel Computing
 ### Limiting factors 
 - Data dependencies => Can force you to do some task sequentially. 

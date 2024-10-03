@@ -1,9 +1,9 @@
 ---
 title: Probability Error
 draft: false
-tags:
+date: 2024-04-08
 ---
-  
+
 ## Two Class Problem 
 
 $$

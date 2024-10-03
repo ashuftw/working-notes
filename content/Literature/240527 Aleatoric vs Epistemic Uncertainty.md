@@ -1,9 +1,8 @@
 ---
 title: Aleatoric vs Epistemic Uncertainty
 draft: false
-tags:
+date: 2024-05-27
 ---
-  
 
 | Aleatoric Uncertainty                                                        | Epistemic Uncertainty                                                  |
 | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- |

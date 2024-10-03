@@ -1,8 +1,9 @@
 ---
 title: Distributional Hypothesis
 draft: false
-tags:
+date: 2023-08-23
 ---
+
 ## Definition
 It is a hypothesis that states that words that are syntactically and semantically similar tend to appear near each other in a piece of text in the given language. 
 

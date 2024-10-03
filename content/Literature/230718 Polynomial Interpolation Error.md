@@ -1,9 +1,9 @@
 ---
 title: Polynomial Interpolation Error
 draft: false
-tags:
+date: 2023-07-18
 ---
-  
+
 ## Interpolation Error at a point $\xi$
 
 $$

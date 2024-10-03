@@ -1,8 +1,9 @@
 ---
 title: Reynolds Averaged Navier Stokes (RANS)
 draft: false
-tags:
+date: 2024-08-13
 ---
+
 ## Use case 
 It is  a method of turbulence modeling where the Time Averaged Navier-Stokes equations are used. 
 ![[Pasted image 20240813114101.png|center|500]]

@@ -1,8 +1,9 @@
 ---
 title: Buffer Layer
 draft: false
-tags:
+date: 2024-08-14
 ---
+
 ## Observations
 ![[Pasted image 20240814130727.png|center|500]]
 

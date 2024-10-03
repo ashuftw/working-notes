@@ -1,7 +1,7 @@
 ---
 title: createBubble.H
-draft: true
-tags:
+draft: false
+date: 2024-09-09
 ---
 
 ## Center of the Bubble

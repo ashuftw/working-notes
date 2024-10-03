@@ -1,4 +1,8 @@
-  
+---
+title: Weil-Da, Denn, Obwohl, Trotzdem, Deshalb
+draft: false
+date: 2023-02-06
+---
 
 ## Zur Erinnerung: 
 - Ich esse, **weil / da** ich Hunger habe. (Hunger haben = **Grund**) 

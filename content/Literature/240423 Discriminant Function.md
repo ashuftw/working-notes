@@ -1,8 +1,9 @@
 ---
 title: Discriminant Function
 draft: false
-tags: []
+date: 2024-04-23
 ---
+
 ## Use-case 
 The Bayesian Classifier uses the Discriminant function to make the classification $g_i(x)$
 Depending on the application, discriminant function is described as. 

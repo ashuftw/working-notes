@@ -1,9 +1,8 @@
 ---
 title: Shallow Work and why Deep Work is valuable
 draft: false
-tags:
+date: 2022-08-23
 ---
-
 
 2012 McKinsey Report stated that up to 60% of an employee work hours is spent interacting with the internet, with 30% being just Email.  
 

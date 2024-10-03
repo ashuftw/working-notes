@@ -1,9 +1,8 @@
 ---
 title: Minimum Quadratic Error
 draft: false
-tags:
+date: 2023-07-21
 ---
-  
 
 $$
 \boxed{\mathbf{a}_{\min }=\left(A^{\top} A\right)^{-1} A^{\top} \mathbf{y}}

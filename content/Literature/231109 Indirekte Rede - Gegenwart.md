@@ -1,8 +1,9 @@
 ---
 title: Indirekte Rede - Gegenwart
 draft: false
-tags:
+date: 2023-11-09
 ---
+
 ## Syntax - Three ways depending on context
 ### Option I
 **Indikativ** -> Straightforward passing of info

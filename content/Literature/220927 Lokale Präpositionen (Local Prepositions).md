@@ -1,4 +1,8 @@
-   
+---
+title: Lokale Präpositionen (Local Prepositions)
+draft: false
+date: 2022-09-27
+---
 
 Prepositions answer to the questions **Wo** or **Wohin**. Hence they are also called Preposition of Place.
 

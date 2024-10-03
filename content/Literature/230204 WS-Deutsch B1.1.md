@@ -1,4 +1,9 @@
-   
+---
+title: WS-Deutsch B1.1
+draft: false
+date: 2023-02-04
+---
+
 - [[221109 Infinitiv mit zu|Infinitiv mit zu]]
 - [[230325 Um..zu vs Damit|Um..zu vs Damit]]
 - [[220922 Relativsätze (Relative Sentences)|Relativsätze]]

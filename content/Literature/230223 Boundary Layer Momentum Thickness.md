@@ -1,8 +1,9 @@
 ---
 title: Boundary Layer Momentum Thickness
 draft: false
-tags:
+date: 2023-02-23
 ---
+
 ![[../Files/Pasted image 20240827221820.png|center|700]]
 Momentum thickness  $\delta_x$  denotes the height of an imaginary filament with free stream velocity, that contains exactly the total amount of Momentum lost through viscous effect near the wall.   
   

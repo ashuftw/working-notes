@@ -1,8 +1,9 @@
 ---
 title: Bayes Classifier
 draft: false
-tags:
+date: 2024-04-10
 ---
+
 ### Using [[240401 Bayes Theorem|Bayes Theorem]]
 
 $$

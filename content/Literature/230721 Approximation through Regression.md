@@ -1,9 +1,8 @@
 ---
 title: Approximation through Regression
 draft: false
-tags:
+date: 2023-07-21
 ---
-  
 
 For given *N* Data points
 

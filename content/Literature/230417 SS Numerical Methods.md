@@ -1,8 +1,9 @@
 ---
-title: Numerical Methods for Differential Equations
+title: SS Numerical Methods
 draft: false
-tags:
+date: 2023-04-17
 ---
+
 ## Numerical Basics
 ### Interpolation
 - [[230718 Polynomial Interpolation using Vandermonde Matrix|Polynomial Interpolation with Vandermonde Matrix]]

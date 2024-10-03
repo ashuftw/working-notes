@@ -1,8 +1,9 @@
 ---
 title: Fluid Mechanics
 draft: false
-tags:
+date: 2022-11-06
 ---
+
 ## Basics
 - [[220430 Material, Substantial or Lagrangian Derivative|Material Derivative]]
 - [[221021 Hydrostatic Pressure|Hydrostatic Pressure]]

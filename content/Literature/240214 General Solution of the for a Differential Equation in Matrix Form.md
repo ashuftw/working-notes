@@ -1,9 +1,9 @@
 ---
 title: General Solution of the for a Differential Equation in Matrix Form
 draft: false
-tags:
+date: 2024-02-14
 ---
-  
+
 ## Homogeneous Solution 
 ### Compact vector form 
 

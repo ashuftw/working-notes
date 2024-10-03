@@ -1,3 +1,9 @@
+---
+title: The Barbell Reading Method
+draft: false
+date: 2022-09-04
+---
+
 Sep 2022
   
 

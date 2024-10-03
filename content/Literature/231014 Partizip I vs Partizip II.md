@@ -1,4 +1,9 @@
-  
+---
+title: Partizip I vs Partizip II
+draft: false
+date: 2023-10-14
+---
+
 ## Use case
 | Partizip I | Partizip II | 
 | -------- | -------- | 

@@ -1,9 +1,8 @@
 ---
 title: Flow Separation
 draft: false
-tags:
+date: 2023-02-26
 ---
-  
 
 ![[Pasted image 20230226122515.png|center]]
 

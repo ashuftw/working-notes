@@ -1,4 +1,8 @@
-  
+---
+title: Structure of verb in Present Tense
+draft: false
+date: 2022-08-27
+---
 
 Tags: [[German]] [[Grammar]] [[Verbs]] [[220827 Finite Verb|Finite Verb]]
 

@@ -1,8 +1,9 @@
 ---
-title: 
+title: OpenFOAM Wiki
 draft: false
-tags:
+date: 2024-03-23
 ---
+
 ## Solvers 
 1. simpleFoam
 	- [[240323 SIMPLE Algorithm]]

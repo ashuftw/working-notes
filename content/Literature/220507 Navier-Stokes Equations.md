@@ -1,4 +1,8 @@
-   
+---
+title: Navier-Stokes Equations
+draft: false
+date: 2022-05-07
+---
 
 # Navier-Stokes Equations
 The Navier Stokes Equations express the mass conservation laws and momentum conservation laws for a fluid. They define how the mass and momentum are transported across the field. Hence they are called Mass transport equation and momentum transport equation respectively. 

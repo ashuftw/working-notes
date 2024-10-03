@@ -1,4 +1,8 @@
-  
+---
+title:  Trotzdem vs Obwohl. Was ist der Unterschied_
+draft: false
+date: 2022-12-22
+---
 
 ## Trotzdem
 1. Takes position 1 or 3 in the Haupsatz (main clause).

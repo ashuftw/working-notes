@@ -1,9 +1,8 @@
 ---
 title: Using Likelihood to Model Probability
 draft: false
-tags:
+date: 2024-05-27
 ---
-  
 
 ![[Pasted image 20240527153253.png|center|500]]
 ## Likelihood function

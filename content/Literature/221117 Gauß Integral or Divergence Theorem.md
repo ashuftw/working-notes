@@ -1,7 +1,7 @@
 ---
 title: Gauß Integral or Divergence Theorem
 draft: false
-tags:
+date: 2022-11-17
 ---
 
 ![[221117 Gauss Integral or Divergence Theorem.png|center]]

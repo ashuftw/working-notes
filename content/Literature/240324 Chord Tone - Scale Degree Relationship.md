@@ -1,3 +1,9 @@
+---
+title: Chord Tone - Scale Degree Relationship
+draft: false
+date: 2024-03-24
+---
+
   
 ## Ionian
 

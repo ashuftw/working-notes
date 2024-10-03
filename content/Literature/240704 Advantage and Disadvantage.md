@@ -1,3 +1,9 @@
+---
+title: Advantage and Disadvantage
+draft: false
+date: 2024-07-04
+---
+
   
 ## Use case
 These come with situations.  

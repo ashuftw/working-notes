@@ -1,9 +1,9 @@
 ---
-title: Partial Differential Equations
+title: WS-PDE Script
 draft: false
-tags:
+date: 2022-11-10
 ---
-   
+
 ## Introduction
 - [[231205 Directional Derivative|Directional Derivative]]
 - [[231205 Gradient Points to the direction of Steepest Slope|Gradient Points to the direction of Steepest Slope]]

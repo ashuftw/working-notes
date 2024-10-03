@@ -1,9 +1,9 @@
 ---
 title: Fisher's Linear Discriminant Function
 draft: false
-tags:
+date: 2024-07-11
 ---
-  
+
 ## Motivation
 We try to find a weight vector $\mathbf w$ such that the Hyper Plane is $\bot$ to it.     
 

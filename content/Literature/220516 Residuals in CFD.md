@@ -1,7 +1,7 @@
 ---
 title: Residuals in CFD
 draft: false
-tags:
+date: 2022-05-16
 ---
 
 - CFD codes use iterative approach to solve the solution matrix. 

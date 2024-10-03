@@ -1,4 +1,9 @@
-  
+---
+title: SS23 Finite Volume Method (FVM)
+draft: false
+date: 2023-04-20
+---
+
 ## Introduction
 - [[230503 Landau notation or Big O notation|Landau notation or Big O notation]]
 - [[231206 Steps to solve a PDE]]

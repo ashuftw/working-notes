@@ -1,4 +1,8 @@
-  
+---
+title: Adjektiv-Deklination
+draft: false
+date: 2023-03-08
+---
 
 ## [[220908 Definite Article - Declination Table|Definite Article]] 
 |Case   |Maskulin   |Feminin  |Neutral  |Plural   |

@@ -1,8 +1,9 @@
 ---
 title: Law of the Wall and Wall Units
 draft: false
-tags:
+date: 2024-06-13
 ---
+
 ![[Pasted image 20240617115121.png|center|600]]
 
 ## Assumption

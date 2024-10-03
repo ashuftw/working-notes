@@ -1,8 +1,9 @@
 ---
 title: Courant-Friedrichs-Lewy or CFL Number
 draft: false
-tags:
+date: 2024-08-06
 ---
+
 It gives a sense of how far the information has travelled compared to the grid spacing. 
 
 $$

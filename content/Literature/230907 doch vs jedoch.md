@@ -1,7 +1,7 @@
 ---
 title: doch vs jedoch
 draft: false
-tags:
+date: 2023-09-07
 ---
 
 ## doch

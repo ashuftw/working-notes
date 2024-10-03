@@ -1,4 +1,9 @@
-    
+---
+title: Relativpronomen im Akkusativ
+draft: false
+date: 2022-09-22
+---
+
 **Maskulin**
 - Der Stuhl ist teuer. Ich kaufe mir **den Stuhl**.
 	Der Stuhl, **den** ich mir **kaufe**, ist teuer.

@@ -1,4 +1,8 @@
-  
+---
+title: Relativpronomen im Nominativ
+draft: false
+date: 2022-09-22
+---
 
 **Maskulin**
 - Ich habe einen Hund. Der Hund hat immer Hunger. 

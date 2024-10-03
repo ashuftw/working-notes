@@ -1,9 +1,9 @@
 ---
 title: General form of an Linear Differential Equation in Matrix form
 draft: false
-tags:
+date: 2024-02-13
 ---
-  
+
 ![[Pasted image 20240213114254.png|center]]
 **Example:**
 The Differential Equation

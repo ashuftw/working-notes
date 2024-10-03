@@ -1,7 +1,7 @@
 ---
 title: Probability formulae
 draft: false
-tags:
+date: 2023-04-18
 ---
 
 1. **Unconditional or Marginal Probability**

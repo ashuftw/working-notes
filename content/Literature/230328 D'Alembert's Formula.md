@@ -1,9 +1,8 @@
 ---
 title: D'Alembert's Formula
 draft: false
-tags:
+date: 2023-03-28
 ---
-  
 
 $$
 \begin{aligned}

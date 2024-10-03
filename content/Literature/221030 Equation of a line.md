@@ -1,3 +1,9 @@
+---
+title: Equation of a line
+draft: false
+date: 2022-10-30
+---
+
 Oct 2022
   
 

@@ -1,4 +1,8 @@
-  
+---
+title: Expected Value
+draft: false
+date: 2023-05-05
+---
 
 ## Definition
 It is the average value (mean) of a random experiment. 

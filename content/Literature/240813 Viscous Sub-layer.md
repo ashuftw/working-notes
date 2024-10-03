@@ -1,8 +1,9 @@
 ---
 title: Viscous Sub-layer
 draft: false
-tags:
+date: 2024-08-13
 ---
+
 ![[Pasted image 20240813195036.png|center|500]]
 In the viscous sub layer. The flow is mostly laminar. This means that there is a linear relationship between the [[240613 Law of the Wall and Wall Units|Wall Units]]. 
 

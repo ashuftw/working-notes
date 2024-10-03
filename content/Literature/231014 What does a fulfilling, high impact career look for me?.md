@@ -1,9 +1,9 @@
 ---
 title: What does a fulfilling, high impact career look for me?
 draft: false
-tags:
+date: 2023-10-14
 ---
- 
+
 $$
 \boxed{\text{\textbf{Expected impact }= pressingness of problem x effectiveness of opportunity x personal fit}}
 $$

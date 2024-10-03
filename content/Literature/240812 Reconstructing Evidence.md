@@ -1,9 +1,9 @@
 ---
 title: Reconstructing Evidence
 draft: false
-tags:
+date: 2024-08-12
 ---
-  
+
 ### Use case 
 Evidence is neither measured or modeled. However one can calculated using the numerator of the [[240401 Bayes Theorem|Bayes Theorem]]. 
 

@@ -1,4 +1,8 @@
-  
+---
+title: Redemittel - Über Textabschnitte sprechen
+draft: false
+date: 2023-11-03
+---
 
 | Redemittel                                      | English Translation                                 |
 |-------------------------------------------------------|------------------------------------------------------|

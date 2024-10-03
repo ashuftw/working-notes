@@ -1,4 +1,9 @@
-  
+---
+title: Satz im Passiv
+draft: false
+date: 2023-02-06
+---
+
 ### Aktiv Satz: Ich esse den Apfel. 
 1. **Passiv Präsens** 
 	- **Syntax:** *werden* + *Partizip 2*   

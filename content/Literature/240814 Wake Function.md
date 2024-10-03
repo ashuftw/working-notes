@@ -1,7 +1,7 @@
 ---
 title: Wake Function
 draft: false
-tags:
+date: 2024-08-14
 ---
 
 The generalized velocity derivative in [[240613 Law of the Wall and Wall Units|Plus units]].

@@ -1,8 +1,9 @@
 ---
 title: Binary Classifications
 draft: false
-tags:
+date: 2024-04-29
 ---
+
 #### True Positive 
 It is an instance where the model correctly predicts the positive class i.e, the Model predicts a true value given that the answer is actually true. 
 - **True Positive Rate**

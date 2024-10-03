@@ -1,4 +1,8 @@
-  
+---
+title: Gradient Descent Algorithm
+draft: false
+date: 2023-10-13
+---
 
 ## Use-case
 It is used to find the smallest cost function for a regression. So that the regression gives a fairly accurate approximation of the data set. 

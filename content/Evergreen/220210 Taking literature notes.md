@@ -1,14 +1,8 @@
 ---
 title: Taking literature notes
 draft: false
-tags:
+date: 2022-02-10
 ---
-
- 
-
-
-
-
 
 **What are Literature notes?**
 Literature notes are supposed to be written in the perspective of the book, paper or article you are referring to as opposed to [[220210 How to take Permanent Notes?|permanent notes]] . Understand the material and write what you understand in short, concise and brief **in your own words.**

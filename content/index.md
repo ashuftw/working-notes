@@ -1,5 +1,8 @@
 ---
 title: Ahoy!
+draft: false
+tags: 
+date: 2024-08-19
 ---
 I'm Ashu and these are my working notes. The organization of these notes is inspired by [Luhmann's Slipbox](http://luhmann.surge.sh/communicating-with-slip-boxes) and [Andy Matuschak's Tools for Thought](https://andymatuschak.org/) culminating in my own pithy approach with [[Evergreen/220515 Purpose Driven Writing|Purpose Driven Writing]]. 
 

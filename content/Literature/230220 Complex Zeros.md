@@ -1,9 +1,9 @@
 ---
 title: Complex Zeros
 draft: false
-tags:
+date: 2023-02-20
 ---
-  
+
 ![[230220 Complex Zeros 2.png|center]]
 
 

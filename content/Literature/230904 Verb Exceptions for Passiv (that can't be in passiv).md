@@ -1,4 +1,9 @@
-  
+---
+title: Verb Exceptions for Passiv (that can't be in passiv)
+draft: false
+date: 2023-09-04
+---
+
 1. **Sterben** (to die)
     - Ich sterbe. (I am dying.)
     - Passive: X (Cannot be used in the passive voice)

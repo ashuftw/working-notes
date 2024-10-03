@@ -1,9 +1,9 @@
 ---
 title: Object Oriented Programming
 draft: false
-tags:
+date: 2023-05-16
 ---
-  
+
 ## **Key Concepts**
 1. **Data Encapsulation:** Bundles data and methods within an object, hiding internal details and providing controlled access to the data.
 2. **Inheritance:** Enables a new class to inherit properties and behaviors from an existing class, promoting code reusability and hierarchical organization.

@@ -1,14 +1,8 @@
 ---
 title: Asking Better Questions
 draft: false
-tags:
+date: 2022-04-13
 ---
- 
-
-
-
-
-
 
 - Instead of asking a question and then following up with a research, with the Zettelkasten, you can choose the question at the center of a cluster of notes. 
 - If that isn't interesting or you don't know much about it, simply move on to the next cluster. 

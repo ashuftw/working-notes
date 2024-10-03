@@ -1,7 +1,7 @@
 ---
-title: Ordinary Differential Equations
+title: WS-ODE Script
 draft: false
-tags:
+date: 2022-11-06
 ---
 
 ## Introduction

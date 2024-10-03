@@ -1,4 +1,9 @@
-    
+---
+title: Modal Verbs (Modalverben)
+draft: false
+date: 2022-09-11
+---
+
 ## Use-case
 They are verbs are that indicate modality i.e. likelihood, permission, ability, obligation etc. 
 

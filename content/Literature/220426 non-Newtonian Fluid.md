@@ -1,3 +1,9 @@
+---
+title: non-Newtonian Fluid
+draft: false
+date: 2022-04-26
+---
+
 Apr 2022
     
 

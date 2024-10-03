@@ -1,4 +1,9 @@
-  
+---
+title: Partizip II als Adjektiv
+draft: false
+date: 2023-06-23
+---
+
 ## Syntax
 
 $$

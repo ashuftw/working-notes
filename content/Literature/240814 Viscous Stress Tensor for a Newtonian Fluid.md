@@ -1,3 +1,9 @@
+---
+title: Viscous Stress Tensor for a Newtonian Fluid
+draft: false
+date: 2024-08-14
+---
+
   
 
 

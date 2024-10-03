@@ -1,14 +1,8 @@
 ---
 title: What the hell is water?
 draft: false
-tags:
+date: 2023-06-11
 ---
- 
-
-
-
-
-
 
 A few weeks ago, I was in Berlin for a couple of days. It was my first time there so a friend decided to show me around town. It was sunny and bright and crowded, not unlike my hometown back in India. As we rode our bikes around the city, I would get these ephemeral moments of nostalgia. I felt transported back in time when I would cycle home from Sunday Basketball practice at Madhavan Park. It really was something.
 

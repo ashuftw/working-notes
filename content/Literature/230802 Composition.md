@@ -1,4 +1,9 @@
-  
+---
+title: Composition
+draft: false
+date: 2023-08-02
+---
+
 ## Definition
 It is a concept in [[230516 Object Oriented Programming|Object-Oriented Programming]] allows a class to leverage the behaviors and functionalities of other classes without directly inheriting from them.
 

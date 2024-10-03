@@ -1,9 +1,8 @@
 ---
 title: Continuity Equation using Reynolds Transport Theorem
 draft: false
-tags:
+date: 2023-04-16
 ---
-  
 
 **[[221125 Reynolds Transport Theorem|Reynolds Transport Theorem]] for a steady flow**
 

@@ -1,4 +1,9 @@
-  
+---
+title: Doppeltem Komparativ - umso, desto
+draft: false
+date: 2023-03-08
+---
+
 ### Use case
 It is used to express **proportional** relationship between two things. 
 

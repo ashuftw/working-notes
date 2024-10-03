@@ -1,9 +1,8 @@
 ---
 title: Dependency Inversion Principle
 draft: false
-tags:
+date: 2023-06-13
 ---
-   
 
 The DIP principle says that High level modules should not depend on Low level modules that are volatile. Instead they both of them should depend on abstractions. 
 

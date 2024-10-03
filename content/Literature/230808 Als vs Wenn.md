@@ -1,4 +1,9 @@
- 
+---
+title: Als vs Wenn
+draft: false
+date: 2023-08-08
+---
+
 # Use case: Als vs Wenn
 
 | als                                          | wenn                                                     |

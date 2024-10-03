@@ -1,9 +1,9 @@
 ---
 title: Strain Rate and Rotation
 draft: false
-tags: 
 date: 2024-04-04
 ---
+
 ## Strain rate
 It is the rate at which deformation occurs in all directions. It takes into changes in volume and shape. 
 **Strain rate tensor**

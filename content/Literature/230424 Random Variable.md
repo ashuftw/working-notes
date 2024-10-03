@@ -1,8 +1,9 @@
 ---
 title: Random Variable
 draft: false
-tags:
+date: 2023-04-24
 ---
+
 ## Definition
 It is a variable whose value is dependent on the outcome of a random experiment. It is defined as a *mapping* from the *sample space to the real numbers*.  
 - **Continuous Random Variable:** If a Random Variable can take an Infinite number of values within a range or interval. Then it is is a Continuous random variable. 

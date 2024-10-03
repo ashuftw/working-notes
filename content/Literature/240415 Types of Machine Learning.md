@@ -1,9 +1,8 @@
 ---
 title: Types of Machine Learning
 draft: false
-tags:
+date: 2024-04-15
 ---
-  
 
 ```mermaid
 graph TD;

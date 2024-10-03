@@ -1,9 +1,9 @@
 ---
 title: Bias vs Variance
 draft: false
-tags:
+date: 2024-07-10
 ---
-  
+
 ### Bias
 In a model, it is the systematic error that is cause due to wrong assumptions made during the learning process. 
 

@@ -1,4 +1,9 @@
-  
+---
+title: Plusquamperfekt
+draft: false
+date: 2023-03-13
+---
+
 ## Purpose & Use-case:
 ![[Pasted image 20230523100927.png|center]]
 Plusquamperfekt is used to denote actions in the past that are completed before another past action. 

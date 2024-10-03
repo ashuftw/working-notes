@@ -1,4 +1,8 @@
-   
+---
+title: Partizip I als Adjektiv
+draft: false
+date: 2023-06-23
+---
 
 Verbs in [[231014 Partizip I vs Partizip II|Partizip I]] can be used as an adjective. 
 

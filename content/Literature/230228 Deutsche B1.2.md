@@ -1,4 +1,9 @@
-  
+---
+title: Deutsche B1.2
+draft: false
+date: 2023-02-28
+---
+
 - [[230228 Haupsatz vs Nebensatze|Haupsatz vs Nebensatze]]
 - [[Infitivkonstruktionen nach]]
 - [[230302 Nationalitäten|Nationalitäten]]

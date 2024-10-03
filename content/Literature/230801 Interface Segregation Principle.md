@@ -1,9 +1,9 @@
 ---
 title: Interface Segregation Principle
 draft: false
-tags:
+date: 2023-08-01
 ---
-  
+
 ## Definition 
 In a program having multiple sub-classes, each sub-class should be exposed only to the information or functionality that it requires from the super-class. This is achieved by creating a unique interface between two. 
 

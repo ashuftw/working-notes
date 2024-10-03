@@ -1,8 +1,9 @@
 ---
 title: Receiving Operator Characteristics
 draft: false
-tags:
+date: 2024-08-21
 ---
+
 ## $\text{TPR = f(FPR)}$
 ![[../Files/Pasted image 20240821122312.png|center]]
 

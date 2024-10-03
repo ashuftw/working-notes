@@ -1,7 +1,7 @@
 ---
 title: Multivariate Gaussian PDF
 draft: false
-tags:
+date: 2023-06-06
 ---
 
 Assume $X$ is an independent Random **Vector**. Then the[[230712 Joint Density|Joint Density]] is given by 

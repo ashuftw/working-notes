@@ -1,3 +1,9 @@
+---
+title: Common Trennbare Verben
+draft: false
+date: 2022-09-15
+---
+
 Sep 2022
   
 

@@ -1,7 +1,8 @@
-Apr 2022
-  
-
-Tags: [[Blood flow]] [[non-Newtonian Flow]]
+---
+title: Flow parameter of blood
+draft: false
+date: 2022-04-08
+---
 
 # Flow parameter of blood
 ![[Pasted image 20220405154320.png|center]][^1]

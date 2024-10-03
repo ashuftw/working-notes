@@ -1,4 +1,9 @@
-  
+---
+title: Scope Insensitivity
+draft: false
+date: 2023-05-25
+---
+
 The relationship scale and sensitivity is diminishing. Small changes in smaller scale tend to evoke a bigger sense of change than changes at larger scales. 
 
 Example:

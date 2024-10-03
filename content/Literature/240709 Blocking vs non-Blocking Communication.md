@@ -1,9 +1,9 @@
 ---
 title: Blocking vs non-Blocking Communication
 draft: false
-tags:
+date: 2024-07-09
 ---
-  
+
 ## Blocking Communication 
 Here the rest of the code does not get executed until the the communication process is completed. 
 Ex: **MPI_Send, MPI_Receive**

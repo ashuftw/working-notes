@@ -1,3 +1,9 @@
+---
+title: The Spark between Darkness
+draft: false
+date: 2024-04-07
+---
+
   
 
 > By all outward appearances our life is a spark of light between one eternal darkness and another. Nor is the interval between these two nights an unclouded day, for the more we are able to feel pleasure, the more we are vulnerable to pain-and, whether in background or foreground, the pain is always with us. 

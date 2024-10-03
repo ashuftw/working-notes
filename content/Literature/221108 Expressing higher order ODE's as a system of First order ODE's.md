@@ -1,7 +1,7 @@
 ---
 title: Expressing higher order ODE's as a system of First order ODE's
 draft: false
-tags:
+date: 2022-11-08
 ---
 
 **Lemma**: An $\text n^\text{th}$ order differential equation written in explicit form can be written as a system of $\text n$ first order differential equations.

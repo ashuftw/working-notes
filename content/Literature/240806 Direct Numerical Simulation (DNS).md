@@ -1,8 +1,9 @@
 ---
 title: Direct Numerical Simulation (DNS)
 draft: false
-tags:
+date: 2024-08-06
 ---
+
 ## Use case
 It a Method of Turbulence Modeling where are all the Turbulent scales are resolved directly i.e, without averaging or using a turbulence model. 
 ## Requirements

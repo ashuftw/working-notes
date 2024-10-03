@@ -1,9 +1,9 @@
 ---
 title: Dynamic Loop Scheduling
 draft: false
-tags:
+date: 2024-06-21
 ---
-  
+
 ## Self Scheduling: 
 - An idle processor requests for work. 
 - Master processor keeps record of available and assigned work. 

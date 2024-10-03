@@ -1,10 +1,8 @@
 ---
 title: Hydrostatic Pressure
 draft: false
-tags:
+date: 2022-10-21
 ---
-  
-
 
 It is the pressure at a point within a fluid at equilibrium. It is given by 
 $$

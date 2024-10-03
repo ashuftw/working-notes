@@ -1,9 +1,9 @@
 ---
 title: Likelihood Ratio
 draft: false
-tags:
+date: 2024-04-23
 ---
-  
+
 ## Use-case 
 The Likelihood ratio is another way of writing the Bayes rule. It conveniently allows the use of a threshold which dictates which classification or decision is to be made. 
 ### Mathematical Definition 

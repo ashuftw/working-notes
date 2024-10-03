@@ -1,9 +1,8 @@
 ---
-title: " How to take Permanent Notes?"
+title: How to take Permanent Notes?
 draft: false
-tags:
+date: 2022-02-10
 ---
- 
 
 In my opinion, taking *Permanent Notes* is the keystone idea of the Zettelkasten method.
 

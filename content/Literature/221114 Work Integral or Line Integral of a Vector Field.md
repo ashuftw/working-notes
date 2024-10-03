@@ -1,9 +1,9 @@
 ---
 title: Work Integral or Line Integral of a Vector Field
 draft: false
-tags:
+date: 2022-11-14
 ---
-   
+
 ![[221218 Work Integral.png|center]]
 
 

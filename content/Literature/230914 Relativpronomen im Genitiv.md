@@ -1,4 +1,9 @@
-  
+---
+title: Relativpronomen im Genitiv
+draft: false
+date: 2023-09-14
+---
+
 **Maskulin**
 - Ich kenne diesen Schüler. Sein Buch liegt auf der Bank. 
 	Ich kenne diesen Schüler, **dessen** Buch liegt auf der Bank.

@@ -1,9 +1,8 @@
 ---
 title: Open-Closed Principle
 draft: false
-tags:
+date: 2023-05-16
 ---
-   
 
 ## Definition
 "A module should be open for extensions, but closed for modifications."

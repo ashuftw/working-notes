@@ -1,9 +1,8 @@
 ---
 title: Machine Classification, Terminology
 draft: false
-tags:
+date: 2024-04-05
 ---
-   
 
 ## Background
 

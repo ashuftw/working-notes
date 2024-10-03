@@ -1,10 +1,9 @@
 ---
 title: Vorticity
 draft: false
-tags: 
 date: 2024-04-04
 ---
-  
+
 ## Definition
 The vorticity defines the rotation of the fluid particles across the entire field. Thus giving a of map of intensity of the rotation across the domain. It is defined as the Curl of the Velocity vector.
 

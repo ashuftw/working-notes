@@ -1,8 +1,9 @@
 ---
 title: Role of the Stress Tensor in RANS
 draft: false
-tags:
+date: 2024-08-13
 ---
+
 By definition, [[240813 Reynolds Averaged Navier Stokes (RANS)|RANS]] modelling averages or filters the temporal fluctuations in the flow. Thereby also filtering turbulent behaviour of the fluid. 
 
 Hence the average effect of the Turbulent behaviour is contributed to integral motion of the fluid through the [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stress Tensor]] in the momentum equation. It is represented as $\tau^{turb}_{ij}$.

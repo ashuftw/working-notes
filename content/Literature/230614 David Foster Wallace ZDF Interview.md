@@ -1,4 +1,8 @@
-  
+---
+title: David Foster Wallace ZDF Interview
+draft: false
+date: 2023-06-14
+---
 
 > [There's a lot of narcissm in self-hatred.](https://youtu.be/iGLzWdT7vGc?t=2087) 
 

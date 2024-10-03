@@ -1,7 +1,8 @@
-Apr 2022
-  
-
-Tags: [[Blood flow]] [[non-Newtonian Flow]] [[Multiphase flow]] [[Journal Paper]]
+---
+title: Influence of Plasma Layer on Steady Blood Flow in Microvessels
+draft: false
+date: 2022-04-08
+---
 
 # Influence of Plasma layer on Steady Blood flow in micro-vessels
 *Noriko Iida (1977)*

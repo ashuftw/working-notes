@@ -1,9 +1,8 @@
 ---
 title: Buckingham's Pi Theorem
 draft: false
-tags:
+date: 2023-02-23
 ---
-  
 
 If a Function $f$ has $n$ physical/geometric parameters with $m$ fundamental units. Then the entire physical behaviour can be expressed by $(m−n)$ non-dimensional parameters such that
 $$

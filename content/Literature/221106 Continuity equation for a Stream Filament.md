@@ -1,9 +1,8 @@
 ---
 title: Continuity equation for a Stream Filament
 draft: false
-tags:
+date: 2022-11-06
 ---
-
 
 ![[Pasted image 20221106141239.png|center|350]]
 

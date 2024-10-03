@@ -1,3 +1,9 @@
+---
+title: Cargo Cult Guitar
+draft: false
+date: 2023-01-22
+---
+
   
 
 I've been playing the guitar on and off for over 10 years now, and lately, I've been questioning how it fits into my life and what that means to me.

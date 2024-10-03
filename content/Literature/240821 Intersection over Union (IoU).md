@@ -1,8 +1,9 @@
 ---
 title: Intersection over Union (IoU)
 draft: false
-tags:
+date: 2024-08-21
 ---
+
 It is a Quality Measure used in [[240821 Semantic or Image Segmentation|Image Segmentation]]. 
 
 Visually, it can be represented as follows. 

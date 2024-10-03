@@ -1,9 +1,9 @@
 ---
 title: Romberg's Extrapolation Method
 draft: false
-tags:
+date: 2024-06-03
 ---
-  
+
 ## Use case 
 It is used to improve the accuracy of a Numerical Method to a higher order by combining results from different step sizes.  
 ## Mathematically 

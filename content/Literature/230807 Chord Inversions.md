@@ -1,4 +1,8 @@
-  
+---
+title: Chord Inversions
+draft: false
+date: 2023-08-07
+---
 
 ## Root on 4$^\text{th}$ String 
 - Major	![[Pasted image 20230807151218.png|center]]

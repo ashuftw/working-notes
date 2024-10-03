@@ -1,8 +1,9 @@
 ---
 title: Karhunen Loève Expansion
 draft: false
-tags:
+date: 2023-05-16
 ---
+
 ## Definition
 The KL expansion is a Transformation technique allows you to find a new set of variables that are uncorrelated and can describe the original data.
 It does this by finding the most important patterns or modes of variation in the data and expressing the original variables as a combination of these patterns.

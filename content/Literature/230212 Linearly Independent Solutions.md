@@ -1,9 +1,9 @@
 ---
 title: Linearly Independent Solutions
 draft: false
-tags:
+date: 2023-02-12
 ---
-  
+
 ## Definition
 The are solutions that cannot be written as a linear combination of each other to give a new solution.
 

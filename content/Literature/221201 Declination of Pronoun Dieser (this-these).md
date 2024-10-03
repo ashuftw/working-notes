@@ -1,4 +1,8 @@
-  
+---
+title: Declination of Pronoun Dieser (this-these)
+draft: false
+date: 2022-12-01
+---
 
 | Case | Masculin | Feminin | Neutral | Plural |
 |---|---|---|---|---|

@@ -1,3 +1,9 @@
+---
+title: Brown guy tryna fly
+draft: false
+date: 2024-06-09
+---
+
   
 
 I started playing basketball when I was 13. And the decision was pretty straightforward, I just wanted to be on "a" school team. At the time I was really into soccer and I'd like to think that I was even pretty decent at it but there was no way I could make it to the team or even get to play during lunch breaks.
