@@ -1,2 +1,2 @@
 ## Sync 
-npm quartz sync
+npx quartz sync
