@@ -5,7 +5,6 @@ date: 2024-08-21
 ---
 
 ## $\text{FNR = f(FPR)}$
-### Equal Error Rate
 It is the point on the [[240821 Receiving Operator Characteristics|ROC]] curve where the False Positive Rate equals the False Negative Rate.
 The Bayes classifier will operate at the EER point when:
 - **Equal Priors**
