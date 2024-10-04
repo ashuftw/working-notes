@@ -2,19 +2,17 @@
 tags:
   - 📚Book
 title: Elsewhere
-subtitle: "{{subtitle}}"
+subtitle: A Novel
 author:
   - Alexis Schaitkin
 category:
   - Fiction
-localCover: "{{localCoverImage}}"
+localCover: content/Files/Elsewhere - Alexis Schaitkin.jpg
 draft: false
 date: 2023-08-25
 ---
 
-![[{{localCoverImage}}|150]]
-
-
+![[content/Files/Elsewhere - Alexis Schaitkin.jpg|150]]
 
 ## I
 
