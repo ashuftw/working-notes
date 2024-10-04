@@ -1,16 +1,17 @@
 ---
 tags:
   - 📚Book
-title: Dipa Ma - Amy Schmid
-subtitle: The Life and Legacy of a Buddhist Master
+title: Dipa Ma
+subtitle: ""
 author:
   - Amy Schmidt
 category:
   - Religion
 localCover: content/Files/Dipa Ma - Amy Schmidt.jpg
 draft: false
-date: 2024-10-03
+date: 2024-09-30
 ---
+
 ![[content/Files/Dipa Ma - Amy Schmidt.jpg|150]]
 ## Chapter 2: Awakening
 
