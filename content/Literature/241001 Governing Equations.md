@@ -1,6 +1,6 @@
 ---
 title: Governing Equations
-draft: false
+draft: true
 date: 2024-10-01
 ---
 
@@ -30,7 +30,7 @@ where,
 
 ### Transformation into Cylindrical Coordinates
 
-Assuming fully developed laminar flow within each cell. (Eqn. 1) becomes
+Assuming fully developed laminar flow within each cell. (Eq. 1) becomes
 $$
 \frac{\partial C_A}{\partial t}+u_d \frac{\partial C_A}{\partial x}=D_{A B} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right)\tag2
 $$
@@ -41,10 +41,11 @@ where,
 - $r\rightarrow$ radial coordinate
 
 ### Thin Duct Equation
-Note that in steady state, (Eq. 2) reduces to the thin duct equation.
+Note that in steady state, (Eq. 2) reduces to the thin duct equation. 
 $$
 u_d \frac{\partial C_A}{\partial x}=D_{A B} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right) .\tag3
 $$
+More on (Eqn. 3)[^4]
 ### Boundary Condition
 The DAC problem consists in solving (Eq. 2) with the boundary condition
 $$
@@ -73,3 +74,4 @@ where,
 [^1]: [LibreTexts Physics: The First Law of Thermodynamics and Internal Energy](https://phys.libretexts.org/Bookshelves/Thermodynamics_and_Statistical_Mechanics/Heat_and_Thermodynamics_(Tatum)/07%3A_The_First_and_Second_Laws_of_Thermodynamics/7.01%3A_The_First_Law_of_Thermodynamics_and_Internal_Energy)
 [^2]: [[Physical and Computational Aspects of Convective Heat Transfer]]
 [^3]: [[Fundamentals of heat and mass transfer]] Pg. 976
+[^4]: [[Physical and Computational Aspects of Convective Heat Transfer]] Chpt. 5, Pg. 125
