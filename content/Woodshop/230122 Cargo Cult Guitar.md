@@ -4,8 +4,6 @@ draft: false
 date: 2023-01-22
 ---
 
-  
-
 I've been playing the guitar on and off for over 10 years now, and lately, I've been questioning how it fits into my life and what that means to me.
 
 I think I'm allowed to ask these types of questions because I know I've put in the effort. The time you spend isn't indicative of anything if it isn't [deliberate](https://www.annualreviews.org/doi/10.1146/annurev.psych.47.1.273), and in retrospect I definitely have practiced through repetition and successive refinement. What I lacked and still lack is mentorship. Which depending on where you are and the circumstances you find yourself in, might simply not be an option. It definitely wasn't a possibility for me.

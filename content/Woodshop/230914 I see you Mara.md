@@ -4,8 +4,6 @@ draft: false
 date: 2023-09-14
 ---
 
-  
-
 Buddhist tradition speaks a character called [Māra](https://en.wikipedia.org/wiki/Mara_(demon)) who takes the role of being the very embodiment of delusion. The night before [Siddhartha's](https://en.wikipedia.org/wiki/The_Buddha) enlightenment, he visits him under the Bodhi tree. He says to himself, "How dare a mere human seek enlightenment?". 
 
 To break his resolve, Māra throws everything at the runaway prince of Lumbini. Through the course of the night, he takes many forms to scare, seduce and enrage him. The Boddhisattva met each attack with an open heart of acceptance. In one of the stories Māra shot a rain of arrows of greed and hatred. As the arrows come close, they just turned into flower blossoms. When it was dawn, Siddhartha was surrounded by a mound of flagrant petals, and when he opened his eyes, he opened them as Buddha, the "Awakened One". 

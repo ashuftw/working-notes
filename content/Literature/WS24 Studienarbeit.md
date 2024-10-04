@@ -8,7 +8,7 @@ tags:
 - [[240620 Two Types of DAC|Two Types of DAC]]
 ## Modeling
 - [[241001 Governing Equations|Governing Equations]]
-- [[241004 Application of FDM to the Thin Duct Equations]]
+- [[241004 Application of FDM to the Thin Duct Equations|Application of FDM to the Thin Duct Equations]]
 ## Literature Review
 - [[Darunte et al., 2017]]
 - [[240620 Life Cycle Assessment of DAC|Life Cycle Assessment of DAC]]
@@ -18,3 +18,5 @@ tags:
 - [[../../private/Docs/Task-sheet.pdf|Task-sheet]]
 ## Admin 
 - [[Oct 8, 2024]]
+- [[Oct 8, 2024]]
+- 
