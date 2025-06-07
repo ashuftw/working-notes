@@ -18,7 +18,7 @@ maybe these differences are compounding
 ship of thesus 
 i googled it and apparently the cells in your heart and neurons don't change that much
 maybe it's a bit like contraction mapping. There seems to be one value that is at the core and that part doesn't really change that much. I mean naval says that you're a blank slate when you're born but again that opens up the nurture vs nature can of worms. Anecdotally twins born in the same household can grown to become different persons. But I also think that it just could be a nature thing or even just external stimuli that grows compounds in net effectiveness like a page out of a chaos theory text book. 
-Although of Course You End Up Becoming Yourself Quotes
+Although of Course You End Up Becoming Yourself Quotes - jonathan franzen 
 
 ---
 # References
