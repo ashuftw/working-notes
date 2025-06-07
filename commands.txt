@@ -1,0 +1,4 @@
+## run loally 
+npx quartz build --serve
+
+
