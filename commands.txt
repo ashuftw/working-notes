@@ -1,4 +1,6 @@
-## run loally 
+## run locally 
 npx quartz build --serve
 
 
+## git sync
+git add .  && git commit -m "sync git" && git push
