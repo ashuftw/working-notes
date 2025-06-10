@@ -21,11 +21,9 @@ $$
 $$
 
 Note: $y-$ momentum equations are not considered 'cause they are trivial (we assume there's no change)
+
 ### Addendum
 
 $$
 \frac{\partial p}{\partial y} =0
 $$
-
-
-

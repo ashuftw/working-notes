@@ -5,6 +5,7 @@ date: 2023-10-13
 ---
 
 ## Use-case
+
 It is used to find the smallest cost function for a regression. So that the regression gives a fairly accurate approximation of the data set. 
 
 $$
@@ -13,6 +14,7 @@ $$
 $$
 
 ## Theory
+
 **Hypothesis Function**
 
 $$
@@ -23,8 +25,8 @@ Where,
 - $(\theta_0, \theta_1)\rightarrow$ Parameters guessed by the Hypothesis function through regression
 - $x\rightarrow$ Domain
 
-
 ## Example
+
 ![[Pasted image 20231205145446.png|center]]
 **Cost/Loss Function: Mean Squared Error**
 

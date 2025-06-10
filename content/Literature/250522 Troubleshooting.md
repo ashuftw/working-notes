@@ -4,7 +4,9 @@ draft: true
 tags: 
 date: 2025-05-22
 ---
+
 ### Common Errors & Fixes:
+
 ```python
 # Dimension mismatch
 x.shape, y.shape  # check dimensions first

@@ -24,4 +24,3 @@ $$
 \tau_{ij}^{turb}=-\overline{u'_i u'_j}
 }
 $$
-

@@ -5,6 +5,7 @@ date: 2023-03-08
 ---
 
 ### Syntax 
+
 1. **In Hauptsatz:**
 	$\text{Modalverb + Partizip 2 + werden}$
 	- **Präsens**: Der Apfel **kann** (von mir) **gegessen** **werden**.
@@ -19,5 +20,7 @@ date: 2023-03-08
 > Note:  Here the **werden** is common for all tenses. The indicator for the tense is expressed through the verb. 
 
 ---
+
 # References
+
 [[230206 Satz im Passiv]]

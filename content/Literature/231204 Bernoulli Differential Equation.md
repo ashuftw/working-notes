@@ -5,12 +5,12 @@ date: 2023-12-04
 ---
 
 ## Definition
+
 An ODE is called a Bernoulli Differential equation if it can be represented in the form
 
 $$
 y'+a(t) y= p(t)\ y^\mathbf n
 $$
-
 
 $$
 \text{ODE}=
@@ -21,9 +21,8 @@ $$
 \end{cases}
 $$
 
-
-
 ## Solution Method
 
 ![[../Files/Pasted image 20240828110127.png|center]]
+
 > Note: Calculate $u'$ with RHS the way it is. Bringing it to LHS makes it less clean.

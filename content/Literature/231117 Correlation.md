@@ -5,6 +5,7 @@ date: 2023-11-17
 ---
 
 ## Definition
+
 It is a statistical measure that quantifies how linear the relationship between two variables is. 
 
 ## Coefficient of Correlation

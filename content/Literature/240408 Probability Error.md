@@ -29,6 +29,7 @@ Gives the Lowest Error Probability.
 - $P(s=2 \mid x)=0.2$ (Class 2 has a $20 \%$ chance)
 - $P(s=3 \mid x)=0.1$ (Class 3 has a 10\% chance)
 Using this approach, 
+
 $$
 P(\operatorname{error} \mid x)=\min [0.7,0.2,0.1]=0.1
 $$

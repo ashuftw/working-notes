@@ -5,8 +5,10 @@ date: 2023-02-12
 ---
 
 ## Solution Method
+
 For a **Complex Solution** $y_1(t)$ and $y_2(t)$ 
 The **Real Fundamental Solution** can be Calculated with the Forms
+
 $$
 v_1=\frac{y_1(t)+y_2(t)}{2}
 $$
@@ -17,7 +19,4 @@ $$
 
 Complex Fundamental System = $\{y_1,y_2\}$
 Real Fundamental System = $\{v_1,v_2\}$
-
-
-
 

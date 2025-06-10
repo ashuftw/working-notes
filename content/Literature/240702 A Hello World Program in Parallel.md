@@ -5,6 +5,7 @@ date: 2024-07-02
 ---
 
 ## Code
+
 ```cpp
 #include <mpi.h>        // Import the MPI library
 #include <stdio.h>
@@ -34,6 +35,8 @@ int main(int argc, char** argv) {
     MPI_Finalize();
 }
 ```
+
 ## Output
+
 ![[Pasted image 20240704114230.png|center|700]]
 

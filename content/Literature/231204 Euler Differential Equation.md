@@ -5,6 +5,7 @@ date: 2023-12-04
 ---
 
 ## Definition
+
 Euler Equations have the form 
 
 $$
@@ -16,7 +17,3 @@ They can be solved by taking the ansatz
 $$
 y= t^\alpha
 $$
-
-
-
-

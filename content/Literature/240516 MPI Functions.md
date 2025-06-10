@@ -5,6 +5,7 @@ date: 2024-05-16
 ---
 
 ## MPI_Init
+
 `MPI_Init` initializes the MPI environment. It must be called before any other MPI function. It defines the "Communicator" `MPI_COMM_WORLD`.
 ![[Pasted image 20240516124545.png|center]]
 **Syntax**
@@ -12,6 +13,7 @@ date: 2024-05-16
 where `argc` and `argv` are the command-line arguments.
 
 ---
+
 ## MPI_COMM_WORLD
 
 `MPI_COMM_WORLD` is a predefined communicator that includes all the processes in the MPI program. It is used when you need to communicate among all processes.
@@ -25,6 +27,7 @@ where `argc` and `argv` are the command-line arguments.
 ---
 
 ## MPI_Comm_size
+
 `MPI_Comm_size` determines the size of the group associated with a communicator. It returns the total number of processes in the communicator.
 
 **Syntax**  
@@ -32,6 +35,7 @@ where `argc` and `argv` are the command-line arguments.
 where `comm` is the communicator (e.g., `MPI_COMM_WORLD`) and `size` is the variable to store the number of processes.
 
 ---
+
 ## MPI_Comm_rank
 
 `MPI_Comm_rank` determines the rank of the calling process within the communicator. It returns the rank (ID) of the process.
@@ -41,7 +45,9 @@ where `comm` is the communicator (e.g., `MPI_COMM_WORLD`) and `size` is the vari
 where `comm` is the communicator (e.g., `MPI_COMM_WORLD`) and `rank` is the variable to store the rank of the process.
 
 ---
+
 ## MPI_Send
+
 `MPI_Send` performs a standard-mode *blocking send* (the operation is complete only when the send buffer has been completely copied or the receiver has received the message). It sends data from one process to another.
 
 **Syntax**  
@@ -73,9 +79,10 @@ where,
 - `comm` is the communicator
 - `status` status object
 
-
 ---
+
 ## MPI_Reduce
+
 `MPI_Reduce`combines values from all processes and delivers the result to the specified root process.
 
 **Syntax**
@@ -89,7 +96,9 @@ where,
 - `root`: Rank of the root process which will receive the result.
 - `comm`: Communicator (e.g., `MPI_COMM_WORLD`).
 ---
+
 ## MPI_Bcast 
+
 `MPI_Bcast` Broadcasts a message from the process with rank "root" to all other processes of the communicator.
 
 **Syntax**  
@@ -103,6 +112,7 @@ where,
 ---
 
 ## MPI_Finalize
+
 `MPI_Finalize` terminates the MPI environment. It must be called after all other MPI functions.
 
 **Syntax**  

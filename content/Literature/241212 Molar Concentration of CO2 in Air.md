@@ -23,5 +23,4 @@ Using this molar density, we can calculate the molar concentration of CO₂:
 
 $$ [\text{CO}_2] = 40.874 \text{ mol/m}^3 \times (400 \times 10^{-6}) \approx 0.0163 \text{ mol/m}^3 $$
 
-
 [^1]: https://en.wikipedia.org/wiki/Molar_volume

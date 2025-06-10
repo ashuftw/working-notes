@@ -12,6 +12,3 @@ date: 2024-05-27
 
 ![[Pasted image 20240527144020.png|center]]
 
-
-
-

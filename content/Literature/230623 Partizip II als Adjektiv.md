@@ -10,8 +10,8 @@ $$
 \text{Verb in Partizip II +  Adjektivendung}
 $$
 
-
 ## Examples
+
 **Unbestimmt Artikel**
 - Der geschlossene Raum 
 - Die gefrorene Pizza. 
@@ -21,6 +21,4 @@ $$
 - Ein geschlossener Raum.
 - Eine gefrorene Pizza.
 - Ein gebrochenes Glas.
-
-
 

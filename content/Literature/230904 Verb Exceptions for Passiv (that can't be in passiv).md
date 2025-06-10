@@ -18,5 +18,3 @@ date: 2023-09-04
 6. **Sich befinden** (to be located)
     - Der Schlüssel befindet sich auf dem Tisch. (The key is located on the table.)
 
-
-

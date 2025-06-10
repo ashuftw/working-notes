@@ -8,5 +8,4 @@ As established by Keenan's Thermodynamics, Heat can be defined as that which tra
 
 Physically, this is analogous to the transport phenomenon where the species moves in from a region of higher concentration to that of lower concentration. This simplifies the modeling approach of CO2 in a Carbon Capture device where the CO2 moves in a duct and then gets adsorbed at the wall, similar to a heat sink.
 
-
 [^1]: [[Fundamentals of heat and mass transfer]]

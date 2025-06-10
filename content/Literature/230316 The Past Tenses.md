@@ -17,11 +17,9 @@ The three basic Tenses in German are:
 	- z.B. "Ich habe gespielt"
 
 [[230313 Plusquamperfekt]]
- 
-
-
-
 
 ---
+
 # References
+
 1. https://deutsch.lingolia.com/en/grammar/tenses

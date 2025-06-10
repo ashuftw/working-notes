@@ -30,13 +30,8 @@ $$
 Q(f)=\frac{f(a)+f(b)}{2}\left(b-a\right)
 $$
 
-
 ### 5. Kepler / Simpson's Rule 
 
 $$
 Q(f)= \frac{b-a}{6}\left[f(a)+4 f\left(\frac{a+b}{2}\right)+f(b)\right]
 $$
-
-
-
-

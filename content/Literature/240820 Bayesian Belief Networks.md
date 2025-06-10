@@ -13,7 +13,6 @@ Where,
 
 ![[../Files/Pasted image 20240820112047.png|center|425]]
 
-
 $$
 \mathrm{P}(e)=\sum_{d \in \mathcal{D}} \mathrm{P}(e \mid d) \cdot \underbrace{\sum_{c \in \mathcal{C}} \sum_{a \in \mathcal{A}} \mathrm{P}(d \mid c, a) \cdot \mathrm{P}(a) \cdot \overbrace{\sum_{b \in \mathcal{B}} \mathrm{P}(c \mid b) \cdot \mathrm{P}(b)}^{\mathrm{P}(c)}}_{\mathrm{P}(d)}
 $$
@@ -25,6 +24,7 @@ $$
 5. **Node E:** $P(e) = \sum_{d \in D} P(e|d) \cdot P(d)$
 
 ## Applications
+
 - **Medical Diagnosis:** It can be used to model relationships between symptoms, diseases and risk factors. 
 ```mermaid
 graph TD

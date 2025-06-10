@@ -11,6 +11,3 @@ date: 2023-08-08
 | Used when referring to a specific past time. | Used for general conditions, recurring events, or future.|
 |**Als** ich jung war, habe ich Klavier gespielt.| **Wenn** ich Zeit habe, gehe ich ins Fitnessstudio.|
 |*When I was young, I played the piano.*| *When I have time, I go to the gym.*|
-
-
-

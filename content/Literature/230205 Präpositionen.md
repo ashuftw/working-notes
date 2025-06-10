@@ -5,6 +5,7 @@ date: 2023-02-05
 ---
 
 ## Temporal
+
 - **im** Januar
 - **im** Sommer
 - **im** Urlaub
@@ -18,5 +19,4 @@ date: 2023-02-05
 - **vom** 1.Juli **bis** 3.August
 
 **während** der Sprechzeiten (**Dativ** oder **Genitiv**)
- 
 

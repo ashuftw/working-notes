@@ -5,8 +5,11 @@ date: 2023-10-14
 ---
 
 ## Definition
+
 It is a way of using Objects of other Classes by creating an object externally and passing it as an argument. 
+
 ## Example
+
 ```python
 class Weapon:
     def __init__(self, name):
@@ -44,5 +47,4 @@ class Player:
 player = Player("Hero")
 player.attack()
 ```
-
 

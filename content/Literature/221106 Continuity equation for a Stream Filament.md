@@ -12,8 +12,6 @@ $$
 \text{Flow rate}=\text{Rate of Mass entering - Rate of mass leaving}
 $$
 
-
-
 $$
 \frac{dm}{dt}=\dot m_1 -\dot m_2 \tag 1
 $$
@@ -65,7 +63,6 @@ $$
 \tag{7}
 $$
 
-
 Subsequently 
 
 $$
@@ -77,17 +74,17 @@ $$
 Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream Filament. 
 
 ## Application
+
 1. **Compressible Steady Flow**
-	
+
 $$
 \boxed{
 	\rho A v = \text{const}
    }
 $$
 
-
 2. **Unsteady Incompressible Flow**
-	
+
 $$
 \boxed{
 	Av= \text{const}=f(t)
@@ -95,11 +92,9 @@ $$
 $$
 
 3. **Steady Incompressible Flow**
-	
+
 $$
 \boxed{
 	Av=\text{const}
 	}
 $$
-
-

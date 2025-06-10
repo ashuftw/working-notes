@@ -142,5 +142,3 @@ Substituting the expressions for $v_i$ and $v_f$:
 $$
 \bar{v} = \dfrac{\text{dimUF} + (\text{dimUF} + \text{dimDUF})}{2} = \text{dimUF} + 0.5 \cdot \text{dimDUF}
 $$
-
-

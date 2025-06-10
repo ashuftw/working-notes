@@ -5,9 +5,11 @@ date: 2023-08-24
 ---
 
 ## Definition
+
 The Thomas Algorithm is used to solve a linear [[230824 Tridiagonal matrix|Tridiagonal matrix]]
 
 ## Linear Tridiagonal Matrix
+
 We have the system of linear equations
 
 $$
@@ -54,6 +56,7 @@ $$
 $$
 
 ## LU Decomposition
+
 We consider the factorization
 
 $$
@@ -79,10 +82,12 @@ r_1 & s_1 & & & \\
 $$
 
 Then, we need to determine $\ell_2, \ldots, \ell_n, r_1, \ldots, r_n$ and $s_1, \ldots, s_{n-1}$.
+
 ## Formulas that can derived
+
 Given that $r_i\ne0$,  $i=1, \ldots n-1$
 - for $i=1, \ldots n-1$
-	
+
 $$
 \begin{aligned}
 & s_i=c_i\\
@@ -91,11 +96,10 @@ $$
 $$
 
 - for $i=2, \ldots n$
-	
+
 $$
 \begin{aligned}
 -\ell_i & =\frac{b_i}{r_{i-1}} \\
 -r_i & =a_i-\ell_i s_{i-1}
 \end{aligned}
 $$
-

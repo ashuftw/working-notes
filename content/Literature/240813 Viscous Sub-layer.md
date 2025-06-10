@@ -11,7 +11,6 @@ $$
 \frac{\partial u^{+}}{\partial y^{+}}=1
 $$
 
-
 $$
 u^{+}=y^{+} \quad
 $$

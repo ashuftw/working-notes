@@ -15,7 +15,8 @@ Block out a few minutes to really introspect how a new note fits into your curre
 **Tags**
 Don't worry about broad-strokes Taxonomy. Link each note to a tag that best represents the topic. Suppose you're learning about Upwind Differencing, which probably isn't atomic in it's definition. You maybe wanna link it to something like *Differencing* instead of say *CFD* which is much more general. What this allows you to do, is to make a [[Map of Contents]] when a topic like differencing reaches [[220318 Critical Mass|Critical Mass]]. 
 
-
 ---
+
 # References
+
 [[220205 How to Take Smart Notes#Chapter 2]]

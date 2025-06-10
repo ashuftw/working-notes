@@ -5,6 +5,7 @@ date: 2023-03-08
 ---
 
 ### Use case
+
 It is used to express **proportional** relationship between two things. 
 
 ### Syntax 
@@ -14,7 +15,9 @@ $$
 $$
 
 - Note: If noun is present. It is placed after the Komparativ. 
+
 ### Examples
+
 - Je weniger man schläft, desto müder wird man.
 - Je höher man steigt, desto schwerer fällt es einem zu atmen.
 - Je fleißiger man ist, desto besser wird das Zeugnis ausfallen.

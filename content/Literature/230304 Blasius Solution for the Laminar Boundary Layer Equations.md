@@ -17,6 +17,7 @@ c_D=\frac{1.328}{\sqrt{R e_x}}
 $$
 
 **Note:** $\tau_w(x)\rightarrow$ Wall shear Stress at distance $x$ from the leading edge, $U(x)\rightarrow$ Outer Flow velocity,  $\text{Re}_x\rightarrow$ $\dfrac{U(x)\cdot x}{\nu}$   
+
 ### Boundary Layer Thickness
 
 $$
@@ -36,5 +37,3 @@ $$
 $$
 \frac{\delta_2}{x}=\frac{0.664}{\sqrt{\text{Re}_x}}
 $$
-
-

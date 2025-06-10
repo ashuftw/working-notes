@@ -17,8 +17,3 @@ $$
 
 where $\tau_{i j}^{t u r b} = -\overline{u_i' u_j'}$  represents the [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stresses]]
 
-
-
-
-
-

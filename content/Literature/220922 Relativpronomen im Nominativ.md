@@ -26,10 +26,8 @@ date: 2022-09-22
 - Täglich gieße ich die Blumen. Die Blumen blühen jetzt schön.
 	Täglich gieße ich die Blumen, die jetzt schön blühen. 
 
-
-
-
-
 ---
+
 # References
+
 [Learn German-A2-Lesson 18](https://www.youtube.com/watch?v=6CtW6EvAV4A)

@@ -15,5 +15,7 @@ Well I think this is a very powerful way to approach permanent notes. With anki,
 Let your Zettels be lean and full of life. 
 
 ---
+
 # References
+
 [[220205 How to Take Smart Notes]]

@@ -5,11 +5,11 @@ date: 2022-09-04
 ---
 
 Sep 2022
-  
 
 Tags: [[Reading]] 
 
 # 220904 The Barbell Reading Method
+
 > Information is just an opportunity. It means nothing if you don't use it. 
 
 **Two steps to read a book:**
@@ -40,8 +40,8 @@ Approach to reading something
 </table>
 Skip if something puts you to sleep or if it's too hard.
 
-
-
 ---
+
 # References
+
 https://zettelkasten.de/posts/barbell-method-reading/

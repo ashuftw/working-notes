@@ -5,6 +5,7 @@ date: 2024-06-11
 ---
 
 ## 1. Blocking
+
 **Blocking (Chunk Scheduling)** is a common static scheduling strategy where the outer iterations are divided into contiguous chunks (blocks) and assigned to a processor.
 
 **How it works:**
@@ -18,7 +19,9 @@ Where,
  - `numProcesses` -> Total number of Processors in the Machine.
  - `N` -> Total number of iterations to be performed. 
 - `For Parallel` (Pseudocode) just means that the `for` loop is executed in parallel. 
+
 ## 2. Tiling
+
 **Tiling (Cyclic Scheduling)** distributes loop iterations i(inner loop), ensuring that each processor gets iterations spread throughout the loop.
 
 **How it works:**
@@ -33,6 +36,3 @@ Where,
 *In tiling the vector size is equal to tile size.*
 
 > **Note**: Blocking is used in *Distributed Memory Parallelization (MPI)*. Tiling is used in *Vector Parallelization.*
-
-
-

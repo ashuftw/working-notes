@@ -5,13 +5,16 @@ date: 2023-02-06
 ---
 
 ## Purpose & Use-cases
+
 It used to express politeness, desires, hope and doubts. Things that aren't real but hypothetical.
 
 ### Example
+
 - Ich würde gerne gehen. (I would like to go.)
 - Wenn ich Geld hätte, würde ich ein Haus kaufen. (If I had money, I would buy a house)
 
 ## Syntax
+
 - Konjunktiv II -> Präteritum + Umlaut
 	haben -> hatte -> hätte
 	sein -> war -> wäre
@@ -32,6 +35,7 @@ Ex:
 	- Wenn ich Geld gehabt hätte, würde ich ein Auto gekauft. 
 - viele kinder haben - aufs Land ziehen 
 	- Wenn ich viele kinder gehabt hätte, wäre aufs Land gezogen. 
+
 ### Important Conjugation Tables
 
 | werden |    |             |

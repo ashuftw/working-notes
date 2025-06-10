@@ -13,6 +13,7 @@ draft: true
 ![[content/Files/How to Argue With a Meat Eater (And Win Every Time) - Ed Winters.jpg|150]]
 
 ## Understanding people's arguments 
+
 - People default to [[240904 Motivated reasoning|Motivated reasoning]] and confirmation bias. They accept the status quo and build their reasoning around it. 
 	- Causes: misinformation
 	- Solution: 

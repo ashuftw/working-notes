@@ -5,6 +5,7 @@ date: 2023-10-14
 ---
 
 ## Unranked issues that I think are important
+
 - Building a robot workforce.
 - AI Alignment. 
 - Carbon Capture. 
@@ -29,9 +30,13 @@ date: 2023-10-14
 - Animal advocacy
 - 
 - AI Alignment
+
 ## Uncertainties
+
 - Focusing on cause area should give me an idea of what to do. But instead it confuses me more. 
 - Might have to think more about it. 
 - Maybe I should work on building skills and then pick a cause area. 
+
 >Importantly, unless you’re near the end of your career, **you don’t need to pick a single issue to focus on right now.**
+
 - But then that information is not very helpful now. 

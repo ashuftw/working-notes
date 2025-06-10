@@ -5,6 +5,7 @@ date: 2023-06-16
 ---
 
 ## Definition
+
 "Each class should have only one reason to change."
 
 $$

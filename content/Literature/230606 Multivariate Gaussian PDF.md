@@ -11,6 +11,7 @@ f_{\boldsymbol{X}}(\boldsymbol{x})=f_{X_1}\left(x_1\right) \cdots f_{X_n}\left(x
 $$
 
 In the multivariate Gaussian Case, $X$ is normally distributed (Mean is in the center). Then we can represent $X$ as
+
 $$
 X\sim\mathcal N(\mu_X, C_X)
 $$
@@ -27,5 +28,4 @@ Example for Random Vector of size 2
 
 ![[Pasted image 20230606142207.png|center]]
 Here, $\mathcal N(0, 1)\rightarrow$ Normal distribution with Mean $0$ and Variance $1$
-
 

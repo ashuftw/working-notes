@@ -11,7 +11,8 @@ Literature notes can have a Tree of various different ideas and aren't restricte
 
 It's key to have a meticulous list of all the references used to make the literature notes. The references can be of any format, it can  be links, bookmarks or citations. 
 
-
 ---
+
 # References
+
 [[220205 How to Take Smart Notes#Chapter 2]]

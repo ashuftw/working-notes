@@ -13,6 +13,7 @@ date: 2024-09-30
 ---
 
 ![[content/Files/Dipa Ma - Amy Schmidt.jpg|150]]
+
 ## Chapter 2: Awakening
 
 > At this lowest point in her life, the Buddha appeared to her in a dream. A luminous presence, he softly chanted a verse from the Dhammapada, originally offered as consolation to a father grieving the death of his son:
@@ -91,6 +92,7 @@ date: 2024-09-30
 ### LESSON TEN: It's a circular journey
 
 > Seeing into your true nature means realizing that you are inextricably bound to everyone and everything that lives, that you are, indeed, responsible for all that takes place in the world.
+
 ## Chapter 12: In the Presence of a Master: Questions and Answers
 
 ### The Five Stages of Lovingkindness Practice

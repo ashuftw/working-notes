@@ -4,6 +4,5 @@ draft: false
 date: 2024-05-06
 ---
 
-  
 ![[Pasted image 20240506130356.png|center]]
 

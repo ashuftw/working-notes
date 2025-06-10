@@ -4,7 +4,6 @@ draft: false
 date: 2024-03-24
 ---
 
-  
 ## Ionian
 
 | Scale Degree | Chord Tone  |
@@ -16,6 +15,3 @@ date: 2024-03-24
 | V            | Major (dom) |
 | vi           | Minor       |
 | vii°         | Diminished  |
-
-
-

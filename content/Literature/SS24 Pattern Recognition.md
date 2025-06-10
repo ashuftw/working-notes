@@ -3,12 +3,14 @@ title: Pattern Recognition
 draft: false
 tags:
 ---
+
 ## I. Bayesian Decision Theory
 
 ### Fundamentals
 
 1. [[240401 Posterior, Likelihood, Prior and Evidence|Posterior, Likelihood, Prior and Evidence]]
 2. [[240401 Bayes Theorem|Bayes Theorem]]
+
 ### Bayesian Classification
 
 1. [[240410 Bayesian Classifier|Bayesian Classifier]]
@@ -71,8 +73,11 @@ tags:
 
 1. [[240610 Activation Functions|Activation Functions]]
 2. [[240510 Activation Function for a Bayesian Classifier|Activation Function for a Bayesian Classifier]]
+
 ## VII Support Vector Machine 
+
 ## VIII Neural Networks (CNNs)
+
 1. [[250422 Translational Invariance in CNNs|Translational Invariance in CNNs]]
 2. [[250422 Pooling Functions|Pooling Functions]]
 3. [[250422 Neural Network Formulae for Calculations|Neural Network Formulae for Calculations]]

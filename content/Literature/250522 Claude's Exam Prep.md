@@ -4,6 +4,7 @@ draft: true
 tags: 
 date: 2025-05-22
 ---
+
 ## **Core Topics to Master**
 
 ### **1. Python Fundamentals (Exercise 1)**
@@ -110,6 +111,7 @@ date: 2025-05-22
 2. **Focus on error handling** - use try/except for robustness
 3. **Practice formatted output** - clean, professional results expected
 4. **Time management** - 100 minutes for 3 major problems
+
 ### **Final Week:**
 
 1. **Work through complete past exams** under time pressure

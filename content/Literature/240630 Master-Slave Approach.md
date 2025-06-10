@@ -7,8 +7,11 @@ date: 2024-06-30
 ## Intuition
 
 ![[Pasted image 20240628151022.png|center|600]]
+
 ## Example
+
 ### Serial
+
 ```cpp
 # include <header.h>
 
@@ -28,7 +31,9 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
+
 ### Parallel
+
 ```cpp
 #include <header.h>
 #include <mpi.h>
@@ -68,6 +73,4 @@ int main(int argc, char **argv)
     return 0;
 }
 ```
-
-
 

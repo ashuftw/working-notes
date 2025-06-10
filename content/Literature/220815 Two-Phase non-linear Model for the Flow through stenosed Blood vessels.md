@@ -5,14 +5,15 @@ date: 2022-08-15
 ---
 
 Mar 2022
-    
 
 Tags: [[Multiphase flow]] [[Blood flow]] [[Journal Paper]]
 
 # Two-Phase non-linear Model for the Flow through stenosed Blood vessels
+
 *D. S Sankar, Usik Lee*
 
 ## Introduction
+
 - **Blood**
    Suspension of cells in Plasma. 
 - **Behaviour**
@@ -21,8 +22,11 @@ Tags: [[Multiphase flow]] [[Blood flow]] [[Journal Paper]]
   - Flow through a narrow artery has a peripheral layer of Plasma (Newtonian) and a core region of RBCs (non-Newtonian).
   - Velocity profile at a narrow artery cannot be accurately measured using a Newtonian model.  
   - For realistic description of blood flow, 2 fluid model is required.[^1]
+
   >  The velocity profiles in the arterioles having diameter less than 0.1 mm are generally explained fairly by the Casson and Herschel-Bulkley fluid models. However, the velocity profiles in the arterioles whose diameters less than 0.0650 mm do not conform to the Casson fluid model, but, can still be explained by the Herschel-Bulkley model".[^2]
+
 ## Mathematical Formulation
+
 - **Assumptions**
   - Artery is axially symmetric with mild stenosis, walls are rigid. 
   - Flow is laminar, pulsatile and fully developed. (Plug flow in the centre)
@@ -46,10 +50,10 @@ $$
 \end{array}
 $$
 
-
 - **Domain**
 ![[Pasted image 20220315162014.png|center]]
 [^6]
+
 $$
 \beta =\dfrac{\text{core radius}}{\text{normal artery radius}}=0.95
 $$
@@ -89,11 +93,11 @@ Stenosis at periphery $0.05<\delta_p<0.3$
 			0.1 <$\theta$< 0.3 
 	  Unhealthy:
 			0.05<$\theta$<0.15 (yield stress is 5 times in diseased state[^5])
-	  
-
 
 ---
+
 # References
+
 [^1]: Bugliarello, G, Sevilla, 1., 1970, "Velocity Distribution and Other Characteristics of Steady and Pulsatile Blood Flow in Fine Glass Tubes," Biorheology, Vol.7, pp. 85~ 107
 [^2]: N., 1978, "Influence of Plasma Layer on Steady Blood Flow in Micro Vessels," Japanese Journal ofAppliedPhysics, Vol. 17, pp. 203~ 214. 
 [^3]: D.S. Sankar, U. Lee, Two-fluid nonlinear mathematical model for pulsatile blood flow through catheterized arteries, J. Mech. Sci. Technol. 23 (2009) 1650–1669.

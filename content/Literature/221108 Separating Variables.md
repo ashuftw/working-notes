@@ -27,7 +27,7 @@ Since we are integrating functions (implicit) it is good practice to add the $c$
 
 **Examples
 1. $y\prime = \dfrac{2y}{t}$
-	
+
 $$
 \begin{aligned}
 	\frac{dy}{dt} &= 2y \cdot \frac{1}{t}\\
@@ -36,4 +36,3 @@ $$
 	\
 	\end{aligned}
 $$
-

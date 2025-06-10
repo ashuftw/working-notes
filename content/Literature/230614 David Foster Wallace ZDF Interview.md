@@ -6,15 +6,11 @@ date: 2023-06-14
 
 > [There's a lot of narcissm in self-hatred.](https://youtu.be/iGLzWdT7vGc?t=2087) 
 
-
-
-
-
-
 ---
-# References
-1. 
 
+# References
+
+1. 
 
 Interviewer: Do you think that is something that is true? That humor can only come out of something sad?
 

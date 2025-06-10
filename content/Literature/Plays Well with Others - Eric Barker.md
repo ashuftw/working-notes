@@ -14,6 +14,7 @@ draft: true
 > "I do all my own stunts folks. The next five minutes are going to be the most stressful ten years of my life."
 
 Key insight from the Harvard Grant study:
+
 > "The only thing that really matters in life are your relationships with other people."
 
 ## Part I: Can You Judge a Book by Its Cover?
@@ -27,6 +28,7 @@ Key insight from the Harvard Grant study:
    - We tend to confirm existing biases and build stories to make them true
 
 🔑 **Key Takeaway**: 
+
 > "The key to getting a good sense of a person is not to build skill in body language reading or lie detection, but to step back and overcome our own cognitive biases."
 
 ### Why First Impressions Aren't Reliable
@@ -68,4 +70,5 @@ Key insight from the Harvard Grant study:
 - Friendship variables account for 58% of happiness
 
 💡 **Insight**: 
+
 > "Why do true friendships make us happier than spouses or children? Because they're always a deliberate choice, never an obligation. The fragility of friendship proves its purity."

@@ -4,8 +4,6 @@ draft: false
 date: 2024-06-26
 ---
 
-  
-
 ```cpp
 Info<< "Reading field p_rgh\n" << endl;
 volScalarField p_rgh   // define a scalar field 
@@ -147,6 +145,4 @@ tmp<surfaceScalarField> talphaPhiCorr0;
 
 #include "createMRF.H"
 ```
-
-
 

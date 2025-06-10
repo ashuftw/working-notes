@@ -4,7 +4,9 @@ draft: true
 tags: 
 date: 2025-05-22
 ---
+
 ### File Reading Patterns:
+
 ```python
 # CSV with headers
 data = np.genfromtxt('file.csv', delimiter=',', names=True)

@@ -5,9 +5,11 @@ date: 2023-12-05
 ---
 
 ## Lemma
+
 The gradient gives the direction of the largest directional derivative, hence it points to the direction of the steepest slope.
 
 ## Proof
+
 The [[231205 Directional Derivative|Directional Derivative]] of a vector function is given by. 
 
 $$
@@ -28,11 +30,6 @@ $$
 \end{aligned}
 $$
 
-
 RHS is maximum when $\cos \theta=1, \Rightarrow \theta=0$. This means that the angle between the Direction of derivative and the Gradient is 0 .
 $\therefore$ Thus the direction of the gradient is the same as the direction of the steepest slope (Because of the maximizing function)
-
-
-
-
 

@@ -13,7 +13,8 @@ If done properly, studying *is* research,.
 
 > If writing is the medium of research and studying is nothing else than research, then there is no reason not to work as if nothing else counts than writing. 
 
-
 ---
+
 # References
+
 1. [[220205 How to Take Smart Notes#Chapter 5 Writing is the only thing that Matters]]

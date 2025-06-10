@@ -29,9 +29,8 @@ date: 2022-09-22
 - Ich habe viele Schuhe. Ich muss **sie** noch sortieren. 
 	Ich habe viele Schuhe, **die** ich noch sortieren muss.
 
-
-
-
 ---
+
 # References
+
 [Learn German-A2-Lesson 18](https://www.youtube.com/watch?v=6CtW6EvAV4A)

@@ -4,7 +4,6 @@ draft: false
 date: 2024-07-01
 ---
 
-  
 ```cpp
     // - Bubble center
     vector Cb;
@@ -186,8 +185,4 @@ date: 2024-07-01
         bubbleProperties.add("Vbf", Vbf);
     }
 ```
-
-
-
-
 

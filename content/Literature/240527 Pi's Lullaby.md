@@ -4,8 +4,8 @@ draft: false
 date: 2024-05-27
 ---
 
-  
 ## Capo 1st Fret
+
 ```
 G          G6          C
 Kanne... Kanmaniye
@@ -60,5 +60,4 @@ G        Dm  C  D  G  C  G
 Mmm... mmm... mmm... mmm...
 
 ```
-
 

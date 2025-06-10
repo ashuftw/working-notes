@@ -9,8 +9,3 @@ date: 2024-08-15
 $$
 s^*=\arg \max _{i \in \mathcal{S}} P(s=i \mid \mathbf{x})
 $$
-
-
-
-
-

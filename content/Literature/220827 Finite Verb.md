@@ -5,11 +5,11 @@ date: 2022-08-27
 ---
 
 Aug 2022
-  
 
 Tags: [[Grammar]]  
 
 # Finite Verb
+
 A finite verb is one that **shows tense** and changes according to the **subject**.
 Example:
 
@@ -29,7 +29,8 @@ $$
 \text{Ashu} \ \overbrace{\underline{\text{likes}}}^{\text{present tense}}\ \text{running} \ \text{marathons.}
 $$
 
-
 ---
+
 # References
+
 [Finite vs Non-Finite Verbs](https://www.youtube.com/watch?v=DOkXWp2Pf-U)

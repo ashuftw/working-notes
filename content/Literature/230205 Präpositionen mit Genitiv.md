@@ -16,6 +16,5 @@ date: 2023-02-05
 - **außerhalb** (lokal/temporal)
 	- Außerhalb des Restaurants ist das Rauchen erlaubt.
 	- Außerhalb des Öffnungszeiten kann man hier nicht essen
- 
 
 während, wegen und trotz is often used in Dativ

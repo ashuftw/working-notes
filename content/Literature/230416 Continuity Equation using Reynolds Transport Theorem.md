@@ -13,9 +13,7 @@ $$
 Where, $B$ is a property and  $\beta$ is the property per infinitesimal mass  $dm$
 The property we are looking for is mass (Continuity = Conservation of Mass)  
 Plug $B=dm$ above equation becomes
+
 $$
 \boxed{0= \int_{\text{CS}}\rho (\vec v\cdot \vec n) \ dA}
 $$
-
-
-

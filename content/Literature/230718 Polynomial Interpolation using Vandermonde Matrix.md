@@ -13,7 +13,6 @@ y_i=\alpha_0+ \alpha_1 x_i \cdots \alpha_{N-1} x_i^{N-1} +  \alpha_N x_i^N, \qua
 $$
 
 > Eg. when $N=1$, $y_i=\alpha_1\ x_i+\alpha_0$
-> 
 
 In Matrix form
 
@@ -44,8 +43,3 @@ p(x)=\alpha_0+\alpha_1 x+\cdots +\alpha_{N-1} x^{N-1}+\alpha_N x^N
 $$
 
 > Note: We started out with a set of discrete $y$ values, $p$ gives us a continuous value of $y$ for every $x$. 
-
-
-
-
-

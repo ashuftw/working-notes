@@ -5,6 +5,7 @@ date: 2023-09-17
 ---
 
 ## Pronoun Declination
+
 | Nominative| Accusative | Dative | Genitive |
 |-----------------------|-----------------------------|-------------------------|-----------------------|
 | ich                   | mich                        | mir                     | meiner                |
@@ -25,10 +26,8 @@ date: 2023-09-17
 | you (formal)          | you                         | to/for you              | of you                |
 | they                  | them                         | to/for them              | of them                |
 
-
-
-
-
 ---
+
 # References
+
 https://en.wikipedia.org/wiki/German_declension

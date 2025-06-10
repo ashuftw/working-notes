@@ -10,15 +10,10 @@ I cannot speak of any comparable experience of my own at any point in my life. B
 
 She put practice above everything. Her philosophy was one of doing. She was a kind of spiritual athlete. At the same time, she was also a householder. She was severely sick at multiple points in her life, experienced the death of two of her children mere moments after their birth, and later her husband. I mean, these are deeply human things. And her response to all of this was to throw herself completely into the practice. By doing this, she was able to not just take care of herself but also her daughter.
 
-
 And that's where I sort of see her relevance to my life: the directness, the simplicity, and again the focus on the practice. I mean, I like listening to philosophy, not in the academic sense, but just worldviews that reason on how people conduct their lives. An example that comes to mind is David Foster Wallace, whose ideas I was drawn to in my late teens. Apart from being absolutely bloated in style, Wallace manages to make everything sound intelligent, and if you're in a dark place or slightly outside, it's incredibly inviting to revel in that squalor, even finding companionship there.
 
 In general, my intuition tells me that a complicated question would, of course, have a complicated answer. And sure, there's room for nuance and all that good stuff. But if my solution is so convoluted, is it really a solution? Or is it just further complication?
 
 Dipa Ma, on the other hand, just tells you what to do. It is pithy and trite, but it's really up to oneself to figure it out anyway. All that being said, I'm super motivated and inspired by her. And I'll definitely stop being lazy in my practice.
-
-
-
-
 
 [^1]: [Sam Harris talking about Poonja](https://www.youtube.com/watch?v=Q_Ud_KQkrF0)

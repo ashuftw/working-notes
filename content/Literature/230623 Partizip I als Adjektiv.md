@@ -15,6 +15,7 @@ $$
 > Note: Partizip I always stays before the noun. 
 
 ## Examples 
+
 **Unbestimmt Artikel**
 - ein spielendes Kind
 - eine Joggende Frau
@@ -22,8 +23,4 @@ $$
 **Bestimmt Artikel**
 - fallende Blätter
 - singende Vögel
-
-
-
-
 

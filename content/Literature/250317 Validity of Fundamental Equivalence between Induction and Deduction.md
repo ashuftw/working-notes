@@ -11,6 +11,7 @@ Formally, if L is a learning algorithm and B is its inductive bias, then for any
 $$
 \forall x^{\prime} \in X: L\left(x^{\prime}, D\right) \Leftrightarrow\left(B \wedge D \wedge x^{\prime}\right)
 $$
+
 This means the classification produced by learning algorithm L on new data x' after training on dataset D is equivalent to what would be logically deduced from the conjunction of the training data D, the inductive bias B, and the new instance x'.
 
 Where:
@@ -22,6 +23,7 @@ Where:
 - $\wedge$ represents logical conjunction ("and")
 
 ## Example 
+
 **Induction** (Machine Learning)
 - You see examples: *All swans I've seen are white*
 - You guess a rule: *All swans are white*

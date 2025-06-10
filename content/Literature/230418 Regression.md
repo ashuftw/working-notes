@@ -11,6 +11,3 @@ It is a statistical method of fitting a given data set containing a finite numbe
 
 ![[Pasted image 20230508144438.png|center|450]]
 
-
-
-

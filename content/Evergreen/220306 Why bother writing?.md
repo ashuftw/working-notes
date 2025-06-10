@@ -12,12 +12,8 @@ But to have a library of ideas, you have to write them first. The framework for 
 
 Now that learning happens through writing, it becomes [[220515 Purpose Driven Writing|purpose driven]].
 
-
-
-
-
-
-
 ---
+
 # References
+
 1. [[220205 How to Take Smart Notes#Chapter 5 Writing is the only thing that Matters]]

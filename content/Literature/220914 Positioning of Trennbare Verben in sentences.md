@@ -5,11 +5,11 @@ date: 2022-09-14
 ---
 
 Sep 2022
-   
 
 Tags: [[Verbs]] [[German]] 
 
 # 220914 Positioning of Trennbare Verben in sentences
+
 Depending on the type of sentence, [[220911 Trennbare Verben - Separable Verbs|Trennbare Verben]] can be split and placed at different locations of the sentence.
 
 1. **Ja/Nein Frage:** 
@@ -22,5 +22,4 @@ Depending on the type of sentence, [[220911 Trennbare Verben - Separable Verbs|T
 3. **In presence of Modal Verben**: 
 	- Verb takes end position
 	- Ex: Wann **willst** du **aufstehen**?
-	
 

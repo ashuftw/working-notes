@@ -5,6 +5,7 @@ date: 2024-08-21
 ---
 
 ## $\text{TPR = f(FPR)}$
+
 ![[../Files/Pasted image 20250423174738.png|center|700]]
 Here $\theta$ represents the classification threshold of your binary classifier, e.g. [[240423 Likelihood Ratio|Likelihood Ratio]]. 
 

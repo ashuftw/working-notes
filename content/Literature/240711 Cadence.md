@@ -9,7 +9,3 @@ date: 2024-07-11
 **Example**
 - A **V** chord transitioning to the **I** chord. 
 
-
-
-
-

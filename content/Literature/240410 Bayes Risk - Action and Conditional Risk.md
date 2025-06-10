@@ -5,6 +5,7 @@ date: 2024-04-10
 ---
 
 ## Conditional Risk
+
 The Risk associated with taking a decision $a$ given the observation $\mathbf x$ or simply the cost of a decision is given by,
 
 $$
@@ -20,6 +21,7 @@ where,
 > Note: The Cost function is entered manually. So that the decision that would lead to a negative outcome is weighted with a very high cost. 
 
 ## **Example**
+
 Consider a Two Class problem such that
 1. **Actions** $a\in A =\{\text{Treat}, \text{Don't Treat} \}$ 
 2. **Classification** $s\in S=\{\text{Sick},\text{Healthy}\}$
@@ -47,6 +49,5 @@ $$
 a^*=\arg \min _{j \in \mathcal{A}} R(a=j \mid \mathbf{x})
 }
 $$
-
 
 Thus the best action would be the one that minimizes the risk. 

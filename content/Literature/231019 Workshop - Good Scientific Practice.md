@@ -5,6 +5,7 @@ date: 2023-10-19
 ---
 
 ## Ways to record research progress
+
 - My supervisor has reviews every quarter or so
 - In the lab: excel sheet
 - Reports after each experiment
@@ -12,6 +13,7 @@ date: 2023-10-19
 - not always expected result failure is also useful. Don't have reinvent the wheel. 
 
 ## Data Documentation
+
 - Document the exchange between supervisor and you. Make the exchange known to both sides.
 	- Resolves misunderstandings.
 	- Proof of communication. 
@@ -20,6 +22,7 @@ date: 2023-10-19
 - Ask the supervisor for written rules for document keeping. 
 
 ## Plagiarism
+
 - Don't use any online plagiarism tools. Using a 3rd part tool may index your manuscript online and make it fail a test in the official tool used by the university. 
 - Never upload your manuscript online. 
 **Sloppy Work:** Spelling mistake or a grammatical mistake

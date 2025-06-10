@@ -5,12 +5,15 @@ date: 2023-08-07
 ---
 
 ## Definition
+
 It is an [[230812 Object Creational pattern|Object Creational pattern]] that enables a user to create objects without exposing how they are actually instantiated or by referring to the concrete class. It does this by introducing the **FactoryClass** which provides an interface that delegates this process. 
 
 ## Advantages or benefit
+
 It creates families of related objects while keeping code loosely coupled and avoiding dependency on specific implementations.
 
 ## Example
+
 ```python
 class Animal:
     def speak(self):
@@ -35,6 +38,7 @@ class AnimalFactory:
 ```
 
 ## Usage of the Factory Pattern
+
 ```python
 if __name__ == "__main__":
     animal_factory = AnimalFactory()

@@ -18,6 +18,7 @@ where,
 - $\textbf{w}_{k+1}\rightarrow$Model Weight (Learned)
 - $\eta\rightarrow$Learning Rate is step size taken during each iteration of the Gradient descent 
 - $E(\mathbf{w})\rightarrow$Error Function
+
 $$
 E(\mathbf{w})=\frac{1}{2 N} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\right)^2 \quad + \underbrace{\lambda||\textbf w||^2}_\text{ (regularization)}
 $$

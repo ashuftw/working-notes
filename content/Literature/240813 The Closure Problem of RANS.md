@@ -10,4 +10,3 @@ $$
 \boxed{
 \frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[v \frac{\partial u_i}{\partial x_j}+\tau_{i j}^{t u r b}\right]}
 $$
-

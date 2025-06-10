@@ -4,16 +4,16 @@ draft: false
 date: 2024-02-14
 ---
 
-  
 ## Formula  
 
 $$
 \lambda_{1,2}=m \pm \sqrt{m^2-p}
 $$
 
-
 Where $m \rightarrow$ Mean of the Eigen Values (diagonal) and $p \rightarrow$ product of the Eigen Values (determinant)
+
 ## Example
+
 **Matrix**
 
 $$
@@ -30,8 +30,6 @@ $$
 $$
 \boxed{\Rightarrow \lambda_1, \lambda_2=2 \pm \sqrt{5}}
 $$
-
-
 
 ---
 Eigenvectors:
@@ -51,9 +49,5 @@ $$
 \end{gathered}
 $$
 
-
 The eigen vector can be found out by solving the matrix system. (Note: Here $\vec{v}=v_1 v_2$)
-
-
-
 

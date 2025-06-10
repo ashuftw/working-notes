@@ -28,13 +28,11 @@ $$
 u^{\prime} \sim l_m \frac{\partial \bar{u}}{\partial y}
 $$
 
-
 Plugging into the [[240813 Reynolds Stress Tensor|Reynolds Stress Tensor]] 
 
 $$
 -\overline{u^{\prime}_i u^{\prime}_j}  =l_m^2\left|\frac{\partial \bar{u}_j}{\partial y}\right| \frac{\partial \bar{u}_i}{\partial y}
 $$
-
 
 > Note: $j$ here is the vertical component and it cannot be negative 
 
@@ -43,7 +41,6 @@ Using the [[240813 Eddy Viscosity or Boussinesq Hypothesis|Boussinesq Hypothesis
 $$
 v_t\left(\frac{\partial \bar{u}_i}{\partial x_j}\right)  =l_m^2\left|\frac{\partial \bar{u}_j}{\partial y}\right| \frac{\partial \bar{u}_i}{\partial y}
 $$
-
 
 $$
 \boxed{

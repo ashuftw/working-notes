@@ -5,6 +5,7 @@ date: 2023-09-27
 ---
 
 I often find myself quoting other people. I enjoy finding the right quote for the moment. Like this one: 
+
 > "Maybe our favorite quotations say more about us than about the stories and people we're quoting." 
 > 
 > *- John Green*
@@ -19,9 +20,6 @@ However, if I take in something and feel it viscerally, would that count? Maybe 
 
 So what can I make of all this? I think having a double standard might actually be beneficial here. Focus on my lived experience and really try to get a sense of an idea, checking its compatibility. On the flip side, when something is compatible, take the best out of the ideas and give them the time of day, even if they don't come from the best places. Whatever that is.
 
-
-
-
-
 ---
+
 # References

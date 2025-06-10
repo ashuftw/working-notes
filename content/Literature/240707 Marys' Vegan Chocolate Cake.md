@@ -4,9 +4,8 @@ draft: false
 date: 2024-07-07
 ---
 
-  
-
 ## Ingredients 
+
 - Flour 15 gm 
 - Corn Starch 10 gm  
 - Banana 1/2
@@ -17,10 +16,8 @@ date: 2024-07-07
 - Baking powder 1/2 tspn 
 - Baking Soda a pinch 
 - Cider Vinegar / Lemon juice 1 tsp 
+
 ## Preparation 
+
 - Mix and Microwave for a minute and half. 
-
-
-
-
 

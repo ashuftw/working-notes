@@ -8,6 +8,7 @@ date: 2025-03-17
 - **Parameter optimization**: Finding the **best settings** for the chosen model (e.g., adjusting max depth in Decision Tree).
 
 ### Example: Predicting House Prices
+
 We predict house prices based on features like area, number of bedrooms, and location.
 **Model Selection**
 

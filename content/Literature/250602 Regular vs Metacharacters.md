@@ -4,6 +4,7 @@ draft: true
 tags: 
 date: 2025-06-02
 ---
+
 ### Regular Characters
 
 They are literal characters that match themselves exactly in a pattern. They represent the actual character you want to find.
@@ -12,6 +13,7 @@ They are literal characters that match themselves exactly in a pattern. They rep
 
 - `a` matches the literal letter "a"
 - `5` matches the literal digit "5"
+
 ### Metacharacters
 
 They are special characters that have predefined meanings and functions in regular expressions. They don't match themselves literally but instead control how the pattern matching works.

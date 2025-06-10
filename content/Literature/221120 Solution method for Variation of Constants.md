@@ -5,6 +5,3 @@ date: 2022-11-20
 ---
 ![[../Files/250124 Solution Method for Variation of Constants_annotated.png]]
 
-
-
-

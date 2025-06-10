@@ -5,6 +5,7 @@ date: 2023-09-21
 ---
 
 ## Verb am ende: Nebensatz
+
 - weil 
 - als 
 - wenn
@@ -16,7 +17,9 @@ date: 2023-09-21
 - obwohl
 - damit
 - folglich
+
 ## Verb am II Position
+
 - deshalb / deswegen / daher / darum
 - trotzdem
 - stattdessen
@@ -24,10 +27,14 @@ date: 2023-09-21
 - deswegen
 - deshalb
 - jedoch / doch 
+
 ## Infinitiv Konstruktion 
+
 - um...zu
 - anstatt...zu
+
 ## Substantiv am II position
+
 - trotz 
 - während
 - wegen
@@ -35,6 +42,4 @@ date: 2023-09-21
 - infolge  
 - innerhalb 
 - außerhalb
-
-
 

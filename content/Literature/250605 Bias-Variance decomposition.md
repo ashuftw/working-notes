@@ -4,7 +4,9 @@ draft: false
 tags: 
 date: 2025-06-05
 ---
+
 ## Expected Test Error 
+
 $$
 E_{D,\nu}[(t - y(x,w))^2] = \text{bias}_D(y)^2 +\underbrace{ \text{Var}_D(y)}_\text{model variance} + \underbrace{\sigma^2}_\text{noise}
 $$
@@ -18,7 +20,6 @@ The expectation $E_{D,\nu}[\cdot]$ is taken over both:
 - **Noise** Recall $t=f(x)+\nu$
 	- $f(x)$ is the true underlying function
 	- $\nu \sim \mathcal{N}(0, \sigma^2)$ is Gaussian noise with zero mean and variance $\sigma^2$
-
 
 ## Calculating Individual terms
 
@@ -34,7 +35,9 @@ The expectation $E_{D,\nu}[\cdot]$ is taken over both:
 	- Irreducible error in the data itself
 	- Measurement errors, random fluctuations
 	- Can't be eliminated no matter how good your model
+
 ### The Tradeoff
+
 - **Simple models:** High bias, low variance
 - **Complex models:** Low bias, high variance
 - **Goal:** Find optimal complexity that minimizes total error

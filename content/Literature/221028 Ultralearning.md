@@ -5,16 +5,21 @@ date: 2022-10-28
 ---
 
 ## Why Ultralearning Matters
+
 > Technology exaggerates both the vices and the virtues of humanity. Our vices are made worse because now they are downloadable, portable, and socially transmissible. 
 
 > The core of the Ultralearning strategy is **intensity** and a willingness to **prioritize effectiveness**. 
 
 ## How to become an Ultralearner?
+
 (Montebello: Scott's Reader who took up Public Speaking as an Ultralearning Project)
+
 > He asked for feedback every time he gave a speech, and he got plenty of it. His coach, Gendler, pushed him far outside of his comfort zone. Once, when faced with the choice between polishing an existing speech and creating a brand-new one from scratch, de Montebello asked what he should do. **Gendler’s response was to do whichever was scariest for him**.
 
 ## Principles
+
 ### 1. Meta-learning
+
 	Meta - Greek word for "beyond". It is a high-level layer of abstraction. 
 	Learning to define the objective of learning something can make it easier to plan them.  
 - **Why?**

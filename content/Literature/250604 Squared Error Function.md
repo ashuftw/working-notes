@@ -4,6 +4,7 @@ draft: false
 tags: 
 date: 2025-06-04
 ---
+
 $$
 E(w)=\frac{1}{2} \sum_{n=1}^N\left(y\left(x_n, w\right)-t_n\right)^2
 $$

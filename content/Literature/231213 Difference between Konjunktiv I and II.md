@@ -5,6 +5,7 @@ date: 2023-12-13
 ---
 
 ## **Konjunktiv I**
+
 Used for Indirekte Rede  and Feste Ausdrücke.
 **Example**
 1. _Direct Speech:_ Er sagt, "Ich gehe ins Kino." 
@@ -12,6 +13,7 @@ Used for Indirekte Rede  and Feste Ausdrücke.
 2.  *Feste Ausdrücke:* Gott sei Dank, Es lebe die Freizeit. 
 
 ## Konjunktiv II
+
 Used for hypothetical situations, unreal conditions, tips or wishes.
 **Example**
 - _Real Condition:_ Wenn ich Zeit hätte, würde ich ins Kino gehen. 
@@ -19,9 +21,8 @@ Used for hypothetical situations, unreal conditions, tips or wishes.
 	
 [[230206 Konjunktiv 2]]
 
-
-
-
 ---
+
 # References
+
 https://www.youtube.com/watch?v=XAgLBMk6Zzk

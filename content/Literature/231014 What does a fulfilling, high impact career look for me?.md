@@ -29,7 +29,8 @@ $$
 	- Supportive colleagues
 	- Sufficient ‘basic conditions’ such as fair pay and non-crazy working hours
 
-
 ---
+
 # References
+
 https://80000hours.org/career-planning/process/what-does-a-fulfilling-high-impact-career-look-like/?source=email&uni_id=547

@@ -12,6 +12,7 @@ Work that *is* done or *can* be done in a distracted state. It is work that can 
 >Spend enough time doing shallow work and you lose the ability to do Deep work. 
 
 **Deep Work Hypothesis**
+
 > Ability to perform Deep Work is becoming rare and hence valuable in our economy. Few that cultivate this skill, will thrive.
 
 ^[https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy]

@@ -19,9 +19,11 @@ $$
 where $q(t)$ is a vector-valued function of time, $\lambda$ is a scalar (possibly complex), and $v$ is a constant vector.
 
 The *ansatz*  $q(t)$ is a solution is a solution if $\lambda$ is an **eigenvalue** of $A$ and $v$ is the corresponding **eigenvector**. 
+
 > Note: By definition $A v=\lambda v$
 
 For a diagonizable matrix $A$,  
+
 $$
 A=V \Lambda V^{-1}
 $$

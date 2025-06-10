@@ -3,7 +3,9 @@ title: Special Irregular Verbs (haben, sein)
 draft: false
 date: 2022-09-02
 ---
+
 # "haben & sein" - Special Irregular Verbs
+
 |           | haben | sein |
 |-          | -     | -    |      
 | ich       | habe  | bin  |  
@@ -15,9 +17,8 @@ date: 2022-09-02
 | Sie       | haben | sind |  
 | sie       | haben | sind |  
 
-
-
-
 ---
+
 # References
+
 [[Basic German, A Grammar and Workbook]]

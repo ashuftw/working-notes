@@ -40,4 +40,3 @@ The exact value of $x*$ is where $3p(x|s=1) = p(x|s=2)$, which appears to be aro
 
 [^1]: If you're slightly to one side of this boundary, one class becomes more likely; if you're slightly to the other side, the other class becomes more likely. Thus the Decision Boundary is where the both classes are equally likely. 
 
-

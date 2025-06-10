@@ -16,8 +16,3 @@ date: 2023-12-06
 | Die Feuerwehrleute beruhigten den in der Gefahr richtig handelnden Mann.  | Die Feuerwehrleute beruhigten den Mann, der in der Gefahr richtig gehandelt hatte.  |
 | Man fand die auf dem Dach installierte Satellitenanlage einen Kilometer vom Haus entfernt.  | Man fand die Satellitenanlage, die auf dem Dach installiert war, einen Kilometer vom Haus entfernt.  |
 ||Man fand die Satellitenanlage einen Kilometer vom Haus entfernt, die auf dem Dach installiert waren. (Sat-An can be treated as plural)|
-
-
-
-
-

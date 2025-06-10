@@ -4,8 +4,6 @@ draft: false
 date: 2024-07-04
 ---
 
-   
-
 | Difficulty      | DC   |
 |-----------------|------|
 | Very Easy       | 5    |
@@ -14,7 +12,3 @@ date: 2024-07-04
 | Hard            | 20   |
 | Very Hard       | 25   |
 | Nearly Impossible | 30 |
-
-
-
-

@@ -16,5 +16,3 @@ $$
 - $c$ is the wave speed.
 - $u_1(z)$ is the initial velocity function of the wave.
 
-
-

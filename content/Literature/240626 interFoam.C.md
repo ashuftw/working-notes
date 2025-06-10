@@ -4,8 +4,6 @@ draft: false
 date: 2024-06-26
 ---
 
-  
-
 ```cpp
 #include "fvCFD.H"
 #include "CMULES.H"
@@ -108,7 +106,4 @@ int main(int argc, char *argv[])
 // ************************************************************************* //
 
 ```
-
-
-
 

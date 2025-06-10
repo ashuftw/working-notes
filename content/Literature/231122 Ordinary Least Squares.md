@@ -5,6 +5,7 @@ date: 2023-11-22
 ---
 
 ## Definition
+
 It used to find the Model Parameters of a Linear Regression Model $(y= \beta \cdot x+\alpha)$   
 OLS Method defines $\hat \beta$  and  $\hat \alpha$  as:
 
@@ -16,5 +17,4 @@ $$
 $$
 
 $\bar{x}, \bar{y} \rightarrow$ average value of the $x, y$ components. $n \rightarrow$ cardinality
-
 

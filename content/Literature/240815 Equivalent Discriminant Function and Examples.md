@@ -14,12 +14,10 @@ $$
 \end{aligned}
 $$
 
-
 Where $f(\cdot)$ is a monotonically increasing function
 
 ## Use cases 
+
 - Improving the confidence of the decision by having a very high $\alpha$
 - Using $\alpha$ in the context of a multi-class problem to normalize each classification. 
-
-
 

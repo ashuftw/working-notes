@@ -11,8 +11,8 @@ date: 2022-09-11
 5. _sollen_ (should)
 6. _wollen_ (want).
 
-
-
 ---
+
 # References
+
 https://storylearning.com/learn/german/german-tips/german-modal-verbs

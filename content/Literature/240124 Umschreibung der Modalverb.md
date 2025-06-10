@@ -4,9 +4,6 @@ draft: false
 date: 2024-01-24
 ---
 
-  
-
-
 ![[Adobe Scan Jan 24, 2024_1.jpg]]
 **Ersatz Modalverb**
 erforderlich sein 

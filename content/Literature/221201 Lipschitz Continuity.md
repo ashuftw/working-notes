@@ -6,5 +6,3 @@ date: 2022-12-01
 
 ![[../Files/221201 Lipschitz Continuity.png|center]]
 
-
-

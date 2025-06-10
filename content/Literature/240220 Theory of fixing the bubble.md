@@ -4,8 +4,8 @@ draft: false
 date: 2024-02-20
 ---
 
-  
 ## Objective
+
 ![[Pasted image 20240221153015.png|center]]
 
 - Key step is to identify the reference frame velocity $V_\text{RF}$  . 
@@ -13,6 +13,7 @@ date: 2024-02-20
 - The "correction" of the MRF is achieved through the use of a feedback loop to reduce the error. 
 
 ## Step 1: Find the Center of the Droplet (copy from BubbleInterTrackFoam line 72, 96  Create Bubble.H)
+
 **Position of the Droplet**[^1]
 
 $$
@@ -25,6 +26,7 @@ $$
 Where $x$ is the position vector
 
 ## Step 2 Calculate the Reference frame velocity required to center the droplet ($x_d(t) =0$)
+
 **Corrected Position of droplet** 
 
 $$
@@ -38,8 +40,11 @@ e_x(t)=x_{\mathrm{d}}(t)-x^{\mathrm{SP}}
 $$
 
 where $x^{SP}$ is the position of the domain's center.
+
 ## Step 3 Update Wall Condition
+
 Subtract the Inlet velocity with the velocity of the reference frame. So that the newly adjusted input velocity along with the reference velocity will give the physical velocity. 
+
 > Note: We have a steady simulation input boundary. So the Reference Velocity will always be lesser than or equal to the input velocity. 
 
 ## Step 4 

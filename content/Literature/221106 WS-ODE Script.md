@@ -22,7 +22,6 @@ date: 2022-11-06
 	- [[240207 Solution Method to build a Potential function from a given Exact Differential Equation|Solution Method to build a Potential function from a given Exact Differential Equation]]
 - [[231204 Bernoulli Differential Equation|Bernoulli Differential Equation]]
 - [[231204 Euler Differential Equation|Euler Differential Equation]]
- 
 
 ## Existence and Uniqueness 
 
@@ -61,6 +60,5 @@ date: 2022-11-06
 - [[231206 Laplace Transform|Laplace Transform]]
 - Basic Properties
 	- Multiplication, Differentiation and Damping Theorem
-
 
 [[2018 Paper]]

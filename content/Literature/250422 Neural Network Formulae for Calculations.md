@@ -19,7 +19,6 @@ Example:
 
 *First term represents weights, second term represents biases*
 
-
 > For a convolutional layer processing an image:
 > - **Input channels** refers to the depth of the input volume (e.g., 3 for RGB images, 1 for grayscale)
 > - This is because the in a CNN, the entire image (2D Plane) is processed separately and combined through filters. 
@@ -27,18 +26,13 @@ Example:
 > For a fully connected layer:
 > - There's no concept of "channels" - everything is flattened into a single vector
 
-
-
 **Output Dimensions of a Convolutional layer**
 - Output height = ⌊(Input height - kernel height + 2$\times$padding)/stride_v + 1⌋
 - Output width = ⌊(Input width - kernel width + 2$\times$padding)/stride_h + 1⌋
-
-  
 
 For pooling layers:
 
 - Output height = ⌊(Input height - pool size + 2$\times$padding)/stride_v + 1⌋
 - Output width = ⌊(Input width - pool size + 2$\times$padding)/stride_h + 1⌋    
-
 
 > Note: The floor function, denoted as ⌊x⌋ or floor(x), rounds a number down to the nearest integer that is less than or equal to the original number. ⌊3.7⌋ = 3, ⌊-7.9⌋ = -8

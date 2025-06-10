@@ -5,11 +5,11 @@ date: 2022-06-13
 ---
 
 Apr 2022
- 
 
 Tags: [[Blood flow]] [[non-Newtonian Flow]]
 
 # Herschel-Bulkley Equation
+
 ![[Pasted image 20220401115903.png|center]]
 $\tau \rightarrow$ shear stress (Pa)
 $\tau_0\rightarrow$ yield stress (Pa)
@@ -22,5 +22,7 @@ n > 1 $\rightarrow$ the fluid is shear-thickening.
 n = 1 & $\tau_{0}=0$ $\rightarrow$ Newtonian fluid. 
 
 ---
+
 # References
+
 1. https://en.wikipedia.org/wiki/Herschel%E2%80%93Bulkley_fluid

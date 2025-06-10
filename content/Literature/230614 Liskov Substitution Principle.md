@@ -5,13 +5,17 @@ date: 2023-06-14
 ---
 
 ## Definition 
+
 It states that Objects of a superclass should be replaceable with the objects of a subclass without affecting the correctness of the program. 
 
 *"If S is a subclass of T, then an object of class T should be replaceable with an object of class S without altering the desirable properties of the program."*
 
 ## Example
+
 ![[Pasted image 20230806111608.png|center]]
+
 > `bird` is an Object of `Bird()`
+
 ```python
 class Bird:
     def fly(self):
@@ -36,10 +40,10 @@ make_bird_fly(sparrow)  # This works as expected, Sparrow can fly
 make_bird_fly(ostrich)  # As expected, this raises an exception - Ostrich can't fly
 ```
 
-
-
 ---
+
 # References
+
 Vimdot code
 ```bash
 digraph G {

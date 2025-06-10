@@ -8,6 +8,3 @@ Using the [[221125 Reynolds Transport Theorem|Reynolds Transport Theorem]] for s
 
 ![[221125 Forces on a Control Volume.png|center]]
 
-
-
-

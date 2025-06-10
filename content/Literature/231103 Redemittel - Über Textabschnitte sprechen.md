@@ -12,7 +12,3 @@ date: 2023-11-03
 | **In diesem Abschnitt werden... genannt.**                 | In this section, ... are mentioned.                  |
 | **Im... Abschnitt wird beschrieben, wie ... [Nebensatz]**   | In the... section, it is described how... [Subclause]|
 | **In diesem Abschnitt wird/werden... erklärt.**            | In this section, ... is/are explained.               |
-
-
-
-

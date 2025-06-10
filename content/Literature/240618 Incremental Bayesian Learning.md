@@ -5,6 +5,7 @@ date: 2024-06-18
 ---
 
 ## Use case 
+
 If the data is observed sequential, we can update our current predictions from the knowledge of the past predictions. 
 
 $$
@@ -16,5 +17,3 @@ Where,
 - $D\rightarrow$ Data
 
 > Note: Here the posterior from the previous step becomes the prior for the current step. 
-
-

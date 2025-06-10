@@ -5,7 +5,9 @@ date: 2023-08-16
 ---
 
 ## Definition 
+
 It is a behavioural pattern that encapsulates requests into objects. Thus clients can be parameterized with different requests which can also be queued and logged which allows for undoing actions.  
+
 ## GoF Template
 
 ![[Pasted image 20230816163711.png|center]]
@@ -16,7 +18,4 @@ It is a behavioural pattern that encapsulates requests into objects. Thus client
 3. **Receiver:** This is the object that actually performs the action when the `execute` method of a command is called.
     
 4. **Invoker:** This is responsible for maintaining a collection of commands and calling their `execute` methods.
-
-
-
 

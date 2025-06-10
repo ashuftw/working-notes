@@ -4,8 +4,6 @@ draft: false
 date: 2024-07-04
 ---
 
-  
-
 | Aspect          | Ability Check                                                  | Saving Throw                                                                |
 | --------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | **Initiation**  | Initiated by the player.                                       | Initiated by the DM.                                                        |
@@ -18,8 +16,3 @@ date: 2024-07-04
 |                 | - Persuading, deceiving (Charisma)                             | - Resisting banishment, charm (Charisma)                                    |
 | **Proficiency** | Depends on specific skills (e.g., Athletics, Stealth).         | Based on class and level (each class has proficiency in two saving throws). |
 | **Situations**  | Used in a variety of situations driven by character actions.   | Used primarily in reaction to threats or harmful effects.                   |
-
-
-
-
-

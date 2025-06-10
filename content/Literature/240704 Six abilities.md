@@ -4,7 +4,6 @@ draft: false
 date: 2024-07-04
 ---
 
-  
 - **Strength**: measure of physical power
 	- melee attacks and carrying capacity
 - **Dexterity**: agility, reflexes, and balance
@@ -18,9 +17,4 @@ date: 2024-07-04
 	- - Important for persuasion and spell-casting for some classes (e.g., Sorcerers).
 
 ![[../../Private/Excalidraw/Drawing 2024-07-04 18.13.06.excalidraw#^group=x-RNraiwwz2Ahz-XETKQf|center|500]]
-
-
-
-
-
 

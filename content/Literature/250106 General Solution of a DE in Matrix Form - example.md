@@ -4,6 +4,7 @@ draft: false
 tags: 
 date: 2025-02-06
 ---
+
 # Determine the Real General Solution
 
 We are given the system of differential equations:
@@ -57,6 +58,7 @@ Choosing $v_1 = 1$, we get:
 $$
 \mathbf{v}_1 = \begin{bmatrix} 1 \\ 2i \end{bmatrix}
 $$
+
 > Note: we have flexibility in choosing $v_1$ because eigenvectors are not unique - they can be scaled by any non-zero constant and still remain eigenvectors.
 
 For $\lambda = -2i$, the eigenvector is:
@@ -90,6 +92,7 @@ Substituting into the equation:
 $$
 \begin{bmatrix} 0 & 1 \\ -4 & 0 \end{bmatrix} \begin{bmatrix} a \\ b \end{bmatrix} + \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \mathbf{0}
 $$
+
 > Note: If $\mathbf q$ is constant $\mathbf q'$ is $0$
 
 This gives:

@@ -6,5 +6,3 @@ date: 2023-02-12
 
 ![[Pasted image 20230212123126.png|center]]
 
-
-

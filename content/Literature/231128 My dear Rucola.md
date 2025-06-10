@@ -21,5 +21,3 @@ I'm hurrying up home
 I've finished my work here
 Just enough don't fear To last at least year My rucola My Rucola My dear rucola
 
-
-

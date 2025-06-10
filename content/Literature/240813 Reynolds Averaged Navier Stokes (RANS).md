@@ -5,6 +5,7 @@ date: 2024-08-13
 ---
 
 ## Use case 
+
 It is  a method of turbulence modeling where the Time Averaged Navier-Stokes equations are used. 
 ![[Pasted image 20240813114101.png|center|500]]
 This means that any property $f$ is split into its *averaged* and *fluctuating* components. 
@@ -27,7 +28,7 @@ $$
 $$
 
 - **Momentum Equations**
- 
+
 $$
 \frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}+\frac{\partial \overline{u_i^{\prime} u_j^{\prime}}}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+v \frac{\partial^2 \bar{u}_i}{\partial x_j^2}
 $$
@@ -41,9 +42,8 @@ $$
 
 where $\tau_{i j}^{t u r b} = -\overline{u_i' u_j'}$  represents the [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stresses]]
 
-
-
-
 ---
+
 # References
+
 **Pg. 698** The Finite Volume Method - Moukalled

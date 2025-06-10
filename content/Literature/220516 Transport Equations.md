@@ -5,16 +5,17 @@ date: 2022-05-16
 ---
 
 May 2022
-   
 
 Tags: 
 
 # 1. Transport Equations
+
 The Navier-Stokes equations relate the rate of change of moThe Navier-Stokes equations relate the rate of change of momentum of the fluid parcel to the net force applied to the fluid parcel. It is used to calculate the velocity field for the given problem.
 
 ### Momentum: The Navier-Stokes Equations
 
 From Newton’s II law
+
 $$
 \begin{align*}\text{Force}\propto \text{Rate of change of Momentum}\end{align*}
 $$
@@ -36,6 +37,7 @@ Pressure gradient is -ve as the fluid particle accelerates in the direction of d
 -   LHS: Acceleration of the fluid parcel caused by the forces.
 
 ### Temperature: Total Energy equation (Simplified)
+
 The Total Energy equation helps to calculate the temperature field.![[Pasted image 20220430171834.png|center]]
 Thermal energy is transported in the fluid by convection and diffusion (radiation is ignored).
 Expanding the Diffusion term![[Pasted image 20220430171937.png|center]]
@@ -43,7 +45,4 @@ Expanding the Convection term![[Pasted image 20220430171951.png|center]]
 - Most transport equations have the same form having a Time derivative, Convection term, Diffusion Term and finally the Source Term.
 - Properties like turbulence are usually introduced as a source term.
 - It isn’t uncommon to have 5-6 source terms.
-
-
-
 

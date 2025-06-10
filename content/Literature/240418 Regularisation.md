@@ -3,9 +3,13 @@ title: Regularisation
 draft: false
 date: 2024-04-18
 ---
+
 ## Use-case
+
 Regularization ensures that the weights of the regression model aren't too large. This is important because large weights usually cause over-fitting which leads to poor performance on test data. It also prevents oscillation and introduces smoothness (*which is however an inductive bias in itself!*)
+
 ## Mathematically
+
 The regularized error function is given by:
 
 $$
@@ -14,12 +18,8 @@ $$
 }
 $$
 
-
 where,
 - $\lambda\rightarrow$ balances the regularization term against the error term. It is different for each model.
 - $1/2\rightarrow$ is the scaling factor that simplifies the derivative during optimization (calculating the gradient). 
 ![[Pasted image 20240418164715.png|center]]
-
-
-
 

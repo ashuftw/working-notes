@@ -5,6 +5,7 @@ date: 2024-07-12
 ---
 
 ### 1. Initialization and MPI Setup
+
 ```cpp
 #include <string>
 #include <iostream>
@@ -29,6 +30,7 @@ int main(int argc, char** argv) {
 ```
 
 ### 2. Simulation Parameters and Grid Setup
+
 ```cpp
     constexpr SimulationParameter parameter;
     // The fixed number of partitions in x an y direction, e.g. 2x2 = 4
@@ -56,7 +58,9 @@ int main(int argc, char** argv) {
     // The entire grid has a ghost layer on each side.
     constexpr Mapper2D entireGrid(innerGrid.nx() + 2, innerGrid.ny() + 2);
 ```
+
 ### 3. Buffers and Data Initialization
+
 ```cpp
     /* receive buffers for ghost layer data */
     double *leftReceiveBuffer   = new double[innerGrid.ny()];
@@ -89,7 +93,9 @@ int main(int argc, char** argv) {
         bottomSendBuffer[i] = 0.0;
     }
 ```
+
 ### 4. Boundary Condition Setup
+
 ```cpp
     /* In the parallel version the following variables need to be calculated. The name "cell" is an equivalent for process. */
     bool isLeftBoundaryCell = true;     // this boolean helps identify which cell is not at the boundary
@@ -114,7 +120,9 @@ int main(int argc, char** argv) {
         for (size_t i = 0; i < innerGrid.nx(); i++)
             bottomReceiveBuffer[i] = parameter.bcBottom;
 ```
+
 ### 5. Iteration and Computation
+
 ```cpp
     int iteration = 0;
     timer.startNupsTimer();
@@ -286,7 +294,9 @@ MPI_Waitall(reqCount, requests, MPI_STATUSES_IGNORE);
         }
     }
 ```
+
 ### 6. Output Results and Finalization
+
 ```cpp
     /* Output (Only process 0. In the parallel case process 0 needs to collect the necessary data for the output from the other processes. */
 

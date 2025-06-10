@@ -5,7 +5,6 @@ date: 2022-11-09
 ---
 
 Nov 2022
-   
 
 There are three possibilities to use an infinitive with zu. 
 ```mermaid
@@ -27,7 +26,11 @@ There are three possibilities to use an infinitive with zu.
 
 By default the subject of the Nebensatz is the same as that of the Hauptsatz. 
 If there is a separate subject, we need to use **dass** to refer to the second subject. 
+
 ### Consequence in nebensatz - dass
+
 Ich hoffe, **dass** **er** pünktlich zu kommt. 
+
 ### Reasen in nebensatz - damit
+
 Ich lüge manchmal, **damit** meine Freundin sich gut fühlt. 

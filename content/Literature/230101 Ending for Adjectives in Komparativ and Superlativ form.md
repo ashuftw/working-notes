@@ -5,6 +5,7 @@ date: 2023-01-01
 ---
 
 ### Syntax
+
 |Positv   | Komparativ  | Superlativ     
 |---|---|---|
 |Adjektiv   | Adjektiv + **er**  | am Adjektiv+**sten** (regelmaßig)  
@@ -12,6 +13,7 @@ date: 2023-01-01
 |   |   | der/die/das **Adjektiv**+ste 
 
 ### Example
+
 |Positv   | Komparativ  | Superlativ     
 |---|---|---|
 |schnell   | schnell**er**  | am schnell**sten** (regelmaßig)  
@@ -34,4 +36,5 @@ date: 2023-01-01
 | viel   | mehr      | am meisten |
 | gut    | besser    | am besten   |
 | gern   | lieber    | am liebsten |
+
 1

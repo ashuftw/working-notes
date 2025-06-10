@@ -9,5 +9,3 @@ date: 2024-06-20
 - Are the absorbents safe for the environment? Yes most impact seems to be because of the energy. 
 - 
 
-
-

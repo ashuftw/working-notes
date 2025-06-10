@@ -29,6 +29,7 @@ $$
 - From the matrix definition, the residual is vector give the local error in each cell. 
 - Note that the residual has the same units as the quantity calculated by the solution algorithm.
 - In general ![[Pasted image 20220516173700.png|center|750]]  
+
 # Representative Residual
 
 The residual vector contains the error for every cell in the mesh, making it impractical to monitor against iteration. A representative residual is a scalar that represents the residual for all cells in the mesh.
@@ -56,6 +57,7 @@ $$ r=\left(\frac{1}{N}\sum_{i=0}^n |r_i|^2\right)^{1/2} $$
 - Takes the maximum of the residual vector
 
 $$ r=\text{max}|r_i| $$
+
 ---
 
 # References

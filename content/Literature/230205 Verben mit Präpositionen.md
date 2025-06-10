@@ -5,6 +5,7 @@ date: 2023-02-05
 ---
 
 ### Präpositionen mit Akkusativ 
+
 - sich ärgern **über** 
 - sich interessieren **für** 
 - diskutieren **über** (Thema)
@@ -13,7 +14,9 @@ date: 2023-02-05
 - sich freuen **auf** (Zukunft)
 - sich freuen **über** (Gegenwart + Vergangenheit)
 - warten **auf**/**für**
+
 ### Präpositionen mit Dativ 
+
 - träumen **von**
 - fragen **nach**
 - sich beschäftigen **mit**
@@ -21,10 +24,13 @@ date: 2023-02-05
 - mitmachen **an/bei**
 - diskutieren **mit** (Person)
 - beginnen **mit**
+
 ### Wechsel Präpositionen
+
 - erzählen (**über**+A, **aus/von**+D)
 - sprechen (**über**+A, **mit**+D)
 - denken (**über** + A, **an** + D)
 
 ### wo? - Dativ, wohin?-Akkusativ
+
 in, an, auf, über, unter, vor, hinter, neben, zwischen
