@@ -3,11 +3,9 @@ title: Romberg's Extrapolation Method
 draft: false
 date: 2024-06-03
 ---
-
 ## Use case
 
 It is used to improve the accuracy of a numerical method to a higher order by combining results from different step sizes. It does this by [[240603 Romberg's Extrapolation Method#Derivation of the Romberg Extrapolation|eliminating the lower-order error terms]] from the asymptotic error expansion.
-
 ## Mathematically
 
 For a numerical method with approximation $A(h)$ of the exact value, where the error has convergence order $q$:
@@ -52,7 +50,7 @@ With two approximations:
 **Step 1:** Multiply the second equation by $2^q$ :
 
 $$
-2^q A(h / 2)=2^q y_{\text {exact }}+C_1 h^q+O\left(h^{q+1}\right)
+2^q A(h / 2)=2^q y_{\text {exact }}+\underbrace{C_1 h^q}_\text{eliminate}+O\left(h^{q+1}\right)
 $$
 
 **Step 2:** Subtract the first equation:

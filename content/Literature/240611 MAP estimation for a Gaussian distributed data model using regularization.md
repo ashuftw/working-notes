@@ -1,19 +1,18 @@
 ---
-title: MAP with Gaussian Prior
+title: MAP estimation for a Gaussian distributed data model using regularization
 draft: false
 tags: 
 date: 2025-03-17
 ---
-
 ### To get the MAP parameters
 
-1. **MAP definition:**
+1. **MAP definition for Probabilistic Modeling**
 
 $$ 
 w_{MAP} = \arg\max_w P(w|D) = \arg\max_w P(D|w)P(w)
 $$ 
 
-2. **For Gaussian case, this becomes:**
+2. **For Gaussian case:**
 
 $$
 w_{MAP} = \arg\min_w \left[\frac{1}{2}\sum_n (t_n - w^T\phi(x_n))^2 + \frac{\lambda}{2}||w||^2\right]

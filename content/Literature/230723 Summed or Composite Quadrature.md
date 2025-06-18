@@ -1,5 +1,5 @@
 ---
-title: Composite Quadrature
+title: Summed or Composite Quadrature
 draft: false
 date: 2023-07-23
 ---

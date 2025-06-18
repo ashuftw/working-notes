@@ -1,10 +1,10 @@
 ---
 title: Gradient Descent
-draft: true
+draft: false
 tags: 
 date: 2025-03-18
 ---
-
+![[../Files/Pasted image 20250612111032.png|center|800]]
 The learning rule for gradient descent is
 
 $$

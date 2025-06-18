@@ -4,9 +4,7 @@ draft: false
 tags: 
 date: 2025-06-05
 ---
-
-## Expected Test Error 
-
+## Expected Squared test error
 $$
 E_{D,\nu}[(t - y(x,w))^2] = \text{bias}_D(y)^2 +\underbrace{ \text{Var}_D(y)}_\text{model variance} + \underbrace{\sigma^2}_\text{noise}
 $$

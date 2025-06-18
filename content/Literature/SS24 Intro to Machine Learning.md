@@ -25,7 +25,7 @@ tags:
 - [[240527 Aleatoric vs Epistemic Uncertainty|Aleatoric vs Epistemic Uncertainty]]
 - [[240527 Using Likelihood to Model Probability|Using Likelihood to Model Probability]]
 - [[240611 Bayesian Inference|Bayesian Inference]]
-- [[240611 MAP with Gaussian Prior|Maximum a-posteriori estimation for a Gaussian distributed data model using regularization.]]
+- [[240611 MAP estimation for a Gaussian distributed data model using regularization|MAP estimation for a Gaussian distributed data model using regularization]]
 - [[250605 MAP = Regularized Least Squares|MAP = Regularized Least Squares]]
 - [[250605 Predictive Distribution|Predictive Distribution]]
 
@@ -55,7 +55,7 @@ tags:
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 	- [[Direct Posterior Modeling]]
 
-### Concept Learning
+### 8. Concept Learning
 
 - [[250317 Validity of Fundamental Equivalence between Induction and Deduction|Validity of Fundamental Equivalence between Induction and Deduction]]
 

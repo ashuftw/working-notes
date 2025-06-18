@@ -90,7 +90,7 @@ $$
 
 ## Generalisation 
 
-Select parameters $\mathbf{w}_{ML}$ & $\beta_{ML}$ which maximize the likelihood and then the optimal output distribution is Gaussian: 
+Select parameters $\mathbf{w}_{ML}$ & $\beta_{ML}$ which maximize the likelihood and  represent the optimal output distribution as a Gaussian: 
 
 $$
 p(t \mid x, \mathbf{w}_{ML}, \beta_{ML}) = \mathcal{N}(t \mid y(x, \mathbf{w}_{ML}), \beta_{ML}^{-1})

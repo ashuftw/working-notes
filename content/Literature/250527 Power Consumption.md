@@ -1,6 +1,6 @@
 ---
 title: Power Consumption
-draft: false
+draft: true
 tags: 
 date: 2025-05-27
 ---

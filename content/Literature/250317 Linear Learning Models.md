@@ -1,6 +1,6 @@
 ---
 title: Linear Learning Models
-draft: true
+draft: false
 tags: 
 date: 2025-03-17
 ---
