@@ -20,5 +20,8 @@ date: 2025-05-15
 - [[250522 Quick notes on SSH|Quick notes on SSH]]
 
 ## Regex 
-
-- [[250602 Regular vs Metacharacters]]
+- [[250628 Regex|Regex]]
+- [[250602 Regular vs Metacharacters|Regular vs Metacharacters]]
+- [[250628 Basic vs Extended Regular Expressions|Basic vs Extended Regular Expressions]]
+- [[250628 Escaping|Escaping]]
+- 

@@ -27,14 +27,14 @@ where,
 
 ![[Pasted image 20240710153658.png|center|500]]
 
-## Reducing Bias 
+#### **To Reduce HIGH BIAS (Underfitting):**
 
-- Increase model complexity / Parameters. 
-- May cause over-fitting. 
-
-## Reducing Variance 
-
-- Cross validation. 
-- Feature selection (selecting only necessary features reduces model complexity and variance error). 
-- Regularization. 
-
+- Increase model complexity
+- Add more features
+- Reduce regularization (smaller λ)
+#### **To Reduce HIGH VARIANCE (Overfitting):**
+- Reduce model complexity
+- More training data
+- Regularization (L1/L2)
+- Early stopping
+- Cross-validation

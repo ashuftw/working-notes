@@ -14,7 +14,7 @@ $$
 **Mathematically:**
 
 $$
-w_\text{MAP} = \arg\max_w P(w|D)= \arg\min_w \left[\underbrace{\frac{1}{2}\sum_n (t_n - w^T\phi(x_n))^2}_\text{from Likelihood} +\underbrace{\frac{\lambda}{2}||w||^2}_\text{Prior}\right]
+w_\text{MAP} = \arg\max_w P(w|D)= \arg\min_w \left[\underbrace{\frac{1}{2}\sum_n (t_n - \mathbf w^T\phi(x_n))^2}_\text{from Likelihood} +\underbrace{\frac{\lambda}{2}||\mathbf w||^2}_\text{Prior}\right]
 $$
 
 Therefore:
@@ -23,6 +23,7 @@ Therefore:
 
 > **Key insight**: Probabilistic and deterministic approaches give the same answer!
 
-Remember:
-- Prior $\rightarrow$ Regularization
-- No prior $\rightarrow$ No regularization (ML = unregularized least squares)
+
+
+
+**Key Point:** The model is **linear in parameters** $\mathbf{w}$ but can be **non-linear in inputs** $x$ through the choice of basis functions $\phi(x)$.

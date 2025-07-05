@@ -8,10 +8,13 @@ date: 2025-04-30
 ## Use case:
 
 It is used to [[250429 Orthogonality|Orthogonal]] Basis functions for the [[230731 Polynomial Chaos Expansion|Polynomial Chaos Expansion]]
-- For normal distributions: *Hermite* polynomials
-- For uniform distributions: *Legendre* polynomials
-- For gamma distributions: *Laguerre* polynomials
-- For beta distributions: *Jacobi* polynomials
+
+| Distribution | Basis function    |
+| ------------ | ----------------- |
+| Normal       | Hermit Polynomial |
+| Uniform      | Legendre          |
+| Gamma        | Laguerre          |
+| Beta         | Jacobi            |
 
 ### Example
 

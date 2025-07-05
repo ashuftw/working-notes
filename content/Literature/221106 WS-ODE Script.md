@@ -3,7 +3,6 @@ title: WS-ODE Script
 draft: false
 date: 2022-11-06
 ---
-
 ## Introduction
 
 - Autonomous Differential equation: $f$ is independent of $t$
@@ -51,8 +50,7 @@ date: 2022-11-06
 - [[240213 General form of an Linear Differential Equation in Matrix form|General form of an Linear Differential Equation in Matrix form]]
 - [[240213 e-Ansatz for a Differential Equation in Matrix form|e-Ansatz for a Differential Equation in Matrix form]]
 - [[250106 General Solution of a DE in Matrix Form - example|General Solution of a DE in Matrix Form - example]]
-- [[240214 General Solution of a Differential Equation in Matrix Form|General Solution]]
-- [[240214 Solution Method for Linear Matrix Differential Equation or System of Differential Equations|solution method]]
+- [[240214 Solution Method for Linear Matrix Differential Equation or System of Differential Equations|Solution Method for Linear Matrix Differential Equation or System of Differential Equations]]
 - [[240215 Variation of Constants for System of Linear Differential Equation|Variation of Constants]] 
 
 ## Laplace Transform

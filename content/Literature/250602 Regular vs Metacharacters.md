@@ -1,6 +1,6 @@
 ---
 title: Regular vs Metacharacters
-draft: true
+draft: false
 tags: 
 date: 2025-06-02
 ---
@@ -14,11 +14,11 @@ They are literal characters that match themselves exactly in a pattern. They rep
 - `a` matches the literal letter "a"
 - `5` matches the literal digit "5"
 
-### Metacharacters
+### Meta-characters
 
 They are special characters that have predefined meanings and functions in regular expressions. They don't match themselves literally but instead control how the pattern matching works.
 
-**Common metacharacters include:**
+**Common meta-characters include:**
 - `.` - matches any single character
 - `^` - matches the beginning of a line
 - `$` - matches the end of a line

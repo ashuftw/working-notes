@@ -4,11 +4,19 @@ draft: true
 tags: 
 date: 2025-05-22
 ---
-1. [[250522 Quick Reference Page|Quick Reference Page]]
-2. [[250522 Code Templates|Code Templates]]
-3. [[250522 Function Library|Function Library]]
-4. [[250522 Common Patterns|Common Patterns]]
-5. [[250522 Troubleshooting|Troubleshooting]]
+1. [[250522 Code Templates|Code Templates]]
+2. [[250522 Function Library|Function Library]]
+3. [[250522 Common Patterns|Common Patterns]]
+4. [[250522 Troubleshooting|Troubleshooting]]
 
-[[250522 Claude's Exam Prep|Claude's Exam Prep]]
+[[250522 Claude's Exam Prep Strategy|Claude's Exam Prep]]
+
+## Past Exams 
+
+- [[250628 Python Exam WS24]]
+- [[250628 Python Exam WS23]]
+- [[250628 Python Exam SS23]]
+- [[250628 Python Exam SS22]]
+- [[250628 Python Exam WS21]]
+- [[250628 Python Exam SS21]]
 

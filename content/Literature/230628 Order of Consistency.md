@@ -3,7 +3,6 @@ title: Order of Consistency
 draft: false
 date: 2023-06-28
 ---
-
 ## Intuition
 
 The order of consistency tells us how quickly the error of a numerical method decreases as we make the step size smaller.

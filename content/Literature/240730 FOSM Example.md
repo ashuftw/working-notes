@@ -10,7 +10,7 @@ P=g(V, \alpha, T)=\frac{V^2}{\bar{R}(1+\alpha(T-\bar{T}))}
 $$
 
 where $P$ denotes power.
-Use [[FOSM|FOSM]] to find an approximation of the standard deviation of $P$, i.e. $\sigma_P$, in dependence of the known uncertainties of the directly observable quantities
+Use [[240729 FOSM|240729 FOSM]] to find an approximation of the standard deviation of $P$, i.e. $\sigma_P$, in dependence of the known uncertainties of the directly observable quantities
 
 $$
 \begin{aligned}

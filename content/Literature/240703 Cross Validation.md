@@ -3,11 +3,8 @@ title: Cross Validation
 draft: false
 date: 2024-07-03
 ---
-
 ## Use case 
-
-Cross Validation is a model validation technique used to check how well a model generalizes by checking how it performs against new unseen data. 
-
+Cross validation is a technique used to estimate the true generalization error. 
 ## Types 
 
 1. **Leave One Out Cross Validation** 

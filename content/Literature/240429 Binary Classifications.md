@@ -25,20 +25,17 @@ It is an instance where the classifier incorrectly predicts a positive class.  i
 $$
 FPR=\dfrac{FP}{FP+TN}
 $$
-
-	> Note: Also called *False Acceptance Rate (FAR)*
+> 	Note: Also called *False Acceptance Rate (FAR)*
 
 #### True Negative 
 
 It is an instance where the model correctly predicts a negative class. 
 - **True Negative Rate**
 	It is the ratio of the number of Negative classifications to the actual number of negatives. 
-
 $$
 TNR=\dfrac{TN}{TN+FP}=1-FPR
 $$
-
-	> Note: Also called *Specificity*
+> 	Note: Also called *Specificity*
 
 #### False Negative 
 
@@ -50,7 +47,7 @@ $$
 FNR=\dfrac{FN}{FN+TP}
 $$
 
-	> Note: Also called *False Rejection Rate* or *Miss Rate*
+>	Note: Also called *False Rejection Rate* or *Miss Rate*
 
 | Object         | ML Term                          |
 | -------------- | -------------------------------- |

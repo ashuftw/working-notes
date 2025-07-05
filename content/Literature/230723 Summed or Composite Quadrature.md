@@ -3,7 +3,7 @@ title: Summed or Composite Quadrature
 draft: false
 date: 2023-07-23
 ---
-It is a [[230507 Quadrature|Quadrature]] where the domain $x\in[a,b]$ is split into multiple grid points $j=0,1,2\dots J$ with $a = x_0 < x_1 < \dots < x_J = b$
+It is a [[230507 Quadrature - Derivation and Formulae|Quadrature]] where the domain $x\in[a,b]$ is split into multiple grid points $j=0,1,2\dots J$ with $a = x_0 < x_1 < \dots < x_J = b$
 
 $$
 \boxed{

@@ -3,10 +3,9 @@ title: Polynomial Chaos Expansion
 draft: false
 date: 2023-07-31
 ---
-
 ## Definition
 
-It is a way to express Random Variables as a series expansion using [[250429 Orthogonality|Orthogonal]] polynomials of simpler random variables (called the *germ*)
+It is a way to express Random Variables as a linear expansion using [[250429 Orthogonality|Orthogonal]] polynomials of simpler random variables (called the *germ*)
 
 ## Formula
 
@@ -16,7 +15,6 @@ Using the generalized Polynomial Chaos (gPC) Expansion
 $$
 X(\theta)=\sum_{i=0}^{\infty} q_i \Phi_i(\xi(\theta))
 $$
-
 $$
 \boxed{X=\sum_{i=0}^{\infty} q_i \Phi_i(\xi)}
 $$

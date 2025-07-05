@@ -71,7 +71,7 @@ $$
 $$
 
  $$
-\boxed{\Delta P_\text{DAC}= \frac{64 \mu L u_d}{2 d^2}}
+\boxed{\Delta P_\text{DAC}= \frac{32 \mu L u_d}{d^2}}
 $$
 
 ## Optimization Problem 

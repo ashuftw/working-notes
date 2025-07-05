@@ -3,13 +3,11 @@ title: Variation of Constants for System of Linear Differential Equation
 draft: false
 date: 2024-02-15
 ---
-
 ### [[240214 General Solution of the for a Differential Equation in Matrix Form|Homogeneous Solution]]
 
 $$
 q_h(t)=V D(t) c
 $$
-
 ### Particular Solution
 
 $$

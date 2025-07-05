@@ -18,3 +18,12 @@ Remember:
 
 > *Mnemonic: "Half the Sum of Squared differences"*
 > *Note: Sometimes written as $\frac{1}{2 N}$ for averaging*
+
+## Generalized Squared Error 
+$$
+\tilde{E}(\mathbf{w}) = \frac{1}{2}\sum_n (t_n - \mathbf w^T\phi(x_n))^2 +\frac{\lambda}{2}||\mathbf w||^2
+$$
+- $\mathbf w$ is the **parameter vector** (weights) that the model learns (and optimized during training).
+- $\phi(x)$ is the [[250620 Basis Functions|Basis Function vector]] which Transforms the raw input x into a higher-dimensional feature space
+- Transforms the raw input $x$ into a higher-dimensional feature space
+-  The dot product $w^T \phi(x)$ gives the model's prediction

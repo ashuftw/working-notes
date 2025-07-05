@@ -4,7 +4,6 @@ draft: false
 tags: 
 date: 2025-02-06
 ---
-
 # Determine the Real General Solution
 
 We are given the system of differential equations:

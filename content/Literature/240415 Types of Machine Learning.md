@@ -26,5 +26,5 @@ Is a type of learning that works with unlabeled data. The learning algorithm loo
 - **clustering**
 - **pattern recognition**
 - **prototypes for dimension reduction**
-- **PCA dimension reduction********
+- **PCA dimension reduction**
 

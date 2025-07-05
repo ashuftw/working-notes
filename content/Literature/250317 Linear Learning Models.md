@@ -4,7 +4,6 @@ draft: false
 tags: 
 date: 2025-03-17
 ---
-
 ### Definition
 
 A model is considered linear when it is linear in its parameters, *regardless* of whether it's linear in the inputs.

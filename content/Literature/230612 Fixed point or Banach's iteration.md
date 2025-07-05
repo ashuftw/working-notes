@@ -3,7 +3,6 @@ title: Fixed point or Banach's iteration
 draft: false
 date: 2023-06-12
 ---
-
 It is a Numerical Method used to find the solution to an equation (when the analytical solution is difficult or impossible to find). 
 
 It assumes that a function $f$ has a fixed point i.e. $f(x)=x$ 

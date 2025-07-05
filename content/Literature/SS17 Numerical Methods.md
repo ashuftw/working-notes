@@ -67,8 +67,8 @@ $$
 Using Kepler's barrel rule, determine an approximation of $\int_0^{\pi} \sin x \, dx$ and estimate the quadrature error. Explain why the estimate approximates the actual error quite closely.
 I'll solve this step-by-step using Kepler's barrel rule (Simpson's rule).
 #### Solution
-**Step 1: Apply [[230507 Quadrature|Kepler's barrel rule]]**
-From the [[230507 Quadrature|formula]]: 
+**Step 1: Apply [[230507 Quadrature - Derivation and Formulae|Kepler's barrel rule]]**
+From the [[230507 Quadrature - Derivation and Formulae|formula]]: 
 $$
 \int_0^{\pi} \sin x , dx \approx \frac{\pi}{6}[0 + 4(1) + 0] = \frac{4\pi}{6} = \frac{2\pi}{3}
 $$

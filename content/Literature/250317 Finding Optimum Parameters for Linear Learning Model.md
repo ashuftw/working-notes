@@ -15,7 +15,7 @@ The optimal parameters $w^*$ are found by:
 2. Solving the resulting equation
 
 **Simplification**
-Write in matrix form (where $\Phi$ is the design matrix)
+Write in matrix form (where $\Phi$ is the [[250623 Design matrix|Design matrix]])
 
 $$
 E(w)=\frac{1}{2}\|t-\Phi w\|^2
