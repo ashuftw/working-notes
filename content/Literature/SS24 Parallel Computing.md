@@ -13,6 +13,7 @@ tags:
 ## MPI
 
 - [[240516 MPI Functions|MPI Functions]]
+- [[250705 MPI Functions - An Overview of the Syntax|Syntax Table]]
 - [[240702 A Hello World Program in Parallel|A Hello World Program in Parallel]]
 - [[240709 Blocking vs non-Blocking Communication|Blocking vs non-Blocking Communication]]
 

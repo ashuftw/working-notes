@@ -1,10 +1,9 @@
 ---
-title: WS-ODE Script
+title: Ordinary Differential Equations
 draft: false
 date: 2022-11-06
 ---
 ## Introduction
-
 - Autonomous Differential equation: $f$ is independent of $t$
 - Rheonomous Differential equation: $f$ is dependent on $t$
 - [[221108 Expressing higher order ODE's as a system of First order ODE's|Expressing higher order ODE's as a system of First order ODE's]]
@@ -58,5 +57,3 @@ date: 2022-11-06
 - [[231206 Laplace Transform|Laplace Transform]]
 - Basic Properties
 	- Multiplication, Differentiation and Damping Theorem
-
-[[2018 Paper]]

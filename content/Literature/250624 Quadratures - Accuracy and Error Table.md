@@ -6,12 +6,12 @@ date: 2025-06-24
 ---
 ## **Essential Quadrature Rules**
 
-| **Rule**                 | Points | degree of Polynomial (N) | **Degree of Accuracy** $(K)$ | **Order of Error** |
-| ------------------------ | ------ | ------------------------ | ---------------------------- | ------------------ |
-| **Left/Right Rectangle** | 1      | 0                        | $0$                          | $O(h)$             |
-| **Midpoint**             | 1      | 0                        | $1$                          | $O(h^2)$           |
-| **Trapezoid**            | 2      | 1                        | $1$                          | $O(h^2)$           |
-| **Simpson/Kepler**       | 3      | 2                        | $3$                          | $O(h^4)$           |
+| **Rule**                 | Points | degree of Polynomial $(N)$ | **Degree of Accuracy** $(K)$ | Order of Error/Consistency $(q)$ |
+| ------------------------ | ------ | -------------------------- | ---------------------------- | -------------------------------- |
+| **Left/Right Rectangle** | 1      | 0                          | $0$                          | $O(h)$                           |
+| **Midpoint**             | 1      | 0                          | $1$                          | $O(h^2)$                         |
+| **Trapezoid**            | 2      | 1                          | $1$                          | $O(h^2)$                         |
+| **Simpson/Kepler**       | 3      | 2                          | $3$                          | $O(h^4)$                         |
 $K = 0-1-1-3$, **Order of Error** $= 1-2-2-4$
 ### **Degrees of Accuracy:**
 - **Rectangle rules**: K = 0 (only integrates constants exactly)

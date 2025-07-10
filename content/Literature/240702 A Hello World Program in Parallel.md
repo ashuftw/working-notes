@@ -3,7 +3,6 @@ title: A Hello World Program in Parallel
 draft: false
 date: 2024-07-02
 ---
-
 ## Code
 
 ```cpp

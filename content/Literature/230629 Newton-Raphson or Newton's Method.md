@@ -27,3 +27,4 @@ $\text { e.g. } \lambda=1, D=\nabla f\left(x_k\right)$
 $$
 g(x_{k+1})=x_{k}-\frac{f(x_{k})}{f'(x_{k})}
 $$
+Note: Here, $f$ is the original function whose root you wanna find and $g$ is the iteration function. 

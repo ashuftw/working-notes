@@ -13,7 +13,8 @@ $$
 
 We sum only till $(J-1)$ because $j=J$ is the end point which means the substitution $x_{J+1}$ doesn't exist.  
 
-## Example 
+![[../Files/Pasted image 20250710102033.png|center|600]]
+## Comparison of Quadrature Rules and their Composite form
 
 | Quadrature rule | Composite Quadrature                                                                         | Fixed Step                                                                                                               |
 | --------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |

@@ -3,7 +3,6 @@ title: Machine Learning
 draft: false
 tags:
 ---
-
 ### 1. Introduction:
 - [[230418 Deduction, Abduction & Induction|Deduction, Abduction & Induction]]
 - [[250317 Induction in Machine Learning|Induction in Machine Learning]]
@@ -24,11 +23,10 @@ tags:
 - [[240611 Bayesian Inference|Bayesian Inference]]
 - [[240611 MAP estimation for a Gaussian distributed data model using regularization|MAP estimation for a Gaussian distributed data model using regularization]]
 - [[250605 MAP = Regularized Least Squares|MAP = Regularized Least Squares]]
-- [[250605 Predictive Distribution vs Bayesian Predictive Distribution|Predictive Distribution]]
+- [[250605 Predictive vs Bayesian Predictive Distribution|Predictive vs Bayesian Predictive Distribution]]
 
 ### 4. Incremental Bayesian Learning
 - [[240618 Incremental Bayesian Learning|Incremental Bayesian Learning]]
-
 ### 5. Error Minimization
 - [[240703 Generalized Learning Rule|Generalized Learning Rule]]
 - [[240703 Finding Hyper Parameters|Finding Hyper Parameter]]
@@ -45,13 +43,10 @@ tags:
 - [[250627 Radial Basis Function|Radial Basis Function]]
 - [[250701 Weighted Linear Regression|Weighted Linear Regression]]
 - [[250701 Unified Model|Unified Model]]
-
 ### 7. Classification
 - [[240711 Decision Boundary and Hyperplanes|Decision Boundary and Hyperplane]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 	- [[Direct Posterior Modeling]]
-
 ### 8. Concept Learning
 - [[250317 Validity of Fundamental Equivalence between Induction and Deduction|Validity of Fundamental Equivalence between Induction and Deduction]]
-

@@ -16,7 +16,7 @@ $$
 \frac{\partial u}{\partial t}+c \frac{u_i-u_{i-1}}{\Delta x}=0
 $$
 
-Using [[231115  The Taylor Expansion|Taylor Expansion]] we have the error term can be found out (truncation error)
+Using [[231115 The Taylor Expansion|Taylor Expansion]] we have the error term can be found out (truncation error)
 
 $$
 u_{i-1}=u_i-\Delta x \frac{\partial u}{\partial x}+\frac{\Delta x^2}{2!} \frac{\partial^2 u}{\partial x^2}-\ldots

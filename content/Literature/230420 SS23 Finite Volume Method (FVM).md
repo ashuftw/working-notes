@@ -9,7 +9,7 @@ date: 2023-04-20
 - [[230503 Landau notation or Big O notation|Landau notation or Big O notation]]
 - [[231206 Steps to solve a PDE]]
 - [[230524 Solution method for 1D Heat Equation|Solution Method for 1D Heat Equation]]
-- [[231115  The Taylor Expansion|Taylor Expansion of u(x+h)]]
+- [[231115 The Taylor Expansion|Taylor Expansion of u(x+h)]]
 - Linear, Semi-linear, non-Linear, Quasi-linear PDEs
 
 ## Lecture 1

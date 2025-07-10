@@ -29,9 +29,9 @@ $$
 ### Intuition
 ![[../Files/IMG_20250704_150030060.jpg|center|600]]
 **Solo Effect**
-How will changing the quantity of the Sugar affect the sweetness of the cake if we keep the rest of the ingredients more or less the same portions each time. 
+How will changing the quantity of the Sugar affect how sweet the cake is if we keep the rest of the ingredients more or less the same portions each time. 
 **Interaction effect**
-How will changing the sugar quantity given that we have different quantities of cocoa. Example: Maybe with a lot of cocoa, we need to use lots of sugar! 
+How will changing the Sugar quantity affect how sweet the cake is give that we have different quantities of cocoa. Example: Maybe with a lot of cocoa, we need to use lots of sugar! 
 
 1. **First Order Sobol**->Tracks the solo effect. 
 2. **Total Effect**-> Tracks both Solo and Interaction Effect. 

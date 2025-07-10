@@ -97,18 +97,152 @@ Actual error: $|2 - \frac{2\pi}{3}| = |2 - 2.0944| \approx 0.0944$
 ### Task 3 (5 points)
 
 Explain the idea of ​​Romberg extrapolation. State the Romberg scheme (at least two improvement levels), including the achieved orders of convergence, for numerical integration, starting with the summed trapezoidal rule.
+#### Solution 
+[[240603 Romberg's Extrapolation Method|Theoretical answer]]
+**Romberg scheme for numerical integration starting with summed trapezoidal rule:**
 
+The summed trapezoidal rule has the error expansion: 
+$$
+I(f) = Q_J(f) + Ch^2 + C_1h^4 + C_2h^6 + \ldots
+$$
+
+where $h$ is the step size and $Q_J(f)$ is the approximation with $J$ subintervals.
+
+**The Romberg scheme:**
+Starting values (summed trapezoidal rule):
+- $Q^{(1)}_J(f)$ with step size $h$
+- $Q^{(1)}_{2J}(f)$ with step size $h/2$
+- $Q^{(1)}_{4J}(f)$ with step size $h/4$
+- etc.
+
+**First improvement level:**
+$q = 2$ -> Trapezoidal Rule
+$$Q^{(2)}_J(f) = \frac{4Q^{(1)}_{2J}(f) - Q^{(1)}_J(f)}{3}$$ This eliminates the $h^2$ term from the error expansion, giving convergence order 4 (this is Simpson's rule).
+
+**Note:** You could rewrite the expansion term and find the significant error term or we can just use the knowledge that each level improves the accuracy by one term in the expansion. 
+
+**Second improvement level:**
+$q$ is now 4! 
+$$Q^{(3)}_J(f) = \frac{16Q^{(2)}_{2J}(f) - Q^{(2)}_J(f)}{15}$$ This eliminates the $h^4$ term, giving convergence order 6.
+
+
+**Convergence orders:**
+
+- Level 1 (trapezoidal): Order 2
+- Level 2 (Simpson): Order 4
+
+**Schematic representation:**
+
+```
+Q^(1)_J     
+         ↘
+Q^(1)_2J    →  Q^(2)_J
+         ↘            ↘
+Q^(1)_4J    →  Q^(2)_2J  →  Q^(3)_J
+         ↘            ↘            ↘
+Q^(1)_8J    →  Q^(2)_4J  →  Q^(3)_2J  →  Q^(4)_J
+```
+
+**Quick remarks for exam:**
+
+- This question has high relevance as Romberg extrapolation appears frequently in exams
+- The general extrapolation formula is available in the formulary: $Q_{new} = \frac{2^q Q_{old,2J} - Q_{old,J}}{2^q - 1}$
 ### Task 4 (5 points)
 
 Determine the Newton iteration for calculating a root of $f(x) = (x^2 - 2)^2$. Make reasoned statements about its order of convergence. Is it well suited for calculating $x_N = \sqrt{2}$?
+#### Solution 
+**Newton Iteration**
+The Newton iteration is given by $x_{n+1}=x_n-\frac{f\left(x_n\right)}{f^{\prime}\left(x_n\right)}$.
+$$
+x_{n+1}=\frac{4 x_n^2-\left(x_n^2-2\right)}{4 x_n}=\frac{3 x_n^2+2}{4 x_n}
+$$
+**Order of Convergence**
+The order of convergence is linear (order 1).
+- Reasoning: Quadratic convergence requires the root $x^*$ to be a simple root, meaning $f^{\prime}\left(x^*\right) \neq 0$.
+- The root of $f(x)$ is $x^*=\sqrt{2}$.
+- Evaluating the derivative at the root:
+$$
+f^{\prime}(\sqrt{2})=4 \sqrt{2}\left((\sqrt{2})^2-2\right)=4 \sqrt{2}(2-2)=0 .
+$$
+- Since the derivative is zero at the root, the root has a [[250708 Multiplicity|Multiplicity]] greater than $1$, and the convergence degrades from quadratic to linear.
+
 
 ### Task 5 (5 points)
-
 Derive the Euler-Heun method for the numerical solution of $y' = f(t, y)$, starting with the integral of $f(t, y)$ over $[t_i, t_{i+1}]$. Indicate exact and approximate values, as well as the approximations used. State properties of the Euler-Heun method.
-
+#### Solution
+[[250709 Euler-Heun Method|Derivation]]
 ### Task 6 (5 points)
 
-Prove that the implicit midpoint rule $y_{i+1} = y_i + h f \left(t_i + \frac{h}{2}, \frac{1}{2}(y_i + y_{i+1})\right)$ has at least order of consistency 2.
+Prove that the implicit midpoint rule $y_{i+1} = y_i + h f \left(t_i + \frac{h}{2}, \frac{1}{2}(y_i + y_{i+1})\right)$ has at least order of consistency $2$.
+
+#### Solution
+To prove consistency order 2, we need to show that the local truncation error $\tau(t,h) = O(h^2)$.
+
+**Given:** $y_{i+1} = y_i + h f\left(t_i + \frac{h}{2}, \frac{y_i + y_{i+1}}{2}\right)$
+
+**Proof:**
+
+From Formulary, the local truncation error is: 
+$$
+\begin{aligned}
+\tau=&\frac{y(t+h)-y(t)}{h}-\Phi(t, y(t), h)\\ \\
+\ = &\frac{y(t+h) - y(t)}{h} - f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right)
+\end{aligned}$$
+> **Note:** Locally, we substitute $y(t_i) =  y(t)$ and $y\left(t_{i+1}\right)=y(t+h)$
+
+**Step 1:** Taylor expand $y(t+h)$ around $t$: $$y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3)$$
+
+**Step 2:** Comparing the Taylor expansion with the given rule, we get  $y'(t) = f(t,y(t))$. Hence we need to expand $f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right)$.
+
+First, find $\frac{y(t) + y(t+h)}{2}$: 
+$$\begin{aligned}
+\frac{y(t) + y(t+h)}{2} = & \frac{y(t)+\overbrace{\left(y(t)+h y^{\prime}(t)+\frac{h^2}{2} y^{\prime \prime}(t)+O\left(h^3\right)\right)}^{\text{from Taylor Expansion}}}{2}
+ \\
+
+= &y(t) + \frac{h}{2}y'(t) + \frac{h^2}{4}y''(t) + O(h^3)
+\end{aligned}
+$$
+
+**Step 3:** Multivariable Taylor expansion of $f$ around $(t, y(t))$: 
+$$
+f(a+\Delta x, b+\Delta z) \approx f(a, b)+\Delta x \cdot \frac{\partial f}{\partial x}+\Delta z \cdot \frac{\partial f}{\partial z}+\text { Higher-Order Terms }
+$$
+In our case
+$$f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) = f(t,y(t)) + \frac{h}{2}f_t + \left(\frac{h}{2}y'(t) + O(h^2)\right)f_y + O(h^2)$$
+
+Since $y'(t) = f(t,y(t))$: $$= f(t,y(t)) + \frac{h}{2}f_t + \frac{h}{2}f(t,y(t))f_y + O(h^2)$$
+
+**Step 4:** Note that $y''(t) = \frac{d}{dt}f(t,y(t)) = f_t + f_y y'(t) = f_t + f_y f$
+
+Therefore **Step 3** becomes: 
+$$\begin{aligned}
+f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) =&  \underbrace{f(t, y(t))}_{y^{\prime}(t)}+\underbrace{\frac{h}{2}\left(f_t+y^{\prime}(t) f_y\right)}_{\frac{h}{2} y^{\prime \prime}(t)}+O\left(h^2\right)
+\\
+ = & y'(t) + \frac{h}{2}y''(t) + O(h^2)
+\end{aligned}
+$$
+
+**Step 5:** Substitute into the truncation error: $$\tau(t,h) = \frac{y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3) - y(t)}{h} - \left(y'(t) + \frac{h}{2}y''(t) + O(h^2)\right)$$
+
+$$= y'(t) + \frac{h}{2}y''(t) + O(h^2) - y'(t) - \frac{h}{2}y''(t) - O(h^2)$$
+
+$$= O(h^2)$$
+
+**Conclusion:** The implicit midpoint rule has consistency order at least 2. ✓
+
+---
+
+**Exam relevance:** This is a standard proof technique for consistency order. The key steps are:
+
+1. Taylor expand the exact solution
+2. Taylor expand the method's right-hand side
+3. Use the chain rule for derivatives: $y''(t) = f_t + f_y f$
+4. Show cancellation up to order $h^2$
+
+**Formula sheet note:** The definition of truncation error and consistency order should be in your formulary.
+
+
+
 
 ### Task 7 (5 points)
 
@@ -122,9 +256,57 @@ $$\begin{array}{c|cc}
 \end{array}$$
 
 Using the calculation rule, explain whether the resulting procedure is explicit or implicit.
+#### Solution 
+**[[250709 Runge-Kutta Method Procedure|Runge-Kutta Method Procedure]]**
+For a 2-stage Runge-Kutta method with the given tableau
+
+$$k_1 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{5}{12}hk_1 - \frac{1}{12}hk_2\right)$$
+
+$$\boxed{
+k_2 = hf\left(t_i + h, y_i + \frac{3}{4}hk_1 + \frac{1}{4}hk_2\right)
+}$$
+
+
+$$y_{i+1} = y_i + \frac{3}{4}k_1 + \frac{1}{4}k_2$$
+The Procedure is **Implicit**
+1. In the first equation, $k_1$ depends on itself (coefficient $\frac{5}{12} \neq 0$ ) and on $k_2$
+2. In the second equation, $k_2$ depends on itself (coefficient $\frac{1}{4} \neq 0$ )
 
 ### Task 8 (5 points)
 Apply the line method to the one-dimensional wave equation $u_{tt} = c^2 u_{xx}$ with homogeneous Dirichlet boundary conditions at $x = 0$ and $x = 1$, and write down the resulting system of ordinary differential equations. What is the corresponding system in matrix notation? What does the CFL condition say for this problem?
+
+#### Solution
+**Given:** $u_{tt} = c^2 u_{xx}$ with $u(t,0) = u(t,1) = 0$
+**Step 1: Convert to first-order system**
+Introduce $v = u_t$: $$\begin{align} u_t &= v \ v_t &= c^2 u_{xx} \end{align}$$
+**Step 2: Spatial discretization**
+Grid points: $x_j = j\Delta x$, $j = 0, 1, ..., n$ with $\Delta x = \frac{1}{n}$
+Approximate $u_{xx}$ with central differences: $$u_{xx}(t, x_j) \approx \frac{u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)}{\Delta x^2}$$
+**Step 3: System of ODEs**
+For $j = 1, ..., n-1$: $$\begin{align} u_j'(t) &= v_j(t) \ v_j'(t) &= \frac{c^2}{\Delta x^2}[u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)] \end{align}$$
+Boundary conditions: $u_0(t) = u_n(t) = 0$
+**Step 4: Matrix notation**
+Define $\mathbf{u} = [u_1, ..., u_{n-1}]^T$ and $\mathbf{v} = [v_1, ..., v_{n-1}]^T$
+$$\frac{d}{dt}\begin{bmatrix} \mathbf{u} \ \mathbf{v} \end{bmatrix} = \begin{bmatrix} \mathbf{0} & \mathbf{I} \ \frac{c^2}{\Delta x^2}\mathbf{A} & \mathbf{0} \end{bmatrix} \begin{bmatrix} \mathbf{u} \ \mathbf{v} \end{bmatrix}$$
+where $\mathbf{A}$ is the tridiagonal matrix: $$\mathbf{A} = \begin{bmatrix} -2 & 1 & & \ 1 & -2 & 1 & \ & \ddots & \ddots & \ddots \ & & 1 & -2 \end{bmatrix}_{(n-1)\times(n-1)}$$
+**Step 5: CFL Condition**
+For explicit time integration of the wave equation: $$\boxed{\Delta t \leq \frac{\Delta x}{c}}$$
+**Physical interpretation:** Information propagates at speed $c$. In one time step, waves should not travel more than one spatial grid spacing.
+**Consequences:**
+
+- Stability requires $c\frac{\Delta t}{\Delta x} \leq 1$ (Courant number)
+- Finer spatial grid → smaller time steps required
+- Computational cost scales as $O(n^2)$ for fixed final time
+
+---
+
+**Exam relevance:** The method of lines is fundamental for PDEs. Key points:
+
+1. Semi-discretization: discretize space, keep time continuous
+2. PDE → system of ODEs
+3. CFL condition ensures numerical stability
+
+**Formula sheet note:** The discretization stencil for $u_{xx}$ and eigenvalues of $\mathbf{A}$ should be in your formulary.
 
 ### Task 9 (Additional, 3 points)
 Explain the concept of $A$-stability of numerical methods for solving ordinary differential equations. Formulate statements about the $A$-stability of explicit and implicit one-step methods. What special property does the Crank-Nicolson method have?

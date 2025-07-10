@@ -25,7 +25,7 @@ $$
 \dot m_1=\rho\cdot A\cdot v \tag{2}
 $$
 
-Using the [[231115  The Taylor Expansion|The Taylor Expansion]] $(x=ds,a=0)$ Mass flux through right face can be approximated to.  
+Using the [[231115 The Taylor Expansion|The Taylor Expansion]] $(x=ds,a=0)$ Mass flux through right face can be approximated to.  
 
 $$
 \begin{aligned}

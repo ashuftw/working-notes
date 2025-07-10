@@ -130,7 +130,7 @@ $$
 Sketch should show parabola $f(x) = \frac{1}{4}x^2$, starting point $(4,4)$, tangent line at $x=4$ intersecting $x-$axis at $x=2$, then tangent at $x=2$ intersecting at $x=1$
 #### Part c) Connection to Banach iteration and convergence order (2 points)
 
-- [[250626 Connection between Fixed Point Iteration & Newton's Method|Connection between Fixed Point Iteration & Newton's Method]]
+- [[250626 Relationship between Fixed Point Iteration & Newton's Method|Connection between Fixed Point Iteration & Newton's Method]]
 - **Convergence order:** The derivative of the iteration function is:
 $$
 g'(x) = 1 - \frac{f'(x)^2 - f(x)f''(x)}{[f'(x)]^2} = \frac{f(x)f''(x)}{[f'(x)]^2}

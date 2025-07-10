@@ -1,6 +1,6 @@
 ---
 title: Neural Network Formulae for Calculations
-draft: true
+draft: false
 tags: 
 date: 2025-04-22
 ---
@@ -18,13 +18,13 @@ Example:
 (input_channels × kernel_height × kernel_width  × num_kernels) + num_kernels
 
 *First term represents weights, second term represents biases*
-
-> For a convolutional layer processing an image:
-> - **Input channels** refers to the depth of the input volume (e.g., 3 for RGB images, 1 for grayscale)
-> - This is because the in a CNN, the entire image (2D Plane) is processed separately and combined through filters. 
-> 
-> For a fully connected layer:
-> - There's no concept of "channels" - everything is flattened into a single vector
+**Note:** 
+ For a **convolutional layer** processing an image:
+ - *Input channels* refers to the depth of the input volume (e.g., 3 for RGB images, 1 for grayscale)
+ - This is because the in a CNN, the entire image (2D Plane) is processed separately and combined through filters. 
+ 
+ For a **fully connected layer**:
+ - There's no concept of "channels" - everything is flattened into a single vector
 
 **Output Dimensions of a Convolutional layer**
 - Output height = ⌊(Input height - kernel height + 2$\times$padding)/stride_v + 1⌋

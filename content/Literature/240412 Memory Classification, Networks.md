@@ -70,26 +70,13 @@ graph TD
 	for (int i = 0; i < x; i++) {
 	    for (int j = 0; j < y; j++) {
 	        data1[i + x * j] = func(i, j); // Data 1 
-	    }
-	}
-	for (int i = 0; i < x; i++) {
-	    for (int j = 0; j < y; j++) {
 	        data2[j + y * i] = func(i, j); // Data 2
 	    }
 	}
 	```
-	- For `data1[i + x * j]`:
-		The inner loop increments `j`
-		As `j` increases, we're accessing memory locations that are `x` positions apart
-		This creates non-sequential memory access patterns
-		These jumps in memory can cause cache misses
-	- For `data2[j + y * i]`:
-		The inner loop still increments `j`
-		As `j` increases, we're accessing sequential memory locations (since `j` is the first term)
-		This sequential access pattern is cache-friendly
-		The inner loop works with "continuous j"
-	- `data2` is faster because it follows a more cache-friendly memory access pattern where the inner loop variable (`j`) corresponds to adjacent memory locations.
-
+- **Loop 1 (Faster)** exhibits **sequential memory access**. As the inner loop increments `j`, the expression `i * x + j` accesses consecutive memory locations (`k`, `k+1`, `k+2`, ...). This pattern takes full advantage of the cache. After the first access, the next several required data points are already in the fast cache, leading to a high "cache hit" rate. 
+    
+- **Loop 2 (Slower)** exhibits **strided memory access**. As the inner loop increments `j`, the expression `j * y + i` jumps through memory in large steps (strides of size `y`). Each access likely requires fetching a new cache line from slow main memory, causing a "cache miss" on almost every iteration. 
 ### Networks
 
 ![[Pasted image 20240425155941.png|center]]

@@ -3,7 +3,6 @@ title: Pattern Recognition
 draft: false
 tags:
 ---
-
 ## I. Bayesian Decision Theory
 
 ### Fundamentals
