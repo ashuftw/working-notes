@@ -1,5 +1,5 @@
 ---
-title: WS-PDE Script
+title: Partial Differential Equations
 draft: false
 date: 2022-11-10
 ---

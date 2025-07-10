@@ -1,5 +1,5 @@
 ---
-title: 
+title: MAP = Regularized Least Squares
 draft: false
 tags: 
 date: 2025-06-04

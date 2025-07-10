@@ -274,39 +274,68 @@ The Procedure is **Implicit**
 
 ### Task 8 (5 points)
 Apply the line method to the one-dimensional wave equation $u_{tt} = c^2 u_{xx}$ with homogeneous Dirichlet boundary conditions at $x = 0$ and $x = 1$, and write down the resulting system of ordinary differential equations. What is the corresponding system in matrix notation? What does the CFL condition say for this problem?
+### Solution
+Given: $u_{t t}=c^2 u_{x x}$ with $u(t, 0)=u(t, 1)=0$
 
-#### Solution
-**Given:** $u_{tt} = c^2 u_{xx}$ with $u(t,0) = u(t,1) = 0$
-**Step 1: Convert to first-order system**
-Introduce $v = u_t$: $$\begin{align} u_t &= v \ v_t &= c^2 u_{xx} \end{align}$$
-**Step 2: Spatial discretization**
-Grid points: $x_j = j\Delta x$, $j = 0, 1, ..., n$ with $\Delta x = \frac{1}{n}$
-Approximate $u_{xx}$ with central differences: $$u_{xx}(t, x_j) \approx \frac{u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)}{\Delta x^2}$$
-**Step 3: System of ODEs**
-For $j = 1, ..., n-1$: $$\begin{align} u_j'(t) &= v_j(t) \ v_j'(t) &= \frac{c^2}{\Delta x^2}[u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)] \end{align}$$
-Boundary conditions: $u_0(t) = u_n(t) = 0$
-**Step 4: Matrix notation**
-Define $\mathbf{u} = [u_1, ..., u_{n-1}]^T$ and $\mathbf{v} = [v_1, ..., v_{n-1}]^T$
-$$\frac{d}{dt}\begin{bmatrix} \mathbf{u} \ \mathbf{v} \end{bmatrix} = \begin{bmatrix} \mathbf{0} & \mathbf{I} \ \frac{c^2}{\Delta x^2}\mathbf{A} & \mathbf{0} \end{bmatrix} \begin{bmatrix} \mathbf{u} \ \mathbf{v} \end{bmatrix}$$
-where $\mathbf{A}$ is the tridiagonal matrix: $$\mathbf{A} = \begin{bmatrix} -2 & 1 & & \ 1 & -2 & 1 & \ & \ddots & \ddots & \ddots \ & & 1 & -2 \end{bmatrix}_{(n-1)\times(n-1)}$$
-**Step 5: CFL Condition**
-For explicit time integration of the wave equation: $$\boxed{\Delta t \leq \frac{\Delta x}{c}}$$
-**Physical interpretation:** Information propagates at speed $c$. In one time step, waves should not travel more than one spatial grid spacing.
-**Consequences:**
+**Spatial Discretization**
+Using grid points $x_j=j \Delta x$ where $\Delta x=\frac{1}{n}, j=0,1, \ldots, n$
+Approximate $u_{x x}$ at interior points using central differences:
+$$
+u_{x x}\left(t, x_j\right) \approx \frac{u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)}{\Delta x^2}
+$$
+where $u_j(t) \approx u\left(t, x_j\right)$
 
-- Stability requires $c\frac{\Delta t}{\Delta x} \leq 1$ (Courant number)
-- Finer spatial grid → smaller time steps required
-- Computational cost scales as $O(n^2)$ for fixed final time
+**Substituting in the given PDE**
+For $j=1,2, \ldots, n-1$ :
+$$
+u_j^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)\right]
+$$
 
----
+With boundary conditions: $u_0(t)=u_n(t)=0$
+**Writing the system in Matrix form**
+$$
+u^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[\begin{array}{ccccc}
+-2 & 1 & 0 & \cdots & 0 \\
+1 & -2 & 1 & \cdots & 0 \\
+0 & \ddots & \ddots & \ddots & 0 \\
+\vdots & & 1 & -2 & 1 \\
+0 & \cdots & 0 & 1 & -2
+\end{array}\right]\left[\begin{array}{c}
+u_1(t) \\
+u_2(t) \\
+\vdots \\
+u_{n-1}(t)
+\end{array}\right]
+$$
+**In vector notation**
+$$
+ \mathbf{u}^{\prime \prime}(t)=\frac{c^2}{\Delta x^2} A \mathbf{u}(t) 
+ $$
 
-**Exam relevance:** The method of lines is fundamental for PDEs. Key points:
 
-1. Semi-discretization: discretize space, keep time continuous
-2. PDE → system of ODEs
-3. CFL condition ensures numerical stability
 
-**Formula sheet note:** The discretization stencil for $u_{xx}$ and eigenvalues of $\mathbf{A}$ should be in your formulary.
+**Conversion to First-Order System**
+Introduce $v_j(t)=u_j^{\prime}(t)$ to get:
+Let $\mathbf{u}=\left[u_1, \ldots, u_{n-1}\right]^T$ and $\mathbf{v}=\left[v_1, \ldots, v_{n-1}\right]^T$
+$$
+\left[\begin{array}{c}
+\mathbf{u}^{\prime} \\
+\mathbf{v}^{\prime}
+\end{array}\right]=\left[\begin{array}{cc}
+0 & I \\
+\frac{c^2}{\Delta x^2} A & 0
+\end{array}\right]\left[\begin{array}{l}
+\mathbf{u} \\
+\mathbf{v}
+\end{array}\right]
+$$
+**CFL Condition**
+For explicit time integration methods, stability requires:
+$$
+\Delta t \leq \frac{\Delta x}{c}
+$$
+
+This ensures that the numerical domain of dependence contains the physical domain of dependence. The information propagation speed $c$ limits the time step relative to the spatial discretization.
 
 ### Task 9 (Additional, 3 points)
 Explain the concept of $A$-stability of numerical methods for solving ordinary differential equations. Formulate statements about the $A$-stability of explicit and implicit one-step methods. What special property does the Crank-Nicolson method have?

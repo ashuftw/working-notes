@@ -24,4 +24,9 @@ date: 2025-05-15
 - [[250602 Regular vs Metacharacters|Regular vs Metacharacters]]
 - [[250628 Basic vs Extended Regular Expressions|Basic vs Extended Regular Expressions]]
 - [[250628 Escaping|Escaping]]
-- 
+### Linux Tools 
+- [[250710 Flashcards on Linux Tools - Theory|Flashcards on Linux Tools - Theory]]
+- [[250710 Flashcards on Linux Tools - Practical|Flashcards on Linux Tools - Practical]]
+## Shell Scripting 
+- [[250710 Flashcards on Shell Scripting - Theory]]
+- [[250710 Flashcards on Linux Tools - Practical|Flashcards on Linux Tools - Practical]]
