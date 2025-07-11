@@ -14,7 +14,11 @@ Given that $A$ and $B$ are independent of $C$ and $D$, we can decompose $P(A,B,C
 
 Chain rule decomposition
 
-$$ P(A,B,C,D) = P(A|B,C,D) \times P(B|C,D) \times P(C|D) \times P(D) $$
+
+$$
+P(A,B,C,D) = P(A|B,C,D) \times P(B|C,D) \times P(C|D) \times P(D)
+$$
+
 
 Since $A$ and $B$ are independent of $C$ and $D$:
 - $P(A|B,C,D) = P(A|B)$
@@ -22,14 +26,22 @@ Since $A$ and $B$ are independent of $C$ and $D$:
 
 Substitute:
 
-$$ P(A,B,C,D) = P(A|B) \times P(B) \times P(C|D) \times P(D) $$
+
+$$
+P(A,B,C,D) = P(A|B) \times P(B) \times P(C|D) \times P(D)
+$$
+
 
 Since $A$ and $B$ are independent:
 - $P(A|B) = P(A)$
 
 Finally
 
-$$ P(A,B,C,D) = P(A) \times P(B) \times P(C|D) \times P(D) $$
+
+$$
+P(A,B,C,D) = P(A) \times P(B) \times P(C|D) \times P(D)
+$$
+
 
 ## Example 2 
 
@@ -37,15 +49,19 @@ $$ P(A,B,C,D) = P(A) \times P(B) \times P(C|D) \times P(D) $$
 
 - **Specify the probability $\mathrm{P}(A, B, C, D, E)$ by using the single terms of the Bayesian belief network (hint: First reorder the terms!)**
 
+
 $$
 P(E,D,A,C,B) = P(E|D) \cdot  P(D|A,C) \cdot  P(C|B) \cdot  P(A) \cdot  P(B)
 $$
 
+
 - **Now let $C$ be an unknown and the probability for $D$ be inquired.Write down the probability $\mathrm{P}(D \mid A, B, E)$ by using the single terms of the Bayesian belief network.**
+
 
 $$
 P(D|A,B,E) = P(E|D) \quad \sum_C \left[P(D|A,C) \cdot P(C|B)\right ]\quad  \left(  P(A) \cdot P(B)\right)
 $$
+
 
 ## Example 3 
 
@@ -55,19 +71,35 @@ $$
 
 Joint probability using chain rule:
 
-$$ P(A,B,C,D) = P(D|C,B) \cdot P(C|A) \cdot P(B|A) \cdot P(A) $$
+
+$$
+P(A,B,C,D) = P(D|C,B) \cdot P(C|A) \cdot P(B|A) \cdot P(A)
+$$
+
 
 Marginalize over A, B, and D to get P(C):
 
-$$ P(C) = \sum_{d\in D}\sum_{b\in B}\sum_{a\in A} P(D|C,B) \cdot P(C|A) \cdot P(B|A) \cdot P(A) $$
+
+$$
+P(C) = \sum_{d\in D}\sum_{b\in B}\sum_{a\in A} P(D|C,B) \cdot P(C|A) \cdot P(B|A) \cdot P(A)
+$$
+
 
 1. Since $\sum_{d}P(D|C,B)  = 1$ (sum of probabilities over all possible values of D):
 
-$$ P(C) = \sum_{b\in B}\sum_{a\in A} P(C|A) \cdot P(B|A) \cdot P(A) $$
+
+$$
+P(C) = \sum_{b\in B}\sum_{a\in A} P(C|A) \cdot P(B|A) \cdot P(A)
+$$
+
 
 2. Since $\sum_b P(B|A) = 1$ (sum of probabilities over all possible values of B):
 
-$$ P(C) = \sum_{a\in A} P(C|A) \cdot P(A) $$
+
+$$
+P(C) = \sum_{a\in A} P(C|A) \cdot P(A)
+$$
+
 
 ---
 Slightly wrong Solution: 

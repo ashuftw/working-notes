@@ -10,9 +10,11 @@ The Fourier Transform is used to transform a function of time to a function of f
 
 ## Mathematical Definition
 
+
 $$
 F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i \omega t} \, dt
 $$
+
 
 - $F(\omega)$ is the Fourier Transform of $f(t)$.
 - $t$ represents time.

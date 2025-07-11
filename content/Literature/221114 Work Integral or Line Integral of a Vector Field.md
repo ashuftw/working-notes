@@ -4,7 +4,7 @@ draft: false
 date: 2022-11-14
 ---
 
-![[221218 Work Integral.png|center]]
+![[../Files/221218 Work Integral.png|center]]
 
 ---
 

@@ -8,7 +8,11 @@ date: 2025-06-28
 
 You are a research assistant analyzing various polymers as part of your research. For material analysis, you use Differential Scanning Calorimetry (DSC). In this method, temperature (in °C) and heat flow (in mW) are recorded while the samples are heated. This allows characteristic material properties to be identified.
 
-$$\text{DSC Curve Diagram}$$
+
+$$
+\text{DSC Curve Diagram}
+$$
+
 ![[../Files/Pasted image 20250628164111.png]]
 ### Tasks:
 
@@ -30,7 +34,11 @@ f) Mark the integrated areas with a colored surface (light blue).
 
 You are an intern at the consulting firm Python Consulting and need to model the economic growth of the company SKI24 with seasonal competitive influences for their consultation. Generally, economic growth can be described based on revenue using the following differential equation (ODE):
 
-$$f'(t) = r \cdot f(t) - \alpha \cdot g(t)$$
+
+$$
+f'(t) = r \cdot f(t) - \alpha \cdot g(t)
+$$
+
 
 where:
 
@@ -43,7 +51,11 @@ Time $t$ is measured in months. The initial condition is: $f(0) = f_0$.
 
 Since competitive pressure in this industry is seasonal, it can be assumed with the following equation:
 
-$$m(t) = m_1 \cdot \cos\left(\frac{2\pi}{12} \cdot t\right)$$
+
+$$
+m(t) = m_1 \cdot \cos\left(\frac{2\pi}{12} \cdot t\right)
+$$
+
 
 Where:
 

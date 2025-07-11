@@ -6,6 +6,7 @@ date: 2024-08-15
 
 The Discriminant function can be modified without changing the classification results. 
 
+
 $$
 \begin{aligned}
 & g_i(\mathbf{x}) \rightarrow \alpha g_i(\mathbf{x}), \alpha>0 \\
@@ -13,6 +14,7 @@ $$
 &g_i(\mathbf{x}) \rightarrow f\left(g_i(\mathbf{x})\right)
 \end{aligned}
 $$
+
 
 Where $f(\cdot)$ is a monotonically increasing function
 

@@ -28,4 +28,4 @@ date: 2022-12-22
 
 # References
 
-![[Pasted image 20221229124458.png|center]]
+![[../Files/Pasted image 20221229124458.png|center]]

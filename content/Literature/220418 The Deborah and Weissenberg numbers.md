@@ -12,9 +12,11 @@ Tags: [[non-Newtonian Flow]]
 
 **Deborah Number**
 
+
 $$
 D=\dfrac{\text{time of relaxation}}{\text{time of observation}}
 $$
+
 
 High Deborah numbers, material behaves like a solid.
 Low Deborah numbers, material behaves like a fluid. 

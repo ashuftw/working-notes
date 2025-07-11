@@ -16,8 +16,8 @@ This principle ensures extension of modules/components without changing the core
 
 ## Example
 
-![[Pasted image 20230801170427.png|center]]
-![[Pasted image 20230801170453.png|center]]
+![[../Files/Pasted image 20230801170427.png|center]]
+![[../Files/Pasted image 20230801170453.png|center]]
 
-![[Pasted image 20230801170546.png|center]]
+![[../Files/Pasted image 20230801170546.png|center]]
 

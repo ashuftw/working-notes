@@ -4,7 +4,7 @@ draft: false
 date: 2023-04-24
 ---
 
-![[Pasted image 20240730120107.png|center]]
+![[../Files/Pasted image 20240730120107.png|center]]
 
 ## Discrete PDF Example
 

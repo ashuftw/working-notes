@@ -15,10 +15,10 @@ It does this by finding the most important patterns or modes of variation in the
 
 ## Discrete KL Expansion
 
-![[230726 Karhunen Loeve Expansion 1.png|center]]
+![[../Files/230726 Karhunen Loeve Expansion 1.png|center]]
 
 ## Continuous Karhunen Loève Expansion
 
-![[Pasted image 20230731153838.png|center]]
+![[../Files/Pasted image 20230731153838.png|center]]
 **Truncation Error**
-![[Pasted image 20230731153716.png|center]]
+![[../Files/Pasted image 20230731153716.png|center]]

@@ -6,7 +6,7 @@ date: 2024-02-20
 
 ## Objective
 
-![[Pasted image 20240221153015.png|center]]
+![[../Files/Pasted image 20240221153015.png|center]]
 
 - Key step is to identify the reference frame velocity $V_\text{RF}$  . 
 - The Droplet Velocity $V_d$ gradually approaches to zero i.e the Moving reference frame is caught up to it's position. 
@@ -16,6 +16,7 @@ date: 2024-02-20
 
 **Position of the Droplet**[^1]
 
+
 $$
 \begin{align*}
 \text{Centroid}&=\frac{\text{Volume of Droplet Weighted with the Position Vector}}{\text{Volume of the Droplet}}\\
@@ -23,21 +24,26 @@ x_{\mathrm{d}}(t)&=\frac{\int_{\Omega} x \alpha(\mathbf{x}, t) \mathrm{d} V}{\in
 \end{align*}
 $$
 
+
 Where $x$ is the position vector
 
 ## Step 2 Calculate the Reference frame velocity required to center the droplet ($x_d(t) =0$)
 
 **Corrected Position of droplet** 
 
+
 $$
 x_{\mathrm{d}}(t)=x_{\mathrm{d}}(0)+\int_0^t\left(v_{\mathrm{d}}-v_{\mathrm{RF}}\right) \mathrm{d} t
 $$
 
+
 **Error in each time step**: Maybe having error zero in first try isn't ideal. 
+
 
 $$
 e_x(t)=x_{\mathrm{d}}(t)-x^{\mathrm{SP}}
 $$
+
 
 where $x^{SP}$ is the position of the domain's center.
 

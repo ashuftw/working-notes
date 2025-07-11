@@ -24,4 +24,4 @@ The order of consistency tells us how quickly the error of a numerical method de
 
 ## Definition  to be corrected
 
-![[Pasted image 20230703100657.png|center]]
+![[../Files/Pasted image 20230703100657.png|center]]

@@ -23,13 +23,29 @@ $L_1^2(x) = \frac{(x+1)(x-1)}{(0+1)(0-1)} = \frac{x^2-1}{-1} = 1-x^2$
 
 $L_2^2(x) = \frac{(x+1)(x-0)}{(1+1)(1-0)} = \frac{x(x+1)}{2} = \frac{x^2+x}{2}$
 
-The interpolation polynomial is: $$p(x) = y_0 L_0^2(x) + y_1 L_1^2(x) + y_2 L_2^2(x)$$ $$p(x) = (-1) \cdot \frac{x^2-x}{2} + 0 \cdot (1-x^2) + 1 \cdot \frac{x^2+x}{2}$$ $$p(x) = \frac{-(x^2-x) + (x^2+x)}{2} = \frac{2x}{2} = x$$
+The interpolation polynomial is: 
+$$
+p(x) = y_0 L_0^2(x) + y_1 L_1^2(x) + y_2 L_2^2(x)
+$$
+ 
+$$
+p(x) = (-1) \cdot \frac{x^2-x}{2} + 0 \cdot (1-x^2) + 1 \cdot \frac{x^2+x}{2}
+$$
+ 
+$$
+p(x) = \frac{-(x^2-x) + (x^2+x)}{2} = \frac{2x}{2} = x
+$$
+
 
 **Estimating the interpolation error:**
 
 _Note: The interpolation error formula is available in the formulary._
 
-For $f \in C^{N+1}([a,b])$ with $N+1$ interpolation points, the error is: $$|f(x) - p_N(x)| = \frac{|\omega(x)|}{(N+1)!} |f^{(N+1)}(\xi)|$$
+For $f \in C^{N+1}([a,b])$ with $N+1$ interpolation points, the error is: 
+$$
+|f(x) - p_N(x)| = \frac{|\omega(x)|}{(N+1)!} |f^{(N+1)}(\xi)|
+$$
+
 
 where $\omega(x) = \prod_{i=0}^N (x-x_i)$ and $\xi \in [a,b]$.
 
@@ -39,16 +55,22 @@ For our case:
 - $f(x) = x^3$, so $f^{(3)}(x) = 6$ (constant)
 - $\omega(x) = (x+1)(x-0)(x-1) = x(x^2-1) = x^3-x$
 
-The error estimate becomes: $$|r(x)| = \frac{|x^3-x|}{3!} \cdot 6 = |x^3-x|$$
+The error estimate becomes: 
+$$
+|r(x)| = \frac{|x^3-x|}{3!} \cdot 6 = |x^3-x|
+$$
+
 **Find Maximum Error**
 ![[../Files/Pasted image 20250613123920.png|center|400]]
 To find the maximum, we first find critical points (location in the domain where slope is zero because that's where the candidates for max error lie)
 
 **Critical points**
 Setting $r'(x) = 0$
+
 $$
 3x^2 - 1 = 0 \implies x^2 = \frac{1}{3} \implies x = \pm \frac{1}{\sqrt{3}}
 $$
+
 
 **Given bounds** $x \in [-1,1]$
 
@@ -69,19 +91,27 @@ I'll solve this step-by-step using Kepler's barrel rule (Simpson's rule).
 #### Solution
 **Step 1: Apply [[230507 Quadrature - Derivation and Formulae|Kepler's barrel rule]]**
 From the [[230507 Quadrature - Derivation and Formulae|formula]]: 
+
 $$
 \int_0^{\pi} \sin x , dx \approx \frac{\pi}{6}[0 + 4(1) + 0] = \frac{4\pi}{6} = \frac{2\pi}{3}
 $$
+
 **Step 2: Estimate the quadrature error**
-From formulary, the error estimate is: $$|R(f)| \leq \frac{(b-a)^5}{2880}M_4$$
+From formulary, the error estimate is: 
+$$
+|R(f)| \leq \frac{(b-a)^5}{2880}M_4
+$$
+
 where $M_4 = \max_{x \in [0,\pi]} |f^{(4)}(x)|$.
 - $f^{(4)}(x) = \sin x$
 - $M_4 = \max_{x \in [0,\pi]} |\sin x| = 1$
 
 Therefore: 
+
 $$
 |R(f)| \leq \frac{\pi^5}{2880} \approx \frac{306.02}{2880} \approx 0.1063
 $$
+
 **Step 3: Compare with actual error**
 
 The exact value: $\int_0^{\pi} \sin x , dx = [-\cos x]_0^{\pi} = 2$
@@ -102,9 +132,11 @@ Explain the idea of ​​Romberg extrapolation. State the Romberg scheme (at le
 **Romberg scheme for numerical integration starting with summed trapezoidal rule:**
 
 The summed trapezoidal rule has the error expansion: 
+
 $$
 I(f) = Q_J(f) + Ch^2 + C_1h^4 + C_2h^6 + \ldots
 $$
+
 
 where $h$ is the step size and $Q_J(f)$ is the approximation with $J$ subintervals.
 
@@ -117,13 +149,21 @@ Starting values (summed trapezoidal rule):
 
 **First improvement level:**
 $q = 2$ -> Trapezoidal Rule
-$$Q^{(2)}_J(f) = \frac{4Q^{(1)}_{2J}(f) - Q^{(1)}_J(f)}{3}$$ This eliminates the $h^2$ term from the error expansion, giving convergence order 4 (this is Simpson's rule).
+
+$$
+Q^{(2)}_J(f) = \frac{4Q^{(1)}_{2J}(f) - Q^{(1)}_J(f)}{3}
+$$
+ This eliminates the $h^2$ term from the error expansion, giving convergence order 4 (this is Simpson's rule).
 
 **Note:** You could rewrite the expansion term and find the significant error term or we can just use the knowledge that each level improves the accuracy by one term in the expansion. 
 
 **Second improvement level:**
 $q$ is now 4! 
-$$Q^{(3)}_J(f) = \frac{16Q^{(2)}_{2J}(f) - Q^{(2)}_J(f)}{15}$$ This eliminates the $h^4$ term, giving convergence order 6.
+
+$$
+Q^{(3)}_J(f) = \frac{16Q^{(2)}_{2J}(f) - Q^{(2)}_J(f)}{15}
+$$
+ This eliminates the $h^4$ term, giving convergence order 6.
 
 
 **Convergence orders:**
@@ -153,17 +193,21 @@ Determine the Newton iteration for calculating a root of $f(x) = (x^2 - 2)^2$. M
 #### Solution 
 **Newton Iteration**
 The Newton iteration is given by $x_{n+1}=x_n-\frac{f\left(x_n\right)}{f^{\prime}\left(x_n\right)}$.
+
 $$
 x_{n+1}=\frac{4 x_n^2-\left(x_n^2-2\right)}{4 x_n}=\frac{3 x_n^2+2}{4 x_n}
 $$
+
 **Order of Convergence**
 The order of convergence is linear (order 1).
 - Reasoning: Quadratic convergence requires the root $x^*$ to be a simple root, meaning $f^{\prime}\left(x^*\right) \neq 0$.
 - The root of $f(x)$ is $x^*=\sqrt{2}$.
 - Evaluating the derivative at the root:
+
 $$
 f^{\prime}(\sqrt{2})=4 \sqrt{2}\left((\sqrt{2})^2-2\right)=4 \sqrt{2}(2-2)=0 .
 $$
+
 - Since the derivative is zero at the root, the root has a [[250708 Multiplicity|Multiplicity]] greater than $1$, and the convergence degrades from quadratic to linear.
 
 
@@ -183,19 +227,28 @@ To prove consistency order 2, we need to show that the local truncation error $\
 **Proof:**
 
 From Formulary, the local truncation error is: 
+
 $$
 \begin{aligned}
 \tau=&\frac{y(t+h)-y(t)}{h}-\Phi(t, y(t), h)\\ \\
 \ = &\frac{y(t+h) - y(t)}{h} - f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right)
-\end{aligned}$$
+\end{aligned}
+$$
+
 > **Note:** Locally, we substitute $y(t_i) =  y(t)$ and $y\left(t_{i+1}\right)=y(t+h)$
 
-**Step 1:** Taylor expand $y(t+h)$ around $t$: $$y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3)$$
+**Step 1:** Taylor expand $y(t+h)$ around $t$: 
+$$
+y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3)
+$$
+
 
 **Step 2:** Comparing the Taylor expansion with the given rule, we get  $y'(t) = f(t,y(t))$. Hence we need to expand $f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right)$.
 
 First, find $\frac{y(t) + y(t+h)}{2}$: 
-$$\begin{aligned}
+
+$$
+\begin{aligned}
 \frac{y(t) + y(t+h)}{2} = & \frac{y(t)+\overbrace{\left(y(t)+h y^{\prime}(t)+\frac{h^2}{2} y^{\prime \prime}(t)+O\left(h^3\right)\right)}^{\text{from Taylor Expansion}}}{2}
  \\
 
@@ -203,30 +256,56 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
+
 **Step 3:** Multivariable Taylor expansion of $f$ around $(t, y(t))$: 
+
 $$
 f(a+\Delta x, b+\Delta z) \approx f(a, b)+\Delta x \cdot \frac{\partial f}{\partial x}+\Delta z \cdot \frac{\partial f}{\partial z}+\text { Higher-Order Terms }
 $$
-In our case
-$$f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) = f(t,y(t)) + \frac{h}{2}f_t + \left(\frac{h}{2}y'(t) + O(h^2)\right)f_y + O(h^2)$$
 
-Since $y'(t) = f(t,y(t))$: $$= f(t,y(t)) + \frac{h}{2}f_t + \frac{h}{2}f(t,y(t))f_y + O(h^2)$$
+In our case
+
+$$
+f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) = f(t,y(t)) + \frac{h}{2}f_t + \left(\frac{h}{2}y'(t) + O(h^2)\right)f_y + O(h^2)
+$$
+
+
+Since $y'(t) = f(t,y(t))$: 
+$$
+= f(t,y(t)) + \frac{h}{2}f_t + \frac{h}{2}f(t,y(t))f_y + O(h^2)
+$$
+
 
 **Step 4:** Note that $y''(t) = \frac{d}{dt}f(t,y(t)) = f_t + f_y y'(t) = f_t + f_y f$
 
 Therefore **Step 3** becomes: 
-$$\begin{aligned}
+
+$$
+\begin{aligned}
 f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) =&  \underbrace{f(t, y(t))}_{y^{\prime}(t)}+\underbrace{\frac{h}{2}\left(f_t+y^{\prime}(t) f_y\right)}_{\frac{h}{2} y^{\prime \prime}(t)}+O\left(h^2\right)
 \\
  = & y'(t) + \frac{h}{2}y''(t) + O(h^2)
 \end{aligned}
 $$
 
-**Step 5:** Substitute into the truncation error: $$\tau(t,h) = \frac{y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3) - y(t)}{h} - \left(y'(t) + \frac{h}{2}y''(t) + O(h^2)\right)$$
 
-$$= y'(t) + \frac{h}{2}y''(t) + O(h^2) - y'(t) - \frac{h}{2}y''(t) - O(h^2)$$
+**Step 5:** Substitute into the truncation error: 
+$$
+\tau(t,h) = \frac{y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3) - y(t)}{h} - \left(y'(t) + \frac{h}{2}y''(t) + O(h^2)\right)
+$$
 
-$$= O(h^2)$$
+
+
+$$
+= y'(t) + \frac{h}{2}y''(t) + O(h^2) - y'(t) - \frac{h}{2}y''(t) - O(h^2)
+$$
+
+
+
+$$
+= O(h^2)
+$$
+
 
 **Conclusion:** The implicit midpoint rule has consistency order at least 2. ✓
 
@@ -248,26 +327,42 @@ $$= O(h^2)$$
 
 Write down the procedure for the Butcher scheme:
 
-$$\begin{array}{c|cc}
+
+$$
+\begin{array}{c|cc}
 & 1/3 & 5/12 & -1/12 \\
 & 1 & 3/4 & 1/4 \\
 \hline
 & & 3/4 & 1/4
-\end{array}$$
+\end{array}
+$$
+
 
 Using the calculation rule, explain whether the resulting procedure is explicit or implicit.
 #### Solution 
 **[[250709 Runge-Kutta Method Procedure|Runge-Kutta Method Procedure]]**
 For a 2-stage Runge-Kutta method with the given tableau
 
-$$k_1 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{5}{12}hk_1 - \frac{1}{12}hk_2\right)$$
 
-$$\boxed{
+$$
+k_1 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{5}{12}hk_1 - \frac{1}{12}hk_2\right)
+$$
+
+
+
+$$
+\boxed{
 k_2 = hf\left(t_i + h, y_i + \frac{3}{4}hk_1 + \frac{1}{4}hk_2\right)
-}$$
+}
+$$
 
 
-$$y_{i+1} = y_i + \frac{3}{4}k_1 + \frac{1}{4}k_2$$
+
+
+$$
+y_{i+1} = y_i + \frac{3}{4}k_1 + \frac{1}{4}k_2
+$$
+
 The Procedure is **Implicit**
 1. In the first equation, $k_1$ depends on itself (coefficient $\frac{5}{12} \neq 0$ ) and on $k_2$
 2. In the second equation, $k_2$ depends on itself (coefficient $\frac{1}{4} \neq 0$ )
@@ -280,19 +375,24 @@ Given: $u_{t t}=c^2 u_{x x}$ with $u(t, 0)=u(t, 1)=0$
 **Spatial Discretization**
 Using grid points $x_j=j \Delta x$ where $\Delta x=\frac{1}{n}, j=0,1, \ldots, n$
 Approximate $u_{x x}$ at interior points using central differences:
+
 $$
 u_{x x}\left(t, x_j\right) \approx \frac{u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)}{\Delta x^2}
 $$
+
 where $u_j(t) \approx u\left(t, x_j\right)$
 
 **Substituting in the given PDE**
 For $j=1,2, \ldots, n-1$ :
+
 $$
 u_j^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)\right]
 $$
 
+
 With boundary conditions: $u_0(t)=u_n(t)=0$
 **Writing the system in Matrix form**
+
 $$
 u^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[\begin{array}{ccccc}
 -2 & 1 & 0 & \cdots & 0 \\
@@ -307,16 +407,20 @@ u_2(t) \\
 u_{n-1}(t)
 \end{array}\right]
 $$
+
 **In vector notation**
+
 $$
- \mathbf{u}^{\prime \prime}(t)=\frac{c^2}{\Delta x^2} A \mathbf{u}(t) 
- $$
+\mathbf{u}^{\prime \prime}(t)=\frac{c^2}{\Delta x^2} A \mathbf{u}(t)
+$$
+
 
 
 
 **Conversion to First-Order System**
 Introduce $v_j(t)=u_j^{\prime}(t)$ to get:
 Let $\mathbf{u}=\left[u_1, \ldots, u_{n-1}\right]^T$ and $\mathbf{v}=\left[v_1, \ldots, v_{n-1}\right]^T$
+
 $$
 \left[\begin{array}{c}
 \mathbf{u}^{\prime} \\
@@ -329,11 +433,14 @@ $$
 \mathbf{v}
 \end{array}\right]
 $$
+
 **CFL Condition**
 For explicit time integration methods, stability requires:
+
 $$
 \Delta t \leq \frac{\Delta x}{c}
 $$
+
 
 This ensures that the numerical domain of dependence contains the physical domain of dependence. The information propagation speed $c$ limits the time step relative to the spatial discretization.
 
@@ -371,12 +478,16 @@ Beweisen Sie, dass die implizite Mittelpunktsregel $y_{i+1} = y_i + h f \left(t_
 
 Notieren Sie das Verfahren zum Butcher-Schema 
 
-$$\begin{array}{c|cc}
+
+$$
+\begin{array}{c|cc}
  & 1/3 & 5/12 & -1/12 \\
  & 1 & 3/4 & 1/4 \\
 \hline
  & & 3/4 & 1/4
-\end{array}$$
+\end{array}
+$$
+
 
 Begründen Sie anhand der Rechenvorschrift, ob das entstehende Verfahren explizit oder implizit ist.
 

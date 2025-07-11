@@ -4,7 +4,7 @@ draft: false
 date: 2022-11-17
 ---
 
-![[221117 Gauss Integral or Divergence Theorem.png|center]]
+![[../Files/221117 Gauss Integral or Divergence Theorem.png|center]]
 
 ---
 

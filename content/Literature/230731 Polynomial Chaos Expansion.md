@@ -12,12 +12,16 @@ It is a way to express Random Variables as a linear expansion using [[250429 Ort
 Let $X$ be a random variable with arbitrary $\operatorname{PDF} f_X$, for which the mean value and variance exist $(\mathbb{E}[X], \mathbb{V}[X]<\infty)$. 
 Using the generalized Polynomial Chaos (gPC) Expansion
 
+
 $$
 X(\theta)=\sum_{i=0}^{\infty} q_i \Phi_i(\xi(\theta))
 $$
+
+
 $$
 \boxed{X=\sum_{i=0}^{\infty} q_i \Phi_i(\xi)}
 $$
+
 
 Where, 
 - $q_i$ are deterministic coefficients (also called PC coefficients). They encode important information about distribution and act as weights. 
@@ -32,17 +36,21 @@ Where,
 
 Random Variable
 
+
 $$
 X \sim \mathcal{N}(2,1)
 $$
 
+
 Polynomial Chaos expansion
+
 
 $$
 X=2+\xi
 $$
 
+
  Where,  $\xi \sim \mathcal{N}(0,1)$
  
-![[Pasted image 20240605153508.png|center|400]]
+![[../Files/Pasted image 20240605153508.png|center|400]]
 

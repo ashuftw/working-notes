@@ -6,7 +6,7 @@ date: 2024-06-17
 
 ## Law of the Wall
 
-![[Pasted image 20240617115457.png|center]]
+![[../Files/Pasted image 20240617115457.png|center]]
 
 ### Viscous Sub-layer ($0<y^+<5$)
 
@@ -24,17 +24,22 @@ Flow is majorly turbulent. Makes use of the Turbulence model selected in the sim
 
 Formula for $y^+$ 
 
+
 $$
 y^{+} = \frac{y u_\tau}{\nu}
 $$
 
+
 Rearranging
+
 
 $$
 y=\frac{y^{+} \nu}{u_\tau}
 $$
 
+
 Given a kinematic viscosity $\nu=1 \times 10^{-5} \mathrm{~m}^2 / \mathrm{s}$ (typical for air), and $y^{+}=30$ :
+
 
 $$
 y=\frac{30 \times 1 \times 10^{-5}}{0.05}=0.006 \mathrm{~m}=6 \mathrm{~mm}

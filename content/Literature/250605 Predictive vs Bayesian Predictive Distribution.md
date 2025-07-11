@@ -7,17 +7,21 @@ date: 2025-06-05
 ![[../Files/Pasted image 20250704113926.png|800]]
 ### **Bayesian Predictive Distribution**
 The Bayesian approach[^1](left plot) shows **wider uncertainty bands** because it accounts for parameter uncertainty on top of data noise. The uncertainty also **varies spatially** - being larger where there's less data.
+
 $$
 p(t|x, \mathbf{X}, \mathbf{T}) = \int p(t|x, w) p(w|\mathbf{X}, \mathbf{T}) dw = \mathcal{N}(t|m(x), s^2(x))
 $$
+
 - **Data-dependent mean:** $m(x)$
 - **Input-dependent variance:** $s^2(x)$
 
 ### **Predictive Distribution** (Maximum Likelihood)
 The Predictive Distribution uses a single "best" set of parameters found in the data. 
+
 $$
 p(t|x, w_{ML}, \beta_{ML}) = \mathcal{N}(t|y(x, w_{ML}), \beta_{ML}^{-1})
 $$
+
 - **Fixed mean:** $y(x, w_{ML})$
 - **Fixed variance:** $\beta_{ML}^{-1}$ (constant for all inputs)
 

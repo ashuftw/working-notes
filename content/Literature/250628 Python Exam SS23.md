@@ -14,7 +14,11 @@ b) Create a plot showing the total number of deaths and the number of fentanyl-r
 
 c) Fit the following function to the data using the **`curve_fit`** method from the **`scipy.optimize`** library. Use as starting values $a = 1$ and $b = 2000$:
 
-$$f(x, a, b) = \exp(a \cdot (x - b))$$
+
+$$
+f(x, a, b) = \exp(a \cdot (x - b))
+$$
+
 
 d) Add the prediction model to the plot as a dashed line in the same color as the corresponding curve. Use the period from 1975 to 2025 for the prediction. Display the parameter values $a$ and $b$ of the model in the legend.
 
@@ -28,9 +32,17 @@ f) In which year are more deaths due to fentanyl overdoses expected to occur tha
 
 The predator-prey model describes the interaction between two populations, where one acts as predator and the other as prey. In this task, we consider the model with foxes as predators and rabbits as prey. The model can be described by the following differential equations:
 
-$$\frac{dH}{dt} = aH - bFH$$
 
-$$\frac{dF}{dt} = -cF + dHF$$
+$$
+\frac{dH}{dt} = aH - bFH
+$$
+
+
+
+$$
+\frac{dF}{dt} = -cF + dHF
+$$
+
 
 Where $H$ is the population size of rabbits, $F$ is the population size of foxes, $a$ is the growth rate of rabbits, $b$ is the rate at which foxes eat rabbits, $c$ is the natural mortality rate of foxes, and $d$ is the rate at which foxes feed and reproduce.
 
@@ -50,13 +62,29 @@ For the preliminary design of rotor blades for wind turbines, you should write a
 
 Given are the following formulas:
 
-$$w_{max} = \frac{ql^4}{8EI}$$
 
-$$\sigma_{max} = \frac{M_b}{W_b}$$
+$$
+w_{max} = \frac{ql^4}{8EI}
+$$
 
-$$M_b = -\frac{ql^2}{2}$$
 
-$$W_b = \frac{I}{z_{max}}$$
+
+$$
+\sigma_{max} = \frac{M_b}{W_b}
+$$
+
+
+
+$$
+M_b = -\frac{ql^2}{2}
+$$
+
+
+
+$$
+W_b = \frac{I}{z_{max}}
+$$
+
 
 a) Define a class **`Beam`** with the magic method **`__init__`,** which takes the parameters **`modulus`, `inertia`, `length`, `z_max`,** and **`load`**. Store all parameters in protected attributes.
 

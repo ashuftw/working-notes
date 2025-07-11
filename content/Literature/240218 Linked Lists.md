@@ -14,5 +14,5 @@ Depending on the type of linking, there can be:
 
 ## Visualization of a Single-linked List
 
-![[Pasted image 20240218173028.png|center]]
+![[../Files/Pasted image 20240218173028.png|center]]
 

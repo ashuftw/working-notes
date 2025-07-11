@@ -5,9 +5,11 @@ tags:
 date: 2025-06-05
 ---
 ## Expected Squared test error
+
 $$
 E_{D,\nu}[(t - y(x,w))^2] = \text{bias}_D(y)^2 +\underbrace{ \text{Var}_D(y)}_\text{model variance} + \underbrace{\sigma^2}_\text{noise}
 $$
+
 
 The expectation $E_{D,\nu}[\cdot]$ is taken over both:
 1. Different possible training datasets **D** (sampling variability)

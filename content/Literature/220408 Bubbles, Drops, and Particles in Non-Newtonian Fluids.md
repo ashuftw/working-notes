@@ -12,13 +12,15 @@ date: 2022-04-08
 
 **Newtonian fluid**
 
-  ![[Pasted image 20220408161132.png|center|350]]
+  ![[../Files/Pasted image 20220408161132.png|center|350]]
   
 Consider an incompressible fluid in laminar flow sandwiched between two flat plates. When a force is applied to the plate, due to internal friction the fluid exerts an equal force in opposing direction. The opposing force takes the form of shear stress and can be expressed as the product of the viscosity of the fluid and it's rate of shear. 
+
 
 $$
 \begin{align*}\dfrac{F}{A}=\tau_{yx}=\mu\underbrace{\left(-\dfrac{dV_x}{dy}\right)}_{\text{Shear rate}} =\mu \ \dot \gamma_{yx}\end{align*}\tag{1.1}
 $$
+
 
   - The subscripts in $\tau_{yx}$ and $\dot \gamma_{yx}$ denote the direction normal to the shearing force and the the direction along the force respectively.  
   - The shear rate is nothing but the velocity gradient of flow in the direction perpendicular to the force. 
@@ -32,9 +34,11 @@ For a Newtonian fluid, the slope of a Rheogram is constant .i.e $\mu$ is constan
 
 For an incompressible fluid $(1.1)$ can be written as
 
+
 $$
 \tau_{yx}=\dfrac{\mu}{\rho}\left(-\dfrac{d\ \rho V_x}{dy}\right)
 $$
+
 
 - Where "$\rho V_x$" is the momentum transfer *per volume* in $y$-direction. 
 - Thus the "$\tau_{yx}$" term also represents the momentum flux in $y$-direction.
@@ -44,9 +48,11 @@ $$
 **Simple Shear flows** are flows where the velocity of the fluid has only 1 component and varies only in 1 direction.
 - For simple shear flows the [[Deviatoric Stress]] components are identically zero. 
 
+
 $$
 \tau_{xx}=\tau_{yy}=\tau_{zz}=0\tag{1.9}
 $$
+
 
 - For a fluid to be Newtonian, $\mu$ has to be constant and additionally the deviatoric stress components also must be zero. 
 - Fluids that have a constant viscosity but don't have zero deviatoric stresses are called [[220410 Boger fluids]]
@@ -83,49 +89,61 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 **Normal Stresses in steady shear flows**
 - The shearing of a Viscoelastic fluid gives rise to unequal normal stresses. 
 
+
 $$
 P_{xx}\ne P_{yy} \ne P_{zz}
 $$
 
+
 - The difference between the normal stresses are easier to measure and are defined as  
+
 
 $$
 \begin{align*}&\text{Primary normal stress difference, } N_1=P_{xx}-P_{yy}\\ &\text{Secondary normal stress difference, }N_2=P_{yy}-P_{zz}\end{align*}
 $$
 
+
 - Coupled with the shear rate, the normal stress difference is useful in describing the rheological properties. 
+
 
 $$
 \begin{align*}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align*}
 $$
 
+
 - Normal stress Difference in action
 	- $N_1$ 
-		![[Pasted image 20220421111555.png|center|400]]
+		![[../Files/Pasted image 20220421111555.png|center|400]]
 	- $N_2$ 
-		![[Pasted image 20220421111700.png|center|400]]
+		![[../Files/Pasted image 20220421111700.png|center|400]]
 
 **Elongational flow**
 Flow that results due to the stretching of fluids in one or more directions.
-![[Pasted image 20220415155641.png|center|500]]
+![[../Files/Pasted image 20220415155641.png|center|500]]
 For an incompressible fluid in elongational flow the volume of the element must remain constant. Hence, rate of elongation $\dot \epsilon$ in $x-$direction is accompanied by contraction in $y$ and $z$ directions. 
 Assuming the contractions are symmetric, components of velocity are given by
+
 
 $$
 V_x=\dot \epsilon\ x, V_y=-\dfrac{\dot \epsilon}{2}\ y, \text{ and }V_z=-\dfrac{\dot \epsilon}{2} \ z \tag{1.22}
 $$
 
+
 Rate of elongation in $x-$direction 
+
 
 $$
 \dot \epsilon=\dfrac{\partial V_x}{\partial x}\tag{1.23}
 $$
 
+
 **Elongational viscosity** for uniaxial extension, the 
+
 
 $$
 \mu_E=\dfrac{P_{xx}-P_{yy}}{\dot \epsilon}=\dfrac{\tau_{xx}-\tau_{yy}}{\dot \epsilon}\tag{1.24}
 $$
+
 
 [^1]: https://en.wikipedia.org/wiki/Generalized_Newtonian_fluid
 [^2]: WEISSENBERG K. A continuum theory of rheological phenomena. Nature. 1947 Mar 1;159(4035):310. doi: 10.1038/159310a0. PMID: 20293529.

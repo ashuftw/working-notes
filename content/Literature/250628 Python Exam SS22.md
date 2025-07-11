@@ -30,9 +30,17 @@ A manufacturer of machine tools wants to attach a control box to an injection ma
 
 ### Equations of Motion:
 
-$$c_1u = m_1\ddot{x}_1 + (d_1 + d_2)\dot{x}_1 - d_2\dot{x}_2 + (c_1 + (c_2 + c_3))x_1 - (c_2 + c_3)x_2$$
 
-$$0 = m_2\ddot{x}_2 - d_2\dot{x}_1 + d_2\dot{x}_2 - (c_2 + c_3)x_1 + x_2(c_2 + c_3)$$
+$$
+c_1u = m_1\ddot{x}_1 + (d_1 + d_2)\dot{x}_1 - d_2\dot{x}_2 + (c_1 + (c_2 + c_3))x_1 - (c_2 + c_3)x_2
+$$
+
+
+
+$$
+0 = m_2\ddot{x}_2 - d_2\dot{x}_1 + d_2\dot{x}_2 - (c_2 + c_3)x_1 + x_2(c_2 + c_3)
+$$
+
 
 ### Tasks:
 

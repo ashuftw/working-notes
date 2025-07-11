@@ -22,13 +22,13 @@ Tags: [[Multiphase flow]]
 - The three fundamental conservation laws:
   1. Conservation of Mass
     - Eg: Deformation of a baloon (change in volume, mass is same)
-  ![[Pasted image 20220307164325.png|center]]
+  ![[../Files/Pasted image 20220307164325.png|center]]
   2. Conservation of Momentum (Newton's law of motion)
     - Sum of all forces applied on a body equals the rate of change of momentum in that body 
-    ![[Pasted image 20220307164906.png|center]]  
+    ![[../Files/Pasted image 20220307164906.png|center]]  
   3. Conservation of Energy (First Law of Thermodynamics)
     -  Heat added to the system minus work done by the system equals change in the internal energy $E^\circ$ 
-    ![[Pasted image 20220307170018.png|center]]   
+    ![[../Files/Pasted image 20220307170018.png|center]]   
     - $dE^\circ$ indicates that $E^\circ$ is a thermodynamic Property 
 
 ## Chapter 1: Nature of Multiphase Flows and Basic Concepts
@@ -41,7 +41,7 @@ Tags: [[Multiphase flow]]
 In a *Pool Boiling* case where $T_w$ & $T_{sat}$ are Wall and saturation temperatures. 
 When the difference between water and the Wall reaches *CHF*, the heat disparity rapidly increases as there is very little cooling of the wall as the water has changed to vapor and the heat transfer & density of Steam is less compared to water. Because there is no cooling, the Wall may fail. 
 First reported by Nukiyama's *Boiling curve*.[^1] 
-![[Pasted image 20220309164044.png|center]]
+![[../Files/Pasted image 20220309164044.png|center]]
 
 ---
 

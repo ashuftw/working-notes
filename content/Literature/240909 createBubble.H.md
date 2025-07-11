@@ -133,11 +133,14 @@ Given:
 
 We assume constant acceleration over the time step. In this case, the average velocity $\bar{v}$ is the arithmetic mean of the initial and final velocities:
 
+
 $$
 \bar{v} = \frac{v_i + v_f}{2}
 $$
 
+
 Substituting the expressions for $v_i$ and $v_f$:
+
 
 $$
 \bar{v} = \dfrac{\text{dimUF} + (\text{dimUF} + \text{dimDUF})}{2} = \text{dimUF} + 0.5 \cdot \text{dimDUF}

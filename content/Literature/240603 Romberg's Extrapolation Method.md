@@ -10,7 +10,11 @@ It is used to improve the accuracy of a numerical method to a higher order by co
 
 For a numerical method with approximation $A(h)$ of the exact value, where the error has convergence order $q$:
 
-$$A_{new} = \frac{2^q A(h/2) - A(h)}{2^q - 1}$$
+
+$$
+A_{new} = \frac{2^q A(h/2) - A(h)}{2^q - 1}
+$$
+
 
 Here,
 - $q$ is the convergence order of the original method
@@ -22,7 +26,7 @@ Here,
 - Trapezoid rule ($q=2$): $A_{new} = \frac{4A(h/2) - A(h)}{3}$
 - Simpson's rule ($q=4$): $A_{new} = \frac{16A(h/2) - A(h)}{15}$
 
- ![[Pasted image 20240709121917.png|center]]
+ ![[../Files/Pasted image 20240709121917.png|center]]
 
 | Quadrature Method | Order of Convergence |
 | ----------------- | -------------------- |
@@ -37,9 +41,11 @@ Here,
 
 Consider a numerical method with error expansion:
 
+
 $$
 A(h)=y_{\text {exact }}+C_1 h^q+C_2 h^{q+1}+C_3 h^{q+2}+\ldots
 $$
+
 
 The dominant error term is $C_1 h^q$ (lowest power, largest contribution).
 Elimination Process
@@ -49,21 +55,27 @@ With two approximations:
 
 **Step 1:** Multiply the second equation by $2^q$ :
 
+
 $$
 2^q A(h / 2)=2^q y_{\text {exact }}+\underbrace{C_1 h^q}_\text{eliminate}+O\left(h^{q+1}\right)
 $$
 
+
 **Step 2:** Subtract the first equation:
+
 
 $$
 2^q A(h / 2)-A(h)=\left(2^q-1\right) y_{\text {exact }}+O\left(h^{q+1}\right)
 $$
 
+
 **Step 3:** Solve for $y_{\text {exact }}$ :
+
 
 $$
 y_{\text {exact }}=\frac{2^q A(h / 2)-A(h)}{2^q-1}+O\left(h^{q+1}\right)
 $$
+
 
 ### Result
 

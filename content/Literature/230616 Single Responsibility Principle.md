@@ -8,9 +8,11 @@ date: 2023-06-16
 
 "Each class should have only one reason to change."
 
+
 $$
 \boxed{\text{One responsiblity = One reason to change }}
 $$
+
 
 The result of implementing this is that you will have a code you will have components focused on specific tasks that can be tested and implemented individually. 
 

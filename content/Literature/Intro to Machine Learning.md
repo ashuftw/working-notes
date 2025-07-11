@@ -43,9 +43,10 @@ tags:
 - [[250627 Radial Basis Function|Radial Basis Function]]
 - [[250701 Weighted Linear Regression|Weighted Linear Regression]]
 - [[250701 Unified Model|Unified Model]]
+- [[250711 Relating Models to the Unified Model]]
 ### 7. Classification
 - [[240711 Decision Boundary and Hyperplanes|Decision Boundary and Hyperplane]]
-- [[250710 1 of K Encoding Scheme]]
+- [[250710 1 of K Encoding Scheme|1 of K Encoding Scheme]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 	- [[Direct Posterior Modeling]]

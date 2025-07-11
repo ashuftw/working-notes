@@ -33,9 +33,17 @@ An verbesserten Euler-Verfahren zeigen, wie ESV hergeleitet werden + Schritte er
 
 ### Aufgabe 5
 
-$$f(x) = x^3 - 8 - x^2$$
 
-$$g(x) = 2x^2$$
+$$
+f(x) = x^3 - 8 - x^2
+$$
+
+
+
+$$
+g(x) = 2x^2
+$$
+
 
 Newton Verfahren zur Bestimmung des Schnittpunkts aufstellen.
 Diskutieren Sie die Konvergenzordnung.
@@ -46,9 +54,17 @@ Zeigen Sie, dass das Crank-Nicolson-Verfahren A-stabil ist.
 
 ## Aufgabe 7
 
-$$y_{i+1} = y_i + h \cdot \Phi(t, y, h)$$
 
-$$\Phi(t,y,h) = a \cdot f(t,y) + b \cdot f(t + c \cdot h, y + d \cdot h \cdot f(t,y))$$
+$$
+y_{i+1} = y_i + h \cdot \Phi(t, y, h)
+$$
+
+
+
+$$
+\Phi(t,y,h) = a \cdot f(t,y) + b \cdot f(t + c \cdot h, y + d \cdot h \cdot f(t,y))
+$$
+
 
 Bedingungen für $a, b, c, d$, damit das Verfahren die Konsistenzordnung zwei hat.
 

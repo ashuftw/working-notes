@@ -13,11 +13,19 @@ In pattern recognition, we need parameter estimation to **train classifiers** by
 
 The maximum likelihood estimate finds parameters $\boldsymbol{\theta}$ that maximize the likelihood of observing the training data:
 
-$$\hat{\boldsymbol{\theta}}_{ML} = \arg\max_{\boldsymbol{\theta}} L(\boldsymbol{\theta}) = \arg\max_{\boldsymbol{\theta}} \prod_{n=1}^{N} p(\mathbf{x}_n|\boldsymbol{\theta})$$
+
+$$
+\hat{\boldsymbol{\theta}}_{ML} = \arg\max_{\boldsymbol{\theta}} L(\boldsymbol{\theta}) = \arg\max_{\boldsymbol{\theta}} \prod_{n=1}^{N} p(\mathbf{x}_n|\boldsymbol{\theta})
+$$
+
 
 In practice, we maximize the **log-likelihood**:
 
-$$\hat{\boldsymbol{\theta}}_{ML} = \arg\max_{\boldsymbol{\theta}} \sum_{n=1}^{N} \log p(\mathbf{x}_n|\boldsymbol{\theta})$$
+
+$$
+\hat{\boldsymbol{\theta}}_{ML} = \arg\max_{\boldsymbol{\theta}} \sum_{n=1}^{N} \log p(\mathbf{x}_n|\boldsymbol{\theta})
+$$
+
 
 ### For a multivariate Gaussian distribution, the ML estimates are:
 - **Mean**: $\hat{\boldsymbol{\mu}} = \frac{1}{N} \sum_{n=1}^{N} \mathbf{x}_n$ (sample mean)

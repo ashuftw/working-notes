@@ -4,15 +4,17 @@ draft: false
 date: 2024-06-13
 ---
 
-![[Pasted image 20240617115121.png|center|600]]
+![[../Files/Pasted image 20240617115121.png|center|600]]
 
 ## Assumption
 
 The turbulence near the a wall/solid boundary is only affected by the flow conditions at the wall and is independent of the flow conditions far away. 
 
+
 $$
 \text {or}
 $$
+
 
 In the Outer Layer, the Turbulence is not affected by the the turbulence in the inner layer due to the huge difference in the Length scales ($\delta$)
 
@@ -28,13 +30,16 @@ After performing dimensional analysis we derive two new dimensionless quantities
 
 ## Dimensionless Distance $y+$
 
+
 $$
 \boxed{
 y^{+} \equiv \frac y \nu \sqrt{\frac{\tau_W}{\rho}} = \frac{y u_\tau}{\nu}=\frac{y}{\delta_v}
 }
 $$
 
+
 Easier to remember 
+
 
 $$
 \boxed{
@@ -42,11 +47,14 @@ y^{+} =\frac{y}{\delta_v} =  \frac{y u_\tau}{\nu}= \frac y \nu \sqrt{\frac{\tau_
 }
 $$
 
+
 ## Dimensionless Velocity $u+$
+
 
 $$
 \boxed{u^{+} \equiv \frac{u}{u_\tau}}
 $$
+
 
 Where, 
 - $y\rightarrow$ Distance from the wall

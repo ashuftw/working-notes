@@ -5,11 +5,13 @@ date: 2023-07-23
 ---
 It is a [[230507 Quadrature - Derivation and Formulae|Quadrature]] where the domain $x\in[a,b]$ is split into multiple grid points $j=0,1,2\dots J$ with $a = x_0 < x_1 < \dots < x_J = b$
 
+
 $$
 \boxed{
 \int_a^b f(x) \mathrm{d} x=\sum_{j=0}^{J-1} \int_{x_j}^{x_{j+1}} f(x)\ \mathrm{d}x
 }
 $$
+
 
 We sum only till $(J-1)$ because $j=J$ is the end point which means the substitution $x_{J+1}$ doesn't exist.  
 

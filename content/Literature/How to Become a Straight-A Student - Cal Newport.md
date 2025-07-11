@@ -20,9 +20,11 @@ date: 2022-10-04
 - You need to find strategies that work for _you_. 
 - Get work done quickly and minimize wasted effort.
 
+
 $$
 \text{Work accomplished = Time spent}\times \text{Intensity of focus}
 $$
+
 
 - Spread out sessions of intense work so that you are recharged.  
 

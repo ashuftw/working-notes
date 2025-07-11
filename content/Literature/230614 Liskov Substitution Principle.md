@@ -12,7 +12,7 @@ It states that Objects of a superclass should be replaceable with the objects of
 
 ## Example
 
-![[Pasted image 20230806111608.png|center]]
+![[../Files/Pasted image 20230806111608.png|center]]
 
 > `bird` is an Object of `Bird()`
 

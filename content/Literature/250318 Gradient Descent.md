@@ -7,9 +7,11 @@ date: 2025-03-18
 ![[../Files/Pasted image 20250612111032.png|center|800]]
 The learning rule for gradient descent is
 
+
 $$
 w_{k+1}=w_k-\eta \nabla E(w)
 $$
+
 
 Where:
 

@@ -4,7 +4,7 @@ draft: false
 date: 2024-07-03
 ---
 
-![[Pasted image 20240703124658.png|center|500]]
+![[../Files/Pasted image 20240703124658.png|center|500]]
 
 ## Steps involved in selecting the Hyper Parameters
 

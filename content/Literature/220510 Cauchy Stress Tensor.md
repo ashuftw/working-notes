@@ -4,11 +4,12 @@ draft: false
 date: 2022-05-10
 ---
 
-![[Pasted image 20220510105522.png|center]]
+![[../Files/Pasted image 20220510105522.png|center]]
 
 - Stress acting on a element has 9 components of Stress. This is because by definition, the stress is the response to the force acting per unit area. 
 - This means that the stress is dependant on the direction of the force, but also the orientation of the area (which has two components) with respect to the force. 
 - Hence we have three Normal stress components and 6 Shear stress components which can be represented by the Stress Tensor. 
+
 
 $$
 \left[{\begin{matrix}

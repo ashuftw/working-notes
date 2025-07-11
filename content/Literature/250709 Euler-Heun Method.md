@@ -9,12 +9,24 @@ It is [[230417 Numerical Methods for Differential Equations|Numerical Method]] u
 an explicit predictor-corrector method that combines Euler's method (**Predictor**) with the trapezoidal rule (**Corrector**) to achieve higher accuracy.
 
 **Formula**
-$$y_{i+1} =  \underbrace{y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, \overbrace{y_i + hf(t_i, y_i)}^{\text{Euler}})]}_\text{Trapezoidal}$$
+
+$$
+y_{i+1} =  \underbrace{y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, \overbrace{y_i + hf(t_i, y_i)}^{\text{Euler}})]}_\text{Trapezoidal}
+$$
+
 ### Derivation
 
-**Starting point:** The exact solution satisfies $$y(t_{i+1}) = y(t_i) + \int_{t_i}^{t_{i+1}} f(t, y(t)) , dt$$
+**Starting point:** The exact solution satisfies 
+$$
+y(t_{i+1}) = y(t_i) + \int_{t_i}^{t_{i+1}} f(t, y(t)) , dt
+$$
 
-**Step 1: Apply trapezoid rule** to approximate the integral: $$\int_{t_i}^{t_{i+1}} f(t, y(t)) , dt \approx \frac{h}{2}[f(t_i, y(t_i)) + f(t_{i+1}, y(t_{i+1}))]$$
+
+**Step 1: Apply trapezoid rule** to approximate the integral: 
+$$
+\int_{t_i}^{t_{i+1}} f(t, y(t)) , dt \approx \frac{h}{2}[f(t_i, y(t_i)) + f(t_{i+1}, y(t_{i+1}))]
+$$
+
 
 where $h = t_{i+1} - t_i$.
 
@@ -23,11 +35,23 @@ where $h = t_{i+1} - t_i$.
 - $y(t_i) \approx y_i$ (known)
 - $y(t_{i+1}) \approx y_{i+1}$ (unknown)
 
-This gives: $$y_{i+1} = y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, y_{i+1})]$$
+This gives: 
+$$
+y_{i+1} = y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, y_{i+1})]
+$$
 
-**Step 3: Make explicit** by approximating $y_{i+1}$ on the right side using Euler's method: $$\tilde{y}_{i+1} = y_i + hf(t_i, y_i)$$
 
-**Step 4: Final Euler-Heun formula:** $$\boxed{y_{i+1} = y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, y_i + hf(t_i, y_i))]}$$
+**Step 3: Make explicit** by approximating $y_{i+1}$ on the right side using Euler's method: 
+$$
+\tilde{y}_{i+1} = y_i + hf(t_i, y_i)
+$$
+
+
+**Step 4: Final Euler-Heun formula:** 
+$$
+\boxed{y_{i+1} = y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, y_i + hf(t_i, y_i))]}
+$$
+
 
 
 ### Properties of Euler-Heun:

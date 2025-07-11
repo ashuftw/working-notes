@@ -10,7 +10,7 @@ A Relativsatz is a sub-ordinate clause that adds meaning to the main clause by a
 
 ### Syntax
 
-![[Pasted image 20230113115238.png|center|750]]
+![[../Files/Pasted image 20230113115238.png|center|750]]
 - The formation of the Relativsätze changes with the [[220908 Cases (Casus) in German|cases]]. 
 
 ---

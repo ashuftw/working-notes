@@ -10,9 +10,11 @@ It is a statistical measure that quantifies how linear the relationship between 
 
 ## Coefficient of Correlation
 
+
 $$
 \rho[X, Y]=\frac{\operatorname{cov}[X, Y]}{\sqrt{\mathbb{V}[X] \mathbb{V}[Y]}}
 $$
+
 
 Note: $\rho[X, Y] \in[-1,1]$
 - $\rho = -1$: Negative Linear relationship
@@ -21,4 +23,4 @@ Note: $\rho[X, Y] \in[-1,1]$
 
 At $-1$ and $+1$, the Correlation is perfectly linear.
 
-![[Pasted image 20231124122730.png|center]]
+![[../Files/Pasted image 20231124122730.png|center]]

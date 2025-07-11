@@ -14,9 +14,11 @@ date: 2022-04-08
 - Non-Newtonian behaviour of blood is because of [[Rouleaux formation in RBC's|rouleaux formation]], aggregation and flexibility of blood cells. 
 - Volume flow rate in of a non-Newtonian fluid in a pipe is given by 
 
+
 $$
 Q=\dfrac{\pi R^4}{8\eta_a}\ \dfrac{\Delta P}{L}
 $$
+
 
  $\eta_a\rightarrow$ apparent viscosity, $R\rightarrow$ inner radius, $L\rightarrow$ length of pipe, $P\rightarrow$ pressure difference across tube
 - 80% of the pressure gradient in the circulation systems is caused by arterioles. [^2][^3]

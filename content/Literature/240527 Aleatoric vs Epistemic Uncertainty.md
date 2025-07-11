@@ -10,5 +10,5 @@ date: 2024-05-27
 | Irreducible                                                                  | Lack of knowledge of the optimal parameters of the model (algorithmic) |
 |                                                                              | Reducible                                                              |
 
-![[Pasted image 20240527144020.png|center]]
+![[../Files/Pasted image 20240527144020.png|center]]
 

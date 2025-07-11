@@ -36,12 +36,16 @@ Berechnen Sie mittels des zweistufigen BDF-Verfahrens mit der Schrittweite $h = 
 
 Ist das Verfahren mit dem Butcher Schema 
 
-$$\begin{array}{c|cc}
+
+$$
+\begin{array}{c|cc}
  & 0 & \frac{1}{2} & 0 \\
  & 1 & \frac{1}{2} & 0 \\
 \hline
  & & \frac{1}{2} & \frac{1}{2}
-\end{array}$$
+\end{array}
+$$
+
 A-stabil?
 
 ### Aufgabe 8 (5 Punkte): 

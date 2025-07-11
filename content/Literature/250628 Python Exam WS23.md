@@ -9,7 +9,11 @@ date: 2025-06-28
 
 The relative density (rd) of Gyroid structures can be approximately determined using the following relationship:
 
-$$rd = 3x - 4(x)^3 \text{ with } x = t/l$$
+
+$$
+rd = 3x - 4(x)^3 \text{ with } x = t/l
+$$
+
 
 Where t is the wall thickness in mm and l is the length of a unit cell in mm. For the preliminary design of such a structure, you want to calculate the wall thickness t as a function of the unit cell length l for a specific relative density rd.
 
@@ -27,17 +31,41 @@ d) Plot the wall thickness versus the unit cell length in the interval $l = [5, 
 
 Your supervisor wants to evaluate complex differential equations for electrical systems. He is an old theoretician and is very good at setting up the differential equations on paper but has no knowledge of Python at all. For this reason, he needs your help to numerically calculate a rough estimate of the impedance. Since your supervisor generally distrusts numerical solutions, he first wants a test with a very simple series resonant circuit. The series resonant circuit with forced oscillation has the differential equation:
 
-$$2\pi f\hat{U} \sin(2\pi f \cdot t) = L\ddot{I} + R\dot{I} + \frac{I}{C}$$
+
+$$
+2\pi f\hat{U} \sin(2\pi f \cdot t) = L\ddot{I} + R\dot{I} + \frac{I}{C}
+$$
+
 
 The resonant circuit should have the following parameters (pay attention to units!):
 
-$$\hat{U} = 1V$$ $$R = 1\Omega$$ $$C = 1mF$$ $$L = 10mF$$
+
+$$
+\hat{U} = 1V
+$$
+ 
+$$
+R = 1\Omega
+$$
+ 
+$$
+C = 1mF
+$$
+ 
+$$
+L = 10mF
+$$
+
 
 a) Use the `solve_ivp` function from the `scipy.integrate` library to solve the differential equation between 0 and 0.3 seconds. Pass the target frequency $f = 10$ Hz as an argument via `args`. Use (0,0) as initial values for current $I$ and current rate of change $\dot{I}$.
 
 b) Check 100 frequencies with evenly logarithmic spacing from $f = 10Hz$ to $f = 100Hz$. Simulate 0.3s of the system's current response and evaluate the last 0.1s. Form the magnitude of the impedance Z for each frequency using the equation:
 
-$$|Z| = \frac{2\hat{U}}{I_{max} - I_{min}}$$
+
+$$
+|Z| = \frac{2\hat{U}}{I_{max} - I_{min}}
+$$
+
 
 c) Plot the reciprocal of the impedance $1/|Z|$ versus frequency in a graph. Label all axes.
 
@@ -57,7 +85,11 @@ d) Write the method `show()`, in which the class's own plot method is called and
 
 e) Define outside the class definition the function `f(x, rd=0.1)`:
 
-$$f(x, rd = 0.1) = 3x - 4x^3 - rd$$
+
+$$
+f(x, rd = 0.1) = 3x - 4x^3 - rd
+$$
+
 
 f) Instantiate an object of the class `FunctionPlot` with the function `f` and plot it in the range `(0, 0.1)` with the method `show()`.
 

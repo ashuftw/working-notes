@@ -6,6 +6,7 @@ date: 2025-06-23
 ---
 The design matrix $\Phi$ is an $N \times M$ matrix where each row contains the basis function values for one data point:
 
+
 $$
 \Phi = \begin{pmatrix} 
 \phi(x_1)^T \\ 
@@ -19,6 +20,7 @@ $$
 \phi_0(x_N) & \phi_1(x_N) & \cdots & \phi_{M-1}(x_N) 
 \end{pmatrix}
 $$
+
 
 This allows us to write all predictions compactly as $\Phi w$ instead of computing $w^T\phi(x_n)$ for each point individually.
 

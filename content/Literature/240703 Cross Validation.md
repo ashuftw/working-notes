@@ -13,7 +13,7 @@ Cross validation is a technique used to estimate the true generalization error.
 	- Thus a truly unbiased error of the model is obtained. 
 	- However, not feasible. 
 2. **K-fold Cross Validation**
-	 ![[Pasted image 20240703131751.png|center|550]]
+	 ![[../Files/Pasted image 20240703131751.png|center|550]]
 	- It is an alternative to **Leave One Out** method and provides a good approximation. 
 	- Here instead of individually removing a datum and training the remaining the data, the data set is split into $(k-1)$ Training set with one Test set. 
 	- The error is computed for each set and averaged. 

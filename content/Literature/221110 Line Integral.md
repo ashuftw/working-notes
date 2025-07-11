@@ -4,7 +4,7 @@ draft: false
 date: 2022-11-10
 ---
 
-![[221110 Line Integral or Curve Integral 1.png|center]]
+![[../Files/221110 Line Integral or Curve Integral 1.png|center]]
 
 ---
 

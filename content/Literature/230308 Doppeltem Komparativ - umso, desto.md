@@ -10,9 +10,11 @@ It is used to express **proportional** relationship between two things.
 
 ### Syntax 
 
+
 $$
 \overbrace{\text{je + Komparative + Subjekt + Verb}} ^\text{{Nebensatz}},\underbrace{\text{desto/umso + Komparativ + Verb + Subjekt}}_{\text{Haupsatz}}
 $$
+
 
 - Note: If noun is present. It is placed after the Komparativ. 
 

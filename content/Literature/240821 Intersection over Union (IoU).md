@@ -14,18 +14,22 @@ Using the Pixels that fall in the intersection between [[240429 Binary Classific
 
 ### Intersection over union ($\text{IoU}$)
 
+
 $$
 \boxed{ \mathrm{IoU}=\frac{\mathrm{TP}}{\mathrm{TP}+\mathrm{FN}+\mathrm{FP}}}
 $$
+
 
 - Simply measures overlap between predicted segmentation and ground truth
 - Problem: Large objects have more pixels, so they dominate the score
 
 ### Instance-level intersection over union ($\text{iIoU}$)
 
+
 $$
 \boxed{\mathrm{iIoU}=\frac{\mathrm{iTP}}{\mathrm{iTP}+\mathrm{iFN}+\mathrm{FP}}}
 $$
+
 
 - Modifies IoU to treat objects more fairly regardless of their size
 - Weights each object by: (average object size) / (this object's size)

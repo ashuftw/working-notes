@@ -6,13 +6,13 @@ date: 2022-04-08
 
 # Flow parameter of blood
 
-![[Pasted image 20220405154320.png|center]][^1]
-![[Pasted image 20220407161758.png|center]][^2]
+![[../Files/Pasted image 20220405154320.png|center]][^1]
+![[../Files/Pasted image 20220407161758.png|center]][^2]
 Yield stress 0.04 dyne/cm$^2$ at hematocrit of 40 [^3]
 k
  
-![[Pasted image 20220407165443.png|center]][^4]
-![[Pasted image 20220408095902.png|center]][^5]
+![[../Files/Pasted image 20220407165443.png|center]][^4]
+![[../Files/Pasted image 20220408095902.png|center]][^5]
 
 ---
 

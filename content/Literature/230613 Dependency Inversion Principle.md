@@ -8,7 +8,7 @@ The DIP principle says that High level modules should not depend on Low level mo
 
 ### Problem
 
-![[Pasted image 20230613113116.png|center|300]]
+![[../Files/Pasted image 20230613113116.png|center|300]]
 
 - ML4 is directly dependent on LL8 
 - Changes in LL8 have a direct impact on ML4
@@ -17,7 +17,7 @@ The DIP principle says that High level modules should not depend on Low level mo
 
 ### Solution
 
-![[Pasted image 20230613114017.png|center|300]]
+![[../Files/Pasted image 20230613114017.png|center|300]]
 
 - ML4 is now depending on an interface called ML4Server.
 - Changes in LL8 won‘t influence the ML4.

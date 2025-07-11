@@ -19,9 +19,11 @@ The transport equation defines how a quantity travels across a [[220511 Field|fi
 
 Most transport equations take the form 
 
+
 $$
 \text{Temporal term }+\text{Convection term }=\text{Diffusion term}+\text{Source term}
 $$
+
 
 Additional quantities like turbulence, take the form of source term.
 

@@ -6,6 +6,7 @@ date: 2024-08-13
 
 These stresses when applying a [[240424 Time Averaged Navier-Stokes Equations|Time Average]] on the Navier stokes equations. 
 
+
 $$
 \overline{u'_i u'_j} = 
 \begin{pmatrix}
@@ -15,9 +16,11 @@ $$
 \end{pmatrix}
 $$
 
+
 They represent the average interactions between the fluctuating components. 
 
 ## Turbulent Shear Stress 
+
 
 $$
 \boxed{

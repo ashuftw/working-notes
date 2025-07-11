@@ -14,7 +14,11 @@ Given are some measurement data from a characteristic curve determination of a m
     
 2. The displayed measurement values can be approximated with the following function:
     
-    $$f(x, a, b) = \frac{x}{a} \cdot \left|\tanh\left(\frac{x}{b}\right)\right|$$
+    
+$$
+f(x, a, b) = \frac{x}{a} \cdot \left|\tanh\left(\frac{x}{b}\right)\right|
+$$
+
     
     Define this formula as a Python function. Determine optimal values for the parameters $a$ and $b$ using scipy. Display the optimal solution in the figure from task 1 with a dash-dot line. Create an appropriate legend in the bottom right of the image to distinguish between both data series. Save the optimal parameters using Python in a text file.
     
@@ -39,9 +43,25 @@ A colleague has taken some calculation steps off your hands and given you the fo
 ![[../Files/Pasted image 20250628165443.png|center|800]]
 [Figure 2: Free body diagram showing forces]
 
-$$F_{c1} = c_1x_1 \quad F_{c2} = c_2(x_2 - x_1)$$ $$F_{b1} = b_1\dot{x}_1 \quad F_{b2} = -b_2\dot{x}_1$$
 
-$$\sum F_{x1} = m_1\ddot{x}_1 = c_2x_2 - c_2x_1 - c_1x_1 - b_1\dot{x}_1$$ $$\sum F_{x2} = m_2\ddot{x}_2 = -b_2\dot{x}_2 - c_2x_2 + c_2x_1$$
+$$
+F_{c1} = c_1x_1 \quad F_{c2} = c_2(x_2 - x_1)
+$$
+ 
+$$
+F_{b1} = b_1\dot{x}_1 \quad F_{b2} = -b_2\dot{x}_1
+$$
+
+
+
+$$
+\sum F_{x1} = m_1\ddot{x}_1 = c_2x_2 - c_2x_1 - c_1x_1 - b_1\dot{x}_1
+$$
+ 
+$$
+\sum F_{x2} = m_2\ddot{x}_2 = -b_2\dot{x}_2 - c_2x_2 + c_2x_1
+$$
+
 
 ### Tasks:
 

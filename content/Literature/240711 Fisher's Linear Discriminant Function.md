@@ -17,6 +17,7 @@ The position of the Hyper Plane however is not known. We can find it using the f
 Maximise the distance between the projected means. In simple terms we try to find $\mathbf w$ that has the greatest distance between the projected means. 
 **Mathematically**
 
+
 $$
 \begin{aligned}
 \max _{\mathbf{w}}\left|m_1^{\prime}-m_2^{\prime}\right|&\Leftrightarrow \max _{\mathbf{w}}\left|\mathbf{w}^T \mathbf{m}_1-\mathbf{w}^T \mathbf{m}_2\right|\\
@@ -24,11 +25,14 @@ $$
 \end{aligned}
 $$
 
+
 Hence, 
+
 
 $$
 \mathbf{w} \propto\left(\mathbf{m}_2-\mathbf{m}_1\right)
 $$
+
 
 $\mathbf w$ points in the same direction as $(\mathbf{m}_2-\mathbf{m}_1)$
 

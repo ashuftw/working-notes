@@ -15,9 +15,9 @@ date: 2021-07-05
 
 ### Syntax
 
-![[Pasted image 20230705130855.png|center]]
+![[../Files/Pasted image 20230705130855.png|center]]
 
 ### Examples
 
-![[Pasted image 20230706085713.png|center]]
+![[../Files/Pasted image 20230706085713.png|center]]
 

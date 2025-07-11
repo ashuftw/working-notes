@@ -5,6 +5,7 @@ tags:
 date: 2025-06-27
 ---
 ![[../Files/Pasted image 20250701134853.png|center|700]]
+
 Where, $i$ is the number of outputs ($1$) and $j$ is the number of inputs $D$
 
 **Key Model Selection Decisions:**

@@ -6,7 +6,11 @@ date: 2024-10-01
 
 ### First Law of Thermodynamics[^1]
 
-$$ \dot E = \dot{W} + \dot{Q} $$
+
+$$
+\dot E = \dot{W} + \dot{Q}
+$$
+
 
 Where,
 - $\dot E\rightarrow$  rate of change of Internal Energy
@@ -19,9 +23,11 @@ Using this, one can derive the Conservation of Species. Details. [^2]
 
 Derivation[^3]
 
+
 $$
 \frac{\partial C_A}{\partial t}+u \frac{\partial C_A}{\partial x}+v \frac{\partial C_A}{\partial y}=D_{A B}\left(\frac{\partial^2 C_A}{\partial x^2}+\frac{\partial^2 C_A}{\partial y^2}\right)\tag{1}
 $$
+
 
 where,
 - $C_A(x, y, t)\rightarrow$molar concentration of $\mathrm{CO}_2$
@@ -38,9 +44,11 @@ where,
 [Laplace Operator in cylindrical coordinates](https://farside.ph.utexas.edu/teaching/jk1/Electromagnetism/node36.html)
 Assuming fully developed laminar flow within each cell. (Eq. 1) becomes
 
+
 $$
 \frac{\partial C_A}{\partial t}+u_d \frac{\partial C_A}{\partial x}=D_{A B} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right)\tag2
 $$
+
 
 where, 
 - $u_d=u_m\left(1-\left(\frac{r}{R}\right)^2\right)$ parabolic velocity profile in each cell of diameter $R$ 
@@ -51,9 +59,11 @@ where,
 
 Note that in steady state, (Eq. 2) reduces to the thin duct equation. 
 
+
 $$
 u_d \frac{\partial C_A}{\partial x}=D_{A B} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right) .\tag3
 $$
+
 
 More on (Eqn. 3)[^4]
 
@@ -61,9 +71,11 @@ More on (Eqn. 3)[^4]
 
 The DAC problem consists in solving (Eq. 2) with the boundary condition
 
+
 $$
 -D_{A B}\left(\frac{\partial C_A}{\partial r}\right)_{r=R}=\dot{q}(t)\tag4
 $$
+
 
 where,
 - $\dot{q}(t)\rightarrow$ Molar flux of $\mathrm{CO}_2$ through the adsorbent surface. 
@@ -73,9 +85,11 @@ where,
 
 We assume adsorption kinetics such that
 
+
 $$
 \dot{q}(t)=\frac{d q}{d t}=k_s\left(q_e-q\right) \tag 5
 $$
+
 
 where,
 - $k_s\rightarrow$ model constant

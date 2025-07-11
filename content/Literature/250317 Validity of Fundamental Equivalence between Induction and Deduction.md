@@ -8,9 +8,11 @@ The fundamental equivalence between deduction and induction states that an induc
 
 Formally, if L is a learning algorithm and B is its inductive bias, then for any new instance x':
 
+
 $$
 \forall x^{\prime} \in X: L\left(x^{\prime}, D\right) \Leftrightarrow\left(B \wedge D \wedge x^{\prime}\right)
 $$
+
 
 This means the classification produced by learning algorithm L on new data x' after training on dataset D is equivalent to what would be logically deduced from the conjunction of the training data D, the inductive bias B, and the new instance x'.
 

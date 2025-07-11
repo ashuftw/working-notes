@@ -27,7 +27,7 @@ graph TD
 ### Distributed Memory
 
 - **Architecture**
-![[Pasted image 20240425130058.png|center|350]]
+![[../Files/Pasted image 20240425130058.png|center|350]]
 - **Programming Model**: *Message passing*. 
 - **Types**
 	- **MPP Massive Parallel System**
@@ -42,19 +42,19 @@ graph TD
 
 ### Shared Memory
 
-![[Pasted image 20240425125951.png|center|300]]
+![[../Files/Pasted image 20240425125951.png|center|300]]
 - **Programming model:** *Shared variables*.
 - Simultaneous access to the same variable is not allowed. 
 - **Types**
 	- **NUMA**
-		![[Pasted image 20240425151814.png|center]]
+		![[../Files/Pasted image 20240425151814.png|center]]
 		- Each Processor has has a local memory which can be accessed by other processors. 
 		- DIR -> Directory. Stores information regarding the files in cache. Like a registry. 
 		- During memory access the DIR is read to know if the file should be accessed from the cache or from memory. 
 	- **ccNUMA: Cache Coherent non-Uniform Memory Access**
 	- **nccNUMA: non-ccNUMA**
 	- **COMA: Cache only memory access** 
-		![[Pasted image 20240425153025.png|center]]
+		![[../Files/Pasted image 20240425153025.png|center]]
 		- TAG -> It is an identifier for each Datum. 
 		- Datum migrates to where it is needed, hence you need a TAG to identify the data. 
 		- Here the memory is accessed through the cache only. 
@@ -79,7 +79,7 @@ graph TD
 - **Loop 2 (Slower)** exhibits **strided memory access**. As the inner loop increments `j`, the expression `j * y + i` jumps through memory in large steps (strides of size `y`). Each access likely requires fetching a new cache line from slow main memory, causing a "cache miss" on almost every iteration. 
 ### Networks
 
-![[Pasted image 20240425155941.png|center]]
+![[../Files/Pasted image 20240425155941.png|center]]
 - Distance between nodes
 	- Shortest path in # edges between two nodes. (#-> number of something )
 - Degree
@@ -89,15 +89,15 @@ graph TD
 
 **Examples**
 - Fully connected Network
-![[Pasted image 20240425160236.png|center]]
+![[../Files/Pasted image 20240425160236.png|center]]
 - Linear network
-	![[Pasted image 20240425160358.png|center]]
+	![[../Files/Pasted image 20240425160358.png|center]]
 - Ring network or 1D Torus
-	![[Pasted image 20240425160446.png|center]]
+	![[../Files/Pasted image 20240425160446.png|center]]
 - dD Torus (d-> dimension)
-	![[Pasted image 20240425160521.png|center]]
+	![[../Files/Pasted image 20240425160521.png|center]]
 - D-Dimensional hypercube
-	 ![[Pasted image 20240425160538.png|center]]
+	 ![[../Files/Pasted image 20240425160538.png|center]]
 	- Nodes $N= 2^d$ 
 	- Node connected with $d$ neighbours. 
 	- indexed by $d$ bits. 

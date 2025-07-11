@@ -9,6 +9,7 @@ date: 2023-02-12
 - [[230212 Linearly Independent Solutions|Check if the Solutions are Linearly Independent]]
 - The General Solution can be written as 
 
+
 $$
 \boxed{y=y_1C_1+y_2C_2+...y_nC_n}
 $$

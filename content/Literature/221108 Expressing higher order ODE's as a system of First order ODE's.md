@@ -8,11 +8,14 @@ date: 2022-11-08
 **Proof**
 We have
 
+
 $$
 y^{(n)}=f(t, y, y\prime, y\prime\prime..., y^{(n-1)})
 $$
 
+
 Defining function $q$ such that 
+
 
 $$
 \begin{aligned}
@@ -25,6 +28,7 @@ $$
 	q\prime_{(n-1)}&=q_n=f(t, q_0,q_1,...q_{n-1})
 	\end{aligned}
 $$
+
 
 This is useful because computers are good at solving first order systems of equations.[^1]
 

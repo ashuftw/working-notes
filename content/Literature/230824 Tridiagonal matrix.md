@@ -8,6 +8,7 @@ date: 2023-08-24
 
 It is a square matrix where all elements except the diagonal, sub-diagonal and super-diagonal elements are zero i.e. $a_{i j}=0$ for $|i-j|>1$
 
+
 $$
 A=\left(\begin{array}{ccccc}
 a_1 & c_1 & & & \\
