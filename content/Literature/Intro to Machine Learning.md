@@ -45,6 +45,7 @@ tags:
 - [[250701 Unified Model|Unified Model]]
 ### 7. Classification
 - [[240711 Decision Boundary and Hyperplanes|Decision Boundary and Hyperplane]]
+- [[250710 1 of K Encoding Scheme]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 	- [[Direct Posterior Modeling]]

@@ -5,3 +5,6 @@ npx quartz sync
 
 ## git sync
 git add .  && git commit -m "sync git" && git push
+
+## Upgrading Quartz
+npx quartz update
