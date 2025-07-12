@@ -4,12 +4,6 @@ draft: false
 date: 2022-09-11
 ---
 
-Sep 2022
-
-Tags: [[Grammar]]
-
-# 220911 Adjective
-
 An adjective **describes** or gives a **quality** to a noun in a sentence. 
 Example:
 - The **big** bear.

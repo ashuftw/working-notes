@@ -3,13 +3,6 @@ title: Positioning of Trennbare Verben in sentences
 draft: false
 date: 2022-09-14
 ---
-
-Sep 2022
-
-Tags: [[Verbs]] [[German]] 
-
-# 220914 Positioning of Trennbare Verben in sentences
-
 Depending on the type of sentence, [[220911 Trennbare Verben - Separable Verbs|Trennbare Verben]] can be split and placed at different locations of the sentence.
 
 1. **Ja/Nein Frage:** 

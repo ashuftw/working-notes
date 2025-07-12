@@ -3,13 +3,6 @@ title: Momentum Transport equation
 draft: false
 date: 2022-05-07
 ---
-
-May 2022
-
-Tags: [[CFD]] [[220507 Transport Equation]] [[Conservation of Momentum]] [[220507 Navier-Stokes Equations]] 
-
-# Momentum Transport equation
-
 The momentum transport equation defines how the momentum is transported across the field. 
 Essentially, it expresses the Newton's Second Law applied to a fluid. 
 

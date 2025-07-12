@@ -4,12 +4,6 @@ draft: false
 date: 2022-08-27
 ---
 
-Aug 2022
-
-Tags: [[Grammar]]  
-
-# Finite Verb
-
 A finite verb is one that **shows tense** and changes according to the **subject**.
 Example:
 

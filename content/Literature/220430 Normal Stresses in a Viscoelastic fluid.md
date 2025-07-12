@@ -3,9 +3,6 @@ title: Normal Stresses in a Viscoelastic fluid
 draft: false
 date: 2022-04-30
 ---
-
-Apr 2022
-
  [[non-Newtonian Flow]] [[Viscoelastic Fluid]] [[Deviatoric Stress]] [[220419 Simple Shear flow]]
 A viscoelastic fluid in a simple shear flow produces unequal normal stresses that have non-zero values. 
 

@@ -3,7 +3,6 @@ title: Newton's Law of Viscosity
 draft: false
 date: 2022-04-02
 ---
-
 ## Simple shear in a fluid
 
 ![[../Files/Pasted image 20220408161132.png|center|390]]

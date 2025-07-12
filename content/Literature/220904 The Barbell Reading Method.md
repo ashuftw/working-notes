@@ -3,13 +3,6 @@ title: The Barbell Reading Method
 draft: false
 date: 2022-09-04
 ---
-
-Sep 2022
-
-Tags: [[Reading]] 
-
-# 220904 The Barbell Reading Method
-
 > Information is just an opportunity. It means nothing if you don't use it. 
 
 **Two steps to read a book:**

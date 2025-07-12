@@ -4,12 +4,6 @@ draft: false
 date: 2022-06-13
 ---
 
-Apr 2022
-
-Tags: [[Blood flow]] [[non-Newtonian Flow]]
-
-# Herschel-Bulkley Equation
-
 ![[../Files/Pasted image 20220401115903.png|center]]
 $\tau \rightarrow$ shear stress (Pa)
 $\tau_0\rightarrow$ yield stress (Pa)

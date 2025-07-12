@@ -3,13 +3,6 @@ title: strainRateFunction
 draft: false
 date: 2022-05-20
 ---
-
-May 2022
-
-Tags: [[OpenFOAM]] [[Viscosity model]]
-
-# 220520 strainRateFunction
-
 The viscosity is modeled as a function of strain rate.
 
 > transportModel  strainRateFunction;  

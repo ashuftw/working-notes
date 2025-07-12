@@ -4,10 +4,6 @@ draft: false
 date: 2022-09-14
 ---
 
-Sep 2022
-
-Tags: [[German]] [[Verbs]]
-
 Regelmäßige verbs are verbs that follow the following conjugation pattern. 
 
 | De         | En         | Tone             | komm-*en* | wohnen-*en* | 

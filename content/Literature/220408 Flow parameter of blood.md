@@ -3,7 +3,6 @@ title: Flow parameter of blood
 draft: false
 date: 2022-04-08
 ---
-
 # Flow parameter of blood
 
 ![[../Files/Pasted image 20220405154320.png|center]][^1]

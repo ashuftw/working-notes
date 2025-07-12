@@ -3,11 +3,6 @@ title: Introduction to Multiphase Flows
 draft: false
 date: 2022-03-20
 ---
-
-Mar 2022
-
-Tags: [[Multiphase flow]]
-
 # Introduction to Multiphase Flows
 
 ### Appendix 1

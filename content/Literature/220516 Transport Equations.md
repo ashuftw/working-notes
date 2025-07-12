@@ -3,8 +3,6 @@ title: Transport Equations
 draft: false
 date: 2022-05-16
 ---
-# 1. Transport Equations
-
 The Navier-Stokes equations relate the rate of change of moThe Navier-Stokes equations relate the rate of change of momentum of the fluid parcel to the net force applied to the fluid parcel. It is used to calculate the velocity field for the given problem.
 
 ### Momentum: The Navier-Stokes Equations

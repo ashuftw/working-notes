@@ -3,13 +3,6 @@ title: MRF framework for Turbomachinery
 draft: false
 date: 2022-06-22
 ---
-
- #abandoned 
-
-Tags: [[CFD]] [[Meshing]]
-
-# MRF framework for Turbomachinery [^1]
-
 ### Definitions:
 
 - **Axis of rotation ($s$)**: 
@@ -18,8 +11,6 @@ Tags: [[CFD]] [[Meshing]]
 $$
 s=x_2-x_1
 $$
-
-
 	Where $x_1$ and $x_2$ are any two points on the axis.
 - **Rotation Vector ($\Omega$):**
 

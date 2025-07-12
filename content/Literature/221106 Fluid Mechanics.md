@@ -3,7 +3,6 @@ title: Fluid Mechanics
 draft: false
 date: 2022-11-06
 ---
-
 ## Basics
 
 - [[220430 Material, Substantial or Lagrangian Derivative|Material Derivative]]

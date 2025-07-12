@@ -4,12 +4,6 @@ draft: false
 date: 2022-08-28
 ---
 
-IrregularAug 2022
-
-Tags: [[German]] [[Verbs]]
-
-# 220828 Unregelmäßige Verben
-
 #### Stems that end with consonants
 
 - ***-d*** or ***-t***

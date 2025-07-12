@@ -3,7 +3,6 @@ title: Residuals in CFD
 draft: false
 date: 2022-05-16
 ---
-
 - CFD codes use iterative approach to solve the solution matrix. 
 - Consider a CFD solution of [[Heat conduction in a 1D bar without a heat source]].
 

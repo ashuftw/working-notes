@@ -3,9 +3,6 @@ title: Trennbare Verben - Separable Verbs
 draft: false
 date: 2022-09-11
 ---
-
-Sep 2022
-
 ### Definition and Use-case
 
 They are verbs with a prefix (Präfix) that when combined with verb produce a different meaning. 

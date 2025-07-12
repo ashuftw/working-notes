@@ -3,13 +3,6 @@ title: The Deborah and Weissenberg numbers
 draft: false
 date: 2022-04-18
 ---
-
-Apr 2022
-
-Tags: [[non-Newtonian Flow]]
-
-# The Deborah and Weissenberg numbers
-
 **Deborah Number**
 
 

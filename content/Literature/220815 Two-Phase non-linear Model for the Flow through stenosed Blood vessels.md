@@ -3,15 +3,6 @@ title: Two-Phase non-linear Model for the Flow through stenosed Blood vessels
 draft: false
 date: 2022-08-15
 ---
-
-Mar 2022
-
-Tags: [[Multiphase flow]] [[Blood flow]] [[Journal Paper]]
-
-# Two-Phase non-linear Model for the Flow through stenosed Blood vessels
-
-*D. S Sankar, Usik Lee*
-
 ## Introduction
 
 - **Blood**

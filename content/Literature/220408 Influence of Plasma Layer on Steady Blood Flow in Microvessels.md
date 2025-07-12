@@ -3,11 +3,6 @@ title: Influence of Plasma Layer on Steady Blood Flow in Microvessels
 draft: false
 date: 2022-04-08
 ---
-
-# Influence of Plasma layer on Steady Blood flow in micro-vessels
-
-*Noriko Iida (1977)*
-
 ## Introduction 
 
 - Arterioles are blood vessels with diameter < 200 $\mu \ m$

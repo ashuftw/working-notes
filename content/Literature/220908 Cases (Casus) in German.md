@@ -3,7 +3,6 @@ title: Cases (Casus) in German
 draft: false
 date: 2022-09-08
 ---
-
 ## Definition
 
 The cases modify the [[220908 German Articles|article]] to inform the role of a noun in the sentence.  

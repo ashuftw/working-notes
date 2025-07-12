@@ -3,13 +3,6 @@ title: Distinction between Present and Continuous Tense
 draft: false
 date: 2022-08-27
 ---
-
-Aug 2022
-
-Tags: [[German]] [[Verbs]]
-
-# 220827 Distinction between Present and Continuous Tense
-
 In German, there is no distinction between the two. 
 
 Example:

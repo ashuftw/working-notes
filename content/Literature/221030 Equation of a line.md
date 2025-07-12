@@ -3,11 +3,6 @@ title: Equation of a line
 draft: false
 date: 2022-10-30
 ---
-
-Oct 2022
-
-Tags: [[Math]]
-
 Slope of a line between coordinates $\text{a}(x_1,y_2)$ and $\text b (x_2,y_2)$ 
 
 
