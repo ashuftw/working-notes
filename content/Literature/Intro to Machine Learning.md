@@ -14,7 +14,7 @@ tags:
 - [[230418 Regression|Regression]]
 - [[250604 Squared Error Function|Squared Error Function]]
 - [[240418 Empirical Error (Parameter Optimization)|Empirical Error (Parameter Optimization)]]
-- [[240418 Regularisation|Regularisation]]
+- [[240418 Regularization|Regularization]]
 - [[240423 Perceptron in Mathematical Notation|Perceptron in Mathematical Notation]]
 
 ### 3. Probabilitstic Modelling 
@@ -43,10 +43,12 @@ tags:
 - [[250627 Radial Basis Function|Radial Basis Function]]
 - [[250701 Weighted Linear Regression|Weighted Linear Regression]]
 - [[250701 Unified Model|Unified Model]]
-- [[250711 Relating Models to the Unified Model]]
+- [[250711 Relating Models to the Unified Model|Relating Models to the Unified Model]]
 ### 7. Classification
-- [[240711 Decision Boundary and Hyperplanes|Decision Boundary and Hyperplane]]
-- [[250710 1 of K Encoding Scheme|1 of K Encoding Scheme]]
+- [[240711 Linearly Separable Datasets|Linearly Separable Datasets]]
+- [[250711 Hyper planes|Hyper planes]]
+- [[250710 One of K Encoding Scheme|One of K Encoding Scheme]]
+- [[250711 Bayesian Approach to 2 Class Classification|Bayesian Approach to 2 Class Classification]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 	- [[Direct Posterior Modeling]]

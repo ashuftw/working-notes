@@ -28,5 +28,4 @@ date: 2025-05-15
 - [[250710 Flashcards on Linux Tools - Theory|Flashcards on Linux Tools - Theory]]
 - [[250710 Flashcards on Linux Tools - Practical|Flashcards on Linux Tools - Practical]]
 ## Shell Scripting 
-- [[250710 Flashcards on Shell Scripting - Theory]]
-- [[250710 Flashcards on Linux Tools - Practical|Flashcards on Linux Tools - Practical]]
+- [[250710 Flashcards on Shell Scripting - Theory|Flashcards on Shell Scripting - Theory]]

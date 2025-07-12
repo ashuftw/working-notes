@@ -1,21 +1,13 @@
 ---
-title: Decision Boundary and Hyperplanes
+title: Hyper Planes
 draft: false
-date: 2024-07-11
+tags: 
+date: 2025-07-11
 ---
-
-### Use case 
-
-A Decision boundary is a line or plane that separates classes. It determined by using a suitable discriminant function. 
-
-## Hyper planes
-
-They are decision boundaries that are linear.
+They are a [[250711 Decision Boundary|Decision boundary]] that are linear.
 
 ![[../Files/Pasted image 20240711113338.png|center|500]]
-
 #### Mathematically
-
 For a Linearly separable classes with $k$ =2, the hyperplane with the parameter vector $\mathbf{w}$ :
 
 

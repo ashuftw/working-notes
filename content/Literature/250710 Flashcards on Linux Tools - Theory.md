@@ -8,7 +8,7 @@ date: 2025-07-10
 
 **What is the `find` command used for and what is its basic syntax?**
 - **Purpose:** The `find` command is a command-line utility used to search for files within a directory hierarchy.
-- **Syntax:** `find [FLAG] PATH [EXPRESSION]`.
+- **Syntax:** `find PATH [FLAG] [EXPRESSION]`.
 - **Functionality:** It searches for files based on expressions, which can include tests like name (`-name`), type (`-type`), or regular expressions. It can then perform various actions (`-exec`, `-delete`, etc.) on the search results. If no action is specified, it defaults to printing the file path.
 ---
 ### **Flashcard 2: `grep`**
@@ -24,7 +24,7 @@ date: 2025-07-10
 ---
 ### **Flashcard 3: `awk`**
 **What is `awk`, and what key features distinguish it from grep?**
-- **Definition:** `awk` is a powerful pattern-scanning and processing language designed for advanced text manipulation.
+- **Definition:** `awk` is a powerful **pattern-scanning** and **processing language** designed for advanced text manipulation.
 - **Key Distinguishing Features:**
     - **Field-Based Processing:** `awk` excels at handling text in columns (fields). It can easily split lines based on a delimiter (like a comma or space) and process individual fields.
     - **Scripting Language:** It is a full programming language with variables, arithmetic operations, and conditional logic (`if-else`), making it suitable for generating reports and complex data transformations.

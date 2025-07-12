@@ -1,5 +1,5 @@
 ---
-title: 1 of K Encoding Scheme
+title: One of K Encoding Scheme
 draft: false
 tags: 
 date: 2025-07-10
@@ -8,9 +8,9 @@ date: 2025-07-10
 ## Definition
 
 It is a technique use to model labels for **multi-class** problems. 
-Here, each label $t_i$, is represented as a vector with $K$ dimensions, corresponding to the $K$ available classes.
+Each **label** ($t_i$), is represented as a vector with $K$ dimensions where $K$ is the number of possible classes.
 
-The vector consists of all zeros except for a single $1$ at the position indicating the correct class.
+All the values in the vector consists of zeros except the element for the correct class, which is defined as $1$.
 
 For an input $x_i$ belonging to class $C_k$, the label vector $t_i$ is defined as:
 

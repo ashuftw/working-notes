@@ -1,5 +1,5 @@
 ---
-title: Regularisation
+title: Regularization
 draft: false
 date: 2024-04-18
 ---

@@ -13,7 +13,6 @@ date: 2023-04-17
 - [[230718 Polynomial Interpolation Error|Polynomial Interpolation Error]]
 - [[230721 Approximation through Regression|Approximation through Regression]]
 - [[230721 Minimum Quadratic Error|Minimum Quadratic Error]]
-- [[Order of Accuracy]]
 ### 3. Numerical Integration
 - [[230507 Quadrature - Derivation and Formulae|Quadrature - Derivations and Formulae]]
 - [[250708 Quadrature Error|Quadrature Error]]

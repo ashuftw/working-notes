@@ -10,7 +10,7 @@ date: 2025-06-23
 ### Solution
 ![[../Files/IMG_20250623_184629360.jpg]]
 
-
+Constant means the degree is $0$
 ## Task 2 
 ![[../Files/Pasted image 20250624104927.png]]
 ### Solution 
@@ -20,7 +20,10 @@ date: 2025-06-23
 - Check: $f^{\prime \prime}(-1)=-3, f^{\prime \prime}(1)=1, f^{\prime \prime}(3)=-3$
 - Therefore $M_2=3$
 
-Error bound: 
+**Error bound (in formulary)** 
+$$
+|R(f)| \leq \frac{(b-a)^3}{12} M_2
+$$
 
 $$
 |R(f)| \leq \frac{(3-(-1))^3}{12} \cdot 3=\frac{64}{12} \cdot 3=16
@@ -49,33 +52,30 @@ From Taylor expansion:
 $$
 f(x+h) = f(x) + hf'(x) + \frac{h^2}{2}f''(x) + O(h^3)
 $$
-
-Therefore: 
+Rearranging, we have 
 $$
-\frac{f(x+h) - f(x)}{h} = f'(x) + \frac{h}{2}f''(x) + O(h^2)
+\frac{f(x+h) - f(x)}{h} = f'(x) + \overbrace{\frac{h}{2}f''(x) + O(h^2)}^{O(h)}
 $$
 
 This shows the forward difference quotient has **convergence order** **1**.
-
 **Applying Romberg extrapolation**
 Let $Q(h) = \frac{f(x+h) - f(x)}{h}$ and $\frac{f^{\prime \prime}(x)}{2} = c$
 
 Then we have 
-
 $$
-Q(h) = f'(x) + ch + O(h^2)
+A(h) = f'(x) + ch + O(h^2)
 $$
-
-
-- $Q(h) = f'(x) + ch + O(h^2)$
-- $Q(h/2) = f'(x) + c\frac{h}{2} + O(h^2)$
+- $A(h) = f'(x) + ch + O(h^2)$
+- $A(h/2) = f'(x) + c\frac{h}{2} + O(h^2)$
 
 Using Romberg's formula with $q = 1$: 
 $$
-Q_{new} = \frac{2Q(h/2) - Q(h)}{2-1} = 2Q(h/2) - Q(h)
+A_{new} = \frac{2A(h/2) - A(h)}{2-1} = 2A(h/2) - A(h)= f'(x)+O(h^2)
 $$
 
-Substituting: 
+ **Convergence order 2**.
+
+Substituting to get the calculation formula: 
 
 $$
 Q_{new} = 2 \cdot \frac{f(x+h/2) - f(x)}{h/2} - \frac{f(x+h) - f(x)}{h}
@@ -85,9 +85,12 @@ $$
 $$
 = \frac{-3f(x) + 4f(x+h/2) - f(x+h)}{h}
 $$
+##### **Common Mistakes**
+***Why do we consider the full Taylor Polynomial?***
+Because is acts as the Blueprint for the error. Note that in Romberg extrapolation is  basically a clever trick to cancel out the errors.  
+***Why expand up to $f''$ and not directly use the $O(h)$ notation?***
+Same answer as above: We need the term so that we can cancel it out! 
 
-
-This is a one-sided difference quotient with **convergence order 2**.
 
 #### Part (b) - Numerical Approximations
 
@@ -173,7 +176,7 @@ $$
 
 
 **Explanation**: Newton's method approximates $f$ by its tangent line at each iteration and finds where the tangent intersects the $x-$axis.
-
+![[../Files/Figure_1.png|center|600]]
 Sketch should show parabola $f(x) = \frac{1}{4}x^2$, starting point $(4,4)$, tangent line at $x=4$ intersecting $x-$axis at $x=2$, then tangent at $x=2$ intersecting at $x=1$
 #### Part c) Connection to Banach iteration and convergence order (2 points)
 
