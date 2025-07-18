@@ -1,10 +1,9 @@
 ---
-title: Normal Distribution and Lognormal Distribution
+title: Normal or Gaussian Distribution
 draft: false
 date: 2024-03-05
 ---
-
-## Normal Distribution or Gaussian Distribution
+## Normal or Gaussian Distribution
 
 It is a probability distribution that is symmetric about the mean. i.e, the probability of the mean is the highest and then reduces as the outcome strays away from the mean. 
 

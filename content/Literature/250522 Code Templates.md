@@ -4,8 +4,7 @@ draft: true
 tags: 
 date: 2025-05-22
 ---
-## Cheatsheet 
-
+[[250716 Code Template - String formatting|Code Template - String formatting]]
 ### 1. **File Reading Template**
 
 ```python
@@ -26,6 +25,8 @@ ax.plot(v, w, '-', label='Label2') # if plotting 2 datasets
 ax.set_xlabel('X Label')
 ax.set_ylabel('Y Label') 
 ax.legend() #ax.legend(loc='upper left')
+ax.grid(True) 
+
 plt.tight_layout()
 plt.show()
 plt.savefig('name.png')
@@ -113,8 +114,18 @@ def system(t, y, params):
     # y = [y1, y2, ...]
     dydt = [eq1, eq2, ...]
     return dydt
-sol = solve_ivp(system, [t0, tf], y0, args=(params,), 
-                method='RK45', dense_output=True)
+sol = solve_ivp(system, [t0, tf], y0, args=(params,),method='RK45', dense_output=True)
+# t_eval = np.linspace(0, 0.3, 1000) if you want to specify steps
+# y0 = [] has to be an array
+
+for a in growth_rates: # growth rate is array
+	sol_g = solve_ivp(system, [0, 100], y0, args=(a),method='RK45', dense_output=True)
+
+# find first order differnce
+np.diff(array, n=1)
+# example
+dH = np.diff(sol_c.y[0], 1)  # h
+
 ```
 
 ### 5. **Basic OOP Template**
@@ -133,3 +144,27 @@ class MyClass:
         self._protected = value
 ```
 
+### 6. **Array Generation**
+```python
+# Linear spacing between start and stop
+np.linspace(start, stop, num_points)
+# With endpoint control
+np.linspace(0, 10, 100, endpoint=False)  # Excludes endpoint
+
+# Logarithmic spacing (powers of 10)
+np.logspace(start_exp, stop_exp, num_points)
+np.logspace(1, 3, 100)         # 100 points from 10¹ to 10³
+
+# Custom base logarithmic spacing
+np.logspace(1, 4, 100, base=2)  # Powers of 2 from 2¹ to 2⁴
+
+
+# Step-based arrays
+np.arange(start, stop, step)
+np.arange(0, 10, 0.1)          # 0 to 10 in steps of 0.1
+np.arange(10)                  # 0 to 9 (integers)
+np.arange(1, 11)               # 1 to 10
+
+# For floating point, better to use:
+np.linspace(0, 10, 101)        # More predictable than arange
+```

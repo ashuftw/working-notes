@@ -20,4 +20,4 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/230417 Numerical Methods for Differential Equations|Numerical Methods for Differential Equations]]
 - [[Literature/Intro to Machine Learning|Machine Learning]]
 - [[Literature/SS24 Pattern Recognition|Pattern Recognition]]
-- [[SS24 Uncertainty Analysis|Uncertainty Analysis]]
+- [[Literature/Uncertainty Analysis|Uncertainty Analysis]]

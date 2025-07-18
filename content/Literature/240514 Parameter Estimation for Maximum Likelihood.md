@@ -11,11 +11,11 @@ In pattern recognition, we need parameter estimation to **train classifiers** by
 
 ### Maximum Likelihood (ML) Parameter Estimation
 
-The maximum likelihood estimate finds parameters $\boldsymbol{\theta}$ that maximize the likelihood of observing the training data:
+The maximum likelihood estimate finds parameters $w$ that maximize the likelihood of observing the training data:
 
 
 $$
-\hat{\boldsymbol{\theta}}_{ML} = \arg\max_{\boldsymbol{\theta}} L(\boldsymbol{\theta}) = \arg\max_{\boldsymbol{\theta}} \prod_{n=1}^{N} p(\mathbf{x}_n|\boldsymbol{\theta})
+\hat{\boldsymbol{w}}_{ML} = \arg\max_{\boldsymbol{w}} L(\boldsymbol{w}) = \arg\max_{\boldsymbol{w}} \prod_{n=1}^{N} p(\mathbf{x}_n|\boldsymbol{w})
 $$
 
 
@@ -23,7 +23,7 @@ In practice, we maximize the **log-likelihood**:
 
 
 $$
-\hat{\boldsymbol{\theta}}_{ML} = \arg\max_{\boldsymbol{\theta}} \sum_{n=1}^{N} \log p(\mathbf{x}_n|\boldsymbol{\theta})
+\hat{\boldsymbol{w}}_{ML} = \arg\max_{\boldsymbol{w}} \sum_{n=1}^{N} \log p(\mathbf{x}_n|\boldsymbol{w})
 $$
 
 

@@ -82,10 +82,10 @@ fi
     - **Example**:
         ```bash
         COUNT=1
-        while [ ${COUNT} -le 3 ];
+        while [ ${COUNT} -le 3 ]; // [conditional statement]
         do
             echo "Count is ${COUNT}"
-            ((COUNT++))
+            ((COUNT++))           // ((arithmetic operation))
         done
         ```
 ---

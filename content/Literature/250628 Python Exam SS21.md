@@ -13,22 +13,16 @@ Given are some measurement data from a characteristic curve determination of a m
 1. Load the given measurement values into 2 numpy arrays and plot force versus displacement with matplotlib using green crosses.
     
 2. The displayed measurement values can be approximated with the following function:
-    
-    
-$$
-f(x, a, b) = \frac{x}{a} \cdot \left|\tanh\left(\frac{x}{b}\right)\right|
-$$
-
-    
-    Define this formula as a Python function. Determine optimal values for the parameters $a$ and $b$ using scipy. Display the optimal solution in the figure from task 1 with a dash-dot line. Create an appropriate legend in the bottom right of the image to distinguish between both data series. Save the optimal parameters using Python in a text file.
+	$$
+	f(x, a, b) = \frac{x}{a} \cdot \left|\tanh\left(\frac{x}{b}\right)\right|
+	$$
+	Define this formula as a Python function. Determine optimal values for the parameters $a$ and $b$ using scipy. Display the optimal solution in the figure from task 1 with a dash-dot line. Create an appropriate legend in the bottom right of the image to distinguish between both data series. Save the optimal parameters using Python in a text file.
     
 3. Create a text box using the `matplotlib.pyplot.text` command that shows the optimal parameters. Both parameters should be displayed as floating-point numbers with one decimal place. The text box should be displayed in the top left of the image. The result should look like this, where instead of "xyz" the parameters should be displayed:
-    
     ```
     a=xyz
     b=xyz
     ```
-    
 
 ---
 

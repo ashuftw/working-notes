@@ -9,7 +9,7 @@ tags:
 - [[240221 Sample Space, Event and Outcome|Sample Space vs Event]]
 - [[230424 Random Variable|Random Variable]]
 - [[230505 Expected Value|Expected Value]]
-- [[240305 Normal Distribution and Lognormal Distribution|Normal Distribution and Lognormal Distribution]]
+- [[240305 Normal or Gaussian Distribution|Normal Distribution and Lognormal Distribution]]
 - [[230424 Probability Density Function (PDF)|Probability Density Function (PDF)]]
 - [[230424 Cumulative Distribution Function (CDF)|Cumulative Distribution Function (CDF)]]
 - [[230509 Moment of a Random Variable|Moment of a Random Variable]]
@@ -17,6 +17,9 @@ tags:
 - [[230516 Covariance|Covariance]]
 - [[231117 Correlation|Correlation]]
 - [[250704 Variance of a Uniform Distribution|Variance of a Uniform Distribution]]
+- [[240214 Quick way to find Eigenvalues|Quick way to find Eigenvalues]]
+- [[240214 Quick way to find Eigenvectors|Quick way to find Eigenvectors]]
+- [[250715 Shortcuts for finding Eigenvalues & Eigenvectors|Shortcuts for finding Eigenvalues & Eigenvectors]]
 
 ## Karhunen-Loève Expansion
 

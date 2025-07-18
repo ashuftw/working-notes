@@ -4,7 +4,6 @@ draft: true
 tags: 
 date: 2025-06-28
 ---
-
 ## Task 1: Solving Equations and Plotting (15 Points)
 
 The relative density (rd) of Gyroid structures can be approximately determined using the following relationship:

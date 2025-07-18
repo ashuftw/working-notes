@@ -16,7 +16,6 @@ tags:
 - [[240418 Empirical Error (Parameter Optimization)|Empirical Error (Parameter Optimization)]]
 - [[240418 Regularization|Regularization]]
 - [[240423 Perceptron in Mathematical Notation|Perceptron in Mathematical Notation]]
-
 ### 3. Probabilitstic Modelling 
 - [[240527 Aleatoric vs Epistemic Uncertainty|Aleatoric vs Epistemic Uncertainty]]
 - [[240527 Using Likelihood to Model Probability|Using Likelihood to Model Probability]]
@@ -24,7 +23,6 @@ tags:
 - [[240611 MAP estimation for a Gaussian distributed data model using regularization|MAP estimation for a Gaussian distributed data model using regularization]]
 - [[250605 MAP = Regularized Least Squares|MAP = Regularized Least Squares]]
 - [[250605 Predictive vs Bayesian Predictive Distribution|Predictive vs Bayesian Predictive Distribution]]
-
 ### 4. Incremental Bayesian Learning
 - [[240618 Incremental Bayesian Learning|Incremental Bayesian Learning]]
 ### 5. Error Minimization
@@ -34,7 +32,6 @@ tags:
 - [[250605 Bias-Variance decomposition|Bias-Variance decomposition]]
 - [[240710 Bias vs Variance|Bias vs Variance]]
 - [[240710 Double Descent|Double Descent]]
-
 ### 6. Models
 - [[250701 General Model Classes|General Model Classes]]
 - [[250317 Linear Learning Models|Linear Learning Models]]
@@ -49,8 +46,27 @@ tags:
 - [[250711 Hyper planes|Hyper planes]]
 - [[250710 One of K Encoding Scheme|One of K Encoding Scheme]]
 - [[250711 Bayesian Approach to 2 Class Classification|Bayesian Approach to 2 Class Classification]]
+- [[250714 Decomposition of the Bayesian Approach to the Generalized Linear Model|Decomposition of the Bayesian Approach to the Generalized Linear Model]]
+- [[250714 Outcomes of Gaussian Modeling|Outcomes of Gaussian Modeling]]
+- [[250714 Direct Maximum Likelihood Approach|Direct Maximum Likelihood Approach]]
+- Direct Posterior Modeling
+	- [[250714 Logistic Regression (Probabilistic Discriminative Model)|Logistic Regression (Probabilistic Discriminative Model)]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
-	- [[Direct Posterior Modeling]]
+
+#####  Core Concepts
+- [[240711 Linearly Separable Datasets|Linearly Separable Datasets]]
+- [[250711 Hyper planes|Hyperplanes]] 
+- [[250710 One of K Encoding Scheme|One-of-K Encoding Scheme]]
+##### Three Main Approaches to Classification
+- **Approach 1: Discriminant Functions (Direct Mapping)**
+    - **Example**: [[240711 Fisher's Linear Discriminant Function|Fisher's Linear Discriminant (LDF)]] 
+- **Approach 2: Bayesian Approach**
+    - [[250711 Bayesian Approach to 2 Class Classification|Bayesian Approach to 2-Class Classification]]
+    - [[250714 Outcomes of Gaussian Modeling|Outcomes of Modeling with Gaussians]]
+    - [[250714 Direct Maximum Likelihood Approach|Direct Maximum Likelihood Approach]]
+- **Approach 3: Direct Posterior Modeling**
+    - [[250714 Logistic Regression (Probabilistic Discriminative Model)|Probabilistic Discriminative Models]]
+    - **Example**: Logistic Regression, which is a type of [[250714 Decomposition of the Bayesian Approach to the Generalized Linear Model|Generalized Linear Model]]. 
 ### 8. Concept Learning
 - [[250317 Validity of Fundamental Equivalence between Induction and Deduction|Validity of Fundamental Equivalence between Induction and Deduction]]
