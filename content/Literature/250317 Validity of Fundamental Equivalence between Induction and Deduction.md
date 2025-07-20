@@ -6,7 +6,7 @@ date: 2025-03-17
 ---
 The fundamental equivalence between deduction and induction states that an inductive learning system's output can be reproduced by a deductive system if we make the inductive bias explicit.
 
-Formally, if L is a learning algorithm and B is its inductive bias, then for any new instance x':
+Formally, if $L$ is a learning algorithm and $B$ is its inductive bias, then for any new instance $x'$:
 
 
 $$
@@ -14,7 +14,7 @@ $$
 $$
 
 
-This means the classification produced by learning algorithm L on new data x' after training on dataset D is equivalent to what would be logically deduced from the conjunction of the training data D, the inductive bias B, and the new instance x'.
+This means the classification produced by learning algorithm $L$ on new data $x'$ after training on dataset $D$ is equivalent to what would be logically deduced from the conjunction of the training data $D$, the inductive bias $B$, and the new instance $x'$.
 
 Where:
 - $L$ is a learning algorithm

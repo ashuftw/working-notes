@@ -1,4 +1,9 @@
-## Differential Equations (ALWAYS 20 points)
+---
+title: Code Template - Differential Equations
+draft: true
+tags: 
+date: 2025-07-20
+---
 
 ### Basic ODE Setup
 
