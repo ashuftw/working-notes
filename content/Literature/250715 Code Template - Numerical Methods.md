@@ -1,4 +1,9 @@
-## 4️⃣ Numerical Methods (OCCASIONAL 10-15 points)
+---
+title: Code Template - Numerical Methods
+draft: true
+tags: 
+date: 2025-07-15
+---
 
 ### Root Finding
 

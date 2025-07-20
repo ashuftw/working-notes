@@ -1,5 +1,5 @@
 ---
-title: Induction in Machine Learning
+title: Inductive Learning Hypothesis
 draft: false
 tags: 
 date: 2025-03-17
@@ -9,7 +9,7 @@ date: 2025-03-17
 
 Any hypothesis that can approximate the target function well over a sufficiently large set of training examples can also approximate the target function well over other unobserved examples.
 
-## **Learning Bias** (or Inductive Bias)
+## Learning Bias (or Inductive Bias)
 
 This refers to the set of assumptions a learning algorithm makes to predict outputs for new inputs i.e it is "a set of arbitrary assumptions" that enable the learner to generalize.
 Two main types of bias

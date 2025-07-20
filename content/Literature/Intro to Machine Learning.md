@@ -5,7 +5,7 @@ tags:
 ---
 ### 1. Introduction:
 - [[230418 Deduction, Abduction & Induction|Deduction, Abduction & Induction]]
-- [[250317 Induction in Machine Learning|Induction in Machine Learning]]
+- [[250317 Inductive Learning Hypothesis|Inductive Learning Hypothesis]]
 - [[230418 Probability formulae|Probability Formulae]]
 - [[240415 Types of Machine Learning|Types of Machine Learning]]
 - [[250317 Model Selection vs Parameter Optimization|Model Selection vs Parameter Optimization]]

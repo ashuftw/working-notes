@@ -1,6 +1,6 @@
 ---
 title: Code Template - String formatting
-draft: true
+draft: false
 tags: 
 date: 2025-07-16
 ---
@@ -11,7 +11,9 @@ name = "Alice"
 age = 25
 value = 3.14159
 
+# Insert variables 
 f"Hello {name}, you are {age} years old"
+# Format the variables 
 f"Pi is approximately {value:.2f}"
 f"Percentage: {0.85:.1%}"
 f"Scientific: {1234:.2e}"
