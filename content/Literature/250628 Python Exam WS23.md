@@ -14,7 +14,7 @@ rd = 3x - 4(x)^3 \text{ with } x = t/l
 $$
 
 
-Where t is the wall thickness in mm and l is the length of a unit cell in mm. For the preliminary design of such a structure, you want to calculate the wall thickness t as a function of the unit cell length l for a specific relative density rd.
+Where $t$ is the wall thickness in $mm$ and $l$ is the length of a unit cell in $mm$. For the preliminary design of such a structure, you want to calculate the wall thickness $t$ as a function of the unit cell length $l$ for a specific relative density $rd$.
 
 a) First, rearrange the equation so that the left side equals zero and write a function `tl_ratio(x)` that returns the ratio of wall thickness to unit cell length $x$ for a specific relative density.
 

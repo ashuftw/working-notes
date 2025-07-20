@@ -28,15 +28,15 @@ where $d_n$ is the weight at a point $n$
 
 $$
 \boxed{
-w* = (X^T D X)^{-1}X^T D T
+w* = (\Phi^T D \Phi)^{-1}\Phi^T D T
 }
 $$
 
 where:
-- $X$ = design matrix (data points)
-- $T$ = target values
-- $D$ = weight matrix 
 $$
 D=\left(\begin{array}{ccc} d_1 & \ldots & \\ \vdots & \ddots & \vdots \\ & \ldots & d_n \end{array}\right)
 $$
+- $D$ = weight matrix 
+- $X$ = design matrix (data points)
+- $T$ = target values
 

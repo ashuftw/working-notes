@@ -4,7 +4,7 @@ draft: false
 tags: 
 date: 2025-07-17
 ---
-### **Card 1: What is an HPC System?**
+****### **Card 1: What is an HPC System?**
 
 **Front:** What is the fundamental purpose and design of a High-Performance Computing (HPC) system?
 
@@ -21,7 +21,7 @@ date: 2025-07-17
 
 **Front:** How are HPC systems categorized, and what do the categories mean?
 
-**Back:** HPC systems are categorized into **Tiers** bases system's computing capacity and scale:
+**Back:** HPC systems are categorized into **Tiers** bases system's **computing capacity** and **scale**:
 
 - **Tier 0 (European):** The most powerful systems in Europe, for highly complex international projects (e.g., JUWELS in Jülich).
 - **Tier 1 (National):** Major national supercomputing centers.

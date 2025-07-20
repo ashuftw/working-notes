@@ -1,4 +1,4 @@
-## 2️⃣ Differential Equations (ALWAYS 20 points)
+## Differential Equations (ALWAYS 20 points)
 
 ### Basic ODE Setup
 

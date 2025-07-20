@@ -89,9 +89,7 @@ Stenosis at periphery $0.05<\delta_p<0.3$
 	  Unhealthy:
 			0.05<$\theta$<0.15 (yield stress is 5 times in diseased state[^5])
 
----
 
-# References
 
 [^1]: Bugliarello, G, Sevilla, 1., 1970, "Velocity Distribution and Other Characteristics of Steady and Pulsatile Blood Flow in Fine Glass Tubes," Biorheology, Vol.7, pp. 85~ 107
 [^2]: N., 1978, "Influence of Plasma Layer on Steady Blood Flow in Micro Vessels," Japanese Journal ofAppliedPhysics, Vol. 17, pp. 203~ 214. 

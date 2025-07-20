@@ -5,6 +5,8 @@ tags:
 date: 2025-05-22
 ---
 [[250716 Code Template - String formatting|Code Template - String formatting]]
+[[250719 Periodic Input in Python|Periodic Input in Python]]
+[[250719 Code Template for Solving ODEs in Python|Code Template for Solving ODEs in Python]]
 ### 1. **File Reading Template**
 
 ```python
@@ -106,27 +108,7 @@ def model(x, a, b):
 params, _ = curve_fit(model, xdata, ydata, p0=[1, 1])
 ```
 
-### 4. **ODE Solving Template**
 
-```python
-from scipy.integrate import solve_ivp
-def system(t, y, params):
-    # y = [y1, y2, ...]
-    dydt = [eq1, eq2, ...]
-    return dydt
-sol = solve_ivp(system, [t0, tf], y0, args=(params,),method='RK45', dense_output=True)
-# t_eval = np.linspace(0, 0.3, 1000) if you want to specify steps
-# y0 = [] has to be an array
-
-for a in growth_rates: # growth rate is array
-	sol_g = solve_ivp(system, [0, 100], y0, args=(a),method='RK45', dense_output=True)
-
-# find first order differnce
-np.diff(array, n=1)
-# example
-dH = np.diff(sol_c.y[0], 1)  # h
-
-```
 
 ### 5. **Basic OOP Template**
 

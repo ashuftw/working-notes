@@ -5,7 +5,7 @@ tags:
 date: 2025-07-14
 ---
 ## Condition 
-The [[250711 Bayesian Approach to 2 Class Classification|Bayesian Approach]] decomposes to the Generalized Linear Model when the [[240305 Normal or Gaussian Distribution|Gaussians]] that are modeling the class-conditional distributions, $p\left(x \mid C_k\right)$ share the same **covariance matrix** ($\Sigma$).
+The [[250711 Bayesian Approach  to Classification|Bayesian Approach]] decomposes to the Generalized Linear Model when the [[240305 Normal or Gaussian Distribution|Gaussians]] that are modeling the class-conditional distributions, $p\left(x \mid C_k\right)$ share the same **covariance matrix** ($\Sigma$).
 
 The formula for the posterior probability $p\left(C_1 \mid x\right)$ simplifies to the form of a [[250714 Sigmoid Function|sigmoid]] function applied to a linear equation:
 $$

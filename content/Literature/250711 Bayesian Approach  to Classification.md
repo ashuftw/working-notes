@@ -1,5 +1,5 @@
 ---
-title: Bayesian Approach to 2 Class Classification
+title: Bayesian Approach to Classification
 draft: false
 tags: 
 date: 2025-07-11

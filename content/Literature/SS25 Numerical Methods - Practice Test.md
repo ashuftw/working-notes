@@ -59,7 +59,7 @@ $$
 
 This shows the forward difference quotient has **convergence order** **1**.
 **Applying Romberg extrapolation**
-Let $Q(h) = \frac{f(x+h) - f(x)}{h}$ and $\frac{f^{\prime \prime}(x)}{2} = c$
+Let $A(h) = \frac{f(x+h) - f(x)}{h}$ and $\frac{f^{\prime \prime}(x)}{2} = c$
 
 Then we have 
 $$

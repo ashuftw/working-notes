@@ -4,6 +4,11 @@ draft: true
 tags: 
 date: 2025-05-22
 ---
+## Equations  
+- [[250718 ODE-to-Code Flashcards for Python solve_ivp|Solving ODEs in Python]]
+- [[250719 Optimization and Curve Fitting in Python]]
+
+## Resources 
 1. [[250522 Code Templates|Code Templates]]
 	- [[250715 Code Template - Option 2|Code Template - Option 2]]
 2. [[250522 Function Library|Function Library]]
@@ -15,17 +20,18 @@ date: 2025-05-22
 ## Past Exams 
 
 - [[250628 Python Exam WS24|Python Exam WS24]]
-	- [ ] Understand and abstract
 	- [x] ODE	
-	- [ ] Practice test 1 
+	- [ ] Task 1 - Graphing
 - [[250628 Python Exam WS23|Python Exam WS23]]
-	- [ ] ODE	
-- [[250628 Python Exam SS22|Python Exam SS22]]
-	- [ ] ODE	
+	- [x] ODE
+	- [x] Task 1 - Graphing
 - [[250628 Python Exam SS23|Python Exam SS23]]
-	- [ ] ODE	
+	- [x] ODE	
+	- [ ] 
+- [[250628 Python Exam SS22|Python Exam SS22]]
+	- [x] ODE	
 - [[250628 Python Exam WS21|Python Exam WS21]]
-	- [ ] ODE	
+	- [x] ODE	
 - [[250628 Python Exam SS21|Python Exam SS21]]
-	- [ ] ODE	
+	- [x] ODE	
 

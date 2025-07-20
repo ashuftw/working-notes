@@ -16,7 +16,7 @@ tags:
 - [[240418 Empirical Error (Parameter Optimization)|Empirical Error (Parameter Optimization)]]
 - [[240418 Regularization|Regularization]]
 - [[240423 Perceptron in Mathematical Notation|Perceptron in Mathematical Notation]]
-### 3. Probabilitstic Modelling 
+### 3. Probabilistic Modelling 
 - [[240527 Aleatoric vs Epistemic Uncertainty|Aleatoric vs Epistemic Uncertainty]]
 - [[240527 Using Likelihood to Model Probability|Using Likelihood to Model Probability]]
 - [[240611 Bayesian Inference|Bayesian Inference]]
@@ -45,7 +45,7 @@ tags:
 - [[240711 Linearly Separable Datasets|Linearly Separable Datasets]]
 - [[250711 Hyper planes|Hyper planes]]
 - [[250710 One of K Encoding Scheme|One of K Encoding Scheme]]
-- [[250711 Bayesian Approach to 2 Class Classification|Bayesian Approach to 2 Class Classification]]
+- [[250711 Bayesian Approach  to Classification|Bayesian Approach to 2 Class Classification]]
 - [[250714 Decomposition of the Bayesian Approach to the Generalized Linear Model|Decomposition of the Bayesian Approach to the Generalized Linear Model]]
 - [[250714 Outcomes of Gaussian Modeling|Outcomes of Gaussian Modeling]]
 - [[250714 Direct Maximum Likelihood Approach|Direct Maximum Likelihood Approach]]
@@ -62,7 +62,7 @@ tags:
 - **Approach 1: Discriminant Functions (Direct Mapping)**
     - **Example**: [[240711 Fisher's Linear Discriminant Function|Fisher's Linear Discriminant (LDF)]] 
 - **Approach 2: Bayesian Approach**
-    - [[250711 Bayesian Approach to 2 Class Classification|Bayesian Approach to 2-Class Classification]]
+    - [[250719 Bayesian Approach for Two Classes|Bayesian Approach for Two Classes]]
     - [[250714 Outcomes of Gaussian Modeling|Outcomes of Modeling with Gaussians]]
     - [[250714 Direct Maximum Likelihood Approach|Direct Maximum Likelihood Approach]]
 - **Approach 3: Direct Posterior Modeling**

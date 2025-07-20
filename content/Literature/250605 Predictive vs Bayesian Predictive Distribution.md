@@ -4,8 +4,9 @@ draft: false
 tags: 
 date: 2025-06-05
 ---
-![[../Files/Pasted image 20250704113926.png|800]]
-### **Bayesian Predictive Distribution**
+![[../Files/Pasted image 20250704113926.png|center|650]]
+## Mathematical Definition for a single prediction $t$
+### 1. **Bayesian Predictive Distribution**
 The Bayesian approach[^1](left plot) shows **wider uncertainty bands** because it accounts for parameter uncertainty on top of data noise. The uncertainty also **varies spatially** - being larger where there's less data.
 
 $$
@@ -15,7 +16,8 @@ $$
 - **Data-dependent mean:** $m(x)$
 - **Input-dependent variance:** $s^2(x)$
 
-### **Predictive Distribution** (Maximum Likelihood)
+**Note:** The weight $w$ is not explicitly included in the parameters on the LHS $(p(t∣x,\mathbf X,\mathbf T))$ of the Bayesian predictive distribution because it has been **integrated out**.
+### 2. **Predictive Distribution** (Maximum Likelihood)
 The Predictive Distribution uses a single "best" set of parameters found in the data. 
 
 $$
@@ -25,7 +27,7 @@ $$
 - **Fixed mean:** $y(x, w_{ML})$
 - **Fixed variance:** $\beta_{ML}^{-1}$ (constant for all inputs)
 
-## Key Difference Summary
+## Summary of key differences
 
 **Predictive Distribution (Maximum Likelihood):**
 
