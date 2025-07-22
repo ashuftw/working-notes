@@ -1,7 +1,8 @@
 ---
 title: Uncertainty Analysis
 draft: false
-tags:
+tags: 
+date: 2023-04-23
 ---
 
 ## Probability Theory
@@ -12,6 +13,7 @@ tags:
 - [[240305 Normal or Gaussian Distribution|Normal Distribution and Lognormal Distribution]]
 - [[230424 Probability Density Function (PDF)|Probability Density Function (PDF)]]
 - [[230424 Cumulative Distribution Function (CDF)|Cumulative Distribution Function (CDF)]]
+- [[250722 Relationship between CDF and PDF|Relationship between CDF and PDF]]
 - [[230509 Moment of a Random Variable|Moment of a Random Variable]]
 - [[230424 Moment Generation Function|Moment Generation Function]]
 - [[230516 Covariance|Covariance]]

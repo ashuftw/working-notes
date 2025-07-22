@@ -5,7 +5,7 @@ tags:
 date: 2025-07-09
 ---
 ## Definition
-It is [[230417 Numerical Methods for Differential Equations|Numerical Method]] used to find the approximate solution of an [[221106 Ordinary Differential Equations]]
+It is [[230417 Numerical Methods for Differential Equations|Numerical Method]] used to find the approximate solution of an [[221106 Ordinary Differential Equations|Ordinary Differential Equation]]
 an explicit predictor-corrector method that combines Euler's method (**Predictor**) with the trapezoidal rule (**Corrector**) to achieve higher accuracy.
 
 **Formula**

@@ -18,6 +18,7 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/221106 Ordinary Differential Equations|Ordinary Differential Equations]]
 - [[Literature/221110 Partial Differential Equations|Partial Differential Equations]]
 - [[Literature/230417 Numerical Methods for Differential Equations|Numerical Methods for Differential Equations]]
+- [[Literature/250522 Simulation of Technical Systems with Python|Simulation of Technical Systems with Python]]
 - [[Literature/Intro to Machine Learning|Machine Learning]]
 - [[Literature/SS24 Pattern Recognition|Pattern Recognition]]
-- [[Literature/Uncertainty Analysis|Uncertainty Analysis]]
+- [[Literature/230423 Uncertainty Analysis|Uncertainty Analysis]]

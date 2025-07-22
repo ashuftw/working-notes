@@ -61,6 +61,14 @@ for param in parameter_list:
     except IndexError:
         # If the threshold is never reached, append NaN (Not a Number)
         times_to_threshold.append(np.nan)
+
+# --- Parametric loop to use only certain timesteps ---
+for freq in frequencies:
+    sol_freq = solve_ivp(system, [0, 0.3], y0, args=(U, R, C, L, freq), method='RK45', dense_output=True)  # Fixed: use freq not f
+    
+    last_01s_mask = sol_freq.t >= 0.2
+    current_last_01s = sol_freq.y[0][last_01s_mask]
+	
 ```
 ## Find Derivatives of State variables 
 ```python

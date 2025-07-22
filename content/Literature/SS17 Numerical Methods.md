@@ -6,7 +6,7 @@ date: 2025-05-21
 ---
 ## En
 ### Task 1 (5 points)
-Using Lagrange interpolation, determine a polynomial $p$ through the points $(x_i, f(x_i))$, $i = 0, 1, 2$ for $f(x) = x^3$ and $x_0 = -1$, $x_1 = 0$, and $x_2 = 1$. Estimate the interpolation error in the interval $[-1, 1]$ using the smallest possible constant.
+Using Lagrange interpolation, determine a polynomial $p$ through the points $(x_i, f(x_i))$, $i = 0, 1, 2$ for $f(x) = x^3$ and $x_0 = -1$, $x_1 = 0$, and $x_2 = 1$. Estimate the interpolation error in the interval $[-1, 1]$ using the **smallest possible constant.**
 
 #### Solution
 **Finding the Lagrange interpolation polynomial:**
@@ -61,7 +61,7 @@ $$
 $$
 
 **Find Maximum Error**
-![[../Files/Pasted image 20250613123920.png|center|400]]
+![[../Files/Pasted image 20250613123920.png|center|600]]
 To find the maximum, we first find critical points (location in the domain where slope is zero because that's where the candidates for max error lie)
 
 **Critical points**
@@ -87,7 +87,6 @@ $$
 ### Task 2 (5 points)
 
 Using Kepler's barrel rule, determine an approximation of $\int_0^{\pi} \sin x \, dx$ and estimate the quadrature error. Explain why the estimate approximates the actual error quite closely.
-I'll solve this step-by-step using Kepler's barrel rule (Simpson's rule).
 #### Solution
 **Step 1: Apply [[230507 Quadrature - Derivation and Formulae|Kepler's barrel rule]]**
 From the [[230507 Quadrature - Derivation and Formulae|formula]]: 
