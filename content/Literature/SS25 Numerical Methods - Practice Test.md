@@ -1,6 +1,6 @@
 ---
 title: Numerical Methods - Practice Test
-draft: true
+draft: false
 tags: 
 date: 2025-06-23
 ---
