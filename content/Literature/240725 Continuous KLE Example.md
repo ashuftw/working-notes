@@ -7,9 +7,11 @@ date: 2024-07-25
 In the following we assume that $a$ is a random process, i.e., $a: \Theta \times\left[a_1, b_1\right] \rightarrow$ $\mathbb{R}$ with the Karhunen-Loève expansion
 
 
+
 $$
 a(\theta, r)=\mu_a(r)+\sum_{i=1}^{\infty} \sqrt{\lambda_i} \varphi_i(r) \xi_i(\theta)
 $$
+
 
 
 where $\lambda_i, \varphi_i$ refer to the eigenvalues and eigenfunctions that satisfy the equation $\int_{a_1}^{b_1} \operatorname{cov}_a\left(r, r^{\prime}\right) \varphi_i(r) d r=\lambda_i \varphi_i\left(r^{\prime}\right)$, with $\operatorname{cov}_a$ being the covariance function of $a$. For the eigenfunctions, the orthogonality relation $\int_{a_1}^{b_1} \varphi_i(r) \varphi_j(r) \mathrm{d} r=\delta_{i j}$ holds.

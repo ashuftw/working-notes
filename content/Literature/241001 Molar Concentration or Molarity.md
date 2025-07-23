@@ -9,9 +9,11 @@ date: 2024-10-01
 It is the number of moles of solute per unit volume of solution. 
 
 
+
 $$
 {\displaystyle c={\frac {n}{V}}}
 $$
+
 
 
 where, 

@@ -18,12 +18,15 @@ date: 2025-05-27
 Along $x-$direction
 
 
+
 $$
 D = \underbrace{n_x\cdot d }_\text{Opening}+ \underbrace{(n_x + 1)t}_\text{Monolith} = n_x(d + t) + t
 $$
 
 
+
 Therefore: 
+
 
 
 $$
@@ -31,9 +34,11 @@ n_x = \frac{D - t}{d + t} \approx \frac{D}{d +t}
 $$
 
 
+
 ## Cell Count for Different Honeycomb Types
 
 - **Square Honeycomb**
+
 
 
 $$
@@ -41,7 +46,9 @@ N_\text{square} =n_s^2
 $$
 
 
+
 - **Circular honeycomb**
+
 
 
 $$
@@ -49,10 +56,13 @@ $$
 $$
 
 
+
 Therefore: 
+
 $$
 N_\text{circle} = \frac{N_s^2}{4/\pi} = \frac{\pi}{4} \frac{D^2}{(d + t)^2}
 $$
+
 
 
 ## Adsorbent Surface Area
@@ -60,9 +70,11 @@ $$
 ![[../Files/Pasted image 20250527135810.png|center|400]]
 
 
+
 $$
 S_a = 4 \times N_c \times d \times L
 $$
+
 
 
 Where:

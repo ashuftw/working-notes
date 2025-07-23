@@ -36,17 +36,25 @@ Perform one step of the Euler-Heun method to solve the initial value problem $y'
 ### Task 7 (5 points)
 
 Apply one step of the Crank-Nicolson method with $h = 1$ to the initial value problem
-$$\mathbf{q}' = \begin{pmatrix} 0 & 1 \\ -1 & -2 \end{pmatrix} \mathbf{q} + \begin{pmatrix} 0 \\ 2 \end{pmatrix}$$ with $\mathbf{q}(0) = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
+
+$$
+\mathbf{q}' = \begin{pmatrix} 0 & 1 \\ -1 & -2 \end{pmatrix} \mathbf{q} + \begin{pmatrix} 0 \\ 2 \end{pmatrix}
+$$
+ with $\mathbf{q}(0) = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 
 ### Task 8 (5 points)
 
 Write down the method that corresponds to the Butcher scheme
-$$\begin{array}{c|cc}
+
+$$
+\begin{array}{c|cc}
 0 & \alpha & -\alpha \\
 1 & \alpha & \alpha \\
 \hline
 & \alpha & \alpha
-\end{array}$$
+\end{array}
+$$
+
 with $\alpha = \frac{1}{2}$. Determine the step function $\rho(\mu)$ for this method.
 
 ### Task 9 (Additional, 3 points)

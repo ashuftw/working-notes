@@ -21,9 +21,11 @@ The position of the Hyper Plane however is not known. We can find it using the f
 
 ## Fisher Criterion
 To find the Optimum classification, we maximize the Fisher Criterion. For class mean $m$ and projected line $\mathbf w$:
+
 $$
 w* = \arg\max_{\boldsymbol{w}} J(w)=\frac{\left(m_2^{\prime}-m_1^{\prime}\right)^2}{s_1^2+s_2^2} =\frac{\left(\mathbf w^T m_2-\mathbf w^T m_1\right)^2}{s_1^2+s_2^2}
 $$
+
 We do this because it: 
 - **Maximizes Inter-Class Variance:** The numerator, $\left(m_2^{\prime}-m_1^{\prime}\right)^2$, represents the squared distance **between the means of the projected classes**. Maximizing this term pushes the centers of the different classes as far apart as possible.
 - **Minimizes Intra-Class Variance:** The denominator, $s_1^2+s_2^2$, represents the sum of the variances **within each projected class**. By minimizing this term, the criterion ensures that the data points within each class are tightly clustered around their respective centers.

@@ -7,9 +7,11 @@ date: 2022-10-20
 ![[../Files/Pasted image 20221021220509.png|center]]
 
 
+
 $$
 y=A\cos \left(\frac{2\pi}{\lambda}x\pm\frac{2\pi}{T}t+\phi\right)
 $$
+
 
 
 ## Wave Equation Formulation
@@ -21,12 +23,15 @@ The amplitude is maximum at $(x = 0)$, implying the function is cosine.
 Initial form:
 
 
+
 $$
 y = A \cos \theta
 $$
 
 
+
 The cosine resets at intervals of $2\pi$, i.e., $x = \lambda$ (wavelength):
+
 
 
 $$
@@ -34,9 +39,11 @@ y = A \cos \left(\frac{2\pi}{\lambda}x\right)
 $$
 
 
+
 ### 2. Function in Time
 
 The cosine resets at intervals of $2\pi$, i.e., $t= T$ (time period):
+
 
 
 $$
@@ -44,14 +51,17 @@ y = A \cos \left(\frac{2\pi}{\lambda}x \pm \frac{2\pi}{T}t\right)
 $$
 
 
+
 > **Note:** The temporal part gets a $\pm$ because the wave could be moving forward or backward.
 
 ## 3. Final Equation
 
 
+
 $$
 \boxed{y = A \cos \left(\frac{2\pi}{\lambda}x \pm \frac{2\pi}{T}t + \phi\right)}
 $$
+
 
 
 Where:

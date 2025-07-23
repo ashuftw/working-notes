@@ -11,9 +11,11 @@ It is a statistical measure that quantifies how linear the relationship between 
 ## Coefficient of Correlation
 
 
+
 $$
 \rho[X, Y]=\frac{\operatorname{cov}[X, Y]}{\sqrt{\mathbb{V}[X] \mathbb{V}[Y]}}
 $$
+
 
 
 Note: $\rho[X, Y] \in[-1,1]$

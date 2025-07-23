@@ -13,9 +13,11 @@ The Output nodes are assigned such that each node represents one particular clas
 ## Softmax (Normalized Exponential)
 
 
+
 $$
 y_i=\frac{e^{v_i}}{\sum_{j=1}^N e^{v_j}} \in[0,1]
 $$
+
 
 
 Where, 

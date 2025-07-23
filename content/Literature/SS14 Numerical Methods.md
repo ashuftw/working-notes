@@ -35,6 +35,7 @@ Using the two-stage BDF method with a step size of $h = 0.1$, calculate a numeri
 
 Is the method with the Butcher scheme
 
+
 $$
 \begin{array}{c|cc}
 & 0 & \frac{1}{2} & 0 \\
@@ -43,6 +44,7 @@ $$
 & & \frac{1}{2} & \frac{1}{2}
 \end{array}
 $$
+
 
 A-stable?
 
@@ -85,6 +87,7 @@ Berechnen Sie mittels des zweistufigen BDF-Verfahrens mit der Schrittweite $h = 
 Ist das Verfahren mit dem Butcher Schema 
 
 
+
 $$
 \begin{array}{c|cc}
  & 0 & \frac{1}{2} & 0 \\
@@ -93,6 +96,7 @@ $$
  & & \frac{1}{2} & \frac{1}{2}
 \end{array}
 $$
+
 
 A-stabil?
 

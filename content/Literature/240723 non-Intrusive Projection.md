@@ -19,17 +19,21 @@ date: 2024-07-23
 #### $\therefore$ gPC Coefficient is given by
 
 
+
 $$
 q_i=\frac{\mathbb{E}\left[\mathcal{M}(\xi) \Phi_i(\xi)\right]}{\mathbb{E}\left[\Phi_i(\xi)^2\right]}
 $$
 
 
+
 #### Projected gPC expansion 
+
 
 
 $$
 \mathcal Y \approx \widetilde{\mathcal{M}}(\xi)=\sum_{i=0}^n \frac{\mathbb{E}\left[\mathcal{M}(\xi) \Phi_i(\xi)\right]}{\mathbb{E}\left[\Phi_i(\xi)^2\right]} \Phi_i(\xi)
 $$
+
 
 
  where  $\textbf c^\textbf a$ is the projected point given by $\left[c^a=\frac{\left(a \cdot b_1\right)}{b_1 \cdot b_1} b_1+\frac{\left(a \cdot b_2\right)}{b_2 \cdot b_2} b_2\right]$

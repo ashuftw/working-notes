@@ -7,9 +7,11 @@ date: 2023-06-23
 ## Syntax
 
 
+
 $$
 \text{Verb in Partizip II +  Adjektivendung}
 $$
+
 
 
 ## Examples

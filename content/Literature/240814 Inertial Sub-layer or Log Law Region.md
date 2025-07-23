@@ -17,18 +17,22 @@ date: 2024-08-14
 **The Velocity Derivative**
 
 
+
 $$
 \frac{\partial u^{+}}{\partial y^{+}}=\frac{1}{y^{+}} \Phi\left(\frac{y}{\delta_v}\right) \quad \Longrightarrow \quad \frac{\partial u^{+}}{\partial y^{+}}=\frac{1}{y^{+}} \frac{1}{\kappa}
 $$
 
 
+
 With solution,  
+
 
 
 $$
 \boxed{
 u^{+}=\frac{1}{\kappa} \ln \left(y^{+}\right)+B}
 $$
+
 
 
 Known as the [[240814 Inertial Sub-layer or Log Law Region|Log law]] where, 

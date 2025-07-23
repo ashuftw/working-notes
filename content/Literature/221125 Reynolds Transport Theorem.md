@@ -11,13 +11,16 @@ In real world situation it is easier to easier to analyse a control volume (cont
 Say we have a Property $B$. The amount of $B$ in a control volume can be evaluated as follows
 
 
+
 $$
 B_{\text{CV}}=\int_{\text{CV}} \beta\ dm =\int_{\text{CV}} \beta\rho \ dV
 $$
 
 
+
 Where $\beta \rightarrow \frac{dB}{dm}$ 
 The **Reynolds Transport theorem** states that: 
+
 
 
 $$
@@ -29,13 +32,17 @@ $$
 
 
 
+
+
 $$
 \frac{d}{dt}
 (B_\text{sys})=\frac{d}{dt}\left(\int_{\text{cv}}\beta \rho \ dV \right)+\int_{\text{CS}}\beta \rho v \cos\theta  \ dA_{out}-\int_{\text{CS}}\beta \rho v \cos \theta \ dA_{in}
 $$
 
 
+
 Considering the Surface normal vector $\vec n$, above equation can be simplified to
+
 
 
 $$
@@ -48,9 +55,11 @@ $$
 $$
 
 
+
 ### Special Cases
 
 - **Steady Flow:**
+
 
 
 $$
@@ -58,8 +67,10 @@ $$
 $$
 
 
+
 - **Relative Velocity**
 Where $\vec v_r = \vec v - \vec v_s$ 
+
 
 
 $$
@@ -68,3 +79,4 @@ $$
 \frac{d}{dt}\left(\int_{\text{cv}}\beta \rho \ dV \right)+ 
 \int_{\text{CS}}\beta \rho (\vec v_r\cdot \vec n)  \ dA
 $$
+

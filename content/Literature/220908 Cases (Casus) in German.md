@@ -18,12 +18,15 @@ Example:
 - **Definite Case**
 
 
+
 $$
 \underbrace{\text{Der Mann}}_{\text{Subjekt}}\text{ gibt } \underbrace{\text{dem Hund}}_{\text{Indirektes Objekt}} \ \overbrace{\text{den Knochen.}}^{\text{Direktes Objekt}}
 $$
 
 
+
 - **Indefinite Case**
+
 
 
 $$
@@ -31,12 +34,15 @@ $$
 $$
 
 
+
 - **Genitiv**
+
 
 
 $$
 \text{Das ist }\underbrace{\text{das Haus }}_{\text{Nominative}} \overbrace{\text{meines Bruders.}}^\text{Genitiv}
 $$
+
 
 
 ---

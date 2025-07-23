@@ -6,9 +6,11 @@ date: 2022-04-18
 **Deborah Number**
 
 
+
 $$
 D=\dfrac{\text{time of relaxation}}{\text{time of observation}}
 $$
+
 
 
 High Deborah numbers, material behaves like a solid.

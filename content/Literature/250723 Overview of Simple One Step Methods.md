@@ -6,32 +6,43 @@ date: 2025-07-23
 ---
 ### Euler methods
 **Explicit**
+
 $$
 y_{i+1} = y_i + h_i f(t_i, y_i)
 $$
+
 **Implicit**
+
 $$
 y_{i+1} = y_i + h_i f(t_{i+1}, y_{i+1})
 $$
+
 ### Crank-Nicolson method
+
 
 $$
 y_{i+1} = y_i + \frac{h_i}{2}[f(t_i, y_i) + f(t_{i+1}, y_{i+1})]
 $$
 
+
 ### Euler-Heun Method
+
 
 $$
 y_{i+1} = y_i + \frac{h_i}{2}[f(t_i, y_i) + f(t_{i+1}, y_i + h_i f(t_i, y_i))]
 $$
 
+
 ### Improved Euler Method
+
 
 $$
 y_{i+1} = y_i + h_i f\left(t_i + \frac{h_i}{2}, y_i + \frac{h_i}{2}f(t_i, y_i)\right)
 $$
 
+
 ### Classical Runge-Kutta Method
+
 
 $$
 \begin{align*}

@@ -9,11 +9,13 @@ date: 2025-07-01
 It is the **closed-form solution** for optimal parameters in a linear model, obtained by minimizing the [[250604 Squared Error Function|Squared Error Function]].
 
 
+
 $$
 \boxed{
 w^* = (\Phi^T \Phi)^{-1} \Phi^T t
 }
 $$
+
 
 ## Components
 

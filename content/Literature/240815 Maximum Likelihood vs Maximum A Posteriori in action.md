@@ -17,9 +17,11 @@ date: 2024-08-15
 **Now let the red class be only $1 / 3$ as frequent as the blue class**
 
 
+
 $$
 \mathrm{P}(s=2)=\frac{1}{3} \cdot \mathrm{P}(s=1)
 $$
+
 
 
 **Specify depending on the feature $x$, to which class the *[[240402 Maximum Likelihood Decision Rule|ML]]* classifier, and to which class the *[[240815 Bayes Decision Rule or Maximum A Posteriori|MAP]]* classifier decides.**

@@ -7,12 +7,15 @@ date: 2024-04-10
 ## Continuity
 
 
+
 $$
 \frac{\partial u_j}{\partial x_j}=0
 $$
 
 
+
 ## Momentum in $i$
+
 
 
 $$
@@ -21,12 +24,16 @@ $$
 
 
 
+
+
 $$
 \frac{\partial \vec{u}}{\partial t}+\vec{u} \cdot \nabla \vec{u}=-\frac{1}{\rho} \nabla p+\nu \nabla^2 \vec{u}+\vec{g}
 $$
 
 
+
 ## Kinetic energy
+
 
 
 $$
@@ -34,7 +41,9 @@ $$
 $$
 
 
+
 ## Vorticity in $i$ 
+
 
 
 $$
@@ -42,12 +51,15 @@ $$
 $$
 
 
+
 ## Poisson's equation for pressure
+
 
 
 $$
 -\frac{1}{\rho} \frac{\partial^2 p}{\partial x_i^2}=S_{i j}^2-d
 $$
+
 
 
 where,

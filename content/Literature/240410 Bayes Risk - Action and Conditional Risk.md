@@ -9,11 +9,13 @@ date: 2024-04-10
 The Risk associated with taking a decision $a$ given the observation $\mathbf x$ or simply the cost of a decision is given by,
 
 
+
 $$
 \boxed{
 R(a=j \mid \mathbf{x})=\sum_{i \in \mathcal{S}} \overbrace{\lambda(a=j \mid s=i)}^{cost} \underbrace{P(s=i \mid \mathbf{x})}_{Posteriori}
 }
 $$
+
 
 
 where, 
@@ -37,6 +39,7 @@ Consider a Two Class problem such that
 Give that we use a Bayes Classifier to make diagnosis a on the Patient. The *Conditional Risk* can be calculated as follows. 
 
 
+
 $$
 \begin{align*}
 R(1\mid \mathbf{x})=\lambda( 1  \mid s=1)\cdot P(s=1 \mid \mathbf{x})+\lambda( 1  \mid s=2) \cdot P(s=2 \mid \mathbf{x})
@@ -46,7 +49,9 @@ R( 2 \mid \mathbf{x})=\lambda( 2 \mid s=1)\cdot  P(s=1 \mid \mathbf{x})+\lambda(
 $$
 
 
+
 ## Bayes Decision Rule for Actions
+
 
 
 $$
@@ -54,6 +59,7 @@ $$
 a^*=\arg \min _{j \in \mathcal{A}} R(a=j \mid \mathbf{x})
 }
 $$
+
 
 
 Thus the best action would be the one that minimizes the risk. 

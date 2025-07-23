@@ -6,9 +6,11 @@ date: 2022-08-27
 Verbs in German have different endings based on the context. 
 
 
+
 $$
 \boxed{\text{Finite verb}=\text{Stem of Infinitive verb}+\text{ending}}
 $$
+
 
 
 Based on the ending, there are two types of Verbs:

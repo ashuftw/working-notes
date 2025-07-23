@@ -10,11 +10,13 @@ It is the error or leeway that is taken while training a model (Parameter Optimi
 **Quadratic error function or Empirical Quadratic loss**
 
 
+
 $$
 \boxed{
 E(\mathbf{w})=\frac{1}{2N} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\right)^2
 }
 $$
+
 
 
 ![[../Files/Pasted image 20240418160819.png|center]]

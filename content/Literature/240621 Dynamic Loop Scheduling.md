@@ -12,12 +12,15 @@ date: 2024-06-21
 **Execution time**
 
 
+
 $$
 T_P = \frac{P}{N}(B+\sigma(N))
 $$
 
 
+
 **Speed up**
+
 
 
 $$
@@ -26,9 +29,12 @@ $$
 
 
 
+
+
 $$
 \lim_{N \to \infty} S = \frac B {\sigma_\infty}
 $$
+
 
 
 where, 
@@ -47,17 +53,21 @@ The overhead of self-scheduling can be reduced by chunking a fixed number of ite
 **Execution Time**
 
 
+
 $$
 T_P = \frac{N}{k\cdot P}\left(k\cdot B+\sigma\left (P/k\right)\right )
 $$
 
 
+
 **Speed-up**
+
 
 
 $$
 \lim _{p \rightarrow \infty} S=\frac{k^2  B}{\sigma_{\infty}}
 $$
+
 
 
 > Note: Chunk Scheduling is $k^2$ times faster than **self scheduling**. 

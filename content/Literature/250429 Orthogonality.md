@@ -11,12 +11,15 @@ In mathematics, orthogonality represents a general description of objects being 
 - Two vectors $\mathbf{a}, \mathbf{b} \in \mathbb{R}^n$ are orthogonal if
 
 
+
 $$
 (\mathbf{a}, \mathbf{b}):=\mathbf{a}^{\top} \mathbf{b}=0 .
 $$
 
 
+
 - Two functions $f, g$ are orthogonal if
+
 
 
 $$
@@ -24,11 +27,14 @@ $$
 $$
 
 
+
 the $\sin$, $\cos$ functions for instance.
 - Two (mean-free) random variables $X, Y$ are orthogonal if they are uncorrelated, i.e.,
+
 
 
 $$
 (X, Y):=\mathbb{E}[X Y]=0 .
 $$
+
 

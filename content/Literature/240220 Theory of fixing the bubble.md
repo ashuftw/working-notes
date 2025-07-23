@@ -17,12 +17,14 @@ date: 2024-02-20
 **Position of the Droplet**[^1]
 
 
+
 $$
 \begin{align*}
 \text{Centroid}&=\frac{\text{Volume of Droplet Weighted with the Position Vector}}{\text{Volume of the Droplet}}\\
 x_{\mathrm{d}}(t)&=\frac{\int_{\Omega} x \alpha(\mathbf{x}, t) \mathrm{d} V}{\int_{\Omega} \alpha(\mathbf{x}, t) \mathrm{d} V}
 \end{align*}
 $$
+
 
 
 Where $x$ is the position vector
@@ -32,17 +34,21 @@ Where $x$ is the position vector
 **Corrected Position of droplet** 
 
 
+
 $$
 x_{\mathrm{d}}(t)=x_{\mathrm{d}}(0)+\int_0^t\left(v_{\mathrm{d}}-v_{\mathrm{RF}}\right) \mathrm{d} t
 $$
 
 
+
 **Error in each time step**: Maybe having error zero in first try isn't ideal. 
+
 
 
 $$
 e_x(t)=x_{\mathrm{d}}(t)-x^{\mathrm{SP}}
 $$
+
 
 
 where $x^{SP}$ is the position of the domain's center.

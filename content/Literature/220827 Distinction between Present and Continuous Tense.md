@@ -8,6 +8,7 @@ In German, there is no distinction between the two.
 Example:
 
 
+
 $$
 \text{Er trinkt Bier}= 
 \begin{cases}
@@ -15,6 +16,7 @@ $$
     \text{He is drinking beer.}
 \end{cases}
 $$
+
 
 
 ---

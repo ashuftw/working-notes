@@ -16,9 +16,11 @@ date: 2022-04-08
 Consider an incompressible fluid in laminar flow sandwiched between two flat plates. When a force is applied to the plate, due to internal friction the fluid exerts an equal force in opposing direction. The opposing force takes the form of shear stress and can be expressed as the product of the viscosity of the fluid and it's rate of shear. 
 
 
+
 $$
 \begin{align*}\dfrac{F}{A}=\tau_{yx}=\mu\underbrace{\left(-\dfrac{dV_x}{dy}\right)}_{\text{Shear rate}} =\mu \ \dot \gamma_{yx}\end{align*}\tag{1.1}
 $$
+
 
 
   - The subscripts in $\tau_{yx}$ and $\dot \gamma_{yx}$ denote the direction normal to the shearing force and the the direction along the force respectively.  
@@ -34,9 +36,11 @@ For a Newtonian fluid, the slope of a Rheogram is constant .i.e $\mu$ is constan
 For an incompressible fluid $(1.1)$ can be written as
 
 
+
 $$
 \tau_{yx}=\dfrac{\mu}{\rho}\left(-\dfrac{d\ \rho V_x}{dy}\right)
 $$
+
 
 
 - Where "$\rho V_x$" is the momentum transfer *per volume* in $y$-direction. 
@@ -48,9 +52,11 @@ $$
 - For simple shear flows the [[Deviatoric Stress]] components are identically zero. 
 
 
+
 $$
 \tau_{xx}=\tau_{yy}=\tau_{zz}=0\tag{1.9}
 $$
+
 
 
 - For a fluid to be Newtonian, $\mu$ has to be constant and additionally the deviatoric stress components also must be zero. 
@@ -89,12 +95,15 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 - The shearing of a Viscoelastic fluid gives rise to unequal normal stresses. 
 
 
+
 $$
 P_{xx}\ne P_{yy} \ne P_{zz}
 $$
 
 
+
 - The difference between the normal stresses are easier to measure and are defined as  
+
 
 
 $$
@@ -102,12 +111,15 @@ $$
 $$
 
 
+
 - Coupled with the shear rate, the normal stress difference is useful in describing the rheological properties. 
+
 
 
 $$
 \begin{align*}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align*}
 $$
+
 
 
 - Normal stress Difference in action
@@ -123,12 +135,15 @@ For an incompressible fluid in elongational flow the volume of the element must 
 Assuming the contractions are symmetric, components of velocity are given by
 
 
+
 $$
 V_x=\dot \epsilon\ x, V_y=-\dfrac{\dot \epsilon}{2}\ y, \text{ and }V_z=-\dfrac{\dot \epsilon}{2} \ z \tag{1.22}
 $$
 
 
+
 Rate of elongation in $x-$direction 
+
 
 
 $$
@@ -136,12 +151,15 @@ $$
 $$
 
 
+
 **Elongational viscosity** for uniaxial extension, the 
+
 
 
 $$
 \mu_E=\dfrac{P_{xx}-P_{yy}}{\dot \epsilon}=\dfrac{\tau_{xx}-\tau_{yy}}{\dot \epsilon}\tag{1.24}
 $$
+
 
 
 [^1]: https://en.wikipedia.org/wiki/Generalized_Newtonian_fluid

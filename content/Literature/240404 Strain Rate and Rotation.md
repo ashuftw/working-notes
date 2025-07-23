@@ -10,9 +10,11 @@ It is the rate at which deformation occurs in all directions. It takes into chan
 **Strain rate tensor**
 
 
+
 $$
 S_{i j}=\frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i}\right)
 $$
+
 
 
 > For $i,j=1,2,3$ (Dimensions)
@@ -23,14 +25,17 @@ It is the rate at which a fluid particle rotates about it's own axis. The rotati
 **Rotational Tensor**
 
 
+
 $$
 \Omega_{i j}=\frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}-\frac{\partial u_j}{\partial x_i}\right)
 $$
 
 
+
 ## Derivation
 
 Both Strain rate and rotation can be unpacked from the gradient of velocity.
+
 
 
 $$
@@ -39,3 +44,4 @@ $$
 =& S_{ij}+\Omega_{ij}
 \end{align*}
 $$
+

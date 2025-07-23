@@ -15,9 +15,11 @@ Using the Pixels that fall in the intersection between [[240429 Binary Classific
 ### Intersection over union ($\text{IoU}$)
 
 
+
 $$
 \boxed{ \mathrm{IoU}=\frac{\mathrm{TP}}{\mathrm{TP}+\mathrm{FN}+\mathrm{FP}}}
 $$
+
 
 
 - Simply measures overlap between predicted segmentation and ground truth
@@ -26,9 +28,11 @@ $$
 ### Instance-level intersection over union ($\text{iIoU}$)
 
 
+
 $$
 \boxed{\mathrm{iIoU}=\frac{\mathrm{iTP}}{\mathrm{iTP}+\mathrm{iFN}+\mathrm{FP}}}
 $$
+
 
 
 - Modifies IoU to treat objects more fairly regardless of their size

@@ -24,17 +24,23 @@ $L_1^2(x) = \frac{(x+1)(x-1)}{(0+1)(0-1)} = \frac{x^2-1}{-1} = 1-x^2$
 $L_2^2(x) = \frac{(x+1)(x-0)}{(1+1)(1-0)} = \frac{x(x+1)}{2} = \frac{x^2+x}{2}$
 
 The interpolation polynomial is: 
+
 $$
 p(x) = y_0 L_0^2(x) + y_1 L_1^2(x) + y_2 L_2^2(x)
 $$
+
  
+
 $$
 p(x) = (-1) \cdot \frac{x^2-x}{2} + 0 \cdot (1-x^2) + 1 \cdot \frac{x^2+x}{2}
 $$
+
  
+
 $$
 p(x) = \frac{-(x^2-x) + (x^2+x)}{2} = \frac{2x}{2} = x
 $$
+
 
 
 **Estimating the interpolation error:**
@@ -42,9 +48,11 @@ $$
 _Note: The interpolation error formula is available in the formulary._
 
 For $f \in C^{N+1}([a,b])$ with $N+1$ interpolation points, the error is: 
+
 $$
 |f(x) - p_N(x)| = \frac{|\omega(x)|}{(N+1)!} |f^{(N+1)}(\xi)|
 $$
+
 
 
 where $\omega(x) = \prod_{i=0}^N (x-x_i)$ and $\xi \in [a,b]$.
@@ -56,9 +64,11 @@ For our case:
 - $\omega(x) = (x+1)(x-0)(x-1) = x(x^2-1) = x^3-x$
 
 The error estimate becomes: 
+
 $$
 |r(x)| = \frac{|x^3-x|}{3!} \cdot 6 = |x^3-x|
 $$
+
 
 **Find Maximum Error**
 ![[../Files/Pasted image 20250613123920.png|center|600]]
@@ -67,9 +77,11 @@ To find the maximum, we first find critical points (location in the domain where
 **Critical points**
 Setting $r'(x) = 0$
 
+
 $$
 3x^2 - 1 = 0 \implies x^2 = \frac{1}{3} \implies x = \pm \frac{1}{\sqrt{3}}
 $$
+
 
 
 **Given bounds** $x \in [-1,1]$
@@ -91,15 +103,19 @@ Using Kepler's barrel rule, determine an approximation of $\int_0^{\pi} \sin x \
 **Step 1: Apply [[230507 Quadrature - Derivation and Formulae|Kepler's barrel rule]]**
 From the [[230507 Quadrature - Derivation and Formulae|formula]]: 
 
+
 $$
 \int_0^{\pi} \sin x , dx \approx \frac{\pi}{6}[0 + 4(1) + 0] = \frac{4\pi}{6} = \frac{2\pi}{3}
 $$
 
+
 **Step 2: Estimate the quadrature error**
 From formulary, the error estimate is: 
+
 $$
 |R(f)| \leq \frac{(b-a)^5}{2880}M_4
 $$
+
 
 where $M_4 = \max_{x \in [0,\pi]} |f^{(4)}(x)|$.
 - $f^{(4)}(x) = \sin x$
@@ -107,9 +123,11 @@ where $M_4 = \max_{x \in [0,\pi]} |f^{(4)}(x)|$.
 
 Therefore: 
 
+
 $$
 |R(f)| \leq \frac{\pi^5}{2880} \approx \frac{306.02}{2880} \approx 0.1063
 $$
+
 
 **Step 3: Compare with actual error**
 
@@ -132,9 +150,11 @@ Explain the idea of ​​Romberg extrapolation. State the Romberg scheme (at le
 
 The summed trapezoidal rule has the error expansion: 
 
+
 $$
 I(f) = Q_J(f) + Ch^2 + C_1h^4 + C_2h^6 + \ldots
 $$
+
 
 
 where $h$ is the step size and $Q_J(f)$ is the approximation with $J$ sub-intervals.
@@ -149,9 +169,11 @@ Starting values (summed trapezoidal rule):
 **First improvement level:**
 $q = 2$ -> Trapezoidal Rule
 
+
 $$
 Q^{(2)}_J(f) = \frac{4Q^{(1)}_{2J}(f) - Q^{(1)}_J(f)}{3}
 $$
+
  This eliminates the $h^2$ term from the error expansion, giving convergence order $4$ (this is Simpson's rule).
 
 **Note:** You could rewrite the expansion term and find the significant error term or we can just use the knowledge that each level improves the accuracy by one term in the expansion. 
@@ -159,9 +181,11 @@ $$
 **Second improvement level:**
 $q$ is now $4$
 
+
 $$
 Q^{(3)}_J(f) = \frac{16Q^{(2)}_{2J}(f) - Q^{(2)}_J(f)}{15}
 $$
+
  This eliminates the $h^4$ term, giving convergence order 6.
 
 
@@ -193,9 +217,11 @@ Determine the Newton iteration for calculating a root of $f(x) = (x^2 - 2)^2$. M
 **Newton Iteration**
 The Newton iteration is given by $x_{n+1}=x_n-\frac{f\left(x_n\right)}{f^{\prime}\left(x_n\right)}$.
 
+
 $$
 x_{n+1}=\frac{4 x_n^2-\left(x_n^2-2\right)}{4 x_n}=\frac{3 x_n^2+2}{4 x_n}
 $$
+
 
 **Order of Convergence**
 The order of convergence is linear (order 1).
@@ -203,9 +229,11 @@ The order of convergence is linear (order 1).
 - The root of $f(x)$ is $x^*=\sqrt{2}$.
 - Evaluating the derivative at the root:
 
+
 $$
 f^{\prime}(\sqrt{2})=4 \sqrt{2}\left((\sqrt{2})^2-2\right)=4 \sqrt{2}(2-2)=0 .
 $$
+
 
 - Since the derivative is zero at the root, the root has a [[250708 Multiplicity|Multiplicity]] greater than $1$, and the convergence degrades from quadratic to linear.
 
@@ -227,6 +255,7 @@ Prove that the implicit midpoint rule $y_{i+1} = y_i + h f \left(t_i + \frac{h}{
 Write down the procedure for the Butcher scheme:
 
 
+
 $$
 \begin{array}{c|cc}
 & 1/3 & 5/12 & -1/12 \\
@@ -237,15 +266,19 @@ $$
 $$
 
 
+
 Using the calculation rule, explain whether the resulting procedure is explicit or implicit.
 #### Solution 
-**[[250709 Runge-Kutta Method Procedure|Runge-Kutta Method Procedure]]**
+**[[250709 Runge-Kutta Method|Runge-Kutta Method Procedure]]**
 For a 2-stage Runge-Kutta method with the given tableau
+
 
 
 $$
 q_1 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{5}{12}hq_1 - \frac{1}{12}hq_2\right)
 $$
+
+
 
 
 
@@ -258,9 +291,12 @@ $$
 
 
 
+
+
 $$
 y_{i+1} = y_i + \frac{3}{4}q_1 + \frac{1}{4}q_2
 $$
+
 
 The Procedure is **Implicit**
 1. In the first equation, $q_1$ depends on itself (coefficient $\frac{5}{12} \neq 0$ ) and on $q_2$
@@ -275,22 +311,27 @@ Given: $u_{t t}=c^2 u_{x x}$ with $u(t, 0)=u(t, 1)=0$ (Homogeneous Dirichlet Bou
 Using grid points $x_j=j \Delta x$ where $\Delta x=\frac{1}{n}, j=0,1, \ldots, n$
 Approximate $u_{x x}$ at interior points using *central differences*:
 
+
 $$
 u_{x x}\left(t, x_j\right) \approx \frac{u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)}{\Delta x^2}
 $$
+
 
 where $u_j(t) \approx u\left(t, x_j\right)$
 
 **Substituting in the given PDE**
 For $j=1,2, \ldots, n-1$ :
 
+
 $$
 u_j^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)\right]
 $$
 
 
+
 With boundary conditions: $u_0(t)=u_n(t)=0$
 **Writing the system in Matrix form**
+
 
 $$
 u^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[\begin{array}{ccccc}
@@ -307,7 +348,9 @@ u_{n-1}(t)
 \end{array}\right]
 $$
 
+
 **In vector notation**
+
 
 $$
 \mathbf{u}^{\prime \prime}(t)=\frac{c^2}{\Delta x^2} A \mathbf{u}(t)
@@ -316,9 +359,11 @@ $$
 
 
 
+
 **Conversion to First-Order System**
 Introduce $v_j(t)=u_j^{\prime}(t)$ to get:
 Let $\mathbf{u}=\left[u_1, \ldots, u_{n-1}\right]^T$ and $\mathbf{v}=\left[v_1, \ldots, v_{n-1}\right]^T$
+
 
 $$
 \left[\begin{array}{c}
@@ -333,12 +378,15 @@ $$
 \end{array}\right]
 $$
 
+
 **CFL Condition**
 For explicit time integration methods, stability requires:
+
 
 $$
 \Delta t \leq \frac{\Delta x}{c}
 $$
+
 
 
 This ensures that the numerical domain of dependence contains the physical domain of dependence. The information propagation speed $c$ limits the time step relative to the spatial discretization.
@@ -378,6 +426,7 @@ Beweisen Sie, dass die implizite Mittelpunktsregel $y_{i+1} = y_i + h f \left(t_
 Notieren Sie das Verfahren zum Butcher-Schema 
 
 
+
 $$
 \begin{array}{c|cc}
  & 1/3 & 5/12 & -1/12 \\
@@ -386,6 +435,7 @@ $$
  & & 3/4 & 1/4
 \end{array}
 $$
+
 
 
 Begründen Sie anhand der Rechenvorschrift, ob das entstehende Verfahren explizit oder implizit ist.

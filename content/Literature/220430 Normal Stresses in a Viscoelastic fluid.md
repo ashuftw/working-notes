@@ -7,12 +7,15 @@ date: 2022-04-30
 A viscoelastic fluid in a simple shear flow produces unequal normal stresses that have non-zero values. 
 
 
+
 $$
 P_{xx}\ne P_{yy} \ne P_{zz}
 $$
 
 
+
 In Practice, it is easier to measure the differences between the stresses. 
+
 
 
 $$
@@ -20,12 +23,15 @@ $$
 $$
 
 
+
 When coupled with the Shear rate, the Stress difference is useful to analyse rheological properties. 
+
 
 
 $$
 \begin{align*}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align*}
 $$
+
 
 
 # Frage: How does the deviatoric stresses relate? 

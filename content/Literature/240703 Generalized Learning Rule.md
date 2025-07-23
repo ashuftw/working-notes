@@ -9,11 +9,13 @@ date: 2024-07-03
 Using the Gradient Descent Method the **Generalized Learning Rule** can be obtained as 
 
 
+
 $$
 \boxed{
 \mathbf{w}_{k+1}=\mathbf{w}_k-\eta \nabla E(\mathbf{w})
 }
 $$
+
 
 
 where, 
@@ -22,9 +24,11 @@ where,
 - $E(\mathbf{w})\rightarrow$Error Function
 
 
+
 $$
 E(\mathbf{w})=\frac{1}{2 N} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\right)^2 \quad + \underbrace{\lambda||\textbf w||^2}_\text{ (regularization)}
 $$
+
 
 
 - The initial position is random or a good guess is taken. 

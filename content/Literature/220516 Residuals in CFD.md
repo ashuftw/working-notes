@@ -12,9 +12,11 @@ date: 2022-05-16
 ![[../Files/Pasted image 20220516171108.png|center|300]]
 
 
+
 $$
 AT=B
 $$
+
 
 
 $A\rightarrow$ Heat flux gradient, $T\rightarrow$ Temperature & $B\rightarrow$ Heat source
@@ -22,9 +24,11 @@ $A\rightarrow$ Heat flux gradient, $T\rightarrow$ Temperature & $B\rightarrow$ H
  ![[../Files/Pasted image 20220516172618.png|center|500]]
 
 
+
 $$
 AT-B=r
 $$
+
 
 
 - Once the Temperature field is calculated, each value can be substituted and the residuals can be obtained. 
@@ -45,9 +49,11 @@ The residual vector contains the error for every cell in the mesh, making it imp
 - Has no bias
 
 
+
 $$
 r=\frac{1}{N}\sum_{i=0}^n |r_i|
 $$
+
 
 
 ### 2. $L_2$ Norm
@@ -58,9 +64,11 @@ $$
 - Magnifies the effect of a few bad cells on the representative residual
 
 
+
 $$
 r=\left(\frac{1}{N}\sum_{i=0}^n |r_i|^2\right)^{1/2}
 $$
+
 
 
 ### 3. $L_\infty$ Norm
@@ -68,9 +76,11 @@ $$
 - Takes the maximum of the residual vector
 
 
+
 $$
 r=\text{max}|r_i|
 $$
+
 
 
 ---

@@ -11,12 +11,15 @@ It is  a method of turbulence modeling where the Time Averaged Navier-Stokes equ
 This means that any property $f$ is split into its *averaged* and *fluctuating* components. 
 
 
+
 $$
 f(\vec{x}, t)=\bar{f}(\vec{x})+f^{\prime}(\vec{x}, t)
 $$
 
 
+
 Rearranging and taking integral
+
 
 
 $$
@@ -24,8 +27,10 @@ $$
 $$
 
 
+
 The **RANS** Equations are formulated taking the [[240424 Time Averaged Navier-Stokes Equations|Time Average of the Navier Stokes Equations]]
 - **Continuity Equation**
+
 
 
 $$
@@ -33,7 +38,9 @@ $$
 $$
 
 
+
 - **Momentum Equations**
+
 
 
 $$
@@ -41,13 +48,16 @@ $$
 $$
 
 
+
  Rearranging
+
 
 
 $$
 \boxed{
 \frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[v \frac{\partial\bar u_i}{\partial x_j}+\tau_{i j}^{t u r b}\right]}
 $$
+
 
 
 where $\tau_{i j}^{t u r b} = -\overline{u_i' u_j'}$  represents the [[240813 Reynolds Stress Tensor and Turbulent Shear Stress|Reynolds Stresses]]

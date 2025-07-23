@@ -8,9 +8,11 @@ The unified model is a mathematical framework showing that many regression algor
 
 ## Mathematical Formulation
 
+
 $$
 t(x) = \sum_{e=1}^{E} \phi_e(x, \theta_e)(w_e^T x + b_e)
 $$
+
 
 ### Components
 - $\phi_e(x, \theta_e)$: Basis functions (typically Gaussian/RBF)
@@ -21,9 +23,11 @@ $$
 ## Deconstructing the Model
 For any given $x$ , the model calculates which expert is most relevant and gives its output more weight in the final sum.
 
+
 $$
 t(x)=\sum_{e=1}^E \text{Weight for Expert} (e) \times  \text{Prediction from Expert} (e)
 $$
+
 
 **Prediction from Expert**
 This is the simple linear model ( $w_e^T x+b_e$ ). Each of the $E$ "experts" is a linear model with its own weight vector $w_e$ and bias $b_e$.

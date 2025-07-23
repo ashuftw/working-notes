@@ -12,12 +12,15 @@ date: 2023-05-16
 **Mathematically**
 
 
+
 $$
 \begin{align*} \operatorname{cov}[X, Y] & = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])] \\ & = \mathbb{E}[XY - X\mathbb{E}[Y] - \mathbb{E}[X]Y + \mathbb{E}[X]\mathbb{E}[Y]] \\ & = \mathbb{E}[XY] - \mathbb{E}[X\mathbb{E}[Y]] - \mathbb{E}[\mathbb{E}[X]Y] + \mathbb{E}[\mathbb{E}[X]\mathbb{E}[Y]]. \end{align*}
 $$
 
 
+
 Now, using the linearity of expectations:
+
 
 
 $$
@@ -26,9 +29,12 @@ $$
 
 
 
+
+
 $$
 \boxed{\operatorname{cov}[X, Y]= \mathbb{E}[XY] - \mathbb{E}[X]\mathbb{E}[Y]}
 $$
+
 
 
 where $\mathbb{E}[X Y]=\int_{\mathbb{R}} \int_{\mathbb{R}} x y \, f_{X, Y}(x, y) \, d x d y$. 

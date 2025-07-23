@@ -12,7 +12,15 @@ A [[230424 Cumulative Distribution Function (CDF)|CDF]] can be drawn from a  [[2
 Area accumulated by $f_X(\theta)$ up to point $c$ equals $F_X(c)$.
 
 ### Mathematically
-The [[230424 Probability Density Function (PDF)|PDF]] is simply the derivative of the [[230424 Cumulative Distribution Function (CDF)|CDF]]: $$f_X(x) = F_X'(x) = \frac{d}{dx}F_X(x)$$
-The CDF is then the integral of the PDF: $$F_X(x) = \int_{-\infty}^{x} f_X(t) , dt$$
+The [[230424 Probability Density Function (PDF)|PDF]] is simply the derivative of the [[230424 Cumulative Distribution Function (CDF)|CDF]]: 
+$$
+f_X(x) = F_X'(x) = \frac{d}{dx}F_X(x)
+$$
+
+The CDF is then the integral of the PDF: 
+$$
+F_X(x) = \int_{-\infty}^{x} f_X(t) , dt
+$$
+
 
 

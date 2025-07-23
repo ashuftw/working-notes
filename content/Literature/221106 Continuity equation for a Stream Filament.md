@@ -9,9 +9,12 @@ date: 2022-11-06
 For a Stream element
 
 
+
 $$
 \text{Flow rate}=\text{Rate of Mass entering - Rate of mass leaving}
 $$
+
+
 
 
 
@@ -20,10 +23,12 @@ $$
 $$
 
 
+
 Stream element extends from $s$ to $s+ds$  and the location is given by $z(s)$
 Naturally all the flow properties $(v, p,\rho)$ are functions of $(s,t)$
 
 Mass flux through left face
+
 
 
 $$
@@ -31,7 +36,9 @@ $$
 $$
 
 
+
 Using the [[231115 The Taylor Expansion|The Taylor Expansion]] $(x=ds,a=0)$ Mass flux through right face can be approximated to.  
+
 
 
 $$
@@ -41,7 +48,9 @@ $$
 $$
 
 
+
 Ignoring higher order terms ($ds\cdot ds$ terms are ~ $0$) 
+
 
 
 $$
@@ -51,7 +60,9 @@ $$
 $$
 
 
+
 Applying reverse chain rule 
+
 
 
 $$
@@ -61,7 +72,9 @@ $$
 $$
 
 
+
 Flow rate $\dot m$ can be expressed as 
+
 
 
 $$
@@ -69,7 +82,9 @@ $$
 $$
 
 
+
 Substituting values of  $\dot m, m_1$ & $m_2$ in $(1)$
+
 
 
 $$
@@ -79,7 +94,9 @@ $$
 $$
 
 
+
 Subsequently 
+
 
 
 $$
@@ -89,11 +106,13 @@ $$
 $$
 
 
+
 Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream Filament. 
 
 ## Application
 
 1. **Compressible Steady Flow**
+
 
 
 $$
@@ -103,7 +122,9 @@ $$
 $$
 
 
+
 2. **Unsteady Incompressible Flow**
+
 
 
 $$
@@ -113,7 +134,9 @@ $$
 $$
 
 
+
 3. **Steady Incompressible Flow**
+
 
 
 $$
@@ -121,3 +144,4 @@ $$
 	Av=\text{const}
 	}
 $$
+

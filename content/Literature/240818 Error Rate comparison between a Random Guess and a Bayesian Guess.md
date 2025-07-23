@@ -15,6 +15,7 @@ date: 2024-08-18
 - **Random**
 
 
+
 $$
 \begin{align*}
 \text{Error Rate} &= 1-\frac 1 n\\
@@ -23,7 +24,9 @@ $$
 $$
 
 
+
 - **[[240410 Bayesian Classifier|Bayes Classifier]]** Chooses the class with the most probable [[240401 Bayes Theorem|A Posteriori]]. 
+
 
 
 $$
@@ -33,3 +36,4 @@ $$
 &=0.3
 \end{align*}
 $$
+

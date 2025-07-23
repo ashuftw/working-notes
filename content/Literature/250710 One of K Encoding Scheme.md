@@ -15,9 +15,11 @@ All the values in the vector consists of zeros except the element for the correc
 For an input $x_i$ belonging to class $C_k$, the label vector $t_i$ is defined as:
 
 
+
 $$
 t_i=\left(t_1, \ldots, t_k, \ldots, t_K\right)=(0, \ldots, 1, \ldots, 0)
 $$
+
 
 
 where the $k-$th element is $1$.

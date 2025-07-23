@@ -14,12 +14,15 @@ The substantial derivative $\frac{D}{Dt}$ of a quantity $\phi$ is the rate of ch
 Temperature of a moving particle $p$.
 
 
+
 $$
 T_p = T_p [x_p(t), y_p(t), y_p(t), z_p(t), t]
 $$
 
 
+
 Applying multi-variable chain rule 
+
 
 
 $$
@@ -27,7 +30,9 @@ $$
 $$
 
 
+
 After simplification
+
 
 
 $$
@@ -35,12 +40,15 @@ $$
 $$
 
 
+
 Using vector calculus notation 
+
 
 
 $$
 \boxed{\frac{DT}{Dt}=\frac{\partial T}{\partial t}+\underbrace{(\vec{U}\cdot \nabla T)}_{\text{convective der}}}
 $$
+
 
 
 Note: The fluid particle in this context refers to the Fluid parcel in continuum mechanics. 

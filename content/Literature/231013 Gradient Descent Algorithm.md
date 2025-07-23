@@ -8,10 +8,12 @@ date: 2023-10-13
 It is used to find the smallest cost function for a regression. So that the regression gives a fairly accurate approximation of the data set. 
 
 
+
 $$
 \boxed{
 \theta_j:=\theta_j-\alpha \frac{\partial}{\partial \theta_j} J\left(\theta_0, \theta_1\right) \text { (for } j=0, j=1 \text { )} }
 $$
+
 
 
 ## Theory
@@ -19,9 +21,11 @@ $$
 **Hypothesis Function**
 
 
+
 $$
 h_\theta(x)=\theta_1x + \theta_0
 $$
+
 
 
 Where, 
@@ -34,9 +38,11 @@ Where,
 **Cost/Loss Function: Mean Squared Error**
 
 
+
 $$
 J\left(\theta_0, \theta_1\right)=\frac{1}{m} \sum_{i=1}^m\left[h_\theta\left(x(i)-y(i)\right)^2\right]
 $$
+
 
 
 Where, $m\rightarrow$ Number of data points. 
@@ -46,13 +52,16 @@ The cost function is computed for all the guess values can be visualized as foll
 **Gradient algorithm** is then used to find a path to *a* minima of the cost function. 
 
 
+
 $$
 \theta_j:=\theta_j-{\alpha} \frac{\partial}{\partial \theta_j} J\left(\theta_0, \theta_1\right) \text { (for } j=0, j=1 \text { ) }
 $$
 
 
+
 This gives the smallest value of $\theta_j$ for a given $\alpha$ because we know that the [[231205 Gradient Points to the direction of Steepest Slope|gradient points to the direction of the steepest slope.]] 
 Where $\alpha\rightarrow$ step size $\rightarrow$ learning rate 
+
 
 
 $$
@@ -61,6 +70,7 @@ $$
 & \theta_1:=\theta_1+\nabla \theta_1 \rightarrow-\alpha \frac{\partial}{\partial \theta_1} J\left(\theta_0, \theta_1\right)
 \end{aligned}
 $$
+
 
 
 *Repeat until convergence*

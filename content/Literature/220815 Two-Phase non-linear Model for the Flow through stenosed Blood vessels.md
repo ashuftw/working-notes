@@ -26,6 +26,7 @@ date: 2022-08-15
 - **Essential Nomenclature**
 
 
+
 $$
 \begin{array}{c c}
 \hline
@@ -43,14 +44,17 @@ $$
 $$
 
 
+
 - **Domain**
 ![[../Files/Pasted image 20220315162014.png|center]]
 [^6]
 
 
+
 $$
 \beta =\dfrac{\text{core radius}}{\text{normal artery radius}}=0.95
 $$
+
 
 
 At $\beta=1$, the model reduces to single-fluid model

@@ -11,9 +11,11 @@ It is an instance where the model correctly predicts the positive class i.e, the
 	It is the ratio of the number of True Positive classifications to the actual number of positives.  
 
 
+
 $$
 TPR=\dfrac{TP}{TP+FN}
 $$
+
 
 
 	> Note: Also called *Hit Rate* or *Recall*
@@ -25,9 +27,11 @@ It is an instance where the classifier incorrectly predicts a positive class.  i
 	It is the ratio of the number of False Positive classifications to actual number of negatives. 
 
 
+
 $$
 FPR=\dfrac{FP}{FP+TN}
 $$
+
 
 > 	Note: Also called *False Acceptance Rate (FAR)*
 
@@ -37,9 +41,11 @@ It is an instance where the model correctly predicts a negative class.
 - **True Negative Rate**
 	It is the ratio of the number of Negative classifications to the actual number of negatives. 
 
+
 $$
 TNR=\dfrac{TN}{TN+FP}=1-FPR
 $$
+
 
 > 	Note: Also called *Specificity*
 
@@ -50,9 +56,11 @@ It is an instance where the Model incorrectly predicts a Negative class.
 	It is the ratio of the number of False Negative classifications to actual number of false negatives. 
 
 
+
 $$
 FNR=\dfrac{FN}{FN+TP}
 $$
+
 
 
 >	Note: Also called *False Rejection Rate* or *Miss Rate*

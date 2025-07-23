@@ -9,9 +9,11 @@ Verbs in [[231014 Partizip I vs Partizip II|Partizip I]] can be used as an adjec
 ## Syntax
 
 
+
 $$
 \text{Verb im Infinitiv + d + Adjektivendung}
 $$
+
 
 
 > Note: Partizip I always stays before the noun. 

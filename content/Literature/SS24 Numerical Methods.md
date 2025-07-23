@@ -19,7 +19,11 @@ Calculate the accuracy of trapezoidal rule.
 
 ### b)
 
-Derive the quadrature formula for Simpson's rule: $$\int f(x)dx$$
+Derive the quadrature formula for Simpson's rule: 
+$$
+\int f(x)dx
+$$
+
 
 ## Q3
 

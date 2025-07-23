@@ -11,13 +11,16 @@ They are a [[250711 Decision Boundary|Decision boundary]] that are linear.
 For a Linearly separable classes with $k$ =2, the hyperplane with the parameter vector $\mathbf{w}$ :
 
 
+
 $$
 \boxed{\mathbf{w}^T \mathbf{x}+w_0=0}
 $$
 
 
+
 **Classification (here for 2 classes):**
 *Class 0*
+
 
 
 $$
@@ -25,7 +28,9 @@ $$
 $$
 
 
+
 *Class 1*
+
 
 
 $$
@@ -33,7 +38,9 @@ $$
 $$
 
 
+
 *Decision boundary*
+
 
 
 $$

@@ -5,9 +5,11 @@ date: 2023-10-14
 ---
 
 
+
 $$
 \boxed{\text{\textbf{Expected impact }= pressingness of problem x effectiveness of opportunity x personal fit}}
 $$
+
 
 
 1. **My definition of Positive impact**

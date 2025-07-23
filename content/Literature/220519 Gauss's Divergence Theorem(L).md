@@ -11,9 +11,11 @@ date: 2022-05-19
 >The flux of a vector field $\vec F$ through a closed surface $S$ is equal to the integral of the divergence  $\nabla \cdot \vec F$ over the entire enclosed volume $V$.
 
 
+
 $$
 \boxed{\int\int\int_V dV=\int\int_S \vec F\cdot \vec  n\ dS }
 $$
+
 
 
 **Why it's true**

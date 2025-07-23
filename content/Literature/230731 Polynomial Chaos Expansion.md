@@ -13,14 +13,18 @@ Let $X$ be a random variable with arbitrary $\operatorname{PDF} f_X$, for which 
 Using the generalized Polynomial Chaos (gPC) Expansion
 
 
+
 $$
 X(\theta)=\sum_{i=0}^{\infty} q_i \Phi_i(\xi(\theta))
 $$
 
 
+
+
 $$
 \boxed{X=\sum_{i=0}^{\infty} q_i \Phi_i(\xi)}
 $$
+
 
 
 Where, 
@@ -37,17 +41,21 @@ Where,
 Random Variable
 
 
+
 $$
 X \sim \mathcal{N}(2,1)
 $$
 
 
+
 Polynomial Chaos expansion
+
 
 
 $$
 X=2+\xi
 $$
+
 
 
  Where,  $\xi \sim \mathcal{N}(0,1)$

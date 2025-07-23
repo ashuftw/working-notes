@@ -8,9 +8,11 @@ date: 2025-07-14
 The [[250711 Bayesian Approach  to Classification|Bayesian Approach]] decomposes to the Generalized Linear Model when the [[240305 Normal or Gaussian Distribution|Gaussians]] that are modeling the class-conditional distributions, $p\left(x \mid C_k\right)$ share the same **covariance matrix** ($\Sigma$).
 
 The formula for the posterior probability $p\left(C_1 \mid x\right)$ simplifies to the form of a [[250714 Sigmoid Function|sigmoid]] function applied to a linear equation:
+
 $$
 p\left(C_1 \mid x\right)=\sigma\left(w^T x+w_0\right)
 $$
+
 
 This structure is the definition of a generalized linear model (specifically, logistic regression). It has two key components:
 1. **Linear Component:** The term inside the function, $w^T x+w_0$, is a linear combination of the input features $\mathbf{x}$.

@@ -8,11 +8,14 @@ date: 2022-06-22
 - **Axis of rotation ($s$)**: 
 
 
+
 $$
 s=x_2-x_1
 $$
+
 	Where $x_1$ and $x_2$ are any two points on the axis.
 - **Rotation Vector ($\Omega$):**
+
 
 
 $$
@@ -20,13 +23,16 @@ $$
 $$
 
 
+
 	Where $\omega\rightarrow$ rotational speed 
 - **Distance Vector ($r$):** 
+
 
 
 $$
 r=x_p-x_o
 $$
+
 
 
 	Where $x_p \rightarrow$ cell centroid, $x_o\rightarrow$ axis of rotation
@@ -39,12 +45,15 @@ $$
 Velocity in a frame rotating with the blade
 
 
+
 $$
 \begin{align*}U&= U_r+\Omega\times r\end{align*}\tag{1}
 $$
 
 
+
 Incompressible Navier-Stokes equations
+
 
 
 $$
@@ -52,8 +61,10 @@ $$
 $$
 
 
+
 After substitution and simplification,[^2] we have 
 **Single Reference Frame (Frame)**
+
 
 
 $$
@@ -61,9 +72,11 @@ $$
 $$
 
 
+
 - We end up with two source terms for the Centrifugal and Coriolis forces
 - Unknown is now the relative velocity, $U_r$
 - $U$ is calculated as a post-processing operation:
+
 
 
 $$
@@ -71,13 +84,16 @@ U=U_r+\Omega\times r
 $$
 
 
+
 **Multiple Reference Frames**
 ![[../Files/Pasted image 20220608111755.png|center|600]]
+
 
 
 $$
 \nabla\cdot(U\ U_r)=-\nabla p+\nabla\cdot(\nu \ \nabla U)-\Omega \times U
 $$
+
 
 
 ---

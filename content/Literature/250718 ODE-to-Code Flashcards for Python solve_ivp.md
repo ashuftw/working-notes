@@ -6,7 +6,11 @@ date: 2025-07-18
 ---
 ## Flashcard 1: Simple Exponential Decay
 
-**Front:** First-order decay equation: $$\frac{dy}{dt} = -ky$$ where k = 0.5 (decay constant)
+**Front:** First-order decay equation: 
+$$
+\frac{dy}{dt} = -ky
+$$
+ where k = 0.5 (decay constant)
 
 **Back:**
 
@@ -21,7 +25,11 @@ def ode_system(t, y):
 
 ## Flashcard 2: First-Order with Time-Dependent Input
 
-**Front:** RC circuit with time-varying voltage: $$\frac{dV_c}{dt} = \frac{1}{RC}(V_{in}(t) - V_c)$$ where R = 1000 Ω, C = 0.001 F, and $V_{in}(t) = 10\sin(2\pi t)$
+**Front:** RC circuit with time-varying voltage: 
+$$
+\frac{dV_c}{dt} = \frac{1}{RC}(V_{in}(t) - V_c)
+$$
+ where R = 1000 Ω, C = 0.001 F, and $V_{in}(t) = 10\sin(2\pi t)$
 
 **Back:**
 
@@ -39,7 +47,11 @@ def ode_system(t, y):
 
 ## Flashcard 3: Second-Order to First-Order System
 
-**Front:** Mass-spring system: $$m\ddot{x} + c\dot{x} + kx = 0$$ where m = 2 kg, c = 0.5 N·s/m, k = 10 N/m
+**Front:** Mass-spring system: 
+$$
+m\ddot{x} + c\dot{x} + kx = 0
+$$
+ where m = 2 kg, c = 0.5 N·s/m, k = 10 N/m
 
 **Back:**
 
@@ -63,7 +75,15 @@ def ode_system(t, y):
 
 ## Flashcard 4: Coupled First-Order System
 
-**Front:** Predator-prey (Lotka-Volterra) model: $$\frac{dx}{dt} = ax - bxy$$ $$\frac{dy}{dt} = -cy + dxy$$ where a = 1.5, b = 0.1, c = 0.75, d = 0.02
+**Front:** Predator-prey (Lotka-Volterra) model: 
+$$
+\frac{dx}{dt} = ax - bxy
+$$
+ 
+$$
+\frac{dy}{dt} = -cy + dxy
+$$
+ where a = 1.5, b = 0.1, c = 0.75, d = 0.02
 
 **Back:**
 
@@ -89,7 +109,11 @@ def ode_system(t, y):
 
 ## Flashcard 5: Forced Oscillator with Damping
 
-**Front:** Driven harmonic oscillator: $$m\ddot{x} + c\dot{x} + kx = F_0\cos(\omega t)$$ where m = 1 kg, c = 0.2 N·s/m, k = 4 N/m, F₀ = 2 N, ω = 3 rad/s
+**Front:** Driven harmonic oscillator: 
+$$
+m\ddot{x} + c\dot{x} + kx = F_0\cos(\omega t)
+$$
+ where m = 1 kg, c = 0.2 N·s/m, k = 4 N/m, F₀ = 2 N, ω = 3 rad/s
 
 **Back:**
 
@@ -116,7 +140,11 @@ def ode_system(t, y):
 
 ## Flashcard 6: RLC Circuit
 
-**Front:** Series RLC circuit: $$L\frac{d^2q}{dt^2} + R\frac{dq}{dt} + \frac{q}{C} = V_0$$ where L = 0.1 H, R = 20 Ω, C = 0.0001 F, V₀ = 12 V
+**Front:** Series RLC circuit: 
+$$
+L\frac{d^2q}{dt^2} + R\frac{dq}{dt} + \frac{q}{C} = V_0
+$$
+ where L = 0.1 H, R = 20 Ω, C = 0.0001 F, V₀ = 12 V
 
 **Back:**
 
@@ -141,7 +169,15 @@ def ode_system(t, y):
 
 ## Flashcard 7: Double Pendulum (Small Angle Approximation)
 
-**Front:** Linearized double pendulum: $$\ddot{\theta_1} = -\frac{g(m_1 + m_2)}{m_1 l_1}\theta_1 + \frac{m_2 g}{m_1 l_1}\theta_2$$ $$\ddot{\theta_2} = \frac{g}{l_2}\theta_1 - \frac{g}{l_2}\theta_2$$ where g = 9.81 m/s², m₁ = m₂ = 1 kg, l₁ = l₂ = 1 m
+**Front:** Linearized double pendulum: 
+$$
+\ddot{\theta_1} = -\frac{g(m_1 + m_2)}{m_1 l_1}\theta_1 + \frac{m_2 g}{m_1 l_1}\theta_2
+$$
+ 
+$$
+\ddot{\theta_2} = \frac{g}{l_2}\theta_1 - \frac{g}{l_2}\theta_2
+$$
+ where g = 9.81 m/s², m₁ = m₂ = 1 kg, l₁ = l₂ = 1 m
 
 **Back:**
 
@@ -168,7 +204,11 @@ def ode_system(t, y):
 
 ## Flashcard 8: Van der Pol Oscillator
 
-**Front:** Van der Pol equation: $$\ddot{x} - \mu(1 - x^2)\dot{x} + x = 0$$ where μ = 1.5 (nonlinearity parameter)
+**Front:** Van der Pol equation: 
+$$
+\ddot{x} - \mu(1 - x^2)\dot{x} + x = 0
+$$
+ where μ = 1.5 (nonlinearity parameter)
 
 **Back:**
 
@@ -190,7 +230,15 @@ def ode_system(t, y):
 
 ## Flashcard 9: Coupled Spring-Mass System
 
-**Front:** Two masses connected by springs: $$m_1\ddot{x_1} = -k_1x_1 + k_2(x_2 - x_1)$$ $$m_2\ddot{x_2} = -k_2(x_2 - x_1) - k_3x_2$$ where m₁ = 2 kg, m₂ = 1 kg, k₁ = 100 N/m, k₂ = 50 N/m, k₃ = 75 N/m
+**Front:** Two masses connected by springs: 
+$$
+m_1\ddot{x_1} = -k_1x_1 + k_2(x_2 - x_1)
+$$
+ 
+$$
+m_2\ddot{x_2} = -k_2(x_2 - x_1) - k_3x_2
+$$
+ where m₁ = 2 kg, m₂ = 1 kg, k₁ = 100 N/m, k₂ = 50 N/m, k₃ = 75 N/m
 
 **Back:**
 
@@ -219,7 +267,19 @@ def ode_system(t, y):
 
 ## Flashcard 10: SIR Epidemic Model
 
-**Front:** SIR model for disease spread: $$\frac{dS}{dt} = -\beta SI$$ $$\frac{dI}{dt} = \beta SI - \gamma I$$ $$\frac{dR}{dt} = \gamma I$$ where β = 0.0005 (transmission rate), γ = 0.1 (recovery rate)
+**Front:** SIR model for disease spread: 
+$$
+\frac{dS}{dt} = -\beta SI
+$$
+ 
+$$
+\frac{dI}{dt} = \beta SI - \gamma I
+$$
+ 
+$$
+\frac{dR}{dt} = \gamma I
+$$
+ where β = 0.0005 (transmission rate), γ = 0.1 (recovery rate)
 
 **Back:**
 
@@ -246,7 +306,15 @@ def ode_system(t, y):
 
 ## Flashcard 11: Nonlinear Chemical Reaction
 
-**Front:** Brusselator model: $$\frac{dx}{dt} = a + x^2y - bx - x$$ $$\frac{dy}{dt} = bx - x^2y$$ where a = 1, b = 3
+**Front:** Brusselator model: 
+$$
+\frac{dx}{dt} = a + x^2y - bx - x
+$$
+ 
+$$
+\frac{dy}{dt} = bx - x^2y
+$$
+ where a = 1, b = 3
 
 **Back:**
 
@@ -270,7 +338,19 @@ def ode_system(t, y):
 
 ## Flashcard 12: Rigid Body Rotation (Euler's Equations)
 
-**Front:** Euler's equations for rigid body rotation: $$I_1\dot{\omega_1} = (I_2 - I_3)\omega_2\omega_3 + M_1$$ $$I_2\dot{\omega_2} = (I_3 - I_1)\omega_3\omega_1 + M_2$$ $$I_3\dot{\omega_3} = (I_1 - I_2)\omega_1\omega_2 + M_3$$ where I₁ = 2, I₂ = 3, I₃ = 4 kg·m², and M₁ = M₂ = M₃ = 0 (no external torques)
+**Front:** Euler's equations for rigid body rotation: 
+$$
+I_1\dot{\omega_1} = (I_2 - I_3)\omega_2\omega_3 + M_1
+$$
+ 
+$$
+I_2\dot{\omega_2} = (I_3 - I_1)\omega_3\omega_1 + M_2
+$$
+ 
+$$
+I_3\dot{\omega_3} = (I_1 - I_2)\omega_1\omega_2 + M_3
+$$
+ where I₁ = 2, I₂ = 3, I₃ = 4 kg·m², and M₁ = M₂ = M₃ = 0 (no external torques)
 
 **Back:**
 

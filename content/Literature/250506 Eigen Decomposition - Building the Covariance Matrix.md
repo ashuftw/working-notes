@@ -7,9 +7,11 @@ date: 2025-05-06
 For a [[content/Literature/230516 Covariance|Covariance]] matrix $C_X$, we want to find:
 
 
+
 $$
 C_X=V E V^T
 $$
+
 
 
 Where:

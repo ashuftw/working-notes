@@ -10,12 +10,15 @@ date: 2024-10-04
 ### Thin Duct Equation
 
 
+
 $$
 u_d \frac{\partial C_A}{\partial x} = D_{AB} \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial C_A}{\partial r}\right)\tag{1}
 $$
 
 
+
 ### Boundary Condition
+
 
 
 $$
@@ -23,12 +26,15 @@ $$
 $$
 
 
+
 ### Adsorption Model
+
 
 
 $$
 \dot{q}(t)=\frac{d q}{d t}=k_s\left(q_e-q\right)
 $$
+
 
 
 ## Discretization
@@ -38,17 +44,21 @@ $$
 Using Forward difference approximation
 
 
+
 $$
 \frac{\partial C_A}{\partial x} \approx \frac{C_A[i+1,j] - C_A[i,j]}{\Delta x}
 $$
 
 
+
 Using Central difference
+
 
 
 $$
 \left(\frac{\partial C_A}{\partial x}\right)_i \approx \frac{C_{A,i+1} - C_{A,i-1}}{2\Delta x}
 $$
+
 
 
 Where, 
@@ -58,12 +68,15 @@ Where,
 ### 2. Diffusion Term
 
 
+
 $$
 D_{AB} \cdot \frac{1}{r} \cdot \frac{\partial}{\partial r}\left(r \cdot \frac{\partial C_A}{\partial r}\right)
 $$
 
 
+
 Chain rule
+
 
 
 $$
@@ -71,7 +84,9 @@ D_{AB} \cdot \left[\frac{1}{r} \cdot \frac{\partial C_A}{\partial r} + \frac{\pa
 $$
 
 
+
 **Central Difference**
+
 
 
 $$
@@ -80,12 +95,16 @@ $$
 
 
 
+
+
 $$
 \left(\frac{\partial^2 C_A}{\partial r^2}\right)_j \approx  \frac{C_{A,j+1} - 2C_{A,j} + C_{A,j-1}}{\Delta r^2}
 $$
 
 
+
 Substituting,
+
 
 
 $$
@@ -93,9 +112,11 @@ D_{AB} \cdot \left[\frac{1}{r_j} \cdot \frac{C_{A,j+1} - C_{A,j-1}}{2\Delta r} +
 $$
 
 
+
 > **Note:** Full derivation of Central difference approximations for First and Second Order Diff. Equations can be found here. [^1]
 
 - **Applying the Forward Euler Method to the Adsorption Model**
+
 
 
 $$
@@ -104,9 +125,12 @@ $$
 
 
 
+
+
 $$
 \boxed{\quad  q_{n+1}  =  q_n +\Delta t\cdot k_s\left(q_e-q_n\right)}
 $$
+
 
 
 [[241007 Without the Boundary condition?]]

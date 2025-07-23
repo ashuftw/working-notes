@@ -16,9 +16,11 @@ date: 2023-10-14
 ### Syntax
 
 
+
 $$
 \text{verb-stem + -end}
 $$
+
 
 
 > Note:  for irregular verbs, the take use the modified verb-**stem** in the infinitive. 

@@ -9,6 +9,7 @@ date: 2024-08-12
 Evidence is neither measured or modeled. However one can calculated using the numerator of the [[240401 Bayes Theorem|Bayes Theorem]]. 
 
 
+
 $$
 \boxed{
 C =\sum_{i \in \mathcal{S}} p(\mathbf{x} \mid s=i) \cdot P(s=i)
@@ -16,9 +17,11 @@ C =\sum_{i \in \mathcal{S}} p(\mathbf{x} \mid s=i) \cdot P(s=i)
 $$
 
 
+
 ### Derivation
 
 Using the [[240410 Bayesian Classifier|Bayes Classifier]]
+
 
 
 $$
@@ -26,7 +29,9 @@ $$
 $$
 
 
+
 Separating $RHS$
+
 
 
 $$
@@ -34,7 +39,9 @@ $$
 $$
 
 
+
 Multiply $p(x)$ on both sides
+
 
 
 $$
@@ -42,7 +49,9 @@ $$
 $$
 
 
+
 Evidence $C$
+
 
 
 $$
@@ -50,6 +59,7 @@ $$
 C =  \sum_{i \in \mathcal{S}} p(\mathbf{x} \mid s=i) P(s=i)
 }
 $$
+
 
 
 > Note: Here $S$ is the class, $\mathbf x$ is the feature vector that can be used to make the classification. 

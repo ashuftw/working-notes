@@ -9,11 +9,13 @@ date: 2024-08-06
 Describes the transport of a quantity by flow. 
 
 
+
 $$
 \boxed{
 \frac {\partial u} {\partial t} + c \frac {\partial u} {\partial x }=0
 }
 $$
+
 
 
 where, 

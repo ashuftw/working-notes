@@ -11,6 +11,7 @@ Using the KL expansion, find $\binom{X_1}{X_2}=f\binom{\xi_1}{\xi_2}$ with $\xi_
 ### Step 1: Find Mean & covariance
 
 
+
 $$
 \operatorname{Cov}[X]=\left[\begin{array}{ll}
 \operatorname{Var}\left[X_1\right] & \operatorname{Cov}\left[X_1, X_2\right] \\
@@ -20,17 +21,22 @@ $$
 
 
 
+
+
 $$
 \operatorname{Cov}\left[X_1, X_2\right]=E\left[X_1 X_2\right]-E\left[X_1\right] E\left[X_2\right]=6-2 \cdot 3=0
 $$
 
 
+
 So the covariance matrix becomes:
+
 
 
 $$
 C_X=\left(\begin{array}{cc}0.5 & 0 \\ 0 & 1.5\end{array}\right)
 $$
+
 
 
 ### Step 2: Find Eigenvalues and Eigenvectors
@@ -50,14 +56,17 @@ So, $V=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right)$ and $E=\left(\be
 The KL expansion is given by:
 
 
+
 $$
 X=\mu_X+V E^{1 / 2} \xi
 $$
 
 
+
 where, $E^{1 / 2}=\left[\begin{array}{cc} \sqrt{1.5} & 0 \\ 0 & \sqrt{0.5} \end{array}\right]$
 
 Therefore:
+
 
 
 $$
@@ -80,7 +89,9 @@ X_2
 $$
 
 
+
 Simplifying:
+
 
 
 $$
@@ -112,12 +123,15 @@ X_2
 $$
 
 
+
 ### Final KL expansion is:
+
 
 
 $$
 \boxed{X_1=2+\sqrt{0.5}\xi_2}\ \quad \& \quad \boxed{X_2=3+\sqrt{1.5} \xi_1}
 $$
+
 
 
 Where $\xi_1$ and $\xi_2$ are independent standard normal random variables, i.e., $\xi_1, \xi_2 \sim \mathcal{N}(0,1)$.

@@ -13,12 +13,15 @@ It is the average value (mean) of a random experiment. 
 1. **Discrete Random variable **
 
 
+
 $$
 \mathbb{E}[X]:=\sum_{i=1}^n X(\theta_i) \cdot P(X(\theta_i))
 $$
 
 
+
 2. **Continuous Random variable**
+
 
 
 $$
@@ -27,6 +30,7 @@ $$
  \mathbb{E}[X]&:=\int_{-\infty}^{\infty} x f_X(x) \mathrm{d} x
  \end{aligned}
 $$
+
 
 
 where
@@ -40,9 +44,11 @@ where
 ### Linearity of Expectation 
 
 
+
 $$
 \mathbb E[A+B]=\mathbb E[A]+\mathbb E[B]
 $$
+
 
 
 ---

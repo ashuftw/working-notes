@@ -13,17 +13,21 @@ The [[240417 Fourier Transform|Fourier Transform]],  $\mathcal F\{f(t)\cdot g(t)
 $\mathcal{F}\{f(t)\}=F(\omega)$ and $\mathcal{F}\{g(t)\}=G(\omega)$, then 
 
 
+
 $$
 \mathcal{F}\{f(t) \cdot g(t)\}=(F * G)(\omega)
 $$
 
 
+
 The convolution of $F(\omega)$ and $G(\omega)$ is defined as:
+
 
 
 $$
 (F * G)(\omega)=\int_{-\infty}^{\infty} F(\nu) G(\omega-\nu) d \nu
 $$
+
 
 
 Here, $\nu$ iterates over all possible frequency components:

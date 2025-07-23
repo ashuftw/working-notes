@@ -14,9 +14,11 @@ The viscosity is modeled as a function of strain rate.
 Corresponds to
 
 
+
 $$
 \nu=a\times \dot \gamma^{b}+c\times \dot \gamma^{d}
 $$
+
 
 
 ---

@@ -34,7 +34,7 @@ date: 2023-04-17
 - [[250723 Order of Consistency of the Implicit Midpoint Rule|Order of Consistency of the Implicit Midpoint Rule]]
 ### 3. Classical Runge-Kutta Method 
 - [[250708 Butcher Table|Butcher Table]]
-- [[250709 Runge-Kutta Method Procedure|Runge-Kutta Method Procedure]]
+- [[250709 Runge-Kutta Method|Runge-Kutta Method Procedure]]
 ## Heat Conduction Equation: Discretization of a PDE
 #### 1. Discretization in One Dimension
 - [[250709 Method of Lines|Method of Lines]]

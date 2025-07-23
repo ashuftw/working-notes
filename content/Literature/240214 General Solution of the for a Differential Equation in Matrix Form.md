@@ -9,9 +9,11 @@ date: 2024-02-14
 ### Compact vector form 
 
 
+
 $$
 \boxed{q_h(t)=V D(t) c}
 $$
+
 
 
 where,
@@ -22,6 +24,8 @@ where,
 ### Long form 
 
 
+
 $$
 \boxed{\mathbf{q}_{\mathrm{h}}(t)=\mathrm{e}^{\lambda_1 t} \mathbf{v}_1 c_1+\ldots \mathrm{e}^{\lambda_n t} \mathbf{v}_n c_n}
 $$
+

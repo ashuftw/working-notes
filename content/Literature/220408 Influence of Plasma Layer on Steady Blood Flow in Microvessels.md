@@ -10,9 +10,11 @@ date: 2022-04-08
 - Volume flow rate in of a non-Newtonian fluid in a pipe is given by 
 
 
+
 $$
 Q=\dfrac{\pi R^4}{8\eta_a}\ \dfrac{\Delta P}{L}
 $$
+
 
 
  $\eta_a\rightarrow$ apparent viscosity, $R\rightarrow$ inner radius, $L\rightarrow$ length of pipe, $P\rightarrow$ pressure difference across tube

@@ -9,9 +9,12 @@ date: 2023-12-04
 An ODE is called a Bernoulli Differential equation if it can be represented in the form
 
 
+
 $$
 y'+a(t) y= p(t)\ y^\mathbf n
 $$
+
+
 
 
 
@@ -23,6 +26,7 @@ $$
 \text{non-linear, }n \in\Bbb R, y\ne 0 & \text{if} \ n > 1
 \end{cases}
 $$
+
 
 
 ## Solution Method

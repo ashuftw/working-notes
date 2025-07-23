@@ -13,11 +13,13 @@ Regularization ensures that the weights of the regression model aren't too large
 The regularized error function is given by:
 
 
+
 $$
 \boxed{
 \tilde{E}(\mathbf{w})=\overbrace{\frac{1}{2} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\right)^2}^\text{Sum of Squared Error}+\underbrace{\frac{\lambda}{2}\|\mathbf{w}\|^2}_\text{regularization}
 }
 $$
+
 
 
 where,
