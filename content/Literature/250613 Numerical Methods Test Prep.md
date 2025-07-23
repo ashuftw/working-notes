@@ -9,9 +9,11 @@ date: 2025-06-13
 	 - [x] Understand note, June 24
 	 - [x] 1st Test
 	 - [ ] 2nd Test 
+	 - [ ] 2nd Test 
+- [[SS24 Numerical Methods]]
 -  [[SS17 Numerical Methods]]
 	- [x] Understand and note, July 10
-	 - [ ] 1st Test
+	 - [x] 1st Test
 	 - [ ] 2nd Test 
 - [[SS18 Numerical Methods]]
 - [[SS14 Numerical Methods]]

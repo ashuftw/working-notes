@@ -1,6 +1,6 @@
 ---
 title: SS17 Numerical Methods
-draft: true
+draft: false
 tags: 
 date: 2025-05-21
 ---
@@ -137,7 +137,7 @@ I(f) = Q_J(f) + Ch^2 + C_1h^4 + C_2h^6 + \ldots
 $$
 
 
-where $h$ is the step size and $Q_J(f)$ is the approximation with $J$ subintervals.
+where $h$ is the step size and $Q_J(f)$ is the approximation with $J$ sub-intervals.
 
 **The Romberg scheme:**
 Starting values (summed trapezoidal rule):
@@ -152,12 +152,12 @@ $q = 2$ -> Trapezoidal Rule
 $$
 Q^{(2)}_J(f) = \frac{4Q^{(1)}_{2J}(f) - Q^{(1)}_J(f)}{3}
 $$
- This eliminates the $h^2$ term from the error expansion, giving convergence order 4 (this is Simpson's rule).
+ This eliminates the $h^2$ term from the error expansion, giving convergence order $4$ (this is Simpson's rule).
 
 **Note:** You could rewrite the expansion term and find the significant error term or we can just use the knowledge that each level improves the accuracy by one term in the expansion. 
 
 **Second improvement level:**
-$q$ is now 4! 
+$q$ is now $4$
 
 $$
 Q^{(3)}_J(f) = \frac{16Q^{(2)}_{2J}(f) - Q^{(2)}_J(f)}{15}
@@ -199,7 +199,7 @@ $$
 
 **Order of Convergence**
 The order of convergence is linear (order 1).
-- Reasoning: Quadratic convergence requires the root $x^*$ to be a simple root, meaning $f^{\prime}\left(x^*\right) \neq 0$.
+- Reasoning: In general, Newton's Method has Quadratic convergence. This requires the root $x^*$ to be a simple root, meaning $f^{\prime}\left(x^*\right) \neq 0$.
 - The root of $f(x)$ is $x^*=\sqrt{2}$.
 - Evaluating the derivative at the root:
 
@@ -217,107 +217,7 @@ Derive the Euler-Heun method for the numerical solution of $y' = f(t, y)$, start
 ### Task 6 (5 points)
 
 Prove that the implicit midpoint rule $y_{i+1} = y_i + h f \left(t_i + \frac{h}{2}, \frac{1}{2}(y_i + y_{i+1})\right)$ has at least order of consistency $2$.
-
-#### Solution
-To prove consistency order 2, we need to show that the local truncation error $\tau(t,h) = O(h^2)$.
-
-**Given:** $y_{i+1} = y_i + h f\left(t_i + \frac{h}{2}, \frac{y_i + y_{i+1}}{2}\right)$
-
-**Proof:**
-
-From Formulary, the local truncation error is: 
-
-$$
-\begin{aligned}
-\tau=&\frac{y(t+h)-y(t)}{h}-\Phi(t, y(t), h)\\ \\
-\ = &\frac{y(t+h) - y(t)}{h} - f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right)
-\end{aligned}
-$$
-
-> **Note:** Locally, we substitute $y(t_i) =  y(t)$ and $y\left(t_{i+1}\right)=y(t+h)$
-
-**Step 1:** Taylor expand $y(t+h)$ around $t$: 
-$$
-y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3)
-$$
-
-
-**Step 2:** Comparing the Taylor expansion with the given rule, we get  $y'(t) = f(t,y(t))$. Hence we need to expand $f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right)$.
-
-First, find $\frac{y(t) + y(t+h)}{2}$: 
-
-$$
-\begin{aligned}
-\frac{y(t) + y(t+h)}{2} = & \frac{y(t)+\overbrace{\left(y(t)+h y^{\prime}(t)+\frac{h^2}{2} y^{\prime \prime}(t)+O\left(h^3\right)\right)}^{\text{from Taylor Expansion}}}{2}
- \\
-
-= &y(t) + \frac{h}{2}y'(t) + \frac{h^2}{4}y''(t) + O(h^3)
-\end{aligned}
-$$
-
-
-**Step 3:** Multivariable Taylor expansion of $f$ around $(t, y(t))$: 
-
-$$
-f(a+\Delta x, b+\Delta z) \approx f(a, b)+\Delta x \cdot \frac{\partial f}{\partial x}+\Delta z \cdot \frac{\partial f}{\partial z}+\text { Higher-Order Terms }
-$$
-
-In our case
-
-$$
-f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) = f(t,y(t)) + \frac{h}{2}f_t + \left(\frac{h}{2}y'(t) + O(h^2)\right)f_y + O(h^2)
-$$
-
-
-Since $y'(t) = f(t,y(t))$: 
-$$
-= f(t,y(t)) + \frac{h}{2}f_t + \frac{h}{2}f(t,y(t))f_y + O(h^2)
-$$
-
-
-**Step 4:** Note that $y''(t) = \frac{d}{dt}f(t,y(t)) = f_t + f_y y'(t) = f_t + f_y f$
-
-Therefore **Step 3** becomes: 
-
-$$
-\begin{aligned}
-f\left(t + \frac{h}{2}, \frac{y(t) + y(t+h)}{2}\right) =&  \underbrace{f(t, y(t))}_{y^{\prime}(t)}+\underbrace{\frac{h}{2}\left(f_t+y^{\prime}(t) f_y\right)}_{\frac{h}{2} y^{\prime \prime}(t)}+O\left(h^2\right)
-\\
- = & y'(t) + \frac{h}{2}y''(t) + O(h^2)
-\end{aligned}
-$$
-
-
-**Step 5:** Substitute into the truncation error: 
-$$
-\tau(t,h) = \frac{y(t) + hy'(t) + \frac{h^2}{2}y''(t) + O(h^3) - y(t)}{h} - \left(y'(t) + \frac{h}{2}y''(t) + O(h^2)\right)
-$$
-
-
-
-$$
-= y'(t) + \frac{h}{2}y''(t) + O(h^2) - y'(t) - \frac{h}{2}y''(t) - O(h^2)
-$$
-
-
-
-$$
-= O(h^2)
-$$
-
-
-**Conclusion:** The implicit midpoint rule has consistency order at least 2. ✓
-
----
-
-**Exam relevance:** This is a standard proof technique for consistency order. The key steps are:
-
-1. Taylor expand the exact solution
-2. Taylor expand the method's right-hand side
-3. Use the chain rule for derivatives: $y''(t) = f_t + f_y f$
-4. Show cancellation up to order $h^2$
-
-**Formula sheet note:** The definition of truncation error and consistency order should be in your formulary.
+[[250723 Order of Consistency of the Implicit Midpoint Rule|Order of Consistency of the Implicit Midpoint Rule]]
 
 
 
@@ -344,14 +244,14 @@ For a 2-stage Runge-Kutta method with the given tableau
 
 
 $$
-k_1 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{5}{12}hk_1 - \frac{1}{12}hk_2\right)
+q_1 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{5}{12}hq_1 - \frac{1}{12}hq_2\right)
 $$
 
 
 
 $$
 \boxed{
-k_2 = hf\left(t_i + h, y_i + \frac{3}{4}hk_1 + \frac{1}{4}hk_2\right)
+q_2 = hf\left(t_i + h, y_i + \frac{3}{4}hq_1 + \frac{1}{4}hq_2\right)
 }
 $$
 
@@ -359,21 +259,21 @@ $$
 
 
 $$
-y_{i+1} = y_i + \frac{3}{4}k_1 + \frac{1}{4}k_2
+y_{i+1} = y_i + \frac{3}{4}q_1 + \frac{1}{4}q_2
 $$
 
 The Procedure is **Implicit**
-1. In the first equation, $k_1$ depends on itself (coefficient $\frac{5}{12} \neq 0$ ) and on $k_2$
-2. In the second equation, $k_2$ depends on itself (coefficient $\frac{1}{4} \neq 0$ )
+1. In the first equation, $q_1$ depends on itself (coefficient $\frac{5}{12} \neq 0$ ) and on $q_2$
+2. In the second equation, $q_2$ depends on itself (coefficient $\frac{1}{4} \neq 0$ )
 
 ### Task 8 (5 points)
 Apply the line method to the one-dimensional wave equation $u_{tt} = c^2 u_{xx}$ with homogeneous Dirichlet boundary conditions at $x = 0$ and $x = 1$, and write down the resulting system of ordinary differential equations. What is the corresponding system in matrix notation? What does the CFL condition say for this problem?
 ### Solution
-Given: $u_{t t}=c^2 u_{x x}$ with $u(t, 0)=u(t, 1)=0$
+Given: $u_{t t}=c^2 u_{x x}$ with $u(t, 0)=u(t, 1)=0$ (Homogeneous Dirichlet Boundary Condition)
 
 **Spatial Discretization**
 Using grid points $x_j=j \Delta x$ where $\Delta x=\frac{1}{n}, j=0,1, \ldots, n$
-Approximate $u_{x x}$ at interior points using central differences:
+Approximate $u_{x x}$ at interior points using *central differences*:
 
 $$
 u_{x x}\left(t, x_j\right) \approx \frac{u_{j-1}(t)-2 u_j(t)+u_{j+1}(t)}{\Delta x^2}

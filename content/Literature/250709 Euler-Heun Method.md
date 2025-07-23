@@ -11,7 +11,7 @@ an explicit predictor-corrector method that combines Euler's method (**Predictor
 **Formula**
 
 $$
-y_{i+1} =  \underbrace{y_i + \frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, \overbrace{y_i + hf(t_i, y_i)}^{\text{Euler}})]}_\text{Trapezoidal}
+y_{i+1} = y_i +  \underbrace{\frac{h}{2}[f(t_i, y_i) + f(t_{i+1}, \overbrace{y_i + hf(t_i, y_i)}^{\text{Euler}})]}_\text{Trapezoidal}
 $$
 
 ### Derivation

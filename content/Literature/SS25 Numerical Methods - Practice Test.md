@@ -199,3 +199,175 @@ Since $g'(x*) = 0$, Newton's method has **quadratic convergence (order 2)** near
 
 This means the error approximately squares in each iteration: $|x_{k+1} - x*| ≈ C|x_k - x*|^2$ for some constant $C$
 
+
+## Task 5 
+![[../Files/Pasted image 20250723162119.png]]
+### Solution
+#### a) Maximal Step Size and System Property
+
+To find the maximal step size for the explicit Euler method, we first need the eigenvalues of the system matrix $A = -\begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$. Since the matrix is upper triangular, the eigenvalues are its diagonal entries:
+
+$$
+\lambda_1 = -2 \quad \text{and} \quad \lambda_2 = -2
+$$
+The explicit Euler method is stable if for all eigenvalues $\lambda$, the step size $h$ satisfies the condition:
+$$\boxed{
+|1 + h\lambda| \le 1
+}$$
+Since our eigenvalues are real and identical, we only need to solve for $\lambda = -2$:
+$$
+|1 - 2h| \le 1
+$$
+This inequality can be split into two parts:
+$$
+-1 \le 1 - 2h \le 1
+$$
+Solving for $h$:
+$$
+-2 \le -2h \le 0 \implies 1 \ge h \ge 0
+$$
+The **maximal step size is $h_{max} = 1$**.
+
+A property of this system is that it is **not stiff**. A system is considered stiff if the ratio of the largest to the smallest absolute value of the real parts of the eigenvalues is large. Here, the ratio is $|-2|/|-2| = 1$, which is the opposite of stiff.
+
+#### b) Two Steps with h = 0.5
+
+The explicit Euler method is given by the formula:
+$$
+y_{i+1} = y_i + h_i f(t_i, y_i)
+$$
+$$
+q_{i+1} = q_i + h A q_i
+$$
+Given $q_0 = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$, $h=0.5$, and $A = \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}$.
+
+**Step 1: Calculate $q_1$**
+First, we calculate the product $A q_0$:
+$$
+A q_0 = \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} \begin{pmatrix} 1 \\ 4 \end{pmatrix}  = \begin{pmatrix} -6 \\ -8 \end{pmatrix}
+$$
+Now we find $q_1$:
+$$
+q_1 = q_0 + h A q_0 = \begin{pmatrix} 1 \\ 4 \end{pmatrix} + 0.5 \begin{pmatrix} -6 \\ -8 \end{pmatrix} = \begin{pmatrix} -2 \\ 0 \end{pmatrix}
+$$
+
+**Step 2: Calculate $q_2$**
+First, we calculate the product $A q_1$:
+$$
+A q_1 = \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} \begin{pmatrix} -2 \\ 0 \end{pmatrix} = \begin{pmatrix} 4 \\ 0 \end{pmatrix}
+$$
+Now we find $q_2$:
+$$
+q_2 = q_1 + h A q_1 = \begin{pmatrix} -2 \\ 0 \end{pmatrix} + 0.5 \begin{pmatrix} 4 \\ 0 \end{pmatrix}= \begin{pmatrix} 0 \\ 0 \end{pmatrix}
+$$
+After two steps, the solution is $q_2 = \begin{pmatrix} 0 \\ 0 \end{pmatrix}$.
+
+## Task 5B
+Consider differential equation:
+$$
+\dot{q}(t) = - \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix} q(t), \quad q(0) = \begin{pmatrix} 1 \\ 4 \end{pmatrix}.
+$$
+
+a) The **Crank-Nicolson method** is known to be A-stable. Explain what A-stability implies for the choice of step size $h$ when solving this particular system. Is this method a good choice for this system?
+
+b) Perform **one step** of the Crank-Nicolson method with a step size of $h = 1.0$ to find the approximation $q_1$.
+### a) A-Stability and Method Suitability
+
+A numerical method is **A-stable** if its stability region contains the entire left half of the complex plane, $\{z \in \mathbb{C} : \text{Re}(z) \le 0\}$ . The Crank-Nicolson method is A-stable.
+
+The eigenvalues of the system matrix are $\lambda_1 = \lambda_2 = -2$, which are on the negative real axis (i.e., in the left half-plane). Because the method is A-stable, the term $h\lambda$ will lie within the stability region for **any positive step size $h > 0$**.
+
+This means that for the Crank-Nicolson method, there is **no upper limit on the step size $h$ imposed by stability**. The choice of $h$ can be based purely on the desired accuracy of the solution. This makes it a very robust and good choice, especially for stiff differential equations.
+### b) One Step of Crank-Nicolson with h = 1.0
+
+$$
+y_{i+1} = y_i + \frac{h_i}{2}[f(t_i, y_i) + f(t_{i+1}, y_{i+1})]
+$$
+The Crank-Nicolson method for a system $\dot{q} = Aq$ is given by:
+$$
+q_{i+1} = q_i + \frac{h}{2}(Aq_i + Aq_{i+1})
+$$
+To solve for the unknown vector $q_{i+1}$, we must first rearrange the formula into a linear system of equations:
+$$
+q_{i+1} - \frac{h}{2}Aq_{i+1} = q_i + \frac{h}{2}Aq_i \implies \left(I - \frac{h}{2}A\right)q_{i+1} = \left(I + \frac{h}{2}A\right)q_i
+$$
+Given $h=1.0$, $A = \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}$, and $q_0 = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$.
+
+**1. Set up the linear system:**
+First, we compute the matrices on the left and right sides.
+* **Left-Hand Side Matrix:**
+    $$
+    I - \frac{h}{2}A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} - 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} = \begin{pmatrix} 2 & 0.5 \\ 0 & 2 \end{pmatrix}
+    $$
+* **Right-Hand Side Vector:**
+    $$
+    \left(I + \frac{h}{2}A\right)q_0 = \left(\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}\right) \begin{pmatrix} 1 \\ 4 \end{pmatrix} = \begin{pmatrix} -2 \\ 0 \end{pmatrix}
+    $$
+The system to solve for $q_1$ is:
+$$
+\begin{pmatrix} 2 & 0.5 \\ 0 & 2 \end{pmatrix} q_1 = \begin{pmatrix} -2 \\ 0 \end{pmatrix}
+$$
+
+**2. Solve for $q_1$:**
+Let $q_1 = \begin{pmatrix} x \\ y \end{pmatrix}$. We can solve the system using back substitution.
+* From the second row: $2y = 0 \implies y = 0$.
+* From the first row: $2x + 0.5y = -2 \implies 2x + 0 = -2 \implies x = -1$.
+
+The solution after one step is:
+$$
+q_1 = \begin{pmatrix} -1 \\ 0 \end{pmatrix}
+$$
+
+## Task 5C 
+Consider the differential equation:
+$$
+\dot{q}(t) = - \begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix} q(t), \quad q(0) = \begin{pmatrix} 1 \\ 4 \end{pmatrix}.
+$$
+
+a) The **implicit Euler method** is known to be A-stable. Explain what this implies for the choice of step size $h$ when solving this system.
+
+b) Perform **one step** of the implicit Euler method with a step size of $h = 1.0$ to find the approximation $q_1$.
+
+### Solution
+
+#### a) A-Stability and Method Suitability
+
+A numerical method is **A-stable** if its stability region contains the entire left half of the complex plane, $\{z \in \mathbb{C} : \text{Re}(z) \le 0\}$. The implicit Euler method is A-stable.
+
+The eigenvalues of the system matrix are $\lambda = -2$, which are in the left half-plane. Because the method is A-stable, the term $h\lambda$ will always lie inside the stability region for **any positive step size $h > 0$**.
+
+This means there is **no upper limit on the step size $h$ for stability**. The choice of $h$ can be based purely on the desired accuracy of the solution, making the method very robust.
+
+#### b) One Step of Implicit Euler with h = 1.0
+$$
+y_{i+1} = y_i + h_i f(t_{i+1}, y_{i+1})
+$$
+The implicit Euler method is given by the formula:
+$$
+q_{i+1} = q_i + h A q_{i+1}
+$$
+To solve for the unknown vector $q_{i+1}$, we must rearrange the formula into a linear system of equations:
+$$
+q_{i+1} - hAq_{i+1} = q_i \implies (I - hA)q_{i+1} = q_i
+$$
+Given $h=1.0$, $A = \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}$, and $q_0 = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$.
+
+**1. Set up the linear system:**
+First, we compute the matrix on the left-hand side:
+$$
+I - hA = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} - 1.0 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} =  \begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix}
+$$
+The system to solve for $q_1$ is:
+$$
+\begin{pmatrix} 3 & 1 \\ 0 & 3 \end{pmatrix} q_1 = \begin{pmatrix} 1 \\ 4 \end{pmatrix}
+$$
+
+**2. Solve for $q_1$:**
+Let $q_1 = \begin{pmatrix} x \\ y \end{pmatrix}$. We can solve the system using back substitution.
+* From the second row: $3y = 4 \implies y = 4/3$.
+* From the first row: $3x + y = 1 \implies 3x + 4/3 = 1 \implies 3x = -1/3 \implies x = -1/9$.
+
+The solution after one step is:
+$$
+q_1 = \begin{pmatrix} -1/9 \\ 4/3 \end{pmatrix}
+$$
