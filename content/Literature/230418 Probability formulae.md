@@ -9,9 +9,11 @@ date: 2023-04-18
 
 
 
-$$
-P(A \cap B)=P(A \mid B) P(B)=P(B \mid A) P(A)
-$$
+
+		$$
+		P(A \cap B)=P(A \mid B) P(B)=P(B \mid A) P(A)
+		$$
+
 
 
 
@@ -19,9 +21,11 @@ $$
 
 
 
-$$
-P(A \cap B)=0
-$$
+
+	$$
+	P(A \cap B)=0
+	$$
+
 
 
 
@@ -29,9 +33,11 @@ $$
 
 
 
-$$
-P(A \cap B)=P(A) P(B)
-$$
+
+		$$
+		P(A \cap B)=P(A) P(B)
+		$$
+
 
 
 
@@ -40,9 +46,11 @@ $$
 
 
 
-$$
-P(A \mid B)=\frac{P(A \cap B)}{P(B)}
-$$
+
+		$$
+		P(A \mid B)=\frac{P(A \cap B)}{P(B)}
+		$$
+
 
 
 
@@ -50,9 +58,11 @@ $$
 
 
 
-$$
-P(A \mid B)=0
-$$
+
+		$$
+		P(A \mid B)=0
+		$$
+
 
 
 
@@ -60,9 +70,11 @@ $$
 
 
 
-$$
-P(A \mid B)=P(A)
-$$
+
+		$$
+		P(A \mid B)=P(A)
+		$$
+
 
 
 
@@ -78,7 +90,9 @@ $$
 
 
 
-$$
-P(A \mid B)=\frac{P(B \mid A) P(A)}{P(B)}
-$$
+
+	$$
+	P(A \mid B)=\frac{P(B \mid A) P(A)}{P(B)}
+	$$
+
 

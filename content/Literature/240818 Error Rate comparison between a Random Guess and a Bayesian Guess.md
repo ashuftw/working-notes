@@ -16,12 +16,14 @@ date: 2024-08-18
 
 
 
-$$
-\begin{align*}
-\text{Error Rate} &= 1-\frac 1 n\\
-&= 0.75
-\end{align*}
-$$
+
+	$$
+	\begin{align*}
+	\text{Error Rate} &= 1-\frac 1 n\\
+	&= 0.75
+	\end{align*}
+	$$
+
 
 
 
@@ -29,11 +31,13 @@ $$
 
 
 
-$$
-\begin{align*}
-\text{Error Rate}&= 1 -\arg \max _{i \in \mathcal{S}} p(s=i\mid \mathbf{x}) \\
-&=1 - 0.7\\
-&=0.3
-\end{align*}
-$$
+
+	$$
+	\begin{align*}
+	\text{Error Rate}&= 1 -\arg \max _{i \in \mathcal{S}} p(s=i\mid \mathbf{x}) \\
+	&=1 - 0.7\\
+	&=0.3
+	\end{align*}
+	$$
+
 

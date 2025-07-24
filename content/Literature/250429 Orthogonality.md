@@ -12,9 +12,11 @@ In mathematics, orthogonality represents a general description of objects being 
 
 
 
-$$
-(\mathbf{a}, \mathbf{b}):=\mathbf{a}^{\top} \mathbf{b}=0 .
-$$
+
+	$$
+	(\mathbf{a}, \mathbf{b}):=\mathbf{a}^{\top} \mathbf{b}=0 .
+	$$
+
 
 
 
@@ -22,9 +24,11 @@ $$
 
 
 
-$$
-(f, g):=\int_a^b f(x) g(x) d x=0,
-$$
+
+	$$
+	(f, g):=\int_a^b f(x) g(x) d x=0,
+	$$
+
 
 
 
@@ -33,8 +37,10 @@ the $\sin$, $\cos$ functions for instance.
 
 
 
-$$
-(X, Y):=\mathbb{E}[X Y]=0 .
-$$
+
+	$$
+	(X, Y):=\mathbb{E}[X Y]=0 .
+	$$
+
 
 

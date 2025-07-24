@@ -27,9 +27,11 @@ where,
 
 
 
-$$
-t\approx P(x)=w_0+w_1 x
-$$
+
+	$$
+	t\approx P(x)=w_0+w_1 x
+	$$
+
 
 
 
@@ -140,9 +142,11 @@ $$
 
 
 
-$$
-t = y(x, w) + \nu
-$$
+
+	$$
+	t = y(x, w) + \nu
+	$$
+
 
 
 
@@ -151,9 +155,11 @@ where $\nu \sim \mathcal{N}(0, \beta^{-1})$
 
 
 
-$$
-p(t_n | x_n, w, \beta) = \mathcal{N}(t_n | y(x_n, w), \beta^{-1})
-$$
+
+	$$
+	p(t_n | x_n, w, \beta) = \mathcal{N}(t_n | y(x_n, w), \beta^{-1})
+	$$
+
 
 
 
@@ -161,9 +167,11 @@ $$
 
 
 
-$$
-p(\mathbf{t} | \mathbf{X}, w, \beta) = \prod_{i=1}^{N} \mathcal{N}(t_i | y(x_i, w), \beta^{-1})
-$$
+
+	$$
+	p(\mathbf{t} | \mathbf{X}, w, \beta) = \prod_{i=1}^{N} \mathcal{N}(t_i | y(x_i, w), \beta^{-1})
+	$$
+
 
 
 
@@ -171,9 +179,11 @@ $$
 
 
 
-$$
-E(w) = -\ln p(\mathbf{t} | \mathbf{X}, w, \beta) = \frac{\beta}{2}\sum_{i=1}^{N}(t_i - y(x_i, w))^2 + \frac{N}{2}\ln\frac{2\pi}{\beta}
-$$
+
+	$$
+	E(w) = -\ln p(\mathbf{t} | \mathbf{X}, w, \beta) = \frac{\beta}{2}\sum_{i=1}^{N}(t_i - y(x_i, w))^2 + \frac{N}{2}\ln\frac{2\pi}{\beta}
+	$$
+
 
 
 

@@ -14,9 +14,11 @@ It is used to report what someone else said in without directly quoting them.
 
 
 
-$$
-\text{haben or sein in Konjunktiv + Partizip II}
-$$
+
+	$$
+	\text{haben or sein in Konjunktiv + Partizip II}
+	$$
+
 
 
 
@@ -26,9 +28,11 @@ $$
 
 
 
-$$
-\text{haben im Konjunktiv + Infinitiv des Verbs + Infinitiv des Modalverbs }
-$$
+
+		$$
+		\text{haben im Konjunktiv + Infinitiv des Verbs + Infinitiv des Modalverbs }
+		$$
+
 
 
 
@@ -37,9 +41,11 @@ $$
 
 
 
-$$
-\text{haben im Konjunktiv + Infinitiv des Modalverbs  + Infinitiv des Verbs}
-$$
+
+		$$
+		\text{haben im Konjunktiv + Infinitiv des Modalverbs  + Infinitiv des Verbs}
+		$$
+
 
 
 
@@ -48,9 +54,11 @@ $$
 
 
 
-$$
-\text{sein im Konjunktiv + Partizip II + worden}
-$$
+
+	$$
+	\text{sein im Konjunktiv + Partizip II + worden}
+	$$
+
 
 
 

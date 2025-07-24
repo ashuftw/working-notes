@@ -110,12 +110,14 @@ Given that $r_i\ne0$,  $i=1, \ldots n-1$
 
 
 
-$$
-\begin{aligned}
-& s_i=c_i\\
-& r_1=a_1
-\end{aligned}
-$$
+
+	$$
+	\begin{aligned}
+	& s_i=c_i\\
+	& r_1=a_1
+	\end{aligned}
+	$$
+
 
 
 
@@ -123,10 +125,12 @@ $$
 
 
 
-$$
-\begin{aligned}
--\ell_i & =\frac{b_i}{r_{i-1}} \\
--r_i & =a_i-\ell_i s_{i-1}
-\end{aligned}
-$$
+
+	$$
+	\begin{aligned}
+	-\ell_i & =\frac{b_i}{r_{i-1}} \\
+	-r_i & =a_i-\ell_i s_{i-1}
+	\end{aligned}
+	$$
+
 

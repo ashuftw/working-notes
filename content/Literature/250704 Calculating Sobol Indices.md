@@ -41,18 +41,22 @@ $$
 1. Total Variance [[250704 Expected Value and Variance Calculations using PCE|for PCE]]
 
 
-$$
-\mathbb{V}[\tilde M]=\sum_{i=1}^{3} q_i^2= q_1^2+ q_2^2+ q_3^2
-$$
+
+	$$
+	\mathbb{V}[\tilde M]=\sum_{i=1}^{3} q_i^2= q_1^2+ q_2^2+ q_3^2
+	$$
+
 
 
 2. Solo-Effect Term: Only $\Phi_1=\xi_1$ corresponds to the solo effect of the first input.
 3. Partial Variance Square of the the contributing coefficient =>$q_1^2$.
 
 
-$$
-S_1=\frac{D_1}{V[M(X)] }= \frac{q_1^2}{q_1^2+q_2^2+q_3^2}
-$$
+
+	$$
+	S_1=\frac{D_1}{V[M(X)] }= \frac{q_1^2}{q_1^2+q_2^2+q_3^2}
+	$$
+
 
 
 
@@ -63,8 +67,10 @@ $$
 3. Total Effect Index
 
 
-$$
-S_{T, 1}=\frac{q_1^2+q_3^2}{\sum_{i=1}^3 q_i^2}
-$$
+
+	$$
+	S_{T, 1}=\frac{q_1^2+q_3^2}{\sum_{i=1}^3 q_i^2}
+	$$
+
 
 

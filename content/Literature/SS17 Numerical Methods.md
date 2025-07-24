@@ -230,9 +230,11 @@ The order of convergence is linear (order 1).
 - Evaluating the derivative at the root:
 
 
-$$
-f^{\prime}(\sqrt{2})=4 \sqrt{2}\left((\sqrt{2})^2-2\right)=4 \sqrt{2}(2-2)=0 .
-$$
+
+	$$
+	f^{\prime}(\sqrt{2})=4 \sqrt{2}\left((\sqrt{2})^2-2\right)=4 \sqrt{2}(2-2)=0 .
+	$$
+
 
 
 - Since the derivative is zero at the root, the root has a [[250708 Multiplicity|Multiplicity]] greater than $1$, and the convergence degrades from quadratic to linear.

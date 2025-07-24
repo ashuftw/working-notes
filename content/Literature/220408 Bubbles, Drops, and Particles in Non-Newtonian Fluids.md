@@ -53,9 +53,11 @@ $$
 
 
 
-$$
-\tau_{xx}=\tau_{yy}=\tau_{zz}=0\tag{1.9}
-$$
+
+	$$
+	\tau_{xx}=\tau_{yy}=\tau_{zz}=0\tag{1.9}
+	$$
+
 
 
 
@@ -96,9 +98,11 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 
 
 
-$$
-P_{xx}\ne P_{yy} \ne P_{zz}
-$$
+
+	$$
+	P_{xx}\ne P_{yy} \ne P_{zz}
+	$$
+
 
 
 
@@ -106,9 +110,11 @@ $$
 
 
 
-$$
-\begin{align*}&\text{Primary normal stress difference, } N_1=P_{xx}-P_{yy}\\ &\text{Secondary normal stress difference, }N_2=P_{yy}-P_{zz}\end{align*}
-$$
+
+	$$
+	\begin{align*}&\text{Primary normal stress difference, } N_1=P_{xx}-P_{yy}\\ &\text{Secondary normal stress difference, }N_2=P_{yy}-P_{zz}\end{align*}
+	$$
+
 
 
 
@@ -116,9 +122,11 @@ $$
 
 
 
-$$
-\begin{align*}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align*}
-$$
+
+	$$
+	\begin{align*}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align*}
+	$$
+
 
 
 

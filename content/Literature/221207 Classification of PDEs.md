@@ -32,10 +32,12 @@ $b$ is a source term
 
 
 
-$$
-A_{ij}=\begin{pmatrix}1 &0& 0\\ 0 &1& 0\\0& 0& 1
-\end{pmatrix}
-$$
+
+	$$
+	A_{ij}=\begin{pmatrix}1 &0& 0\\ 0 &1& 0\\0& 0& 1
+	\end{pmatrix}
+	$$
+
 
 
 
@@ -43,10 +45,12 @@ $$
 
 
 
-$$
-A_{ij}=\begin{pmatrix}0 &0& 0\\ 0 &1& 0\\0& 0& 1
-\end{pmatrix}
-$$
+
+	$$
+	A_{ij}=\begin{pmatrix}0 &0& 0\\ 0 &1& 0\\0& 0& 1
+	\end{pmatrix}
+	$$
+
 
 
 
@@ -54,10 +58,12 @@ $$
 
 
 
-$$
-A_{ij}=\begin{pmatrix}-1 &0& 0\\ 0 &1& 0\\0& 0& 1
-\end{pmatrix}
-$$
+
+	$$
+	A_{ij}=\begin{pmatrix}-1 &0& 0\\ 0 &1& 0\\0& 0& 1
+	\end{pmatrix}
+	$$
+
 
 
 

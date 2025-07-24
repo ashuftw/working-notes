@@ -222,9 +222,11 @@ Sketch should show parabola $f(x) = \frac{1}{4}x^2$, starting point $(4,4)$, tan
 - **Convergence order:** The derivative of the iteration function is:
 
 
-$$
-g'(x) = 1 - \frac{f'(x)^2 - f(x)f''(x)}{[f'(x)]^2} = \frac{f(x)f''(x)}{[f'(x)]^2}
-$$
+
+	$$
+	g'(x) = 1 - \frac{f'(x)^2 - f(x)f''(x)}{[f'(x)]^2} = \frac{f(x)f''(x)}{[f'(x)]^2}
+	$$
+
 
 
 
@@ -371,15 +373,19 @@ Given $h=1.0$, $A = \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}$, and $q_0 =
 First, we compute the matrices on the left and right sides.
 * **Left-Hand Side Matrix:**
     
-$$
-I - \frac{h}{2}A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} - 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} = \begin{pmatrix} 2 & 0.5 \\ 0 & 2 \end{pmatrix}
-$$
+
+	$$
+	I - \frac{h}{2}A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} - 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} = \begin{pmatrix} 2 & 0.5 \\ 0 & 2 \end{pmatrix}
+	$$
+
 
 * **Right-Hand Side Vector:**
     
-$$
-\left(I + \frac{h}{2}A\right)q_0 = \left(\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}\right) \begin{pmatrix} 1 \\ 4 \end{pmatrix} = \begin{pmatrix} -2 \\ 0 \end{pmatrix}
-$$
+
+	$$
+	\left(I + \frac{h}{2}A\right)q_0 = \left(\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}\right) \begin{pmatrix} 1 \\ 4 \end{pmatrix} = \begin{pmatrix} -2 \\ 0 \end{pmatrix}
+	$$
+
 
 The system to solve for $q_1$ is:
 
@@ -466,3 +472,96 @@ The solution after one step is:
 $$
 q_1 = \begin{pmatrix} -1/9 \\ 4/3 \end{pmatrix}
 $$
+
+## Task 6 
+![[../Files/Pasted image 20250723175541.png]]
+### a) Definition and Explanation of Consistency
+
+**Consistency** for a one-step method means that the numerical scheme genuinely represents the differential equation in the limit as the step size $h$ approaches zero.
+
+In other words for it answers the question "For an an infinitesimally small step, does the given method behave like the actual differential equation?"
+
+This is measured with the **local truncation error**, $\tau(t,h)$, which is the error the method makes in a single step, assuming the starting point was perfectly accurate. 
+
+A method is consistent if this error vanishes as the step size shrinks to zero. The **order of consistency**, $q$, tells us how fast the error disappears, with the error being proportional to $h^q$.
+
+---
+### b) Order of Consistency Calculation
+
+#### Euler Method
+The Euler method is defined by $y_{i+1} = y_i + h f(t_i, y_i)$. [cite_start]The increment function is $\Phi(t,y,h) = f(t,y)$[cite: 589].
+
+1.  **Set up the truncation error formula:**
+
+	$$
+	\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \Phi(t, y(t), h) = \frac{y(t+h) - y(t)}{h} - f(t, y(t))
+	$$
+
+2.  **Use Taylor Series:**
+    We expand $y(t+h)$ around $t$:
+
+	$$
+	y(t+h) = y(t) + h y'(t) + \mathcal{O}(h^2)
+	$$
+
+3.  **Substitute and Simplify:**
+
+	$$
+	\tau(t, h) = \frac{(y(t) + h y'(t) + \mathcal{O}(h^2)) - y(t)}{h} - f(t, y(t))
+	$$
+
+
+	$$
+	\tau(t, h) = y'(t) + \mathcal{O}(h) - f(t, y(t))
+	$$
+
+    Since $y'(t) = f(t, y(t))$, the leading terms cancel:
+
+	$$
+	\tau(t, h) = \mathcal{O}(h)
+	$$
+
+The local truncation error is of the first order in $h$. Therefore, the Euler method has an **order of consistency of 1**.
+
+#### Euler-Heun Method
+[cite_start]The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) + f(t+h, y+hf(t,y))]$[cite: 591].
+
+1.  **Set up the truncation error formula:**
+
+	$$
+	\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \frac{1}{2}[f(t,y(t)) + f(t+h, y(t)+hf(t,y(t)))]
+	$$
+
+2.  **Use Taylor Series for all terms:**
+    * **Left Part:** We expand $y(t+h)$ to a higher order: $y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + \mathcal{O}(h^3)$. This gives:
+
+    	$$
+    	\frac{y(t+h)-y(t)}{h} = y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)
+    	$$
+
+    * **Right Part:** We use a multivariate Taylor expansion for the second $f$ term:
+
+    	$$
+    	f(t+h, y+hf) = f(t,y) + h\frac{\partial f}{\partial t} + (hf)\frac{\partial f}{\partial y} + \mathcal{O}(h^2)
+    	$$
+
+        So the full increment function is:
+
+    	$$
+    	\Phi(t,y,h) = \frac{1}{2}[f + (f + h\frac{\partial f}{\partial t} + hf\frac{\partial f}{\partial y} + \mathcal{O}(h^2))] = f + \frac{h}{2}\left(\frac{\partial f}{\partial t} + f\frac{\partial f}{\partial y}\right) + \mathcal{O}(h^2)
+    	$$
+
+3.  **Substitute and Simplify:**
+    Using $y' = f$ and $y'' = \frac{\partial f}{\partial t} + f\frac{\partial f}{\partial y}$, the increment function becomes:
+
+	$$
+	\Phi(t, y(t), h) = y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)
+	$$
+
+    Now, we substitute everything back into the truncation error formula:
+
+	$$
+	\tau(t,h) = \left(y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)\right) - \left(y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)\right) = \mathcal{O}(h^2)
+	$$
+
+The local truncation error is of the second order in $h$. [cite_start]Therefore, the Euler-Heun method has an **order of consistency of 2**[cite: 645].

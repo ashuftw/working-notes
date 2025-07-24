@@ -27,11 +27,12 @@ date: 2022-08-15
 
 
 
-$$
-\begin{array}{c c}
-\hline
- \textbf{Nomenclature} &    \\ 
-\hline
+
+	$$
+	\begin{array}{c c}
+	\hline
+	\textbf{Nomenclature} &    \\
+	\hline
 	u_H & \text{Velocity of core}    \\
 	u_N & \text{Velocity of periphery}    \\
 	\tau_H & \text{Shear Stress of core}    \\
@@ -39,9 +40,10 @@ $$
 	\alpha_H & \text{Pulsatile Reynolds Number of core}    \\
 	\alpha_N & \text{Pulsatile Reynolds Number of periphery}    \\
 	\alpha_N & \text{Pulsatile Reynolds Number of periphery}    \\
-\hline
-\end{array}
-$$
+	\hline
+	\end{array}
+	$$
+
 
 
 

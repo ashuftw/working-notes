@@ -10,9 +10,11 @@ date: 2023-12-06
 
 
 
-$$
-\Delta u=f
-$$
+
+	$$
+	\Delta u=f
+	$$
+
 
 
 
@@ -21,9 +23,11 @@ Note: $f$ is the source term.
 
 
 
-$$
-\mathbf{A u}=\mathbf{f}
-$$
+
+	$$
+	\mathbf{A u}=\mathbf{f}
+	$$
+
 
 
 
@@ -35,9 +39,11 @@ Note: $\mathbf A$ is the finite dimensional representation of $\Delta$ and inclu
 
 
 
-$$
-\mathbf{u}=\mathbf{A}^{-1} \mathbf{f}
-$$
+
+	$$
+	\mathbf{u}=\mathbf{A}^{-1} \mathbf{f}
+	$$
+
 
 
 

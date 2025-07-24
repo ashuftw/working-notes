@@ -85,9 +85,11 @@ Consider $Y_i=u(t_i)$ denote a random solution to different points in time $t_i$
 
 
 
-$$
-\gamma \approx \widetilde{\mathcal{M}}(\boldsymbol{\xi})=\sum_{i=0}^n q_i \Phi_i(\boldsymbol{\xi})
-$$
+
+	$$
+	\gamma \approx \widetilde{\mathcal{M}}(\boldsymbol{\xi})=\sum_{i=0}^n q_i \Phi_i(\boldsymbol{\xi})
+	$$
+
 
 
 
@@ -95,9 +97,11 @@ $$
 
 
 
-$$
-\tilde{M}^k[r] \approx \sum_{i=0}^n q_i^k
-$$
+
+	$$
+	\tilde{M}^k[r] \approx \sum_{i=0}^n q_i^k
+	$$
+
 
 
 

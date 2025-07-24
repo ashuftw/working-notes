@@ -42,12 +42,14 @@ Since we are integrating functions (implicit) it is good practice to add the $c$
 
 
 
-$$
-\begin{aligned}
+
+	$$
+	\begin{aligned}
 	\frac{dy}{dt} &= 2y \cdot \frac{1}{t}\\
 	\frac{1}{2y}dy&=\frac{1}{t}dt\\
 	\int \frac{1}{2y}dy&=\int \frac{1}{t}dt+c
 	\
 	\end{aligned}
-$$
+	$$
+
 

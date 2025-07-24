@@ -27,9 +27,11 @@ $$
 
 
 
-$$
-\theta = 1
-$$
+
+	$$
+	\theta = 1
+	$$
+
 
 
 
@@ -39,9 +41,11 @@ Simple decision
 
 
 
-$$
-\theta = \dfrac{P(s = 2)}{P(s = 1)}
-$$
+
+	$$
+	\theta = \dfrac{P(s = 2)}{P(s = 1)}
+	$$
+
 
 
 
@@ -50,9 +54,11 @@ Makes use of Prior
 
 
 
-$$
-\theta = \frac{\lambda_{1\textcolor{red}2} - \lambda_{2\textcolor{red}2}}{\lambda_{2\textcolor{blue}1} - \lambda_{1\textcolor{blue}1}} \cdot \frac{\textcolor{red}{P(s = 2)}}{\textcolor{blue}{P(s = 1)}}
-$$
+
+	$$
+	\theta = \frac{\lambda_{1\textcolor{red}2} - \lambda_{2\textcolor{red}2}}{\lambda_{2\textcolor{blue}1} - \lambda_{1\textcolor{blue}1}} \cdot \frac{\textcolor{red}{P(s = 2)}}{\textcolor{blue}{P(s = 1)}}
+	$$
+
 
 
 

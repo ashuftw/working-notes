@@ -18,9 +18,11 @@ It is a variable whose value is dependent on the outcome of a random experiment.
 
 
 
-$$
-\begin{array}{c|c|c|c|c|c|c} \theta & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline \text{win/loss} & 1 & 2 & 3 & -4 & -5 & -6 \\ \end{array}
-$$
+
+	$$
+	\begin{array}{c|c|c|c|c|c|c} \theta & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline \text{win/loss} & 1 & 2 & 3 & -4 & -5 & -6 \\ \end{array}
+	$$
+
 
 
 
@@ -28,9 +30,11 @@ $$
 
 
 
-$$
-\mathbb{E}[X]=\sum_{i=1}^6 X\left(\theta_i\right) \frac{1}{6}=-1.5
-$$
+
+	$$
+	\mathbb{E}[X]=\sum_{i=1}^6 X\left(\theta_i\right) \frac{1}{6}=-1.5
+	$$
+
 
 
 

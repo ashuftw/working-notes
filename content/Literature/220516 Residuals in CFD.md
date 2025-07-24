@@ -25,9 +25,11 @@ $A\rightarrow$ Heat flux gradient, $T\rightarrow$ Temperature & $B\rightarrow$ H
 
 
 
-$$
-AT-B=r
-$$
+
+	$$
+	AT-B=r
+	$$
+
 
 
 
@@ -50,9 +52,11 @@ The residual vector contains the error for every cell in the mesh, making it imp
 
 
 
-$$
-r=\frac{1}{N}\sum_{i=0}^n |r_i|
-$$
+
+	$$
+	r=\frac{1}{N}\sum_{i=0}^n |r_i|
+	$$
+
 
 
 
@@ -65,9 +69,11 @@ $$
 
 
 
-$$
-r=\left(\frac{1}{N}\sum_{i=0}^n |r_i|^2\right)^{1/2}
-$$
+
+	$$
+	r=\left(\frac{1}{N}\sum_{i=0}^n |r_i|^2\right)^{1/2}
+	$$
+
 
 
 
@@ -77,9 +83,11 @@ $$
 
 
 
-$$
-r=\text{max}|r_i|
-$$
+
+	$$
+	r=\text{max}|r_i|
+	$$
+
 
 
 

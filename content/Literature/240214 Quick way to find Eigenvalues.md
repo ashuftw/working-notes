@@ -43,14 +43,18 @@ $$
 #### **Eigenvalues**
 
 - Mean 
-$$
-m=\frac{3+1}{2}=2
-$$
+
+	$$
+	m=\frac{3+1}{2}=2
+	$$
+
 
 - Product 
-$$
-p=3-4=-1
-$$
+
+	$$
+	p=3-4=-1
+	$$
+
 
 **IMPORTANT:** Order eigenvalues from **largest to smallest**:
 

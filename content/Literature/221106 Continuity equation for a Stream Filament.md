@@ -115,11 +115,13 @@ Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream 
 
 
 
-$$
-\boxed{
+
+	$$
+	\boxed{
 	\rho A v = \text{const}
-   }
-$$
+	}
+	$$
+
 
 
 
@@ -127,11 +129,13 @@ $$
 
 
 
-$$
-\boxed{
+
+	$$
+	\boxed{
 	Av= \text{const}=f(t)
 	}
-$$
+	$$
+
 
 
 
@@ -139,9 +143,11 @@ $$
 
 
 
-$$
-\boxed{
+
+	$$
+	\boxed{
 	Av=\text{const}
 	}
-$$
+	$$
+
 

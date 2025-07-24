@@ -14,9 +14,11 @@ It is the average value (mean) of a random experiment. 
 
 
 
-$$
-\mathbb{E}[X]:=\sum_{i=1}^n X(\theta_i) \cdot P(X(\theta_i))
-$$
+
+	$$
+	\mathbb{E}[X]:=\sum_{i=1}^n X(\theta_i) \cdot P(X(\theta_i))
+	$$
+
 
 
 
@@ -24,12 +26,14 @@ $$
 
 
 
-$$
-\begin{aligned}\mathbb{E}[X]&:=\int_{\Theta} X(\theta) d \mathbb{P}(\theta)
- \\ &\text{or}\\
- \mathbb{E}[X]&:=\int_{-\infty}^{\infty} x f_X(x) \mathrm{d} x
- \end{aligned}
-$$
+
+	$$
+	\begin{aligned}\mathbb{E}[X]&:=\int_{\Theta} X(\theta) d \mathbb{P}(\theta)
+	\\ &\text{or}\\
+	\mathbb{E}[X]&:=\int_{-\infty}^{\infty} x f_X(x) \mathrm{d} x
+	\end{aligned}
+	$$
+
 
 
 

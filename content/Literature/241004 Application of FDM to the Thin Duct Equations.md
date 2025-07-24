@@ -119,9 +119,11 @@ $$
 
 
 
-$$
-\quad \frac{dq}{dt}= \frac{q_{n+1} - q_{n}}{dt} =k_s\left(q_e-q_n\right)
-$$
+
+	$$
+	\quad \frac{dq}{dt}= \frac{q_{n+1} - q_{n}}{dt} =k_s\left(q_e-q_n\right)
+	$$
+
 
 
 

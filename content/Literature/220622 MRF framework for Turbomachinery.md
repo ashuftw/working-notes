@@ -9,18 +9,22 @@ date: 2022-06-22
 
 
 
-$$
-s=x_2-x_1
-$$
+
+	$$
+	s=x_2-x_1
+	$$
+
 
 	Where $x_1$ and $x_2$ are any two points on the axis.
 - **Rotation Vector ($\Omega$):**
 
 
 
-$$
-\Omega =\omega\cdot s
-$$
+
+	$$
+	\Omega =\omega\cdot s
+	$$
+
 
 
 
@@ -29,9 +33,11 @@ $$
 
 
 
-$$
-r=x_p-x_o
-$$
+
+	$$
+	r=x_p-x_o
+	$$
+
 
 
 
@@ -79,9 +85,11 @@ $$
 
 
 
-$$
-U=U_r+\Omega\times r
-$$
+
+	$$
+	U=U_r+\Omega\times r
+	$$
+
 
 
 

@@ -15,9 +15,11 @@ It assumes that a function $f$ has a fixed point i.e. $f(x)=x$
 
 
 
-$$
-x=g(x)=\frac{1}{x+1}
-$$
+
+	$$
+	x=g(x)=\frac{1}{x+1}
+	$$
+
 
 
 
@@ -25,9 +27,11 @@ $$
 
 
 
-$$
-x_{n+1}=g(x_n)
-$$
+
+	$$
+	x_{n+1}=g(x_n)
+	$$
+
 
 
 

@@ -22,12 +22,14 @@ $$
 
 
 
-$$
-\begin{aligned}
-v_i & =\bar{v}_i+v_i^{\prime} \\
-p & =\bar{p}+p^{\prime}
-\end{aligned}
-$$
+
+	$$
+	\begin{aligned}
+	v_i & =\bar{v}_i+v_i^{\prime} \\
+	p & =\bar{p}+p^{\prime}
+	\end{aligned}
+	$$
+
 
 
 
@@ -36,12 +38,14 @@ $$
 
 
 
-$$
-\begin{aligned}
-& \overline{\bar{v}}_i \bar{v}_j=\bar{v}_i \bar{v}_j \\
-& \overline{\bar{v}_i v_j^{\prime}}=\overline{\bar{v}}_i \bar{v}_j^{\prime}=0 \text { and } \overline{\bar{v}_j v_i^{\prime}}=\overline{\bar{v}}_j \bar{v}_i^{\prime}=0
-\end{aligned}
-$$
+
+	$$
+	\begin{aligned}
+	& \overline{\bar{v}}_i \bar{v}_j=\bar{v}_i \bar{v}_j \\
+	& \overline{\bar{v}_i v_j^{\prime}}=\overline{\bar{v}}_i \bar{v}_j^{\prime}=0 \text { and } \overline{\bar{v}_j v_i^{\prime}}=\overline{\bar{v}}_j \bar{v}_i^{\prime}=0
+	\end{aligned}
+	$$
+
 
 
 

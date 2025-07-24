@@ -133,11 +133,13 @@ It can be calculated
 - $\int_a^b \frac{x-a}{b-a} d x=\frac{b-a}{2}$
 
 
-$$
-\boxed{
-I(f) \approx \frac{b-a}{2}[f(a)+f(b)]
-}
-$$
+
+	$$
+	\boxed{
+	I(f) \approx \frac{b-a}{2}[f(a)+f(b)]
+	}
+	$$
+
 
 
 ### Simpson's/Kepler's Rule

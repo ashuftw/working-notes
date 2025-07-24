@@ -9,9 +9,11 @@ date: 2022-04-26
 
 
 
-$$
-\tau_{xx}=\tau_{yy}=\tau_{zz}=0
-$$
+
+	$$
+	\tau_{xx}=\tau_{yy}=\tau_{zz}=0
+	$$
+
 
 
 

@@ -29,11 +29,13 @@ where $d_n$ is the weight at a point $n$
 2. Apply weighted [[250701 Ordinary Least squares Solution|least squares]] formula:
 
 
-$$
-\boxed{
-w* = (\Phi^T D \Phi)^{-1}\Phi^T D T
-}
-$$
+
+	$$
+	\boxed{
+	w* = (\Phi^T D \Phi)^{-1}\Phi^T D T
+	}
+	$$
+
 
 
 where:

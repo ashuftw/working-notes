@@ -33,9 +33,11 @@ The **RANS** Equations are formulated taking the [[240424 Time Averaged Navier-S
 
 
 
-$$
-\boxed{\frac{\partial \bar{u}_j}{\partial x_j}=0 }
-$$
+
+	$$
+	\boxed{\frac{\partial \bar{u}_j}{\partial x_j}=0 }
+	$$
+
 
 
 
@@ -43,9 +45,11 @@ $$
 
 
 
-$$
-\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}+\frac{\partial \overline{u_i^{\prime} u_j^{\prime}}}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+v \frac{\partial^2 \bar{u}_i}{\partial x_j^2}
-$$
+
+	$$
+	\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}+\frac{\partial \overline{u_i^{\prime} u_j^{\prime}}}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+v \frac{\partial^2 \bar{u}_i}{\partial x_j^2}
+	$$
+
 
 
 

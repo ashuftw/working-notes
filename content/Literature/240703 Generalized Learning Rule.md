@@ -25,9 +25,11 @@ where,
 
 
 
-$$
-E(\mathbf{w})=\frac{1}{2 N} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\right)^2 \quad + \underbrace{\lambda||\textbf w||^2}_\text{ (regularization)}
-$$
+
+	$$
+	E(\mathbf{w})=\frac{1}{2 N} \sum_{n=1}^N\left(y\left(x_n, \mathbf{w}\right)-t_n\right)^2 \quad + \underbrace{\lambda||\textbf w||^2}_\text{ (regularization)}
+	$$
+
 
 
 

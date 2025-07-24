@@ -41,9 +41,11 @@ Where,
 
 
 
-$$
-\quad \mathbf{a}=\left(\begin{array}{c} \alpha_1 \\ \vdots \\ \alpha_M \end{array}\right) \in \mathbb{R}^M
-$$
+
+	$$
+	\quad \mathbf{a}=\left(\begin{array}{c} \alpha_1 \\ \vdots \\ \alpha_M \end{array}\right) \in \mathbb{R}^M
+	$$
+
 
 
 
@@ -51,9 +53,11 @@ $$
 
 
 
-$$
-\quad A=\left(\begin{array}{ccc}s_1\left(x_1\right) & \cdots & s_M\left(x_1\right) \\ \vdots & & \vdots \\s_1\left(x_N\right) & \cdots & s_M\left(x_N\right)\end{array}\right) \in \mathbb{R}^{N \times M}
-$$
+
+	$$
+	\quad A=\left(\begin{array}{ccc}s_1\left(x_1\right) & \cdots & s_M\left(x_1\right) \\ \vdots & & \vdots \\s_1\left(x_N\right) & \cdots & s_M\left(x_N\right)\end{array}\right) \in \mathbb{R}^{N \times M}
+	$$
+
 
 
 
@@ -62,9 +66,11 @@ $$
 
 
 
-$$
-\mathbf{y}=\left(\begin{array}{c} y_1 \\ \vdots \\ y_N\end{array}\right) \in \mathbb{R}^N
-$$
+
+	$$
+	\mathbf{y}=\left(\begin{array}{c} y_1 \\ \vdots \\ y_N\end{array}\right) \in \mathbb{R}^N
+	$$
+
 
 
 
