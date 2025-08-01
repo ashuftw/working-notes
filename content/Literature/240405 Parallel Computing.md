@@ -1,7 +1,8 @@
 ---
 title: Parallel Computing
-draft: false
-tags:
+draft: true
+tags: 
+date: 2025-04-24
 ---
 
 ## Introduction

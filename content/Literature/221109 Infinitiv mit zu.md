@@ -4,8 +4,6 @@ draft: false
 date: 2022-11-09
 ---
 
-Nov 2022
-
 There are three possibilities to use an infinitive with zu. 
 ```mermaid
 		graph TD;

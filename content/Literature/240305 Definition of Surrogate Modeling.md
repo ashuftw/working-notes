@@ -10,5 +10,5 @@ A surrogate model is a stand-in approximation of a mathematical model that is co
 
 ### Example
 
-[[230731 Polynomial Chaos Expansion|Polynomial Chaos Expansion]]
+[[230731 General Polynomial Chaos Expansion (GPC)|Polynomial Chaos Expansion]]
 

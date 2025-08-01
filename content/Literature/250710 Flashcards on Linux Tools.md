@@ -1,5 +1,5 @@
 ---
-title: Flashcards on Linux Tools - Theory
+title: Flashcards on Linux Tools
 draft: false
 tags: 
 date: 2025-07-10

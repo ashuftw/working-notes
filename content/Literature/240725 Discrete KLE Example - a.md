@@ -31,26 +31,21 @@ $$
 
 So the covariance matrix becomes:
 
-
-
 $$
 C_X=\left(\begin{array}{cc}0.5 & 0 \\ 0 & 1.5\end{array}\right)
 $$
-
-
-
 ### Step 2: Find Eigenvalues and Eigenvectors
 
-Since $C_X$ is already diagonal (uncorrelated random variables), the eigenvalues are simply the diagonal elements. Ordered from largest to smallest (important!):
-- $\lambda_1=1.5$
-- $\lambda_2=0.5$
+Since $C_X$ is already diagonal (uncorrelated random variables), the eigenvalues are simply the diagonal elements. :
+- $\lambda_1=0.5$
+- $\lambda_2=1.5$
 
 The eigenvectors are:
-- $v_1=\binom{0}{1}$ (corresponding to $\lambda_1=1.5$ )
-- $v_2=\binom{1}{0}$ (corresponding to $\lambda_2=0.5$ )
+- $v_2=\binom{0}{1}$ (corresponding to $\lambda_2=1.5$ )
+- $v_1=\binom{1}{0}$ (corresponding to $\lambda_1=0.5$ )
 
+***important***!: Ordered from **largest to smallest** 
 So, $V=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right)$ and $E=\left(\begin{array}{cc}1.5 & 0 \\ 0 & 0.5\end{array}\right)$
-
 ### Step 3: Construct the KL expansion
 
 The KL expansion is given by:

@@ -7,10 +7,10 @@ author:
   - Ed Winters
 category:
   - Philosophy
-localCover: content/Files/How to Argue With a Meat Eater (And Win Every Time) - Ed Winters.jpg
+localCover: Files/How to Argue With a Meat Eater (And Win Every Time) - Ed Winters.jpg
 draft: true
 ---
-![[content/Files/How to Argue With a Meat Eater (And Win Every Time) - Ed Winters.jpg|150]]
+![[Files/How to Argue With a Meat Eater (And Win Every Time) - Ed Winters.jpg|150]]
 
 ## Understanding people's arguments 
 

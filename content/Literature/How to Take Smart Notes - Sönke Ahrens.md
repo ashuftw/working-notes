@@ -7,11 +7,11 @@ author:
   - Sönke Ahrens
 category:
   - Self-Help
-localCover: content/Files/How to Take Smart Notes - Sönke Ahrens.jpg
+localCover: Files/How to Take Smart Notes - Sönke Ahrens.jpg
 draft: false
 date: 2022-02-05
 ---
-![[content/Files/How to Take Smart Notes - Sönke Ahrens.jpg|150]]
+![[Files/How to Take Smart Notes - Sönke Ahrens.jpg|150]]
 
 # How to Take Smart Notes
 

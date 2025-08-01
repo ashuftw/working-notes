@@ -1,7 +1,8 @@
 ---
 title: Scientific Software Engineering
 draft: false
-tags:
+tags: 
+date: 2023-06-16
 ---
 
 ## Introduction to Sustainable Software Engineering

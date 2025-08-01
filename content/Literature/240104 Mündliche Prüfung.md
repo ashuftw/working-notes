@@ -1,6 +1,6 @@
 ---
 title: Mündliche Prüfung
-draft: false
+draft: true
 date: 2024-01-04
 ---
 

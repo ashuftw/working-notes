@@ -7,12 +7,12 @@ author:
   - Alexis Schaitkin
 category:
   - Fiction
-localCover: content/Files/Elsewhere - Alexis Schaitkin.jpg
-draft: false
+localCover: Files/Elsewhere - Alexis Schaitkin.jpg
+draft: true
 date: 2023-08-25
 ---
 
-![[content/Files/Elsewhere - Alexis Schaitkin.jpg|150]]
+![[Files/Elsewhere - Alexis Schaitkin.jpg|150]]
 
 ## I
 

@@ -336,7 +336,8 @@ With boundary conditions: $u_0(t)=u_n(t)=0$
 
 
 $$
-u^{\prime \prime}(t)=\frac{c^2}{\Delta x^2}\left[\begin{array}{ccccc}
+\begin{pmatrix} u''_1(t) \\ u''_2(t) \\ \vdots   \\ u''_{n-1}(t) \end{pmatrix}
+ =\frac{c^2}{\Delta x^2}\left[\begin{array}{ccccc}
 -2 & 1 & 0 & \cdots & 0 \\
 1 & -2 & 1 & \cdots & 0 \\
 0 & \ddots & \ddots & \ddots & 0 \\
@@ -349,7 +350,7 @@ u_2(t) \\
 u_{n-1}(t)
 \end{array}\right]
 $$
-
+> Note: Spacial points $(j-1)$ and $(j+1)$ don't physically exist (outside the domain)! That's why we start with $1$ and end with $n-1$
 
 **In vector notation**
 

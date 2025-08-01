@@ -31,6 +31,8 @@ date: 2023-04-17
 - [[250709 Euler-Heun Method|Euler-Heun Method]]
 ### 2. Error, consistency and convergence
 - [[230628 Order of Consistency|Order of Consistency]]
+- [[250724 Order of Consistency of the Euler Method|Order of Consistency of the Euler Method]]
+- [[250724 Order of Consistency of the Euler-Heun Method|Order of Consistency of the Euler-Heun Method]]
 - [[250723 Order of Consistency of the Implicit Midpoint Rule|Order of Consistency of the Implicit Midpoint Rule]]
 ### 3. Classical Runge-Kutta Method 
 - [[250708 Butcher Table|Butcher Table]]

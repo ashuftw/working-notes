@@ -5,6 +5,7 @@ tags:
 date: 2025-06-13
 ---
 ## Past Tests OCR 
+- [[SS25 Numerical Methods ]]
 - [[SS25 Numerical Methods - Practice Test]]
 	 - [x] Understand note, June 24
 	 - [x] 1st Test

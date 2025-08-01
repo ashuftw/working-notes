@@ -53,7 +53,6 @@ tags:
 	- [[250714 Logistic Regression (Probabilistic Discriminative Model)|Logistic Regression (Probabilistic Discriminative Model)]]
 - Three approaches to classification 
 	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
-
 #####  Core Concepts
 - [[240711 Linearly Separable Datasets|Linearly Separable Datasets]]
 - [[250711 Hyper planes|Hyperplanes]] 
@@ -70,3 +69,19 @@ tags:
     - **Example**: Logistic Regression, which is a type of [[250714 Decomposition of the Bayesian Approach to the Generalized Linear Model|Generalized Linear Model]]. 
 ### 8. Concept Learning
 - [[250317 Validity of Fundamental Equivalence between Induction and Deduction|Validity of Fundamental Equivalence between Induction and Deduction]]
+- [[250726 ID3 Algorithm|ID3 Algorithm]]
+- [[250726 Naive Bayes Classifier|Naive Bayes Classifier]]
+- [[250726 Information gain in ID3|Information gain in ID3]]
+- [[250726 Goal of Concept Learning|Goal of Concept Learning]]
+## 9. Unsupervised Learning
+- [[250706 Lazy Learning|Lazy Learning]]
+- [[250726 Curse of Dimensionality|Curse of Dimensionality]]
+- [[250726 Nadaraya Watson Regressor|Nadaraya Watson Regressor]]
+## 10. Prototypes, K-means, GMM and EM
+- [[250727 K-means Algorithm]]
+- [[250727 Relationship between K-means and Expectation Maximization Algorithms]]
+- [[250727 Gaussian Mixture Model]]
+- [[250727 Gaussian Mixture Regression (GMR)]]
+## 11. Theoretical Fundamentals 
+- [[250727 Theoretical Fundamentals of Learning]]
+[[Concept learning road map]]

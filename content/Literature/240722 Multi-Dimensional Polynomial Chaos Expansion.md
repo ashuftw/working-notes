@@ -23,6 +23,7 @@ $$
 	- $\mathrm{L}_0\left(\xi_1\right)=1$
 	- $\mathrm{L}_1\left(\xi_1\right)=\xi_1$
 	- $\mathrm{L}_2\left(\xi_1\right)=(3 / 2) \xi_1{ }^2-1 / 2$
+	- $\mathrm{L}_2\left(\xi_1\right)=\frac 1  2(3\xi_1{ }^2-1 )$
 - For Gaussian Distribution choose **Hermite** polynomials $H_i$ over $\xi_2$
 	- $\mathrm{H}_0\left(\xi_2\right)=1$
 	- $\mathrm{H}_1\left(\xi_2\right)=\xi_2$

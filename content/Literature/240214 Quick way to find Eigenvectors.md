@@ -30,8 +30,6 @@ If $(A - \lambda I) = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then $v = \
 	$$
 
 
-	Using the shortcut: If $(A - \lambda I) = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then $v = \begin{pmatrix} -b \\ a \end{pmatrix}$
-	
 
 $$
 \boxed{v_1 = \begin{pmatrix} -1 \\ 1-\sqrt{5} \end{pmatrix}}

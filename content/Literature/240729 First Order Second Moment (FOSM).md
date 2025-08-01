@@ -24,7 +24,7 @@ It is called "*First-Order*" because it creates a linear (first-order) approxima
 
 
 
-Here we assume that $E[X]=\bar X$ and $E[\tilde X]=0$
+	Here we assume that $E[X]=\bar X$ and $E[\tilde X]=0$
 - **Model $\mathcal M(X)$ can be approximated using first order Taylor expansion around mean**
 
 
@@ -47,7 +47,6 @@ $$
 & = \mathcal{M}(\bar{X})+\mathcal{M}^{\prime}(\bar{X}) \cancelto{0}{\mathbb E [\tilde{X}]}\\
 \end{align*}
 $$
-
 
 
 
@@ -82,8 +81,5 @@ $$
 \boxed{V[\mathcal{M}(X)] \approx\left(\mathcal{M}^{\prime}(\bar{X})\right)^2 V[\tilde{X}]}
 $$
 
-
-
 Where $\mathbb E [\tilde{X^2}]= \mathbb V [\tilde{X}]$
-
 > This result shows that the output variance is approximately the product of the squared sensitivity (derivative) at the mean and the input variance, providing a simple way to propagate uncertainty through models.

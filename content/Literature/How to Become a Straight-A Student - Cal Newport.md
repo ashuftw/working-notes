@@ -7,11 +7,11 @@ author:
   - Cal Newport
 category:
   - Study Aids
-localCover: content/Files/How to Become a Straight-A Student - Cal Newport.jpg
+localCover: Files/How to Become a Straight-A Student - Cal Newport.jpg
 draft: false
 date: 2022-10-04
 ---
-![[../Files/How to Become a Straight-A Student - Cal Newport.jpg|center|150]]
+![[Files/How to Become a Straight-A Student - Cal Newport.jpg|center|150]]
 
 # Part 1
 

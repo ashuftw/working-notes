@@ -1,10 +1,10 @@
 ---
 title: Polymorphism
-draft: true
+draft: false
 date: 2021-06-13
 ---
 
-**Polymorphism** is a feature of [[230613 Object Oriented Programming|Object Oriented Programming]] which allows objects to perform different functions based on the context (Class/Subclass) they are called in. In Python, this is mainly done using **Method Overriding**. 
+**Polymorphism** is a feature of [[230516 Object Oriented Programming|Object Oriented Programming]] which allows objects to perform different functions based on the context (Class/Subclass) they are called in. In Python, this is mainly done using **Method Overriding**. 
 
 **Inbuilt Polymorphic Objects**
 ```python

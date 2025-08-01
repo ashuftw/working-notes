@@ -249,19 +249,17 @@ This means the error approximately squares in each iteration: $|x_{k+1} - x*| â‰
 ### Solution
 #### a) Maximal Step Size and System Property
 
-To find the maximal step size for the explicit Euler method, we first need the eigenvalues of the system matrix $A = -\begin{pmatrix} 2 & 1 \\ 0 & 2 \end{pmatrix}$. Since the matrix is upper triangular, the eigenvalues are its diagonal entries:
-
-
-$$
-\lambda_1 = -2 \quad \text{and} \quad \lambda_2 = -2
-$$
-
-The explicit Euler method is stable if for all eigenvalues $\lambda$, the step size $h$ satisfies the condition:
+The **Explicit Euler method** is stable if for all eigenvalues $\lambda$, the step size $h$ satisfies the condition:
 
 $$
 \boxed{
 |1 + h\lambda| \le 1
 }
+$$
+The matrix is upper triangular, the eigenvalues are its diagonal entries:
+
+$$
+\lambda_1 = -2 \quad \text{and} \quad \lambda_2 = -2
 $$
 
 Since our eigenvalues are real and identical, we only need to solve for $\lambda = -2$:
@@ -269,13 +267,18 @@ Since our eigenvalues are real and identical, we only need to solve for $\lambda
 $$
 |1 - 2h| \le 1
 $$
-
 This inequality can be split into two parts:
+$$
+(1 - 2h) \le 1\quad \text{or} \quad
+(1 - 2h) \ge -1
+$$
+Simplifying
+
 
 $$
 -1 \le 1 - 2h \le 1
 $$
-
+> ***Shorthand:Any time you multiply a negative value, the inequalities flip directions.*** 
 Solving for $h$:
 
 $$
@@ -477,91 +480,83 @@ $$
 ![[../Files/Pasted image 20250723175541.png]]
 ### a) Definition and Explanation of Consistency
 
-**Consistency** for a one-step method means that the numerical scheme genuinely represents the differential equation in the limit as the step size $h$ approaches zero.
+The order of consistency tells us how quickly the error of a numerical method decreases as we make the step size $(h)$ smaller.
 
 In other words for it answers the question "For an an infinitesimally small step, does the given method behave like the actual differential equation?"
 
 This is measured with the **local truncation error**, $\tau(t,h)$, which is the error the method makes in a single step, assuming the starting point was perfectly accurate. 
+$$
+\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \Phi(t, y(t), h)
+$$
 
-A method is consistent if this error vanishes as the step size shrinks to zero. The **order of consistency**, $q$, tells us how fast the error disappears, with the error being proportional to $h^q$.
+### b) [[250724 Order of Consistency of the Euler Method|Order of Consistency of the Euler Method]]
+### c) [[250724 Order of Consistency of the Euler Method|Order of Consistency of the Euler-Heun Method]]
+## Task 7 
+![[../Files/Screenshot from 2025-07-24 14-49-34.png]]
+### Solution 
+#### a) Butcher Tableau
+- **Nodes $c_i$**: The values in the left column are $c_1=0$, $c_2=1/3$, and $c_3=2/3$.
+- **Matrix $A$**: The values in the main triangular part are $a_{21}=1/3$, $a_{31}=0$, and $a_{32}=2/3$.
+- **Weights $b_i$**: The values in the bottom row are $b_1=1/4$, $b_2=0$, and $b_3=3/4$.
 
----
-### b) Order of Consistency Calculation
+**Complete Calculation Scheme**
 
-#### Euler Method
-The Euler method is defined by $y_{i+1} = y_i + h f(t_i, y_i)$. [cite_start]The increment function is $\Phi(t,y,h) = f(t,y)$[cite: 589].
+The complete calculation scheme derived from the Butcher tableau is:
+$$
+\begin{aligned}
+q_1 &= hf(t_i, y_i) \\
+q_2 &= hf\left(t_i + \frac{1}{3}h, y_i + \frac{1}{3}q_1\right) \\
+q_3 &= hf\left(t_i + \frac{2}{3}h, y_i + \frac{2}{3}q_2\right) \\
+y_{i+1} &= y_i + \frac{1}{4}q_1 + \frac{3}{4}q_3
+\end{aligned}
+$$
+#### Part b) Calculation
+ $f(t, y) = y - t$.
+### Performing One Step (i=0)
 
-1.  **Set up the truncation error formula:**
+1.  **Calculate Stage 1 ($q_1$):**
+    Evaluate $f$ at the initial point $(t_0, y_0) = (0, 2)$.
+    $$q_1 = h \cdot f(t_0, y_0) = 3 \cdot 2 = 6$$
+2.  **Calculate Stage 2 ($q_2$):**
+    The arguments for $f$ are:
+    - Time: $t_0 + \frac{1}{3}h = 0 + \frac{1}{3}(3) = 1$
+    - y-value: $y_0 + \frac{1}{3}q_1 = 2 + \frac{1}{3}(6) = 2 + 2 = 4$
+    - $f(1, 4) = 4 - 1 = 3$.
+    $$q_2 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{1}{3}q_1\right)= h \cdot f(1, 4) = 3 \cdot 3 = 9$$
+3.  **Calculate Stage 3 ($q_3$):**
+    The arguments for $f$ are:
+    - Time: $t_0 + \frac{2}{3}h = 0 + \frac{2}{3}(3) = 2$
+    - y-value: $y_0 + \frac{2}{3}q_2 = 2 + \frac{2}{3}(9) = 2 + 6 = 8$
+	-  $f(2, 8) = 8 - 2 = 6$.
+    $$q_3 = h \cdot f(2, 8) = 3 \cdot 6 = 18$$
+4.  **Calculate Final Update ($y_1$):**
+    Using the calculated stages $q_1=6$ and $q_3=18$:
+    $$y_1 = y_0 + \frac{1}{4}q_1 + \frac{3}{4}q_3=17$$
+After one step with step size $h=3$, the approximate value is **$y_1 = 17$**.
+## Task 8 
+![[../Files/Pasted image 20250724153236.png]]
+ We use a spatial step size of $\Delta x = 1/6$, which creates 5 interior grid points $x_j = j/6$ for $j=1, \dots, 5$. The solution at these points is approximated by the time-dependent functions $u_j(t) \approx u(t, x_j)$.
 
-	$$
-	\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \Phi(t, y(t), h) = \frac{y(t+h) - y(t)}{h} - f(t, y(t))
-	$$
+The second spatial derivative $u_{xx}$ is approximated using the **central difference formula**:
+$$ u_{xx}(t, x_j) \approx \frac{u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)}{(\Delta x)^2} $$
+Substituting this into the PDE and applying the homogeneous Dirichlet boundary conditions ($u_0(t) = 0$ and $u_6(t) = 0$) results in a system of 5 ordinary differential equations.
 
-2.  **Use Taylor Series:**
-    We expand $y(t+h)$ around $t$:
+This system can be written in matrix-vector form as:
+$$ \mathbf{u}'(t) = \frac{a}{(\Delta x)^2} A \mathbf{u}(t) + \mathbf{f}(t) $$
+With $\Delta x = 1/6$, $\frac{a}{(1/6)^2} = 36a$. The final system is:
 
-	$$
-	y(t+h) = y(t) + h y'(t) + \mathcal{O}(h^2)
-	$$
-
-3.  **Substitute and Simplify:**
-
-	$$
-	\tau(t, h) = \frac{(y(t) + h y'(t) + \mathcal{O}(h^2)) - y(t)}{h} - f(t, y(t))
-	$$
-
-
-	$$
-	\tau(t, h) = y'(t) + \mathcal{O}(h) - f(t, y(t))
-	$$
-
-    Since $y'(t) = f(t, y(t))$, the leading terms cancel:
-
-	$$
-	\tau(t, h) = \mathcal{O}(h)
-	$$
-
-The local truncation error is of the first order in $h$. Therefore, the Euler method has an **order of consistency of 1**.
-
-#### Euler-Heun Method
-[cite_start]The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) + f(t+h, y+hf(t,y))]$[cite: 591].
-
-1.  **Set up the truncation error formula:**
-
-	$$
-	\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \frac{1}{2}[f(t,y(t)) + f(t+h, y(t)+hf(t,y(t)))]
-	$$
-
-2.  **Use Taylor Series for all terms:**
-    * **Left Part:** We expand $y(t+h)$ to a higher order: $y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + \mathcal{O}(h^3)$. This gives:
-
-    	$$
-    	\frac{y(t+h)-y(t)}{h} = y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)
-    	$$
-
-    * **Right Part:** We use a multivariate Taylor expansion for the second $f$ term:
-
-    	$$
-    	f(t+h, y+hf) = f(t,y) + h\frac{\partial f}{\partial t} + (hf)\frac{\partial f}{\partial y} + \mathcal{O}(h^2)
-    	$$
-
-        So the full increment function is:
-
-    	$$
-    	\Phi(t,y,h) = \frac{1}{2}[f + (f + h\frac{\partial f}{\partial t} + hf\frac{\partial f}{\partial y} + \mathcal{O}(h^2))] = f + \frac{h}{2}\left(\frac{\partial f}{\partial t} + f\frac{\partial f}{\partial y}\right) + \mathcal{O}(h^2)
-    	$$
-
-3.  **Substitute and Simplify:**
-    Using $y' = f$ and $y'' = \frac{\partial f}{\partial t} + f\frac{\partial f}{\partial y}$, the increment function becomes:
-
-	$$
-	\Phi(t, y(t), h) = y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)
-	$$
-
-    Now, we substitute everything back into the truncation error formula:
-
-	$$
-	\tau(t,h) = \left(y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)\right) - \left(y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)\right) = \mathcal{O}(h^2)
-	$$
-
-The local truncation error is of the second order in $h$. [cite_start]Therefore, the Euler-Heun method has an **order of consistency of 2**[cite: 645].
+$$
+\begin{pmatrix} u''_1(t) \\ u''_2(t) \\ u''_3(t) \\ u''_4(t) \\ u''_5(t) \end{pmatrix}
+= 36a
+\begin{pmatrix}
+-2 & 1 & 0 & 0 & 0 \\
+1 & -2 & 1 & 0 & 0 \\
+0 & 1 & -2 & 1 & 0 \\
+0 & 0 & 1 & -2 & 1 \\
+0 & 0 & 0 & 1 & -2
+\end{pmatrix}
+\begin{pmatrix} u_1(t) \\ u_2(t) \\ u_3(t) \\ u_4(t) \\ u_5(t) \end{pmatrix}
++
+\begin{pmatrix} f(t, x_1) \\ f(t, x_2) \\ f(t, x_3) \\ f(t, x_4) \\ f(t, x_5) \end{pmatrix}
+$$
+The initial condition for this system is $\mathbf{u}(0) = [u_0(x_1), u_0(x_2), u_0(x_3), u_0(x_4), u_0(x_5)]^T$.

@@ -12,7 +12,7 @@ $$
 $$
 
 - Eigenvalues: $\lambda_1 = a$, $\lambda_2 = b$ (just read off diagonal)
-- Eigenvectors: $v_1 = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$, $v_2 = \begin{pmatrix}1 \\ 0 \end{pmatrix}$ (For ordered Eigenvalues i.e $\lambda_1\ge \lambda_2$)
+- Eigenvectors: $v_1 = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$, $v_2 = \begin{pmatrix}0 \\ 1 \end{pmatrix}$ 
 
 **Upper/Lower Triangular** 
 $$
@@ -77,4 +77,4 @@ For $2\times2$, once you have $\lambda$:
 
 - Always order eigenvalues **largest to smallest**
 - If $C_X$ is diagonal → eigenvectors are standard basis vectors
-- For uncorrelated variables (off-diagonal = 0), KL expansion is trivial
+- For uncorrelated variables (off-diagonal $= 0$), KL expansion is trivial

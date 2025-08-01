@@ -14,7 +14,7 @@ $$
 
 
 where $P$ denotes power.
-Use [[240729 FOSM|240729 FOSM]] to find an approximation of the standard deviation of $P$, i.e. $\sigma_P$, in dependence of the known uncertainties of the directly observable quantities
+Use [[240729 First Order Second Moment (FOSM)|240729 First Order Second Moment (FOSM)]] to find an approximation of the standard deviation of $P$, i.e. $\sigma_P$, in dependence of the known uncertainties of the directly observable quantities
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Marys' Vegan Chocolate Cake
+title: Maryse's Vegan Chocolate Cake
 draft: false
 date: 2024-07-07
 ---

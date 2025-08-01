@@ -7,7 +7,7 @@ date: 2025-04-30
 
 ## Use case:
 
-It is used to [[250429 Orthogonality|Orthogonal]] Basis functions for the [[230731 Polynomial Chaos Expansion|Polynomial Chaos Expansion]]
+It is used to [[250429 Orthogonality|Orthogonal]] Basis functions for the [[230731 General Polynomial Chaos Expansion (GPC)|Polynomial Chaos Expansion]]
 
 | Distribution | Basis function    |
 | ------------ | ----------------- |
@@ -18,11 +18,16 @@ It is used to [[250429 Orthogonality|Orthogonal]] Basis functions for the [[2307
 
 ### Example
 
-| Hermit Polynomial | Value                |
-| ----------------- | -------------------- |
-| $H_0(\xi)$        | 1                    |
-| $H_1(\xi)$        | $\xi$                |
-| $H_2(\xi)$        | $\xi^2 - 1$          |
-| $H_3(\xi)$        | $\xi^3 - 3\xi$       |
-| $H_4(\xi)$        | $\xi^4 - 6\xi^2 + 3$ |
-| ...               | ...                  |
+| Hermit Polynomial   | Value                     |
+| ------------------- | ------------------------- |
+| $H_0(\xi)$          | 1                         |
+| $H_1(\xi)$          | $\xi$                     |
+| $H_2(\xi)$          | $\xi^2 - 1$               |
+| ...                 | ...                       |
+
+| LEGENDRE POLYNOMIAL | VALUE                     |
+| ------------------- | ------------------------- |
+| $P_0(\xi)$          | $1$                       |
+| $P_1(\xi)$          | $\xi$                     |
+| $P_2(\xi)$          | $\frac{1}{2}(3\xi^2 - 1)$ |
+| ...                 | ...                       |

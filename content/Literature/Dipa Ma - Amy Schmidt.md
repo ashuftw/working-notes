@@ -7,12 +7,12 @@ author:
   - Amy Schmidt
 category:
   - Religion
-localCover: content/Files/Dipa Ma - Amy Schmidt.jpg
+localCover: Files/Dipa Ma - Amy Schmidt.jpg
 draft: false
 date: 2024-09-30
 ---
 
-![[content/Files/Dipa Ma - Amy Schmidt.jpg|150]]
+![[Files/Dipa Ma - Amy Schmidt.jpg|150]]
 
 ## Chapter 2: Awakening
 

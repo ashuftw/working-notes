@@ -1,13 +1,16 @@
 ---
-tag: 📚Book
-title: "Plays Well with Others"
-subtitle: "The Surprising Science Behind Why Everything You Know About Relationships Is (Mostly) Wrong"
-author: [Eric Barker]
-category: [Self-Help]
-localCover: content/Files/Plays Well with Others - Eric Barker.jpg
+tags:
+  - 📚Book
+title: Plays Well with Others
+subtitle: The Surprising Science Behind Why Everything You Know About Relationships Is (Mostly) Wrong
+author:
+  - Eric Barker
+category:
+  - Self-Help
+localCover: Files/Plays Well with Others - Eric Barker.jpg
 draft: true
 ---
-![[content/Files/Plays Well with Others - Eric Barker.jpg|150]]
+![[Files/Plays Well with Others - Eric Barker.jpg|150]]
 
 ## Introduction
 

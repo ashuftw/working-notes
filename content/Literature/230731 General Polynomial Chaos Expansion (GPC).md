@@ -1,5 +1,5 @@
 ---
-title: Polynomial Chaos Expansion
+title: General Polynomial Chaos Expansion
 draft: false
 date: 2023-07-31
 ---
@@ -11,15 +11,9 @@ It is a way to express Random Variables as a linear expansion using [[250429 Ort
 
 Let $X$ be a random variable with arbitrary $\operatorname{PDF} f_X$, for which the mean value and variance exist $(\mathbb{E}[X], \mathbb{V}[X]<\infty)$. 
 Using the generalized Polynomial Chaos (gPC) Expansion
-
-
-
 $$
 X(\theta)=\sum_{i=0}^{\infty} q_i \Phi_i(\xi(\theta))
 $$
-
-
-
 
 $$
 \boxed{X=\sum_{i=0}^{\infty} q_i \Phi_i(\xi)}

@@ -1,5 +1,5 @@
 ---
-title: Folgen ausdrücken
+title: Kausale Konnektoren - Ursache und Folge
 draft: false
 date: 2023-09-19
 ---
