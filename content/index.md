@@ -12,7 +12,7 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 
 - [[Literature/240404 Turbulence Modeling|Turbulence Modeling]]
 - [[Literature/221106 Fluid Mechanics|Fluid Mechanics]]
-- [[Literature/240405 Parallel Computing|240405 Parallel Computing]]
+- [[Literature/240405 Parallel Computing|Parallel Computing]]
 - [[Literature/230616 Scientific Software Engineering|Scientific Software Engineering]]
 - [[Literature/221106 Ordinary Differential Equations|Ordinary Differential Equations]]
 - [[Literature/221110 Partial Differential Equations|Partial Differential Equations]]
@@ -24,5 +24,5 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 
 ## Other
 - [[Literature/250725 German|German]]
-- [[Literature/250725 Music|Music]]
+- [[Literature/250725 Music Theory|Music Theory]]
 - [[Literature/250725 Recipes|Recipes]]

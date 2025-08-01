@@ -1,5 +1,5 @@
 ---
-title: Music
+title: Music Theory
 draft: false
 tags: 
 date: 2025-07-25
