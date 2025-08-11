@@ -95,14 +95,14 @@ graph TD
 - Ring network or 1D Torus
 	![[../Files/Pasted image 20240425160446.png|center]]
 - dD Torus (d-> dimension)
-	![[../Files/Pasted image 20240425160521.png|center]]
+	![[../Files/Pasted image 20250801160222.png]]
 - D-Dimensional hypercube
 	 ![[../Files/Pasted image 20240425160538.png|center]]
-	- Nodes $N= 2^d$ 
-	- Node connected with $d$ neighbours. 
-	- indexed by $d$ bits. 
 	- Diameter = $d$ = $\log_2 N$
 	- Degree = $d$ = $\log_2 N$
+	- Nodes $N= 2^d$ 
+	- Node connected with $d$ neighbors. 
+	- Indexed by $d$ bits. 
 	- Node index differ from neighbor's index by 1 bit.
 	- Patch through the network changes bit at a time 
 		- 000->001->101->111

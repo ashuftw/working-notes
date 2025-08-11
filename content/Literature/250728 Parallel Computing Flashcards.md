@@ -2,7 +2,7 @@
 title: Parallel Computing Flashcards
 draft: true
 tags: 
-date:
+date: 2025-07-28
 ---
 What is the core idea of parallel computing?
 ---

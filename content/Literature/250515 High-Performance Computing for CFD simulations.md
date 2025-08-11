@@ -33,6 +33,6 @@ date: 2025-05-15
 ## 11. Debugging
 - [[250729 Debugging]]
 ## 12. Parallel Computing
-- [[250728 Parallel Computing]]
+- [[250728 Parallel Computing Flashcards]]
 ## 13. HPC Cluster 
  - [[250717 HPC Cluster Flashcards|HPC Cluster Flashcards]]

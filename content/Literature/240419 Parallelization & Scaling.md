@@ -3,7 +3,6 @@ title: Parallelization & Scaling
 draft: false
 date: 2024-04-19
 ---
-
 ## Parallel Computing
 
 ### Limiting factors 
@@ -41,7 +40,7 @@ date: 2024-04-19
 
 ![[../Files/Pasted image 20240419113154.png|center]]
 
-### Roofline Graph
+### Roofline Model 
 
 ![[../Files/Pasted image 20240419113228.png|center]]
 
