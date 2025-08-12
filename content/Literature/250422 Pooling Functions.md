@@ -4,7 +4,6 @@ draft: false
 tags: 
 date: 2025-04-22
 ---
-
 ## Definition
 
 Pooling functions reduces the spatial dimensions (width and height) of the input volume while preserving the most important features. 

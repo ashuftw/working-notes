@@ -49,24 +49,8 @@ tags:
 - [[250714 Decomposition of the Bayesian Approach to the Generalized Linear Model|Decomposition of the Bayesian Approach to the Generalized Linear Model]]
 - [[250714 Outcomes of Gaussian Modeling|Outcomes of Gaussian Modeling]]
 - [[250714 Direct Maximum Likelihood Approach|Direct Maximum Likelihood Approach]]
-- Direct Posterior Modeling
-	- [[250714 Logistic Regression (Probabilistic Discriminative Model)|Logistic Regression (Probabilistic Discriminative Model)]]
-- Three approaches to classification 
-	- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
-#####  Core Concepts
-- [[240711 Linearly Separable Datasets|Linearly Separable Datasets]]
-- [[250711 Hyper planes|Hyperplanes]] 
-- [[250710 One of K Encoding Scheme|One-of-K Encoding Scheme]]
-##### Three Main Approaches to Classification
-- **Approach 1: Discriminant Functions (Direct Mapping)**
-    - **Example**: [[240711 Fisher's Linear Discriminant Function|Fisher's Linear Discriminant (LDF)]] 
-- **Approach 2: Bayesian Approach**
-    - [[250719 Bayesian Approach for Two Classes|Bayesian Approach for Two Classes]]
-    - [[250714 Outcomes of Gaussian Modeling|Outcomes of Modeling with Gaussians]]
-    - [[250714 Direct Maximum Likelihood Approach|Direct Maximum Likelihood Approach]]
-- **Approach 3: Direct Posterior Modeling**
-    - [[250714 Logistic Regression (Probabilistic Discriminative Model)|Probabilistic Discriminative Models]]
-    - **Example**: Logistic Regression, which is a type of [[250714 Decomposition of the Bayesian Approach to the Generalized Linear Model|Generalized Linear Model]]. 
+- [[250714 Logistic Regression (Probabilistic Discriminative Model)|Logistic Regression (Probabilistic Discriminative Model)]]
+- [[240711 Fisher's Linear Discriminant Function|Discriminant Function (Fisher LDF as Example)]]
 ### 8. Concept Learning
 - [[250317 Validity of Fundamental Equivalence between Induction and Deduction|Validity of Fundamental Equivalence between Induction and Deduction]]
 - [[250726 ID3 Algorithm|ID3 Algorithm]]
@@ -78,10 +62,9 @@ tags:
 - [[250726 Curse of Dimensionality|Curse of Dimensionality]]
 - [[250726 Nadaraya Watson Regressor|Nadaraya Watson Regressor]]
 ## 10. Prototypes, K-means, GMM and EM
-- [[250727 K-means Algorithm]]
-- [[250727 Relationship between K-means and Expectation Maximization Algorithms]]
-- [[250727 Gaussian Mixture Model]]
-- [[250727 Gaussian Mixture Regression (GMR)]]
+- [[250727 K-means Algorithm|K-means Algorithm]]
+- [[250727 Relationship between K-means and Expectation Maximization Algorithms|Relationship between K-means and Expectation Maximization Algorithms]]
+- [[250727 Gaussian Mixture Model|Gaussian Mixture Model]]
+- [[250727 Gaussian Mixture Regression (GMR)|Gaussian Mixture Regression (GMR)]]
 ## 11. Theoretical Fundamentals 
-- [[250727 Theoretical Fundamentals of Learning]]
-[[Concept learning road map]]
+- [[250727 Theoretical Fundamentals of Learning|Theoretical Fundamentals of Learning]]

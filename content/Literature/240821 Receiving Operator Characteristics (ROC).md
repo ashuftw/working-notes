@@ -3,7 +3,6 @@ title: Receiving Operator Characteristics
 draft: false
 date: 2024-08-21
 ---
-
 ## $\text{TPR = f(FPR)}$
 
 ![[../Files/Pasted image 20250423174738.png|center|700]]

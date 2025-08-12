@@ -22,7 +22,7 @@ where,
 - $a \in \mathcal{A}=\{1,2, \ldots, A\}$ represents the action 
 - $\lambda$ is the loss function, such that $\lambda(a=j \mid s=i)$ states how costly an action $a=j$ given a classification $s  = i$
 
-> Note: The Cost function is entered manually. So that the decision that would lead to a negative outcome is weighted with a very high cost. 
+> **Note**:The Cost function is entered manually. So that the decision that would lead to a negative outcome is weighted with a very high cost. 
 
 ## **Example**
 
@@ -36,7 +36,7 @@ Consider a Two Class problem such that
 - $\lambda( a=2\mid s= 1)$ : High 
 - $\lambda( a=2\mid s= 2)$ : Low
 
-Give that we use a Bayes Classifier to make diagnosis a on the Patient. The *Conditional Risk* can be calculated as follows. 
+Give that we use a [[240410 Bayesian Classifier|Bayes Classifier]] to make diagnosis $a$ on the Patient. The *Conditional Risk* can be calculated as follows. 
 
 
 
