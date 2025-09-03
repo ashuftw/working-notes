@@ -23,7 +23,7 @@ $$
 
 Where, 
 - $q_i$ are deterministic coefficients (also called PC coefficients). They encode important information about distribution and act as weights. 
-- $\Phi_i$ are Orthogonal Polynomials (e.g.**Hermite polynomials**)
+- $\Phi_i$ are [[250902 Orthogonal Polynomials|Orthogonal Polynomials]] (e.g.**Hermite polynomials**)
 - $\xi \sim \mathcal{N}(0,1)$ is the germ  
 - Each $\xi$ term is called a germ.
 - The Polynomials are orthogonal to the the germ. 

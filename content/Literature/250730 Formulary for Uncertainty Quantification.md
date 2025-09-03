@@ -77,7 +77,13 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 
 - **Expectation of the MC Estimator**: The estimator is unbiased.
 
-    $$ \mathbb{E}[\hat{\mu}_K] = \mathbb{E}[X] \quad \text{where} \quad \hat{\mu}_K = \frac{1}{K}\sum_{k=1}^{K}X^{(k)} $$
+    $$ \mathbb{E}[\hat{\mu}_K] = \mu
+    
+    $$
+    where, 
+    $$
+    \mathbb E[\hat \mu_K]=\frac{1}{k}\sum_{i=1}^{K}y^{(i)}=\frac{1}{k}\sum_{i=1}^{K}\mathcal{M}(x^{(i)})$$
+	
 
 - **Mean-Square Error (MSE) of an Estimator Z**: This is a general relation.
 

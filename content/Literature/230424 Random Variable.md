@@ -14,7 +14,7 @@ It is a variable whose value is dependent on the outcome of a random experiment.
 
 ## Example
 
-- Player is tolling a die, a win or loss is associated with each outcome 
+- Player is rolling a die, a win or loss is associated with each outcome 
 
 
 

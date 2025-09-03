@@ -35,6 +35,9 @@ tags:
 
 1. [[240423 Bayesian Discriminant Function|Bayesian Discriminant Function]]
 2. [[240815 Equivalent Discriminant Function and Examples|Equivalent Discriminant Function and Examples]]
+3. [[250814 Discriminant Function for Minimum Error Rate Classification|Discriminant Function for Minimum Error Rate Classification]]
+4. [[250814 Discriminant Function (Multi-category)|Discriminant Function (Multi-category)]]
+5. [[250814 Bayesian Discriminant Function (Gaussian)|Bayesian Discriminant Function (Gaussian)]]
 
 ### Bayesian Networks
 
@@ -63,8 +66,11 @@ tags:
 
 ### Parameter Estimation Techniques
 
-1. [[240514 Parameter Estimation for Maximum Likelihood|Parameter Estimation for Maximum Likelihood]]
-2. [[240821 Expectation Maximization Algorithm|Expectation Maximization Algorithm]]
+1. [[250814 Parameter Estimation for Maximum Likelihood (Univariate Gaussian)|Parameter Estimation for Maximum Likelihood]]
+2. [[250814 Parameter Estimation for Maximum Likelihood (Univariate Gaussian)|Parameter Estimation for Maximum Likelihood (Univariate Gaussian)]]
+3. [[240514 Parameter Estimation for Maximum Likelihood (Multivariate Gaussian)|Parameter Estimation for Maximum Likelihood (Multivariate Gaussian)]]
+4. [[250814 Parameter Estimation for Maximum Likelihood (Gaussian Mixture Model)|Parameter Estimation for Maximum Likelihood (Gaussian Mixture Model)]]
+5. [[240821 Expectation Maximization Algorithm|Expectation Maximization Algorithm]]
 
 ## IV. Neural Networks
 
@@ -72,11 +78,23 @@ tags:
 
 1. [[240610 Activation Functions|Activation Functions]]
 2. [[240510 Activation Function for a Bayesian Classifier|Activation Function for a Bayesian Classifier]]
-
+## V. Supervised non-Parametric Estimation of Distributions and Classification
+1. [[250815 Supervised non-Parametric Estimation|Overview]]
+	- [[250815 Kernel-Based Method for Supervised non-Parametric Estimation (Parzen Windows)|Kernel-based methods(Parzen Windows)]]
+	- [[250815 k-Nearest-Neighbor Estimation|k-Nearest-Neighbor Estimation]]
+## VI. Linear Discriminant Functions or Single Layer Networks
+1. [[250815 Linear Discriminant Function|Linear Discriminant Function]]
+2. [[250815 Single Layer Neural Network|Single Layer Neural Network]]
 ## VII Support Vector Machine 
-
+1. [[250813 Optimization problem for an SVM dealing with Separable Dataset|Optimization problem for an SVM dealing with Separable Dataset]]
 ## VIII Neural Networks (CNNs)
 
 1. [[250422 Translational Invariance in CNNs|Translational Invariance in CNNs]]
 2. [[250422 Pooling Functions|Pooling Functions]]
 3. [[250422 Neural Network Formulae for Calculations|Neural Network Formulae for Calculations]]
+
+## IX Unsupervised Learning and Clustering
+
+## X Misc
+- [[250812 Exam Prep|Exam Prep]]
+- [[250814 Important Concepts|Important Concepts]]

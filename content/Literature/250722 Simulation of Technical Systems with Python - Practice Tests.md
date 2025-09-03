@@ -1,7 +1,7 @@
 ---
 title: Simulation of Technical Systems with Python - Practice Tests
-draft: false
-tags: 
+draft: true
+tags:
 date: 2025-07-22
 ---
 ## Past Exams 

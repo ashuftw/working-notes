@@ -140,7 +140,7 @@ An alternative formula for terminal velocity based on balancing drag and buoyanc
 
 
 $$
-u_t = \frac{2 \cdot R^2 \cdot g \cdot (\rho_{\text{droplet}} - \rho_{\text{medium}}) \cdot (\mu_{\text{droplet}} + \mu_{\text{medium}})}{3 \cdot \mu_{\text{medium}} \cdot (2\mu_{\text{medium}} + 3\mu_{\text{droplet}})}
+u_t = \frac{2 \cdot R^2 \cdot g \cdot (\rho_{\text{droplet}} - \rho_{\text{medium}}) \cdot (\mu_{\text{droplet}} + \mu_{\text{medium}})}{3 \cdot \mu_{\text{droplet}} \cdot (2\mu_{\text{droplet}} + 3\mu_{\text{medium}})}
 $$
 
 

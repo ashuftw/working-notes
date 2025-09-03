@@ -19,7 +19,7 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/230417 Numerical Methods for Differential Equations|Numerical Methods for Differential Equations]]
 - [[Literature/250522 Simulation of Technical Systems with Python|Simulation of Technical Systems with Python]]
 - [[Literature/Intro to Machine Learning|Machine Learning]]
-- [[Literature/SS24 Pattern Recognition|Pattern Recognition]]
+- [[Literature/240401 Pattern Recognition|Pattern Recognition]]
 - [[Literature/230423 Uncertainty|Uncertainty Analysis]]
 
 ## Other
