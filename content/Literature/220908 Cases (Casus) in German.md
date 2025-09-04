@@ -20,6 +20,7 @@ Example:
 
 
 
+
 	$$
 	\underbrace{\text{Der Mann}}_{\text{Subjekt}}\text{ gibt } \underbrace{\text{dem Hund}}_{\text{Indirektes Objekt}} \ \overbrace{\text{den Knochen.}}^{\text{Direktes Objekt}}
 	$$
@@ -27,7 +28,9 @@ Example:
 
 
 
+
 - **Indefinite Case**
+
 
 
 
@@ -39,7 +42,9 @@ Example:
 
 
 
+
 - **Genitiv**
+
 
 
 
@@ -47,6 +52,7 @@ Example:
 	$$
 	\text{Das ist }\underbrace{\text{das Haus }}_{\text{Nominative}} \overbrace{\text{meines Bruders.}}^\text{Genitiv}
 	$$
+
 
 
 

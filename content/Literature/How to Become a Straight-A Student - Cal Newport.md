@@ -23,9 +23,11 @@ date: 2022-10-04
 
 
 
+
 	$$
 	\text{Work accomplished = Time spent}\times \text{Intensity of focus}
 	$$
+
 
 
 

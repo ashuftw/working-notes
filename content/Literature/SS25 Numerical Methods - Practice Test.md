@@ -223,9 +223,11 @@ Sketch should show parabola $f(x) = \frac{1}{4}x^2$, starting point $(4,4)$, tan
 
 
 
+
 	$$
 	g'(x) = 1 - \frac{f'(x)^2 - f(x)f''(x)}{[f'(x)]^2} = \frac{f(x)f''(x)}{[f'(x)]^2}
 	$$
+
 
 
 
@@ -377,17 +379,21 @@ First, we compute the matrices on the left and right sides.
 * **Left-Hand Side Matrix:**
     
 
+
 	$$
 	I - \frac{h}{2}A = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} - 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix} = \begin{pmatrix} 2 & 0.5 \\ 0 & 2 \end{pmatrix}
 	$$
 
 
+
 * **Right-Hand Side Vector:**
     
+
 
 	$$
 	\left(I + \frac{h}{2}A\right)q_0 = \left(\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} + 0.5 \begin{pmatrix} -2 & -1 \\ 0 & -2 \end{pmatrix}\right) \begin{pmatrix} 1 \\ 4 \end{pmatrix} = \begin{pmatrix} -2 \\ 0 \end{pmatrix}
 	$$
+
 
 
 The system to solve for $q_1$ is:
@@ -516,33 +522,57 @@ $$
 
 1.  **Calculate Stage 1 ($q_1$):**
     Evaluate $f$ at the initial point $(t_0, y_0) = (0, 2)$.
-    $$q_1 = h \cdot f(t_0, y_0) = 3 \cdot 2 = 6$$
+
+	$$
+	q_1 = h \cdot f(t_0, y_0) = 3 \cdot 2 = 6
+	$$
+
 2.  **Calculate Stage 2 ($q_2$):**
     The arguments for $f$ are:
     - Time: $t_0 + \frac{1}{3}h = 0 + \frac{1}{3}(3) = 1$
     - y-value: $y_0 + \frac{1}{3}q_1 = 2 + \frac{1}{3}(6) = 2 + 2 = 4$
     - $f(1, 4) = 4 - 1 = 3$.
-    $$q_2 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{1}{3}q_1\right)= h \cdot f(1, 4) = 3 \cdot 3 = 9$$
+
+    	$$
+    	q_2 = hf\left(t_i + \frac{1}{3}h, y_i + \frac{1}{3}q_1\right)= h \cdot f(1, 4) = 3 \cdot 3 = 9
+    	$$
+
 3.  **Calculate Stage 3 ($q_3$):**
     The arguments for $f$ are:
     - Time: $t_0 + \frac{2}{3}h = 0 + \frac{2}{3}(3) = 2$
     - y-value: $y_0 + \frac{2}{3}q_2 = 2 + \frac{2}{3}(9) = 2 + 6 = 8$
 	-  $f(2, 8) = 8 - 2 = 6$.
-    $$q_3 = h \cdot f(2, 8) = 3 \cdot 6 = 18$$
+
+		$$
+		q_3 = h \cdot f(2, 8) = 3 \cdot 6 = 18
+		$$
+
 4.  **Calculate Final Update ($y_1$):**
     Using the calculated stages $q_1=6$ and $q_3=18$:
-    $$y_1 = y_0 + \frac{1}{4}q_1 + \frac{3}{4}q_3=17$$
+
+	$$
+	y_1 = y_0 + \frac{1}{4}q_1 + \frac{3}{4}q_3=17
+	$$
+
 After one step with step size $h=3$, the approximate value is **$y_1 = 17$**.
 ## Task 8 
 ![[../Files/Pasted image 20250724153236.png]]
  We use a spatial step size of $\Delta x = 1/6$, which creates 5 interior grid points $x_j = j/6$ for $j=1, \dots, 5$. The solution at these points is approximated by the time-dependent functions $u_j(t) \approx u(t, x_j)$.
 
 The second spatial derivative $u_{xx}$ is approximated using the **central difference formula**:
-$$ u_{xx}(t, x_j) \approx \frac{u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)}{(\Delta x)^2} $$
+
+$$
+u_{xx}(t, x_j) \approx \frac{u_{j-1}(t) - 2u_j(t) + u_{j+1}(t)}{(\Delta x)^2}
+$$
+
 Substituting this into the PDE and applying the homogeneous Dirichlet boundary conditions ($u_0(t) = 0$ and $u_6(t) = 0$) results in a system of 5 ordinary differential equations.
 
 This system can be written in matrix-vector form as:
-$$ \mathbf{u}'(t) = \frac{a}{(\Delta x)^2} A \mathbf{u}(t) + \mathbf{f}(t) $$
+
+$$
+\mathbf{u}'(t) = \frac{a}{(\Delta x)^2} A \mathbf{u}(t) + \mathbf{f}(t)
+$$
+
 With $\Delta x = 1/6$, $\frac{a}{(1/6)^2} = 36a$. The final system is:
 
 $$

@@ -15,9 +15,11 @@ It is used to report what someone else said in without directly quoting them.
 
 
 
+
 	$$
 	\text{haben or sein in Konjunktiv + Partizip II}
 	$$
+
 
 
 
@@ -29,6 +31,7 @@ It is used to report what someone else said in without directly quoting them.
 
 
 
+
 		$$
 		\text{haben im Konjunktiv + Infinitiv des Verbs + Infinitiv des Modalverbs }
 		$$
@@ -36,8 +39,10 @@ It is used to report what someone else said in without directly quoting them.
 
 
 
+
 		*er **habe** kaufen **wollen**.*
 	- **Mit Nebensatz**
+
 
 
 
@@ -49,8 +54,10 @@ It is used to report what someone else said in without directly quoting them.
 
 
 
+
 	*Sie sagte, sie **könne** schwimmen.*
 3. **Passiv Vergangenheit in der indirekten Rede**
+
 
 
 
@@ -58,6 +65,7 @@ It is used to report what someone else said in without directly quoting them.
 	$$
 	\text{sein im Konjunktiv + Partizip II + worden}
 	$$
+
 
 
 

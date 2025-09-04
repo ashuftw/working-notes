@@ -59,36 +59,46 @@ $$
 1.  **Stage 1:**
 	
 
+
 	$$
 	q_1 = h \cdot f\left((t_n + c_1 h), (y_n +  a_{11} q_1+a_{12}q_2+a_{13}q_3+...)\right)
 	$$
 
 
+
     
-$$
-q_1 = h \cdot f\left(t_n, y_n + \frac{1}{3}q_1 + \frac{1}{3}q_2\right)
-$$
+
+	$$
+	q_1 = h \cdot f\left(t_n, y_n + \frac{1}{3}q_1 + \frac{1}{3}q_2\right)
+	$$
+
 
 2.  **Stage 2:**
     
+
 
 	$$
 	q_2 = h \cdot f\left(t_n + \frac{2}{3}h, y_n + \frac{2}{3}q_2\right)
 	$$
 
 
+
 3.  **Final Result:**
 	
+
 
 	$$
 	y_{n+1} = y_n + b_1 q_1+b_2 q_2+...
 	$$
 
 
+
     
-$$
-y_{n+1} = y_n + \frac{1}{4}q_1 + \frac{3}{4}q_2
-$$
+
+	$$
+	y_{n+1} = y_n + \frac{1}{4}q_1 + \frac{3}{4}q_2
+	$$
+
 
 
 ### (ii) Implicit Midpoint Rule
@@ -106,17 +116,21 @@ $$
 1.  **Stage 1:**
     
 
+
 	$$
 	q_1 = h \cdot f\left(t_n + \frac{1}{2}h, y_n + \frac{1}{2}q_1\right)
 	$$
 
 
+
 2.  **Final Result:**
     
+
 
 	$$
 	y_{n+1} = y_n + q_1
 	$$
+
 
 
 
@@ -138,33 +152,41 @@ $$
 1.  **Stage 1:**
     
 
+
 	$$
 	q_1 = h \cdot f(t_n, y_n)
 	$$
 
 
+
 2.  **Stage 2:**
     
+
 
 	$$
 	q_2 = h \cdot f(t_n + h, y_n + q_1)
 	$$
 
 
+
 3.  **Stage 3:**
     
+
 
 	$$
 	q_3 = h \cdot f\left(t_n + \frac{1}{2}h, y_n + \frac{1}{4}q_1 + \frac{1}{4}q_2\right)
 	$$
 
 
+
 4.  **Final Result:**
     
+
 
 	$$
 	y_{n+1} = y_n + \frac{1}{6}q_1 + \frac{1}{6}q_2 + \frac{2}{3}q_3
 	$$
+
 
 
     
@@ -176,6 +198,7 @@ $$
 	The Butcher tableau for the Euler-Heun method is:
 	
 
+
 	$$
 	\begin{array}{c|cc}
 	0 & 0 & 0 \\
@@ -186,10 +209,12 @@ $$
 	$$
 
 
+
 	The coefficient matrix is $A = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix}$. Since all entries on and above the main diagonal are zero, the method is **explicit**.
 2. **Implicit: Crank-Nicolson Method**
 	The Butcher tableau for the Crank-Nicolson method is:
 	
+
 
 	$$
 	\begin{array}{c|cc}
@@ -199,6 +224,7 @@ $$
 	& 1/2 & 1/2
 	\end{array}
 	$$
+
 
 
 	The coefficient matrix is $A = \begin{pmatrix} 0 & 0 \\ 1/2 & 1/2 \end{pmatrix}$. Because there is a non-zero entry on the main diagonal ($a_{22} = 1/2$), the method is **implicit**. The calculation for the second stage depends on itself, which requires solving an equation.

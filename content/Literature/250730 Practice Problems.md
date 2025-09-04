@@ -55,26 +55,40 @@ $$
 $$
 ### Calculating Expectations for a Uniform Distribution
 Given a random variable $\xi$ that is uniformly distributed on the interval $[-1, 1]$, its Probability Density Function (PDF) is:
-$$f(\xi) = \frac{1}{2}, \quad \text{for } \xi \in [-1, 1]$$
+
+$$
+f(\xi) = \frac{1}{2}, \quad \text{for } \xi \in [-1, 1]
+$$
+
 The general formula for the expected value of a function $g(\xi)$ is:
-$$E[g(\xi)] = \int_{-1}^{1} g(\xi)f(\xi)d\xi$$
+
+$$
+E[g(\xi)] = \int_{-1}^{1} g(\xi)f(\xi)d\xi
+$$
+
 1. **Expectation of $\xi$**
+
 	$$
-	E[\xi] = \int_{-1}^{1} \xi \cdot \frac{1}{2} \,d\xi 
+	E[\xi] = \int_{-1}^{1} \xi \cdot \frac{1}{2} \,d\xi
 	= \frac{1}{2} \left[ \frac{\xi^2}{2} \right]_{-1}^{1} = 0
 	$$
 
+
 2. **Expectation of $\xi^2$**
+
 	$$
-	E[\xi^2] = \int_{-1}^{1} \xi^2 \cdot \frac{1}{2} \,d\xi 
-	= \frac{1}{2} \left[ \frac{\xi^3}{3} \right]_{-1}^{1} = \frac 1 3 
+	E[\xi^2] = \int_{-1}^{1} \xi^2 \cdot \frac{1}{2} \,d\xi
+	= \frac{1}{2} \left[ \frac{\xi^3}{3} \right]_{-1}^{1} = \frac 1 3
 	$$
 
+
 3. **Expectation of** $\xi^3$
+
 	$$
-	E[\xi^3] = \int_{-1}^{1} \xi^3 \cdot \frac{1}{2} \,d\xi 
+	E[\xi^3] = \int_{-1}^{1} \xi^3 \cdot \frac{1}{2} \,d\xi
 	= \frac{1}{2} \left[ \frac{\xi^4}{4} \right]_{-1}^{1}  =0
 	$$
+
 and therefore
 $$
 \begin{gathered}

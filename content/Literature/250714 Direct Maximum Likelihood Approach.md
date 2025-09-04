@@ -30,9 +30,11 @@ $$
 Where,
 - $\pi$ is the proportion of data belonging to the first class (**prior probability** for class $C_1$ or $P(C_1)$) 
 
+
 	$$
 	\pi = \frac{1}{N} \sum_n t_n = \frac{N_1}{N}
 	$$
+
 
 
 - $N$ is the total number of data points

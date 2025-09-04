@@ -30,11 +30,13 @@ where $d_n$ is the weight at a point $n$
 
 
 
+
 	$$
 	\boxed{
 	w* = (\Phi^T D \Phi)^{-1}\Phi^T D T
 	}
 	$$
+
 
 
 

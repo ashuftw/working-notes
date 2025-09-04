@@ -12,11 +12,14 @@ It is the average value (mean) of a random experiment. 
 
 1. **Discrete Random variable**
 
+
 	$$
 	\mathbb{E}[X]:=\sum_{i=1}^n X(\theta_i) \cdot P(X(\theta_i))
 	$$
 
+
 2. **Continuous Random variable**
+
 
 	$$
 	\begin{aligned}\mathbb{E}[X]&:=\int_{\Theta} X(\theta) d \mathbb{P}(\theta)
@@ -24,6 +27,7 @@ It is the average value (mean) of a random experiment. 
 	\mathbb{E}[X]&:=\int_{-\infty}^{\infty} x f_X(x) \mathrm{d} x
 	\end{aligned}
 	$$
+
 
 where
 - $n\rightarrow$ size of sample space

@@ -17,7 +17,11 @@ $$
 To find the parameters that maximize the likelihood of observing the training data, one must find the maximum of the log-likelihood function, $LL(\theta)$. This is typically done by taking the **partial derivative** with respect to each parameter, **setting it to zero**, and solving the resulting system of equations.
 
 The formula is:
-$$ \frac{\partial}{\partial\theta_r} LL(\theta) = \sum_{\tau=1}^{T} \frac{\partial}{\partial\theta_r} \log p(x=o_{\tau}|\theta) \stackrel{!}{=} 0, \quad \text{for } r=1,2,...,R $$
+
+$$
+\frac{\partial}{\partial\theta_r} LL(\theta) = \sum_{\tau=1}^{T} \frac{\partial}{\partial\theta_r} \log p(x=o_{\tau}|\theta) \stackrel{!}{=} 0, \quad \text{for } r=1,2,...,R
+$$
+
 
 - **$\hat{\theta}^{(ML)}$**: The parameter vector that maximizes the likelihood.
 - **$LL(\theta)$**: The log-likelihood function.
@@ -38,6 +42,15 @@ In pattern recognition, we need parameter estimation to **train classifiers** by
 Assuming that the Likelihood can by represented by a Gaussian, we find **mean $\mu_i$** and **covariance $\Sigma_i$**
 such that it closely represents the **Likelihood**.  The ML estimates for the parameters are estimated as follows:
 -   **Sample Mean (unbiased):** This is the average of all the training vectors.
-    $$\hat{\mu} = \frac{1}{T} \sum_{\tau=1}^{T} o_{\tau}$$
+
+	$$
+	\hat{\mu} = \frac{1}{T} \sum_{\tau=1}^{T} o_{\tau}
+	$$
+
 -   **Sample Covariance (unbiased):** This is the average of the outer products of the centered data vectors. 
-    $$\hat{\Sigma} = \frac{1}{T-1} \sum_{\tau=1}^{T} (o_{\tau} - \hat{\mu})(o_{\tau} - \hat{\mu})^T$$*Note: Using a denominator of T-1 provides an unbiased estimate.*
+
+	$$
+	\hat{\Sigma} = \frac{1}{T-1} \sum_{\tau=1}^{T} (o_{\tau} - \hat{\mu})(o_{\tau} - \hat{\mu})^T
+	$$
+
+	*Note: Using a denominator of T-1 provides an unbiased estimate.*

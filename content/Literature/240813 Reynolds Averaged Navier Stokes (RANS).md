@@ -34,6 +34,7 @@ The **RANS** Equations are formulated taking the [[240424 Time Averaged Navier-S
 
 
 
+
 	$$
 	\boxed{\frac{\partial \bar{u}_j}{\partial x_j}=0 }
 	$$
@@ -41,7 +42,9 @@ The **RANS** Equations are formulated taking the [[240424 Time Averaged Navier-S
 
 
 
+
 - **Momentum Equations**
+
 
 
 
@@ -53,14 +56,17 @@ The **RANS** Equations are formulated taking the [[240424 Time Averaged Navier-S
 
 
 
+
  Rearranging
 
 
 
-$$
-\boxed{
-\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[v \frac{\partial\bar u_i}{\partial x_j}+\tau_{i j}^{t u r b}\right]}
-$$
+
+	$$
+	\boxed{
+	\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[v \frac{\partial\bar u_i}{\partial x_j}+\tau_{i j}^{t u r b}\right]}
+	$$
+
 
 
 

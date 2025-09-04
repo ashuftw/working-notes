@@ -8,7 +8,11 @@ date: 2025-08-14
  For a classifier where the likelihood for each class is a multivariate Gaussian distribution, the decision surfaces are generally **hyperquadrics**. A hyperquadric is a generalization of conic sections (like ellipses, parabolas, and hyperbolas) to higher dimensions. This means the boundaries separating the classes can be hyperplanes, pairs of hyperplanes, hyperspheres, hyperellipsoids, or hyperparaboloids.
 ## Discriminant Function
 Assuming a minimum-error-rate classification and Gaussian likelihoods $p(x|s=i) \sim \mathcal{N}(x;\mu_i, \Sigma_i)$, the logarithmic discriminant function is:
-$$g_i(x) = \ln p(x|s=i) + \ln P(s=i)$$
+
+$$
+g_i(x) = \ln p(x|s=i) + \ln P(s=i)
+$$
+
 
 Expanding the Gaussian term, we get:
 $$

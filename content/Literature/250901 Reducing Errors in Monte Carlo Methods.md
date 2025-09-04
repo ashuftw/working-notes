@@ -5,7 +5,11 @@ tags:
 date: 2025-09-01
 ---
 From the **[[250901 Mean-Square Error of the Monte-Carlo Method|Mean-Square Error (MSE)]]** formula, we have the relation:
-$$ \text{Error} = \frac{\text{Variance}}{K} $$
+
+$$
+\text{Error} = \frac{\text{Variance}}{K}
+$$
+
 - **Variance**: The inherent randomness or "spread" of the model's output.
 - **K**: The number of simulations you run.
 

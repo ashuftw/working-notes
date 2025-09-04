@@ -15,6 +15,10 @@ The k-means algorithm is an iterative method to partition N data points into K c
 ## Optimization Criteria
 K-means minimizes the **quantization error**, which is the sum of the squared distances between each data point $x_n$ and its assigned cluster's prototype $w_k$. The objective function $J$ is:
 
-$$J = \sum_{n=1}^{N}\sum_{k=1}^{K} r_{nk} ||x_n - w_k||^2$$
+
+$$
+J = \sum_{n=1}^{N}\sum_{k=1}^{K} r_{nk} ||x_n - w_k||^2
+$$
+
 
 Where $r_{nk}$ is 1 if data point $x_n$ is assigned to cluster $k$, and $0$ otherwise.

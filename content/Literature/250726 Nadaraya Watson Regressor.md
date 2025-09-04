@@ -6,7 +6,11 @@ date: 2025-07-26
 ---
 The Nadaraya-Watson kernel regression estimator uses kernel functions for weighting and is defined by the following formula
 
-$$f(x_{q})=\sum_{i}y_{i}\frac{K_{\sigma}(x_{i}-x_{q})}{\sum_{j}K_{\sigma}(x_{j}-x_{q})}$$
+
+$$
+f(x_{q})=\sum_{i}y_{i}\frac{K_{\sigma}(x_{i}-x_{q})}{\sum_{j}K_{\sigma}(x_{j}-x_{q})}
+$$
+
 
 The key parameter that has to be chosen is the **bandwidth $\sigma$** of the kernel function, $K_{\sigma}$ (often a Gaussian kernel). This parameter controls the width of the kernel and thus the smoothness of the resulting function.
 - $f(x_q)$ -> Final **predicted output value** for the new, unseen input point $x_q$.

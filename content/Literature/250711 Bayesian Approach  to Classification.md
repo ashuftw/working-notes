@@ -8,17 +8,21 @@ The Bayesian approach is an indirect method for classification that models proba
 1. Model the class-conditional likelihood for each class,
 
 
+
 	$$
 	p\left(x \mid C_k\right) .
 	$$
 
 
+
 2. Model the prior probability for each class,
+
 
 
 	$$
 	p\left(C_k\right) .
 	$$
+
 
 
 3. Use Bayes' formula to calculate the posterior probability, $p\left(C_k \mid x\right)$, which is the probability of a class given the input data.

@@ -116,6 +116,7 @@ Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream 
 
 
 
+
 	$$
 	\boxed{
 	\rho A v = \text{const}
@@ -125,7 +126,9 @@ Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream 
 
 
 
+
 2. **Unsteady Incompressible Flow**
+
 
 
 
@@ -139,7 +142,9 @@ Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream 
 
 
 
+
 3. **Steady Incompressible Flow**
+
 
 
 
@@ -149,5 +154,6 @@ Gives the Continuity equation for a 1 Dimensional Compressible flow in a Stream 
 	Av=\text{const}
 	}
 	$$
+
 
 

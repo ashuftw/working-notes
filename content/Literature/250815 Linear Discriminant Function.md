@@ -10,7 +10,11 @@ A **linear discriminant function** is a function used in pattern classification 
 ### Mathematical Expression
 For a $d-$dimensional input feature vector $\mathbf x$, a linear discriminant function $g(x)$ is defined as:
 
-$$ g(\mathbf{x}) = \mathbf{w}^T\mathbf{x} + w_0 $$
+
+$$
+g(\mathbf{x}) = \mathbf{w}^T\mathbf{x} + w_0
+$$
+
 
 Where:
 - $\mathbf x$: The input feature vector, $\mathbf{x} = [x_1, x_2, ..., x_d]^T$.

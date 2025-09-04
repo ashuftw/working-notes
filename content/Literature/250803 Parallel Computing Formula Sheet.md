@@ -76,7 +76,11 @@ For single consolidated message: $T_{single} = Latency + \frac{Total\ Data}{Band
 
 ### Definition
 
-$$Arithmetic\ Intensity = \frac{FLOPS}{Memory\ Bytes\ Transferred}$$
+
+$$
+Arithmetic\ Intensity = \frac{FLOPS}{Memory\ Bytes\ Transferred}
+$$
+
 
 ### Matrix-Vector Multiplication (m×n matrix × n×1 vector)
 
@@ -95,13 +99,22 @@ $$Arithmetic\ Intensity = \frac{FLOPS}{Memory\ Bytes\ Transferred}$$
 
 ### Row-Major Matrix Access
 
-For matrix element $a_{ij}$ in row-major storage: $$Index = i \times N + j$$
+For matrix element $a_{ij}$ in row-major storage:
+
+$$
+Index = i \times N + j
+$$
+
 
 Where $N$ is the number of columns
 
 ### Matrix Multiplication Formula
 
-$$c_{ij} = \sum_{k=1}^{N} a_{ik} \cdot b_{kj}$$
+
+$$
+c_{ij} = \sum_{k=1}^{N} a_{ik} \cdot b_{kj}
+$$
+
 
 In code: `C[i*N+j] = Sum(A[i*N+k]*B[k*N+j], k=0,N-1)`
 
@@ -124,7 +137,11 @@ In code: `C[i*N+j] = Sum(A[i*N+k]*B[k*N+j], k=0,N-1)`
 
 ### Blocking Communication Time
 
-$$T_{comm} = Latency + \frac{Message\ Size}{Bandwidth}$$
+
+$$
+T_{comm} = Latency + \frac{Message\ Size}{Bandwidth}
+$$
+
 
 ### Non-blocking Communication
 
@@ -153,9 +170,18 @@ $$T_{comm} = Latency + \frac{Message\ Size}{Bandwidth}$$
 
 ### Theoretical Peak FLOPS
 
-$$Peak\ FLOPS = Cores \times Clock\ Speed \times Operations\ per\ Cycle$$
 
-For vectorized operations: $$Peak\ FLOPS = Cores \times Clock\ Speed \times Vector\ Width \times 2$$
+$$
+Peak\ FLOPS = Cores \times Clock\ Speed \times Operations\ per\ Cycle
+$$
+
+
+For vectorized operations:
+
+$$
+Peak\ FLOPS = Cores \times Clock\ Speed \times Vector\ Width \times 2
+$$
+
 
 (Factor of 2 for FMA - Fused Multiply-Add)
 
@@ -168,7 +194,12 @@ For vectorized operations: $$Peak\ FLOPS = Cores \times Clock\ Speed \times Vect
 
 ### Definition
 
-A calculation is bandwidth-limited when: $$\frac{Peak\ FLOPS}{Peak\ Memory\ Bandwidth} > Arithmetic\ Intensity$$
+A calculation is bandwidth-limited when:
+
+$$
+\frac{Peak\ FLOPS}{Peak\ Memory\ Bandwidth} > Arithmetic\ Intensity
+$$
+
 
 ### When Bandwidth Dominates
 

@@ -27,7 +27,11 @@ These concepts are inversely related. Minimizing an error or cost function is of
 ## 2. Example of a Cost Function
 
 A common cost function in supervised learning is the **sum-of-squared errors** with a regularization term, which penalizes model complexity:
-$$E(w)=\frac{1}{2}\sum_{n=1}^{N}(t_{n}-w^{T}\phi(x_{n}))^{2}+\frac{\lambda}{2}||w||^{2}$$
+
+$$
+E(w)=\frac{1}{2}\sum_{n=1}^{N}(t_{n}-w^{T}\phi(x_{n}))^{2}+\frac{\lambda}{2}||w||^{2}
+$$
+
 
 ---
 ## 3. Generalization Ability

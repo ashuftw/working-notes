@@ -42,9 +42,11 @@ $$
 
 
 
+
 	$$
 	N_\text{square} =n_s^2
 	$$
+
 
 
 
@@ -54,9 +56,11 @@ $$
 
 
 
+
 	$$
 	\frac{\text{square}}{\text{dish}} = \frac{D^2}{\pi D^2/4} = \frac{4}{\pi} \approx 1.27
 	$$
+
 
 
 

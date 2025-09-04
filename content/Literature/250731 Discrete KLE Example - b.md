@@ -14,9 +14,11 @@ where $\xi_i \sim U(-1,1)$ are independent and identically distributed (i.i.d). 
 
 1.  Compute the expected value and the covariance matrix of the expansion.
 2.  Compute the KLE by performing an eigendecomposition. If you are not sure whether your computed covariance matrix is correct, use this one to go on:
-    $$
-    C_X = \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix} \quad (1)
-    $$
+
+	$$
+	C_X = \begin{pmatrix} a & 0 \\ 0 & b \end{pmatrix} \quad (1)
+	$$
+
 
 Explain the difference between the original expansion and the KLE expansion.
 
@@ -44,18 +46,24 @@ The mean is simply the zeroth-order (constant) term of the gPC expansion.
 The variance is $V[X] = E[(X - E[X])^2]$.
 
 * **Variance of $X_1$**:
-    $$
-    V[X_1] = E\left[ \left( (\frac{3}{2}\xi_1^2 + \xi_1 + \frac{3}{2}) - 2 \right)^2 \right] = E\left[ \left( \frac{3}{2}\xi_1^2 + \xi_1 - \frac{1}{2} \right)^2 \right]
-    $$
+
+	$$
+	V[X_1] = E\left[ \left( (\frac{3}{2}\xi_1^2 + \xi_1 + \frac{3}{2}) - 2 \right)^2 \right] = E\left[ \left( \frac{3}{2}\xi_1^2 + \xi_1 - \frac{1}{2} \right)^2 \right]
+	$$
+
     Expanding this and taking the expectation (using $E[\xi_1^n]$ rules) gives:
-    $$
-    V[X_1] = \frac{9}{4}E[\xi_1^4] - \frac{1}{2}E[\xi_1^2] + \frac{1}{4} = \frac{9}{4}\left(\frac{1}{5}\right) - \frac{1}{2}\left(\frac{1}{3}\right) + \frac{1}{4} = \frac{8}{15}
-    $$
+
+	$$
+	V[X_1] = \frac{9}{4}E[\xi_1^4] - \frac{1}{2}E[\xi_1^2] + \frac{1}{4} = \frac{9}{4}\left(\frac{1}{5}\right) - \frac{1}{2}\left(\frac{1}{3}\right) + \frac{1}{4} = \frac{8}{15}
+	$$
+
 
 * **Variance of $X_2$**:
-    $$
-    V[X_2] = E\left[ ( (3 + 4\xi_2) - 3 )^2 \right] = E[(4\xi_2)^2] = 16E[\xi_2^2] = 16\left(\frac{1}{3}\right) = \frac{16}{3}
-    $$
+
+	$$
+	V[X_2] = E\left[ ( (3 + 4\xi_2) - 3 )^2 \right] = E[(4\xi_2)^2] = 16E[\xi_2^2] = 16\left(\frac{1}{3}\right) = \frac{16}{3}
+	$$
+
 
 ### Step 4: Compute the Covariance
 The covariance is $\text{Cov}(X_1, X_2) = E[(X_1 - E[X_1])(X_2 - E[X_2])]$.

@@ -33,6 +33,7 @@ $b$ is a source term
 
 
 
+
 	$$
 	A_{ij}=\begin{pmatrix}1 &0& 0\\ 0 &1& 0\\0& 0& 1
 	\end{pmatrix}
@@ -41,7 +42,9 @@ $b$ is a source term
 
 
 
+
 2. **Parabolic**: One Eigen Value Vanishes.
+
 
 
 
@@ -54,7 +57,9 @@ $b$ is a source term
 
 
 
+
 3. Hyperbolic: Eigen Values don't vanish and 1 of the eigen values have a different sign.
+
 
 
 
@@ -63,6 +68,7 @@ $b$ is a source term
 	A_{ij}=\begin{pmatrix}-1 &0& 0\\ 0 &1& 0\\0& 0& 1
 	\end{pmatrix}
 	$$
+
 
 
 

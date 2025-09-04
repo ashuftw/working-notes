@@ -68,7 +68,11 @@ $$
 
 ### Raw Second Moment
 The raw second moment is the sum of the squares of *all* coefficients ($i \geq 0$).
-    $$ \mathbb{E}[Y^2] = \mathbb{V}[Y] + (\mathbb{E}[Y])^2 = \sum_{i=1}^{P} q_i^2 + q_0^2 $$
+
+$$
+\mathbb{E}[Y^2] = \mathbb{V}[Y] + (\mathbb{E}[Y])^2 = \sum_{i=1}^{P} q_i^2 + q_0^2
+$$
+
 $$
 E[Y^2] = E[(X^2)^2] = E[X^4] = \sum_{i=0}^{\infty} q_i^2 = q_0^2 + q_1^2 + q_2^2 + q_3^2
 $$

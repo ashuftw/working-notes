@@ -231,9 +231,11 @@ The order of convergence is linear (order 1).
 
 
 
+
 	$$
 	f^{\prime}(\sqrt{2})=4 \sqrt{2}\left((\sqrt{2})^2-2\right)=4 \sqrt{2}(2-2)=0 .
 	$$
+
 
 
 

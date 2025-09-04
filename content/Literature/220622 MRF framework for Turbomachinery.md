@@ -10,13 +10,16 @@ date: 2022-06-22
 
 
 
+
 	$$
 	s=x_2-x_1
 	$$
 
 
+
 	Where $x_1$ and $x_2$ are any two points on the axis.
 - **Rotation Vector ($\Omega$):**
+
 
 
 
@@ -28,8 +31,10 @@ date: 2022-06-22
 
 
 
+
 	Where $\omega\rightarrow$ rotational speed 
 - **Distance Vector ($r$):** 
+
 
 
 
@@ -37,6 +42,7 @@ date: 2022-06-22
 	$$
 	r=x_p-x_o
 	$$
+
 
 
 
@@ -86,9 +92,11 @@ $$
 
 
 
+
 	$$
 	U=U_r+\Omega\times r
 	$$
+
 
 
 

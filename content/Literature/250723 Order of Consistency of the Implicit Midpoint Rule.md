@@ -13,9 +13,17 @@ date: 2025-07-23
 4. Show cancellation up to order $h^2$
 --- 
 **The Implicit Midpoint rule** 
-$$y_{i+1} = y_i + h f \left(t_i + \frac{h}{2}, \frac{1}{2}(y_i + y_{i+1})\right)$$
+
+$$
+y_{i+1} = y_i + h f \left(t_i + \frac{h}{2}, \frac{1}{2}(y_i + y_{i+1})\right)
+$$
+
 **The increment function** 
-$$\Phi(t,y,h) = f\left(t + \frac{h}{2}, \frac{1}{2}(y(t) + y(t+h))\right)$$
+
+$$
+\Phi(t,y,h) = f\left(t + \frac{h}{2}, \frac{1}{2}(y(t) + y(t+h))\right)
+$$
+
 #### 1.  **Local Truncation Error**
 From Formulary
 $$

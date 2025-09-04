@@ -16,7 +16,9 @@ $$
 **Note:**
 - Polynomials of degree $2 n_{q u}-1$ or less are integrated exactly.
 - Points $\left(x^{(i)}\right)_{i=1}^{n_{q u}}$ are chosen as roots of polynomials $\Phi_i$ satisfying:
-$$
-\int_{\Xi_\chi} \Phi_i(x) \Phi_j(x) f_\chi(x) \mathrm{d} x \propto \delta_{i j}
-$$
+
+	$$
+	\int_{\Xi_\chi} \Phi_i(x) \Phi_j(x) f_\chi(x) \mathrm{d} x \propto \delta_{i j}
+	$$
+
  

@@ -11,7 +11,11 @@ or
 The **Core Goal** of **UQ** is to understand how uncertainty in the **inputs** of a mathematical model ***propagates*** through it to create uncertainty in the **outputs**.
 
 Everything revolves around the abstract model representation:
-$$y = \mathcal{M}(x)$$
+
+$$
+y = \mathcal{M}(x)
+$$
+
 - $x$: The vector of **uncertain model inputs** (e.g., material properties, loads, geometric parameters).
 - $\mathcal{M}$: The **mathematical model** itself, which can be a simple function or a complex simulation like a Finite Element (FE) analysis.
 - $y$: The **uncertain model output**, or "quantity of interest".

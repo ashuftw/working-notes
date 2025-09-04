@@ -17,7 +17,11 @@ A random field, $a(r_1, r_2)$, correctly captures the idea that the conductivity
 The continuous random field is infinite-dimensional and computationally intractable. The KL expansion provides an optimal, finite-dimensional approximation by decomposing the field into its mean trend and a series of weighted fluctuation "shapes."
 
 This is represented mathematically as:
-$$ a(\mathbf{r}) \approx \mu_a(\mathbf{r}) + \sum_{i=1}^{N} \sqrt{\lambda_i} \phi_i(\mathbf{r}) \xi_i $$
+
+$$
+a(\mathbf{r}) \approx \mu_a(\mathbf{r}) + \sum_{i=1}^{N} \sqrt{\lambda_i} \phi_i(\mathbf{r}) \xi_i
+$$
+
 - **$\xi_i$**: A new set of **uncorrelated random variables** that scale the eigenfunctions.
 
 This transforms the complex spatial uncertainty into a manageable set of random variables ($\xi_i$) that can be used as inputs for subsequent uncertainty analysis.
@@ -39,7 +43,11 @@ The **First-Order Second-Moment (FOSM) method** is ideal here.
 #### The Resulting Calculation
 The variance of the amplification factor, $\mathbb{V}[v]$, can be estimated directly as:
 
-$$ \mathbb{V}[v] \approx \left( \frac{\partial \mathcal{M}}{\partial k} \right)^2 \mathbb{V}[k] + \left( \frac{\partial \mathcal{M}}{\partial c} \right)^2 \mathbb{V}[c] $$
+
+$$
+\mathbb{V}[v] \approx \left( \frac{\partial \mathcal{M}}{\partial k} \right)^2 \mathbb{V}[k] + \left( \frac{\partial \mathcal{M}}{\partial c} \right)^2 \mathbb{V}[c]
+$$
+
 
 - $\mathbb{V}[k]$ and $\mathbb{V}[c]$ are the variances of the stiffness and damping, known from the manufacturing tolerances.
 - The partial derivatives ($\frac{\partial \mathcal{M}}{\partial k}$, $\frac{\partial \mathcal{M}}{\partial c}$) are the sensitivities of the output to each input, evaluated only once at the mean values.
@@ -58,7 +66,11 @@ $$ \mathbb{V}[v] \approx \left( \frac{\partial \mathcal{M}}{\partial k} \right)^
 
 ##### 1. The Surrogate Model
 The complex CFD model, $Y = \mathcal{M}(X_1, X_2)$, is replaced by a simple polynomial surrogate, $\tilde{\mathcal{M}}$:
-$$ Y \approx \tilde{\mathcal{M}}(X_1, X_2) = \sum_{i=0}^{N} q_i \Phi_i(X_1, X_2) $$
+
+$$
+Y \approx \tilde{\mathcal{M}}(X_1, X_2) = \sum_{i=0}^{N} q_i \Phi_i(X_1, X_2)
+$$
+
 - **$\Phi_i$**: Orthogonal polynomials (e.g., Hermite, Legendre) chosen based on the probability distributions of the inputs $X_1$ and $X_2$.
 
 ##### 2. Calculating Moments from Coefficients

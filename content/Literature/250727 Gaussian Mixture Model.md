@@ -6,7 +6,11 @@ date: 2025-07-27
 ---
 A [[240305 Normal or Gaussian Distribution|Gaussian]] Mixture Model (GMM) represents a probability distribution as a weighted sum of multiple Gaussian distributions. The general formula for a GMM is:
 
-$$p(x) = \sum_{k=1}^{K} \pi_k N(x | w_k, \Sigma_k)$$
+
+$$
+p(x) = \sum_{k=1}^{K} \pi_k N(x | w_k, \Sigma_k)
+$$
+
 
 Here, $K$ is the number of Gaussian components in the mixture.
 The parameters of a GMM that need to be determined are:

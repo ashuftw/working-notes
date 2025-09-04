@@ -6,7 +6,11 @@ date: 2025-09-02
 ---
 
 The Monte Carlo estimate for the variance, $\mathbb{V}[Y]$, is given by the formula:
-$$\mathbb{V}[Y] \approx \frac{1}{K-1} \sum_{i=1}^{K} (\mathcal{M}(x^{(i)}) - \tilde{\mu}_{K})^2$$
+
+$$
+\mathbb{V}[Y] \approx \frac{1}{K-1} \sum_{i=1}^{K} (\mathcal{M}(x^{(i)}) - \tilde{\mu}_{K})^2
+$$
+
 
 * **Generate Output Realizations**: A set of $K$ independent random input realizations, $\{x^{(i)}\}_{i=1}^{K}$, is generated. The model is then run for each of these inputs to get a corresponding set of output realizations, $\mathcal{M}(x^{(i)})$.
 
