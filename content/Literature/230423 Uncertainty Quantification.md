@@ -1,7 +1,7 @@
 ---
-title: Uncertainty
+title: Uncertainty Quantification
 draft: false
-tags: 
+tags:
 date: 2023-04-23
 ---
 ## Probability Theory
@@ -38,18 +38,21 @@ date: 2023-04-23
 ## Quadrature 
 - [[250729 Quadrature to Approximate Expected Value|Quadrature to Approximate Expected Value]]
 - [[240730 Quadrature Example|Quadrature Example]]
+- [[250904 Curse of Dimensionality in Quadrature|Curse of Dimensionality in Quadrature]]
+- [[250904 Flashcards on Numerical Computation of Moments|Flashcards]]
 ## Surrogate Modeling 
 - [[240305 Surrogate Modeling|Definition of Surrogate Modeling]]
-- [[230731 General Polynomial Chaos Expansion (GPC)|Polynomial Chaos Expansion (GPC)]]
+- [[230731 General Polynomial Chaos Expansion (GPC)|Polynomial Chaos Expansion (gPC)]]
 - [[250902 Orthogonal Polynomials|Orthogonal Polynomials in gPC Expansions]]
 - [[250704 Expected Value and Variance Calculations using PCE|Expected Value and Variance Calculations using PCE]]
 	- [[240722 Multi-Dimensional Polynomial Chaos Expansion|Multi-Dimensional Polynomial Chaos Expansion]]
-	- [[250731 GPC Example|GPC Example]]
+	- [[250731 gPC Example|gPC Example]]
 	- [[250903 Using KLE to prepare Random Variables for GPC|Using KLE to prepare Random Variables for GPC]]
-- [[240723 non-Intrusive Projection|non-Intrusive]]
+- [[240723 non-Intrusive Projection|non-Intrusive Projection]]
 ## Sensitivity Analysis
 - [[250703 Sobol Indices|Sobol Indices]]
 - [[250704 Calculating Sobol Indices|Calculating Sobol Indices]]
+- [[250904 Flashcards on Sensitivity Analysis|Flashcards]]
 ## Monte Carlo Methods
 - [[250729 Monte Carlo Methods|Monte Carlo Methods]]
 	- [[250729 Monte Carlo Method to Approximate Expectation|Approximating Expectation]]
@@ -57,8 +60,8 @@ date: 2023-04-23
 	- [[250901 Mean-Square Error of the Monte-Carlo Method|Mean-Square Error]]
 - [[250901 Reducing Errors in Monte Carlo Methods|Reducing Errors in Monte Carlo Methods]]
 	- [[250801 Variance Reduction Method|Variance Reduction Method]]
-	- [[250801 Control Variate Method|Control Variate Method]]
-	- [[250901 Multilevel Monte Carlo (MLMC)|Multilevel Monte Carlo (MLMC)]]
+	- [[250901 Control Variate Method|Control Variate Method]]
+	- [[250904 Multilevel Monte Carlo (MLMC)|Multilevel Monte Carlo (MLMC)]]
 ## Misc 
 - [[250901 Overview of Uncertainty Quantification|Overview of Uncertainty Quantification]]
 - [[250901 UQ Applications in Engineering Scenarios|UQ Applications in Engineering Scenarios]]

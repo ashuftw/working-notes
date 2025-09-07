@@ -20,7 +20,7 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/250522 Simulation of Technical Systems with Python|Simulation of Technical Systems with Python]]
 - [[Literature/Intro to Machine Learning|Machine Learning]]
 - [[Literature/240401 Pattern Recognition|Pattern Recognition]]
-- [[Literature/230423 Uncertainty|Uncertainty Analysis]]
+- [[Literature/230423 Uncertainty Quantification|Uncertainty Quantification]]
 
 ## Other
 - [[Literature/250725 German|German]]

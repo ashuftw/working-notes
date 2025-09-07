@@ -13,8 +13,13 @@ $$
 - $\int_{\mathbb{\Xi}_{x}}$ -> represents integral over the [[250729 Support of a Distribution|support]]
 - $\mathcal M$ -> model function
 
+## Key Principle 
+
+The key principle is to achieve the highest possible accuracy for integrating polynomials. A Gauss rule with $n_{qu}$ points can **exactly integrate polynomials of degree $2n_{qu} - 1$ or less**.
+
+The nodes are chosen as the roots of polynomials that are **orthogonal** with respect to the input variable's PDF ($f_X(x)$) as the weighting function.
 **Note:**
-- Polynomials of degree $2 n_{q u}-1$ or less are integrated exactly.
+
 - Points $\left(x^{(i)}\right)_{i=1}^{n_{q u}}$ are chosen as roots of polynomials $\Phi_i$ satisfying:
 
 	$$

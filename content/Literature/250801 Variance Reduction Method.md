@@ -10,5 +10,5 @@ $$
 $$
 Reducing the variance $\mathbb{V}[Y]$ directly [[250901 Reducing Errors in Monte Carlo Methods|improves the accuracy]] of the simulation.
 ### Examples of variance reduction methods
-- [[250801 Control Variate Method|Control Variate Method]]
-- [[250901 Multilevel Monte Carlo (MLMC)|Multilevel Monte Carlo (MLMC)]]
+- [[250901 Control Variate Method|Control Variate Method]]
+- [[250904 Multilevel Monte Carlo (MLMC)|Multilevel Monte Carlo (MLMC)]]

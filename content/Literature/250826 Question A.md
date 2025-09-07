@@ -27,7 +27,7 @@
 
 
 - The gPC coefficients are obtained via $q_i=\frac{\mathbb{E}\left[\mathcal{M}(\cdot) \Phi_i(\cdot)\right]}{\mathbb{E}\left[\Phi_i(\cdot)^2\right]}$
-- To calculate the numerator and denominator we use a quadrature method, which lacks the curse of dimensionality. 
+- To calculate the numerator and denominator we use a quadrature method, which has the curse of dimensionality. 
 - Number of nodes is typically chosen such that the polynomial in the denominator could be calculated exactly. 
 ---
 6. **What does the accuracy of (non-Intrusive projection) gPC depend on? Name at least two properties** 	

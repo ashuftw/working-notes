@@ -23,4 +23,4 @@ $$
 - **High Variance:** Trying to find the center of a large dartboard. Your throws are widely spread, so your average guess is noisy and less accurate.
 - **Low Variance:** Aiming for a tiny target just around the bullseye. Your throws are tightly clustered. The same number of throws gives you a much more accurate average.
 
-[[250801 Variance Reduction Method|Variance reduction]] methods like [[250801 Control Variate Method|Control Variates]] and **[[250901 Multilevel Monte Carlo (MLMC)|MLMC]]** are like replacing the big, noisy dartboard with a smaller, more focused target. They cleverly change the problem so that each simulation provides more precise information, leading to a more accurate result with less effort.
+[[250801 Variance Reduction Method|Variance reduction]] methods like [[250901 Control Variate Method|Control Variates]] and **[[250904 Multilevel Monte Carlo (MLMC)|MLMC]]** are like replacing the big, noisy dartboard with a smaller, more focused target. They cleverly change the problem so that each simulation provides more precise information, leading to a more accurate result with less effort.

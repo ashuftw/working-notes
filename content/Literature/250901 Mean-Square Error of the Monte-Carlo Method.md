@@ -1,5 +1,10 @@
-## Mean-Square Error of the Monte-Carlo Method
-There holds:
+---
+title: Mean-Square Error of the Monte-Carlo Method
+draft: false
+tags:
+date: 2025-09-04
+---
+Mathematically, there holds:
 $$
 \mathbb{E}\left[\left|\mu-\hat{\mu}_K\right|^2\right]=\mathbb{V}\left[\hat{\mu}_K\right]+\overbrace{\left(\mu-\mathbb{E}\left[\hat{\mu}_K\right]\right)^2}^0
 $$

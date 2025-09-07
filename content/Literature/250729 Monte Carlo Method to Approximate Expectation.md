@@ -6,9 +6,11 @@ date: 2025-07-29
 ---
 [[250729 Monte Carlo Methods|Monte Carlo]] approximation for an expected value is given as: 
 
-$$\boxed{
+$$
+\boxed{
 \mu\approx\tilde{\mu}_{K}:=\frac{1}{k}\sum_{i=1}^{K}y^{(i)}=\frac{1}{k}\sum_{i=1}^{K}\mathcal{M}(x^{(i)})}
 $$
+Where, 
 - $K$-> Total number of samples generated
 - $x$ ->Random sample input which are independent and identically distributed (i.i.d.) realizations of the input random variable $X$.
 - $\mathcal{M}(x^{(i)})$ Model, $\mathcal{M}$, when evaluated at the $i-$th random input sample, $x^{(i)}$
