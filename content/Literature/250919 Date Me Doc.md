@@ -4,7 +4,7 @@ draft: false
 tags:
 date: 2025-09-19
 ---
-![[../Files/IMG_20250915_224449559.jpg|center|400]]
+![[../Files/IMG_20250915_224449559.jpg|center|300]]
 # About me:
 - Man, straight, born 1999
 - I live in Braunschweig at the moment but wanna move in a couple of years.
@@ -12,7 +12,7 @@ date: 2025-09-19
 - Relationship type: monogamy
 - My website: [https://ashuftw.com/](https://ashuftw.com/)
 
-![[../Files/IMG-20250616-WA0009 1.jpg|center|600]]
+![[../Files/IMG-20250616-WA0009 1.jpg|center|400]]
 # Career
 - Currently doing my Master’s in Computational Science but will be switching to Environmental Engineering
 - I’m interested in Direct Air Carbon Capture. [Here’s how I ended up working on this topic + some thoughts on career planning.](https://ashuftw.substack.com/p/doing-okay)
@@ -20,10 +20,10 @@ date: 2025-09-19
 - **Uncertainty**: I have my work cut out for me, for a good year or so and there's a slight panic over opportunity costs, but for now my goal is to focus and not get distracted.
 - **Wishful thinking / Storytelling**: As I gain Career Capital in this field, I build up soft skills and learn about policy, the carbon economy etc. Eventually, I would transition into leadership, priorities research, carbon capture advocacy or think tank roles.
 
-![[../Files/IMG_20250915_182028971_HDR 1.jpg|center|400]]
+![[../Files/IMG_20250915_182028971_HDR 1.jpg|center|300]]
 # Hobbies and Interests
 - **Strength Training + Basketball**: I love basketball and play for a local club. Over the last couple of years, I’ve been spending more time and getting better at it. The strength training I do is mainly to jump higher and help me play better.
-![[../Files/Pasted image 20250919122945.png]]
+![[../Files/Pasted image 20250919122945.png|center|600]]
 - **Biking**: I bike everywhere and also volunteer at a bicycle workshop. 
 - **Music**: I like playing the guitar and occasionally like to sing along. Sometimes I get a nice tingly feeling when I sing. 
 - **Meditating**: I learnt how to meditate when I was 4 and have been meditating more or less regularly since. I’m not religious but I feel a close connection to Buddhism. 
@@ -76,3 +76,5 @@ ________________
 > 
 > 
 > ***Frances Ha, 2012***
+
+
