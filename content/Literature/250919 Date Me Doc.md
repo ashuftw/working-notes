@@ -53,7 +53,7 @@ Together we could build a partnership that 
 
 # Why you should date me
 
-I’m pretty uncomplicated, centered and calm. I make an effort to connect with people and make them feel comfortable. By nature I'm low-conflict and not very egoistic. I do have a dorky sense of humor, but balance it out being earnest when it matters. I’d be your [hype man](https://www.youtube.com/watch?v=9o4VCviorSc) & [consigliere](https://godfather.fandom.com/wiki/Consigliere). Together we could build a life filled with love, growth and good vibes. 
+I’m pretty uncomplicated, centered and calm. I put effort in trying to make things special for others, especially the ordinary things. By nature I'm low-conflict and not very egoistic. I do have a dorky sense of humor, but balance it out being earnest when it matters. I’d be your [hype man](https://www.youtube.com/watch?v=9o4VCviorSc) & [consigliere](https://godfather.fandom.com/wiki/Consigliere). Together we could build a life filled with love, growth and good vibes. 
 
 Oh, and I can make a mean banana bread ***drops mic***
 

@@ -11,7 +11,6 @@ date: 2022-12-01
 | Dat. | diesem | dieser | diesem | diesen |
 | Gen. | dieses | dieser | dieses | dieser |
 
-[[German]]
 
 ---
 
