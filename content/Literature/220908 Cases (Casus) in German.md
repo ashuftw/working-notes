@@ -5,7 +5,7 @@ date: 2022-09-08
 ---
 ## Definition
 
-The cases modify the [[220908 German Articles|article]] to inform the role of a noun in the sentence.  
+The cases modify the [[220908 Articles|article]] to inform the role of a noun in the sentence.  
 
 | Case      | Function                            | Fragewort        |
 |-----------|------------------------------------|---------------------------------|

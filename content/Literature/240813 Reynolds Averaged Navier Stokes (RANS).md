@@ -29,44 +29,38 @@ $$
 
 
 The **RANS** Equations are formulated taking the [[240424 Time Averaged Navier-Stokes Equations|Time Average of the Navier Stokes Equations]]
-- **Continuity Equation**
+**Continuity Equation**
 
 
 
 
 
-	$$
-	\boxed{\frac{\partial \bar{u}_j}{\partial x_j}=0 }
-	$$
+$$
+\boxed{\frac{\partial \bar{u}_j}{\partial x_j}=0 }
+$$
 
 
 
 
 
-- **Momentum Equations**
+**Momentum Equations**
 
 
 
 
 
-	$$
-	\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}+\frac{\partial \overline{u_i^{\prime} u_j^{\prime}}}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+v \frac{\partial^2 \bar{u}_i}{\partial x_j^2}
-	$$
+$$
+\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}+\frac{\partial \overline{u_i^{\prime} u_j^{\prime}}}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+v \frac{\partial^2 \bar{u}_i}{\partial x_j^2}
+$$
 
 
 
 
-
- Rearranging
-
-
-
-
-	$$
-	\boxed{
-	\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[v \frac{\partial\bar u_i}{\partial x_j}+\tau_{i j}^{t u r b}\right]}
-	$$
-
+Rearranging
+$$
+\boxed{
+\frac{\partial \bar{u}_i}{\partial t}+\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}=-\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[v \frac{\partial\bar u_i}{\partial x_j}+\tau_{i j}^{t u r b}\right]}
+$$
 
 
 

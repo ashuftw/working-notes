@@ -5,7 +5,8 @@ date: 2024-06-26
 ---
 
 [[240220 Theory of fixing the bubble|Theory of fixing the bubble]]
-[[Inertial Reference Framework]]
+[[250521 irfInterFoam]]
+[[251029 Parameter Calculator]]
 
 ## Solver 
 

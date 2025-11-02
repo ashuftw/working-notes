@@ -1,10 +1,9 @@
 ---
-title: The Past Tenses
+title: Basic Tenses
 draft: false
 date: 2023-03-16
 ---
-
-The three basic Tenses in German are:
+#### The basic Tenses in German are:
 - **Präsens** (Simple present) 
 	- It describes action in the present or ones that are habitual. 
 	- z.B. "Ich spiele"
@@ -15,8 +14,13 @@ The three basic Tenses in German are:
 - **Perfekt** (Present perfekt)
 	- It describes events that occurred in the past but focuses on the result of the action. 
 	- z.B. "Ich habe gespielt"
+- **Plusquamperfekt**
+	- Plusquamperfekt is used to denote actions in the past that are completed before another past action.
+	- z.B. "Ich hatte das Buch gelesen, bevor ich schlafen ging".
 
-[[230313 Plusquamperfekt]]
+
+
+[[230313 Plusquamperfekt|Plusquamperfekt]]
 
 ---
 

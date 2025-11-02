@@ -5,35 +5,6 @@ tags:
 date: 2025-05-21
 ---
 
-### Eötvös Number (Eo) [^1]
-
-The ratio of buoyancy forces to surface tension forces:
-
-
-
-$$
-\text{Eo} = \frac{g \cdot \Delta\rho \cdot d^2}{\sigma}
-$$
-
-
-
-Where ,
-- $\Delta\rho = \rho_{\text{droplet}} - \rho_{\text{medium}}$
-- $g\rightarrow$ Gravitational acceleration
-- $d\rightarrow$ Droplet diameter
-- $\sigma\rightarrow$ Surface Tension
-
-### Morton Number (M)
-
-The ratio of viscous forces to surface tension forces:
-
-
-
-$$
-\text{M} = \frac{g \cdot \mu_{\text{medium}}^4}{\rho_{\text{medium}} \cdot \sigma^3}
-$$
-
-
 
 ### Reynolds Number (Re)
 

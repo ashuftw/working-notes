@@ -26,3 +26,5 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/250725 German|German]]
 - [[Literature/250725 Music Theory|Music Theory]]
 - [[Literature/250725 Recipes|Recipes]]
+## Lists 
+- [[251017 Books|Books]]
