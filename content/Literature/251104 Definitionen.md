@@ -1,0 +1,9 @@
+---
+title: Redemittel für Definitionen
+draft: true
+tags:
+date: 2025-11-04
+---
+- Unter ... versteht man ... 
+- Mit ... beschreibt man ...
+- ...  bezeichnet ...
