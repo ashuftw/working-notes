@@ -1,5 +1,5 @@
 ---
-title: Lars' Zucchini Gallete
+title: Lars' Zucchini-Gallete
 draft: false
 tags:
 date: 2025-11-23

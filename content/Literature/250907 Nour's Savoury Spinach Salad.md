@@ -1,5 +1,5 @@
 ---
-title: Nour's Savoury Salad
+title: Nour's Savoury Spinach Salad
 draft: false
 tags:
 date: 2025-09-07
@@ -19,3 +19,6 @@ date: 2025-09-07
 - Mix everything 
 - Garnish with sliced lemon
 - Mix and serve! 
+
+
+![[../Files/DSCF0911.jpg|center|800]]
