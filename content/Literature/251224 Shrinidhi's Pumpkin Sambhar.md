@@ -5,7 +5,8 @@ tags:
 date: 2025-12-24
 ---
 ## Ingredients 
-- Red lentils 
+- Sweet Pumpkin
+- Toor Dal 
 - Turmeric
 - Tamarind Extract / Tomatoes 
 - Jaggery 
@@ -14,6 +15,7 @@ date: 2025-12-24
 - Hing (Asafoetida)
 - Curry leaves 
 - [[251224 Shrinidhi's Sambhar Spice Mix|Shrinidhi's Sambhar Spice Mix]]
+
 ## Preparation 
 - Soak Toor dal overnight and pressure cook with turmeric until mushy.
 - Whisk cooked dal to a smooth consistency.
