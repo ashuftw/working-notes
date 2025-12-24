@@ -3,7 +3,6 @@ title: Difference between Konjunktiv I and II
 draft: false
 date: 2023-12-13
 ---
-
 ## **Konjunktiv I**
 
 Used for Indirekte Rede  and Feste Ausdrücke.
