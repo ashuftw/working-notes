@@ -16,13 +16,13 @@ date: 2023-09-17
 
 | Nominative          | Accusative   | Dative              | Genitive        |
 | ------------------- | ------------ | ------------------- | --------------- |
-| I                   | me           | to/for me           | of me           |
-| you (familiar)      | you          | to/for you          | of you          |
-| he/she/it           | him\|her\|it | to/for him\|her\|it | of him\|her\|it |
-| we                  | us           | to/for us           | of us           |
-| you (familiar, pl.) | you          | to/for you          | of you          |
-| you (formal)        | you          | to/for you          | of you          |
-| they                | them         | to/for them         | of them         |
+| I                   | me           | to-for me           | of me           |
+| you (familiar)      | you          | to-for you          | of you          |
+| he/she/it           | him\|her\|it | to-for him\|her\|it | of him\|her\|it |
+| we                  | us           | to-for us           | of us           |
+| you (familiar, pl.) | you          | to-for you          | of you          |
+| you (formal)        | you          | to-for you          | of you          |
+| they                | them         | to-for them         | of them         |
 
 ## Common Verbs by Case
 
