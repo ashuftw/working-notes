@@ -5,9 +5,7 @@ tags:
 ---
 
 ## Introduction
-
-- [[241212 Analogies between Heat and Species Transport]]
-
+- [[241212 Analogies between Heat and Species Transport|Analogies between Heat and Species Transport]]
 ## Direct Air Carbon Capture
 
 - [[240620 Steps in Direct Air Carbon Capture (DAC)|Steps in Direct Air Carbon Capture (DAC)]]
@@ -34,9 +32,3 @@ tags:
 - [[../../private/Docs/DAQ_equations.pdf|Equations]]
 - [[../../private/Docs/Studienarbeit-ad.pdf|Abstract]]
 - [[../../private/Docs/Task-sheet.pdf|Task-sheet]]
-
-## Admin 
-
-- [[Oct 8, 2024]]
-
-[[private/Excalidraw/Drawing 2024-11-29 12.36.55.excalidraw.md#^rpuh00cpSpGI0ZBo4gErX|adve-diff-thin-duct-PLOT-COMPARISON]]q

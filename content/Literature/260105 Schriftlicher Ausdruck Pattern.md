@@ -4,11 +4,13 @@ draft: false
 tags:
 date: 2026-01-05
 ---
+[[../private/Fleeting/260114 Schriftlicher Ausdrück Questions|Questions]]
 ## **EINLEITUNG** (~50 words)
 In diesem Text möchte ich zu der Frage/Aussage Stellung beziehen, ob/dass [THEMA]. 
-Ich werde zunächst Argumente dafür nennen, im Anschluss werde ich Gegenargumente aufführen. 
-Danach werde ich meine eigenen Erfahrungen einfließen lassen, bevor ich meine Überlegungen zusammenfasse und zu einem Schluss komme.
+Ich werde zunächst Argumente dafür nennen sowie im Anschluss Gegenargumente aufführen. / Ich werde zunächst die Vorteile nennen, als auch die Nachteile aufführen.
+Danach werde ich meine eigenen Erfahrungen einfließen lassen, bevor ich meine Überlegungen zusammenfasse und **ein Fazit ziehe**/zu einem Schluss komme
 
+For line 2: besprechen, beleuchten, erörtern 
 **Example 1: FRAGE + OB**
 Thema: "Should universities adapt to market needs?"
 Fill: "ob das Angebot der Studiengänge an die Bedürfnisse des Marktes angepasst werden sollte.''
@@ -24,8 +26,8 @@ Fill: "dass soziale Medien Menschen einsamer machen."
 Zunächst einige Argumente, die für **[POSITION]** sprechen.
 
 **ARGUMENT 1:** 
-Ein wichtiger Aspekt ist **[HAUPTPUNKT]**. 
-**[ERKLÄRUNG/ELABORATION - 2-3 Sätze mit Beispiel oder Begründung]**.
+Ein wichtiger/wesentlicher Aspekt ist **[HAUPTPUNKT]**. 
+**[ERKLÄRUNG/ELABORATION - mit Beispiel oder Begründung]**.
 Dies zeigt, dass **[SCHLUSSFOLGERUNG]**.
 
 **ARGUMENT 2:** Darüber hinaus / Außerdem **[HAUPTPUNKT]**. 
