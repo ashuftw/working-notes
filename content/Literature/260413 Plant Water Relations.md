@@ -12,8 +12,8 @@ date: 2026-04-13
 - **Stomata**: Microscopic pores on the surface of the leaves (usually underside) that are the breathing apparatus of the plant. They regulate gas exchange (O2 and CO2) and transpiration. 
 - **Vascular System of plants**: It consists of three distinct tissues namely Xylem, Cambium and Phloem. 
 	![[../Files/Pasted image 20260413114411.png|center|400]]
-	- **Xylem** (most relevant): moves water up from roots to leaves driven by evaporation pulling water upward (like sucking through a straw). These cells are dead. 
-	- **Phloem**: moves sugars around (source to sink)
+	- **Xylem** (most relevant): moves water up from roots to leaves driven by evaporation pulling water upward (like sucking through a straw). These cells are dead and the flow is only in one direction. 
+	- **Phloem**: moves sugars around (source to sink. Flow can move bidirectionally. 
 	- **Cambium**: ring of dividing cells that produce new Xylem and Phloem as plant grows thicker. 
 ## Definitions 
 - **Ecological traits**: are features in a particular species that indicate a function or the performance of that function which can be compared with other species. Example: size of the leaf, Stomata, rooting depth etc. 
@@ -21,10 +21,11 @@ date: 2026-04-13
 	$$\text{Water Potential = Pressure + Osmotic + Gravitational Potentials}
 	$$
 
-## Phenomena 
-- **Flow velocities** in the xylem can be estimated by the Hagen-Poiseuille equation.
+## Flow Velocity
+- The flow velocities in the xylem can be estimated by the Hagen-Poiseuille equation.
 	$$ 
-	v_{f, \mathrm{xylem}}=\frac{r^2}{8 \nu L} \Delta \psi
+	v_{f, \mathrm{xylem}}=\underbrace{\frac{r^2}{8 \nu L}}_{K_f} \Delta \psi
 	$$
-	where, $\Delta \psi\rightarrow$ Water potential
-- 
+	where, 
+	 - $\Delta \psi\rightarrow$ Water potential
+	 - $K_f\rightarrow$ Hydraulic conductance 

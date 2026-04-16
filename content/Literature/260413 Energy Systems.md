@@ -1,5 +1,5 @@
 ---
-title: Energy Systems and Transition
+title: Energy Systems
 draft: false
 tags:
 date: 2026-04-13
