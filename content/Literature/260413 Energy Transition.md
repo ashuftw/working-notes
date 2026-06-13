@@ -7,7 +7,7 @@ date: 2026-04-13
 ## Why and how: Push and pull factors
 ![[../../Files/Pasted image 20260413165309.png|center|600]]
 ## Urgency: Planetary Boundaries 
-Planetary boundaries define a safe operating space for life on earth, based on the earth's ability to absorb human impact. Breaking the boundary results in changing those operating spaces irreversibely. 
+Planetary boundaries define a safe operating space for life on earth, based on the earth's ability to absorb human impact. Breaking the boundary results in changing those operating spaces irreversibly. 
 ![[../../Files/Pasted image 20260413165446.png|center|450]]
 
 - 7 of the 9 planetary boundaries have been crossed. 
