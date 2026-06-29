@@ -1,6 +1,6 @@
 ---
 title: Isaac Asimov
-draft: false
+draft: true
 tags:
 date: 2026-03-20
 ---

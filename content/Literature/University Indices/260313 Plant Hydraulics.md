@@ -12,6 +12,7 @@ date: 2026-04-13
 - [[../260519 Soil Plant Atmosphere Continuum|Soil Plant Atmosphere Continuum]]
 - [[260602 Leaf Hydraulics and Transpiration]]
 - [[../260609 Modelling Approaches for Plant Hydraulics]]
+- [[Drought Stress and Plant Response]]
 
 --- 
 - [[../../private/Fleeting/260417 Plant Hydraulics Misc|Misc]]
