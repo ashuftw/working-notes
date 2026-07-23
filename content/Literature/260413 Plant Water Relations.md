@@ -14,8 +14,8 @@ date: 2026-04-13
 - **Vascular System of plants**: It consists of three distinct tissues namely Xylem, Cambium and Phloem. 
 	![[../Files/Pasted image 20260413114411.png|center|400]]
 	- **Xylem** (most relevant): moves water up from roots to leaves driven by evaporation pulling water upward (like sucking through a straw). These cells are dead and the flow is only in one direction. 
-	- **Phloem**: moves sugars around (source to sink. Flow can move bidirectionally. 
 	- **Cambium**: ring of dividing cells that produce new Xylem and Phloem as plant grows thicker. 
+	- **Phloem**: moves sugars around (source to sink. Flow can move bidirectionally. 
 ## Definitions 
 - **Ecological traits**: are features in a particular species that indicate a function or the performance of that function which can be compared with other species. Example: size of the leaf, Stomata, rooting depth etc. 
 - **Water Potential:** It is a measure of the potential energy of the water i.e, how "free" or "available" the water is to move. 

@@ -6,7 +6,6 @@ date: 2026-04-13
 ---
 - [[260413 Plant Water Relations|Plant Water Relations]]
 - [[260414 Xylem anatomy & Hydraulic efficiency|Xylem anatomy & Hydraulic efficiency]]
-- [[260414 Xylem anatomy & Hydraulic efficiency|Xylem anatomy, Hydraulic efficiency]]
 - [[260421 Porous Media Flow|Porous Media Flow]]
 - [[260128 Soil Hydraulics and Richards Equation|Soil Hydraulics and Richards Equation]]
 - [[260512 Embolism and Cavitation|Embolism and Cavitation]]
