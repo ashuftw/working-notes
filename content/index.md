@@ -22,8 +22,8 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/240401 Pattern Recognition|Pattern Recognition]]
 - [[Literature/230423 Uncertainty Quantification|Uncertainty Quantification]]
 ## Environmental Engineering 
-- [[Literature/University Indices/260313 Plant Hydraulics|Plant Hydraulics]]
-- [[Literature/University Indices/260413 Energy Efficiency in Production Engineering|Energy Efficiency in Production Engineering]]
+- [[Literature/260313 Plant Hydraulics|Plant Hydraulics]]
+- [[Literature/260413 Energy Efficiency in Production Engineering|Energy Efficiency in Production Engineering]]
 ## Other
 - [[Literature/250725 German|German]]
 - [[Literature/250725 Music Theory|Music Theory]]

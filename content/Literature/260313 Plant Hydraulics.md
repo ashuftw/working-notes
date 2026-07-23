@@ -14,7 +14,6 @@ date: 2026-04-13
 - [[../260609 Modelling Approaches for Plant Hydraulics|Modelling Approaches for Plant Hydraulics]]
 - [[../Drought Stress and Plant Response|Drought Stress and Plant Response]]
 - [[../260630 Measurement Techniques|Measurement Techniques]]
-- 
 
 --- 
 - [[../../private/Fleeting/260417 Plant Hydraulics Misc|Misc]]
