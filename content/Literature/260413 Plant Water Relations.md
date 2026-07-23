@@ -5,6 +5,7 @@ tags:
 date: 2026-04-13
 ---
 ## Anatomy
+![[../Files/Pasted image 20260723122923.png|center|400]]
 - **Three distinct part of the plant**
 	- canopy 
 	- stem 
