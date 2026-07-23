@@ -28,6 +28,6 @@ I'm Ashu and these are my online notes. Following are some top-down, index based
 - [[Literature/250725 German|German]]
 - [[Literature/250725 Music Theory|Music Theory]]
 - [[Literature/250725 Recipes|Recipes]]
-## Ashu's list of Full Send Recommend :) 
+## Ashu's list of Full Send Recommends :) 
 - [[Literature/251017 Books|Books]]
 - [[Literature/251122 Movies|Movies]]
