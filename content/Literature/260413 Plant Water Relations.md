@@ -17,9 +17,17 @@ date: 2026-04-13
 	- **Cambium**: ring of dividing cells that produce new Xylem and Phloem as plant grows thicker. 
 ## Definitions 
 - **Ecological traits**: are features in a particular species that indicate a function or the performance of that function which can be compared with other species. Example: size of the leaf, Stomata, rooting depth etc. 
-- **Water Potential:** It is a measure of free energy available to do work
-	$$\text{Water Potential = Pressure + Osmotic + Gravitational Potentials}
+- **Water Potential:** It is a measure of the potential energy of the water i.e, how "free" or "available" the water is to move. 
+	$$\text{Water potential } (\psi) = \text{Pressure + Osmotic + Gravitational potentials}
 	$$
+	- **Pressure potentials** $\rightarrow$  It is the existing pressure inside cells. 
+		- **$+$ve pressure:** pressure is positive, water entering the cells gets pushed out into the rigid walls keeping the plant firm. Otherwise the plant will wilt. 
+		- **$-$ve pressure**: tension in the xylem. Transpiration causes a suction effect inside the xylem.
+	- **Osmotic potential** $\rightarrow$ adding solutes in the a water lowers its potential 
+	- **Gravitational potential** $\rightarrow$ potential due to gravity. Taller the plant, higher the potential the plant has to overcome for water transport.
+
+> [!NOTE]
+> Water potential at atm is 0 MPa by convection. So in the plant everything is negative
 
 ## Flow Velocity
 - The flow velocities in the xylem can be estimated by the Hagen-Poiseuille equation.
@@ -29,3 +37,8 @@ date: 2026-04-13
 	where, 
 	 - $\Delta \psi\rightarrow$ Water potential
 	 - $K_f\rightarrow$ Hydraulic conductance 
+
+> [!NOTE] 
+> The Hagen-Poiseuille idealisation assumes smooth cylindrical tubes. It ignores resistances from pits and end walls. However it captures the most essential point that velocity scales with the square of radius. 
+
+

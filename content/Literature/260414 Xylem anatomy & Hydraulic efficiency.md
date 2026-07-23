@@ -68,6 +68,7 @@ $$
 ## Comparison between angiosperms and gymnosperms 
 ![[../Files/Pasted image 20260416113929.png|center|300]]
 ### Anatomy
+The Xylem takes two forms in angiosperms 
 
 | Angiosperms                                                                | gymnosperms                            |
 | -------------------------------------------------------------------------- | -------------------------------------- |
@@ -82,7 +83,7 @@ $$
 | low resistance due to wide conduits and less pit crossings | high resistance due to narrow conduits and many pit crossings |
 | highly vulnerable to embolism                              | low vulnerability to embolism                                 |
 | less redundancy                                            | high redundancy                                               |
-## Comparison between Ring porous ^ diffuse-porous wood (angiosperms)
+## Comparison between Ring porous, diffuse-porous wood (angiosperms)
 - **Ring-porous**
 	- fast growth - greedy 
 	- conditions resource constrained 

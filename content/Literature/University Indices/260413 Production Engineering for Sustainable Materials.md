@@ -4,7 +4,7 @@ draft: true
 tags:
 date: 2026-04-14
 ---
-- [[260504 Introduction|Introduction]]
+- [[../260504 Introduction|Introduction]]
 [[../260421 Kaya-Identity & Mitigation Options]]
 [[Kaya-Identity]]
 - MO5 - pg 19 - Why doesn't the delta doesn't decrease? - there is some energy that you definitely need for say converting energy from coal to something that you can use. 

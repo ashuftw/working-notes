@@ -1,3 +1,4 @@
 ## Sync 
 
 npx quartz sync
+
