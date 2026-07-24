@@ -43,14 +43,18 @@ Assuming that the Likelihood can by represented by a Gaussian, we find **mean $\
 such that it closely represents the **Likelihood**.  The ML estimates for the parameters are estimated as follows:
 -   **Sample Mean (unbiased):** This is the average of all the training vectors.
 
+
 	$$
 	\hat{\mu} = \frac{1}{T} \sum_{\tau=1}^{T} o_{\tau}
 	$$
 
+
 -   **Sample Covariance (unbiased):** This is the average of the outer products of the centered data vectors. 
+
 
 	$$
 	\hat{\Sigma} = \frac{1}{T-1} \sum_{\tau=1}^{T} (o_{\tau} - \hat{\mu})(o_{\tau} - \hat{\mu})^T
 	$$
+
 
 	*Note: Using a denominator of T-1 provides an unbiased estimate.*

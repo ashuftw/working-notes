@@ -10,24 +10,30 @@ The computation is based on **Shannon Entropy**:
 
 1. First, the **entropy** of a set of instances $S$, with respect to a binary classification, is calculated as:
 
-$$
-S = -p_{\oplus} \log_2 p_{\oplus} - p_{\ominus} \log_2 p_{\ominus}
-$$
+
+	$$
+	S = -p_{\oplus} \log_2 p_{\oplus} - p_{\ominus} \log_2 p_{\ominus}
+	$$
+
 
 where,
 	- $p_{\oplus}$-> is the proportion of positive examples.
 	- $p_{\ominus}$ -> is the proportion of negative examples in $S$. 
 2. Next, for a given attribute $A$, the set $S$ is partitioned into subsets $S_v$ for each possible value $v$ of $A$. The remaining entropy after the split is the weighted average of the entropies of these subsets:
 
-		$$
-		S_A = \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} S_v
-		$$
+
+	$$
+	S_A = \sum_{v \in \text{Values}(A)} \frac{|S_v|}{|S|} S_v
+	$$
+
 
 		where,
 	- $|S_v|$ -> number of instances in the subset with value $v$.
 	- $|S|$ -> is the total number of instances. 
 3. Finally, the **information gain** for attribute $A$ is the entropy of the original set minus the remaining entropy after splitting on $A$:
 
-		$$
-		Gain(S, A) = S - S_A
-		$$
+
+	$$
+	Gain(S, A) = S - S_A
+	$$
+

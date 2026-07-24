@@ -11,12 +11,15 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 - **Definition of Expectation (Continuous)**
 
 
+
 	$$
 	\mathbb{E}[X] = \int_{-\infty}^{\infty} x f_X(x) dx
 	$$
 
 
+
 - **Definition of Expectation (Discrete)**
+
 
 
 	$$
@@ -24,7 +27,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Linearity of Expectation**
+
 
 
 	$$
@@ -32,7 +37,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Expectation of a Constant**
+
 
 
 	$$
@@ -40,7 +47,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Expectation of Independent Variables**
+
 
 
 	$$
@@ -48,9 +57,11 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 ### Variance and Covariance
 
 - **Definition of Variance**
+
 
 
 	$$
@@ -58,7 +69,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Computational Formula for Variance**
+
 
 
 	$$
@@ -66,7 +79,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Properties of Variance**
+
 
 
 	$$
@@ -75,12 +90,16 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 
 
 
+
+
 	$$
 	\mathbb{V}[aX] = a^2 \mathbb{V}[X]
 	$$
 
 
+
 - **Variance of a Sum of Independent Variables**
+
 
 
 	$$
@@ -88,7 +107,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Definition of Covariance**
+
 
 
 	$$
@@ -96,7 +117,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Computational Formula for Covariance**
+
 
 
 	$$
@@ -104,16 +127,20 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 ### Polynomial Chaos Expansions (PCE)
 
 - **Expectation from gPC Coefficients**: 
+
 
 	$$
 	\mathbb{E}[Y] = q_0 \quad \text{for} \quad Y \approx \sum_{i=0}^{P} q_i \Phi_i(\xi)
 	$$
 
+
 	The mean is the first coefficient.
 - **Variance from gPC Coefficients**
+
 
 
 	$$
@@ -121,7 +148,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Raw Second Moment from gPC Coefficients**
+
 
 
 	$$
@@ -129,12 +158,15 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Projection Formula for Coefficients**
+
 
 
 	$$
 	q_i = \frac{\mathbb{E}[\mathcal{M}(X(\xi))\Phi_i(\xi)]}{\mathbb{E}[\Phi_i^2(\xi)]}
 	$$
+
 
 
 ### Monte Carlo (MC) Methods
@@ -144,9 +176,11 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
     $$ \mathbb{E}[\hat{\mu}_K] = \mu
     
 
+
 	$$
 	where,
 	$$
+
 
     \mathbb E[\hat \mu_K]=\frac{1}{k}\sum_{i=1}^{K}y^{(i)}=\frac{1}{k}\sum_{i=1}^{K}\mathcal{M}(x^{(i)})$$
 	
@@ -154,12 +188,15 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 - **Mean-Square Error (MSE) of an Estimator Z**: This is a general relation.
 
 
+
 	$$
 	\mathbb{E}[(Z - \mathbb{E}[X])^2] = \mathbb{V}[Z] + (\mathbb{E}[Z] - \mathbb{E}[X])^2
 	$$
 
 
+
 - **MSE for the Unbiased MC Estimator**
+
 
 
 	$$
@@ -167,7 +204,9 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Multi-Fidelity Monte Carlo (MFMC) Expectation**
+
 
 
 	$$
@@ -175,9 +214,11 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 ### Specific Distributions
 
 - **Expectation of a Uniform Distribution** $X \sim \mathcal{U}(a,b)$
+
 
 
 	$$
@@ -185,12 +226,15 @@ Some properties of **Expectation** ($\mathbb{E}[X]$) and related concepts like *
 	$$
 
 
+
 - **Expectation of a Standard Normal Distribution** $X \sim \mathcal{N}(0,1)$
+
 
 
 	$$
 	\mathbb{E}[X] = 0
 	$$
+
 
 
 What are the expectation values of powers of $\xi$, where $\xi \sim U(-1, 1)$?

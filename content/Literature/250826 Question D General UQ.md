@@ -11,6 +11,7 @@ date:
 
 1. **Write down a formula defining the quantity of interest relating to the model input parameters**
 
+
 	$$
 	Y = \frac{1}{d_1 d_2 d_3}\int_{\frac{-d_1}{2}}^{\frac{d_1}{2}} \int_{\frac{-d_2}{2}}^{\frac{d_2}{2}}\int_{\frac{-d_3}{2}}^{\frac{d_3}{2}} P(r_1,r_2,r_3)\,dr_1dr_2dr_3
 	= M(X) $$
@@ -26,6 +27,7 @@ date:
 	The output is a spatial average (will depend smoothly on the inputs) and the model only depends on two parameters. Hence, a quadrature method is chosen. (Quadrature approximates the integral accurately for two parameters)
 	4. **Now the Young's Modulus is modeled as a Gaussian random field $E(r,\theta)$ with $D\in \mathbb R^3,\, \theta\in \mathbb \Theta$**
 	What can you do to handle this field as in put and which method would you choose to compute moments of the quantity of interest.
+
 
 
 

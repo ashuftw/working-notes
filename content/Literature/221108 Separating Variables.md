@@ -44,6 +44,7 @@ Since we are integrating functions (implicit) it is good practice to add the $c$
 
 
 
+
 	$$
 	\begin{aligned}
 	\frac{dy}{dt} &= 2y \cdot \frac{1}{t}\\
@@ -52,6 +53,7 @@ Since we are integrating functions (implicit) it is good practice to add the $c$
 	\
 	\end{aligned}
 	$$
+
 
 
 

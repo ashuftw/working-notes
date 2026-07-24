@@ -9,9 +9,11 @@ The Bayesian approach is an indirect method for classification that models proba
 
 
 
+
 	$$
 	p\left(x \mid C_k\right) .
 	$$
+
 
 
 
@@ -19,9 +21,11 @@ The Bayesian approach is an indirect method for classification that models proba
 
 
 
+
 	$$
 	p\left(C_k\right) .
 	$$
+
 
 
 

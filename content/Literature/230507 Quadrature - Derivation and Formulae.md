@@ -135,11 +135,13 @@ It can be calculated
 
 
 
+
 	$$
 	\boxed{
 	I(f) \approx \frac{b-a}{2}[f(a)+f(b)]
 	}
 	$$
+
 
 
 

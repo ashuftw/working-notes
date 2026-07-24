@@ -26,9 +26,12 @@ If $(A - \lambda I) = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then $v = \
 
 
 
+
 	$$
 	\begin{pmatrix} 3-(2+\sqrt{5}) & 1 \\ 4 & 1-(2+\sqrt{5}) \end{pmatrix} = \begin{pmatrix} 1-\sqrt{5} & 1 \\ 4 & -1-\sqrt{5} \end{pmatrix}
 	$$
+
+
 
 
 
@@ -39,7 +42,9 @@ If $(A - \lambda I) = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then $v = \
 	$$
 
 
+
 - For $\lambda_2 = 2 - \sqrt{5}$
+
 
 
 
@@ -50,8 +55,11 @@ If $(A - \lambda I) = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, then $v = \
 
 
 
+
+
 	$$
 	\boxed{v_2 = \begin{pmatrix} -1 \\ 1+\sqrt{5} \end{pmatrix}}
 	$$
+
 
 

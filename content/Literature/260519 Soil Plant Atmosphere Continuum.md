@@ -35,8 +35,8 @@ $$
 - **Conductance acts in parallel:** within a segment the many conduits side by side in a stem. Their conductances add.
 
 
-## Consequences
-**Resistance**
-In series the largest resistance controls the whole flow. One bottleneck anywhere in the chain limits the entire plant, no matter how good the other segments are. This is why drought is dangerous from two directions at once: drying soil raises $R_{RS}$ (soil–root), while embolism raises $R_P$ (plant, via PLC). It is also the basis of *hydraulic segmentation* cheap, replaceable organs like leaves are built as the high-resistance link, so they fail first and protect the expensive stem.
-**Conductance**
-The parallel arrangement enables redundancy. Losing a few conduits to embolism only removes a few parallel paths, so conductance drops gradually rather than collapsing as a whole.
+> [!TIP] Consequence
+> - **Resistance**
+> 	In series the largest resistance controls the whole flow. One bottleneck anywhere in the chain limits the entire plant, no matter how good the other segments are. This is why drought is dangerous from two directions at once: drying soil raises $R_{RS}$ (soil–root), while embolism raises $R_P$ (plant, via PLC). It is also the basis of *hydraulic segmentation* cheap, replaceable organs like leaves are built as the high-resistance link, so they fail first and protect the expensive stem.
+> - **Conductance**
+>  The parallel arrangement enables redundancy. Losing a few conduits to embolism only removes a few parallel paths, so conductance drops gradually rather than collapsing as a whole.

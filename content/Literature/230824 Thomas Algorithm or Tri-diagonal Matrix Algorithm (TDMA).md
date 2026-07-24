@@ -112,6 +112,7 @@ Given that $r_i\ne0$,  $i=1, \ldots n-1$
 
 
 
+
 	$$
 	\begin{aligned}
 	& s_i=c_i\\
@@ -123,7 +124,9 @@ Given that $r_i\ne0$,  $i=1, \ldots n-1$
 
 
 
+
 - for $i=2, \ldots n$
+
 
 
 
@@ -135,6 +138,7 @@ Given that $r_i\ne0$,  $i=1, \ldots n-1$
 	-r_i & =a_i-\ell_i s_{i-1}
 	\end{aligned}
 	$$
+
 
 
 

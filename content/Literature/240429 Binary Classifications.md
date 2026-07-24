@@ -14,9 +14,11 @@ It is an instance where the model correctly predicts the positive class i.e, the
 
 
 
+
 	$$
 	TPR=\dfrac{TP}{TP+FN}
 	$$
+
 
 
 
@@ -34,9 +36,11 @@ It is an instance where the classifier incorrectly predicts a positive class.  i
 
 
 
+
 	$$
 	FPR=\dfrac{FP}{FP+TN}
 	$$
+
 
 
 
@@ -52,9 +56,11 @@ It is an instance where the model correctly predicts a negative class.
 
 
 
+
 	$$
 	TNR=\dfrac{TN}{TN+FP}=1-FPR
 	$$
+
 
 
 
@@ -71,9 +77,11 @@ It is an instance where the Model incorrectly predicts a Negative class.
 
 
 
+
 	$$
 	FNR=\dfrac{FN}{FN+TP}
 	$$
+
 
 
 

@@ -20,14 +20,17 @@ The [[250711 Bayesian Approach  to Classification|Bayesian Approach Classificati
         
 
 
+
     	$$
     	p(C_1 \mid x) = \frac{p(x \mid C_1) p(C_1)}{p(x)}
     	$$
 
 
 
+
     * For Class 2:
         
+
 
 
     	$$
@@ -36,13 +39,16 @@ The [[250711 Bayesian Approach  to Classification|Bayesian Approach Classificati
 
 
 
+
     * Where $p(x)$ (the evidence) is the normalization constant:
         
+
 
 
     	$$
     	p(x) = p(x \mid C_1) p(C_1) + p(x \mid C_2) p(C_2)
     	$$
+
 
 
 

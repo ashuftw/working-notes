@@ -13,13 +13,16 @@ The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) 
 1.  **Set up the truncation error formula:**
 
 
+
 	$$
 	\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \frac{1}{2}[f(t,y(t)) + f(t+h, y(t)+hf(t,y(t)))]
 	$$
 
 
+
 2.  **Use Taylor Series for all terms:**
     * **Left Part:** We expand $y(t+h)$ to a higher order: $y(t+h) = y(t) + hy'(t) + \frac{h^2}{2}y''(t) + \mathcal{O}(h^3)$. This gives:
+
 
 
     	$$
@@ -27,7 +30,9 @@ The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) 
     	$$
 
 
+
     * **Right Part:** We use a multivariate Taylor expansion for the second $f$ term:
+
 
 
     	$$
@@ -35,7 +40,9 @@ The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) 
     	$$
 
 
+
         So the full increment function is:
+
 
 
     	$$
@@ -43,8 +50,10 @@ The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) 
     	$$
 
 
+
 3.  **Substitute and Simplify:**
     Using $y' = f$ and $y'' = \frac{\partial f}{\partial t} + f\frac{\partial f}{\partial y}$, the increment function becomes:
+
 
 
 	$$
@@ -52,12 +61,15 @@ The Euler-Heun method's increment function is $\Phi(t,y,h) = \frac{1}{2}[f(t,y) 
 	$$
 
 
+
     Now, we substitute everything back into the truncation error formula:
+
 
 
 	$$
 	\tau(t,h) = \left(y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)\right) - \left(y'(t) + \frac{h}{2}y''(t) + \mathcal{O}(h^2)\right) = \mathcal{O}(h^2)
 	$$
+
 
 
 The local truncation error is of the second order in $h$. Therefore, the Euler-Heun method has an **order of consistency of 2**.

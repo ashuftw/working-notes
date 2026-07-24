@@ -12,9 +12,11 @@ date: 2025-03-17
 
 
 
+
 	$$
 	w_{MAP} = \arg\max_w P(w|D) = \arg\max_w P(D|w)P(w)
 	$$
+
 
 
 
@@ -26,9 +28,11 @@ date: 2025-03-17
 
 
 
+
 	$$
 	w_{MAP} = \arg\min_w \left[\frac{1}{2}\sum_n (t_n - w^T\phi(x_n))^2 + \frac{\lambda}{2}||w||^2\right]
 	$$
+
 
 
 
@@ -41,9 +45,11 @@ date: 2025-03-17
 
 
 
+
 	$$
 	w_{MAP} = (\lambda I + \Phi^T\Phi)^{-1}\Phi^T t
 	$$
+
 
 
 

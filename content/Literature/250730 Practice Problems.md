@@ -68,13 +68,16 @@ $$
 
 1. **Expectation of $\xi$**
 
+
 	$$
 	E[\xi] = \int_{-1}^{1} \xi \cdot \frac{1}{2} \,d\xi
 	= \frac{1}{2} \left[ \frac{\xi^2}{2} \right]_{-1}^{1} = 0
 	$$
 
 
+
 2. **Expectation of $\xi^2$**
+
 
 	$$
 	E[\xi^2] = \int_{-1}^{1} \xi^2 \cdot \frac{1}{2} \,d\xi
@@ -82,12 +85,15 @@ $$
 	$$
 
 
+
 3. **Expectation of** $\xi^3$
+
 
 	$$
 	E[\xi^3] = \int_{-1}^{1} \xi^3 \cdot \frac{1}{2} \,d\xi
 	= \frac{1}{2} \left[ \frac{\xi^4}{4} \right]_{-1}^{1}  =0
 	$$
+
 
 and therefore
 $$

@@ -21,9 +21,11 @@ A Metric space in an ordered pair $(M,d)$ where
 
 
 
+
 	$$
 	d:X\times X\rightarrow \mathbb R
 	$$
+
 
 
 

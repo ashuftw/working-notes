@@ -16,9 +16,11 @@ Given are some measurement data from a characteristic curve determination of a m
 	
 
 
+
 	$$
 	f(x, a, b) = \frac{x}{a} \cdot \left|\tanh\left(\frac{x}{b}\right)\right|
 	$$
+
 
 
 

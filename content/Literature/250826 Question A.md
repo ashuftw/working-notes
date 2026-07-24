@@ -1,9 +1,11 @@
 ## Question A 
 1. **Name at least 3 properties of a CDF**
 
+
 	$$
 	F_X(x),\, F:\mathbb R\rightarrow [0,1]
 	$$
+
 
 
 - $F$ is right continuous 

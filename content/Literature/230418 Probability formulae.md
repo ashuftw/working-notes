@@ -11,6 +11,7 @@ date: 2023-04-18
 
 
 
+
 		$$
 		P(A \cap B)=P(A \mid B) P(B)=P(B \mid A) P(A)
 		$$
@@ -19,7 +20,9 @@ date: 2023-04-18
 
 
 
+
 - **Disjoint events**
+
 
 
 
@@ -33,7 +36,9 @@ date: 2023-04-18
 
 
 
+
 	- **Independent events** 
+
 
 
 
@@ -47,8 +52,10 @@ date: 2023-04-18
 
 
 
+
 2. **Conditional probability**
 	- **Overlapping events** 
+
 
 
 
@@ -62,7 +69,9 @@ date: 2023-04-18
 
 
 
+
 	- **Disjoint Events** 
+
 
 
 
@@ -76,7 +85,9 @@ date: 2023-04-18
 
 
 
+
 	- **Independent events** 
+
 
 
 
@@ -93,9 +104,12 @@ date: 2023-04-18
 
 
 
+
+
 		$$
 		P(A \mid A)=1
 		$$
+
 
 
 
@@ -106,9 +120,11 @@ date: 2023-04-18
 
 
 
+
 	$$
 	P(A \mid B)=\frac{P(B \mid A) P(A)}{P(B)}
 	$$
+
 
 
 

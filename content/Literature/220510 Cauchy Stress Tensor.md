@@ -13,6 +13,7 @@ date: 2022-05-10
 
 
 
+
 	$$
 	\left[{\begin{matrix}
 	T^{(\mathbf n)}_1 & T^{(\mathbf n)}_2 & T^{(\mathbf n)}_3\end{matrix}}\right]=\left[{\begin{matrix}
@@ -24,6 +25,7 @@ date: 2022-05-10
 	\sigma _{31} & \sigma _{32} & \sigma _{33} \\
 	\end{matrix}}\right]
 	$$
+
 
 
 

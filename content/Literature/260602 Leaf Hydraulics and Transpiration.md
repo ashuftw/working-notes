@@ -39,7 +39,12 @@ $$
 
 > [!QUESTION] Catch
 > The stomatal conductance $g$ for water is measured to be 1.6 times that of CO$_2$
-> $$g_{\mathrm{s}, \mathrm{CO}_2}=\frac{1}{1.6} g_{\mathrm{s}, \mathrm{H}_2 \mathrm{O}}$$
+>
+
+$$
+g_{\mathrm{s}, \mathrm{CO}_2}=\frac{1}{1.6} g_{\mathrm{s}, \mathrm{H}_2 \mathrm{O}}
+$$
+
 > The difference is because of the fact that water molecules are smaller and have lesser molar weight (18$\text g$ compared to 44$\text g$ of CO$_2$)
 
 ## Leaf water balance
@@ -60,10 +65,20 @@ The models improve in 3 stages:
 1. **Empirical** 
 	- Jarvis: start open, multiply penalties. No carbon link.
 		- *Guesses how open the pore is from the weather alone. Just fits the observed response to light, heat, dryness and CO$_2$ never asks why the plant opens the pore in the first place.*
+		$$
+g_{\mathrm{s}}=g_{\mathrm{s}, \max } f_{\mathrm{PAR}} f_{T_a} f_{\Psi_L} f_{\mathrm{VPD}_L} f_{\mathrm{CO}_2}
+$$
+
 2. **Semi-empirical** 
 	- Ball–Berry: open $\propto$ photosynthesis (adds the carbon link). 
 		- *Stomata open in step with how much carbon the leaf is fixing, this is why they open. They close in dry air or high CO$_2$ to save water.*
+	$$
+	g_s\propto A_n
+	$$
 	- Leuning: minor tweak for dry air.
+	$$
+	g_s\propto\frac{A_n}{\text{VPD}_L}
+	$$
 		- *Same idea as Ball–Berry, just a more realistic response to dry air.*
 3. **Optimisation** 
 	- Cowan–Farquhar: maximise carbon, minimise water.

@@ -43,6 +43,7 @@ Where,
 
 
 
+
 	$$
 	\quad \mathbf{a}=\left(\begin{array}{c} \alpha_1 \\ \vdots \\ \alpha_M \end{array}\right) \in \mathbb{R}^M
 	$$
@@ -51,7 +52,9 @@ Where,
 
 
 
+
 - Evaluation of the basis function at the given data points. 
+
 
 
 
@@ -65,8 +68,10 @@ Where,
 
 
 
+
  Note: The basis function for a polynomial regression is $s_i(x)=x^i$.  
 - Is the dependent variable of the given data set. 
+
 
 
 
@@ -75,6 +80,7 @@ Where,
 	$$
 	\mathbf{y}=\left(\begin{array}{c} y_1 \\ \vdots \\ y_N\end{array}\right) \in \mathbb{R}^N
 	$$
+
 
 
 

@@ -38,15 +38,19 @@ The total time for a data transfer is the sum of **latency** and the time taken 
     -   Given: Latency, $L = 1 \micro \text s$, $16$ individual buffers take $30 \micro \text s$.
     -   For $16$ individual transfers, each incurs latency:
 
+
     	$$
     	16 * (L + T_\text{data per buffer}) = 30 \micro \text s
     	$$
 
+
     -   Substituting $L = 1 \micro \text s$:
+
 
     	$$
     	T_\text{data per buffer} = 0.875 \text s
     	$$
+
 
     	.
 
@@ -54,8 +58,10 @@ The total time for a data transfer is the sum of **latency** and the time taken 
     *   If all data is sent in one event, latency is incurred only once.
     *   Total data transfer time for 16 buffers =
 
+
     	$$
     	16 * T_\text{data per buffer} = 16 * 0.875 \micro \text s = 14 \micro \text s
     	$$
+
 
     *   **Total Time (one event) = Latency + Total Data Transfer Time** $= 15\micro \text s$

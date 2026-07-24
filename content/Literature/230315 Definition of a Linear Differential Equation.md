@@ -28,9 +28,11 @@ Where, $y\rightarrow$ is linear in every derivative and $a_i(t)$ is arbitrary fu
 
 
 
+
 	$$
 	y'' +y =0
 	$$
+
 
 
 
@@ -42,9 +44,11 @@ Where, $y\rightarrow$ is linear in every derivative and $a_i(t)$ is arbitrary fu
 
 
 
+
 	$$
 	y''+ y^2 =0
 	$$
+
 
 
 

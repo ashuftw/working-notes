@@ -10,21 +10,26 @@ The Euler method is defined by $y_{i+1} = y_i + h f(t_i, y_i)$. The increment fu
 1.  **Truncation error :**
 
 
+
 	$$
 	\tau(t, h) = \frac{y(t+h) - y(t)}{h} - \Phi(t, y(t), h)
 	$$
+
 
 
 2.  **Use Taylor Series:**
     We expand $y(t+h)$ around $t$:
 
 
+
 	$$
 	y(t+h) = y(t) + h y'(t) + \mathcal{O}(h^2)
 	$$
 
+
 	Note: Comparing the expansion with the given rule, we get $y'= f$	
 3.  **Substitute and Simplify:**
+
 
 
 	$$
@@ -34,17 +39,22 @@ The Euler method is defined by $y_{i+1} = y_i + h f(t_i, y_i)$. The increment fu
 
 
 
+
+
 	$$
 	\tau(t, h) = y'(t) + \mathcal{O}(h) - f(t, y(t))
 	$$
 
 
+
     Since $y'(t) = f(t, y(t))$, the leading terms cancel:
+
 
 
 	$$
 	\tau(t, h) = \mathcal{O}(h)
 	$$
+
 
 
 The local truncation error is of the first order in $h$. Therefore, the Euler method has an **order of consistency of 1**.

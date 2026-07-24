@@ -22,8 +22,10 @@ The nodes are chosen as the roots of polynomials that are **orthogonal** with re
 
 - Points $\left(x^{(i)}\right)_{i=1}^{n_{q u}}$ are chosen as roots of polynomials $\Phi_i$ satisfying:
 
+
 	$$
 	\int_{\Xi_\chi} \Phi_i(x) \Phi_j(x) f_\chi(x) \mathrm{d} x \propto \delta_{i j}
 	$$
+
 
  

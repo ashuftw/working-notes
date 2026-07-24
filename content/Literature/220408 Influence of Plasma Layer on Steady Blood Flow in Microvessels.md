@@ -13,9 +13,11 @@ date: 2022-04-08
 
 
 
+
 	$$
 	Q=\dfrac{\pi R^4}{8\eta_a}\ \dfrac{\Delta P}{L}
 	$$
+
 
 
 

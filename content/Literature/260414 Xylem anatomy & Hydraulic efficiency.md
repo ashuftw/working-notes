@@ -26,13 +26,17 @@ The sprawling nature of the network means that the water can bypass the damaged 
 The water rarely passes through a single lumen. In reality it flows out of the lumen through the pit, into neighbouring Lumen. As a result we get two types of resistance to flow. 
 ![[../Files/Pasted image 20260414121803.png|center]]
 - **Resistance**
+
 	$$
 	r_{\text {xylem }}=r_{\text {lumen }}+r_{\text {pit }} \\
 	$$
+
 - **Conductivity**
+
 	$$
 	\frac{1}{k_{\text {xylem }}}=\frac{1}{k_{\text {lumen }}}+\frac{1}{k_{\text {pit }}}
 	$$
+
  
  
 > [!NOTE] Note
@@ -45,7 +49,9 @@ Q=v_f \times \pi r^2
 $$
 Where $v_f\sim r^2$ is the [[260413 Plant Water Relations#Flow Velocity|flow velocity in a xylem]]
 Therefore the we have:
-$$\boxed{
+
+$$
+\boxed{
 Q\sim r^4}
 $$
 
@@ -84,17 +90,21 @@ The Xylem takes two forms in angiosperms
 | highly vulnerable to embolism                              | low vulnerability to embolism                                 |
 | less redundancy                                            | high redundancy                                               |
 ## Comparison between Ring porous, diffuse-porous wood (angiosperms)
-- **Ring-porous**
-	- fast growth - greedy 
-	- conditions resource constrained 
-	- found in tropical regions
-	- deal with constrained resources - seasonality + competition
-	- strategy: start greedy and adjust later
-- **Diffuse-porous**
-	- even growth - safe 
-	- found in Mediterranean regions (temperate forests)
-	- deal with reliable seasonality 
-	- strategy: in cold regions, there is higher risk of a freezed embolism, hence the plant benefits from slow conservative growth.  
+![[../Files/Pasted image 20260723140057.png|center|500]]
+
+
+| Feature            | Ring-porous                                    | Diffuse-porous                                     |
+|--------------------|-------------------------------------------------|-----------------------------------------------------|
+| Anatomy            | Large earlywood vessels in a ring, narrow latewood | Uniform small vessels, spread evenly               |
+| Growth             | Fast, front-loaded, greedy                       | Even, safe                                          |
+| Found in           | Temperate seasonal forests (oak, ash, elm); not tropical | Tropics (most trees), temperate, Mediterranean      |
+| Stress             | Seasonality plus winter freezing plus competition | Tropics: competition; Mediterranean: summer drought |
+| Efficiency         | High, wide vessels, r⁴ payoff                    | Lower per vessel, many vessels compensate           |
+| Embolism risk      | High, freeze-thaw plus drought                   | Low, narrow conduits safer                          |
+| Risk management    | Rebuilds new ring each spring, uses current ring only | Conducts across several rings, redundancy           |
+| Strategy           | Start greedy, reset annually                     | Conservative, spread risk                           |
+
+
 ## Dry vs Wet regions
 - **Dry regions**: small vessels to restrict transpiration 
 - **Wet regions:** large vessels to fight off competition

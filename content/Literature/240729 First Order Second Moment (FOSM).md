@@ -17,9 +17,11 @@ It is called "*First-Order*" because it creates a linear (first-order) approxima
 
 
 
+
 	$$
 	X=\bar X+\tilde X
 	$$
+
 
 
 
@@ -32,9 +34,11 @@ It is called "*First-Order*" because it creates a linear (first-order) approxima
 
 
 
+
 	$$
 	\mathcal{M}(X)=\mathcal{M}(\bar{X}+\tilde{X}) \approx \mathcal{M}(\bar{X})+\mathcal{M}^{\prime}(\bar{X}) \tilde{X}
 	$$
+
 
 
 

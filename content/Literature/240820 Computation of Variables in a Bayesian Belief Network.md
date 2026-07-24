@@ -59,9 +59,11 @@ $$
 
 
 
+
 	$$
 	P(E,D,A,C,B) = P(E|D) \cdot  P(D|A,C) \cdot  P(C|B) \cdot  P(A) \cdot  P(B)
 	$$
+
 
 
 
@@ -73,9 +75,11 @@ $$
 
 
 
+
 	$$
 	P(D|A,B,E) = P(E|D) \quad \sum_C \left[P(D|A,C) \cdot P(C|B)\right ]\quad  \left(  P(A) \cdot P(B)\right)
 	$$
+
 
 
 
@@ -113,9 +117,11 @@ $$
 
 
 
+
 	$$
 	P(C) = \sum_{b\in B}\sum_{a\in A} P(C|A) \cdot P(B|A) \cdot P(A)
 	$$
+
 
 
 
@@ -127,9 +133,11 @@ $$
 
 
 
+
 	$$
 	P(C) = \sum_{a\in A} P(C|A) \cdot P(A)
 	$$
+
 
 
 

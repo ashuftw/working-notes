@@ -55,9 +55,11 @@ $$
 
 
 
+
 	$$
 	\tau_{xx}=\tau_{yy}=\tau_{zz}=0\tag{1.9}
 	$$
+
 
 
 
@@ -102,6 +104,7 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 
 
 
+
 	$$
 	P_{xx}\ne P_{yy} \ne P_{zz}
 	$$
@@ -110,7 +113,9 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 
 
 
+
 - The difference between the normal stresses are easier to measure and are defined as  
+
 
 
 
@@ -124,7 +129,9 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 
 
 
+
 - Coupled with the shear rate, the normal stress difference is useful in describing the rheological properties. 
+
 
 
 
@@ -133,6 +140,7 @@ Many materials show both elastic and viscous behaviour. However, we only observe
 	$$
 	\begin{align*}&\text{Primary normal stress coefficient, } \psi_1=\dfrac{N_1}{(\dot \gamma_{yx})^2}\\ &\text{Secondary normal stress coefficient, }\psi_2=\dfrac{N_2}{(\dot \gamma_{yx})^2}\end{align*}
 	$$
+
 
 
 

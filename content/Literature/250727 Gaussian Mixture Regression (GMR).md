@@ -10,9 +10,11 @@ Gaussian Mixture Regression (GMR) uses a [[250727 Gaussian Mixture Model|GMM]] t
 2.  **Conditioning**: For a new input query $x_q$, calculate the conditional probability distribution $p(y|x_q)$ from the learned joint GMM. This conditional distribution is itself a Gaussian.
 3.  **Predict**: The regression output for $x_q$ is the [[230505 Expected Value|expected value]] (mean) of this conditional distribution. The analytical solution for the predicted mean $\bar{y}$ is:
 
+
 	$$
 	\overline{y} = \sum_{e=1}^{E} h_e(x) (\mu_{e,Y} + \Sigma_{e,YX}\Sigma_{e,X}^{-1}(x - \mu_{e,X}))
 	$$
+
 
     where $h_e(x)$ are weights corresponding to the responsibilities.
 

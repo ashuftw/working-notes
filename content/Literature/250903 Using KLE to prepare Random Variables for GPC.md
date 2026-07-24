@@ -45,20 +45,26 @@ Since our mean $\mu_X$ is zero, this simplifies to $X = L\xi$. The matrix $L$ is
 
 2.  **Construct the Transformation**: We use these to build the $L$ matrix and find the relationship between $X$ and $\xi$:
 
+
 	$$
 	\begin{pmatrix} X_1 \\ X_2 \end{pmatrix} = L \begin{pmatrix} \xi_1 \\ \xi_2 \end{pmatrix} = \begin{pmatrix} 0.949 & -0.316 \\ 0.949 & 0.316 \end{pmatrix} \begin{pmatrix} \xi_1 \\ \xi_2 \end{pmatrix}
 	$$
 
+
     This gives us our original variables as a function of the new, uncorrelated ones:
+
 
 	$$
 	X_1 = 0.949\xi_1 - 0.316\xi_2
 	$$
 
 
+
+
 	$$
 	X_2 = 0.949\xi_1 + 0.316\xi_2
 	$$
+
 
 
 ***

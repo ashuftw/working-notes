@@ -15,15 +15,19 @@ The goal is to find the decision [[250711 Hyper planes|hyperplane]] that **maxim
 ## Optimization Problem
 - **Minimize:**
 
+
 	$$
 	\min_{\mathbf w,b}\left(\frac{1}{2}\mathbf{||w||}^2\right)
 	$$
 
+
 - **Subject to the constraint:**
+
 
 	$$
 	y_i(\mathbf{w}^T \mathbf{x}_i + b) \geq 1 \quad \text{for all training points } i
 	$$
+
 
 
 Where:

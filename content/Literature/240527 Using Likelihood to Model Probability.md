@@ -29,9 +29,11 @@ where,
 
 
 
+
 	$$
 	t\approx P(x)=w_0+w_1 x
 	$$
+
 
 
 
@@ -146,6 +148,7 @@ $$
 
 
 
+
 	$$
 	t = y(x, w) + \nu
 	$$
@@ -154,8 +157,10 @@ $$
 
 
 
+
 where $\nu \sim \mathcal{N}(0, \beta^{-1})$
 - Construct the likelihood function for a single data point:
+
 
 
 
@@ -169,7 +174,9 @@ where $\nu \sim \mathcal{N}(0, \beta^{-1})$
 
 
 
+
 - Form the data likelihood by assuming independence of data points:
+
 
 
 
@@ -183,7 +190,9 @@ where $\nu \sim \mathcal{N}(0, \beta^{-1})$
 
 
 
+
 - Take the negative logarithm to get the error function:
+
 
 
 
@@ -192,6 +201,7 @@ where $\nu \sim \mathcal{N}(0, \beta^{-1})$
 	$$
 	E(w) = -\ln p(\mathbf{t} | \mathbf{X}, w, \beta) = \frac{\beta}{2}\sum_{i=1}^{N}(t_i - y(x_i, w))^2 + \frac{N}{2}\ln\frac{2\pi}{\beta}
 	$$
+
 
 
 

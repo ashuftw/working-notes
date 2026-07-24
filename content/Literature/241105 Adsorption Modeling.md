@@ -142,7 +142,11 @@ $$
 
 **Species transport (LDF model):**
 
-$$\frac{dq}{dt} = k_s (q_e - q)$$
+
+$$
+\frac{dq}{dt} = k_s (q_e - q)
+$$
+
 
 - $k_s$ — kinetic rate constant, assumed constant
 - $q$ — current adsorbed loading on sorbent [mol/kg]
@@ -158,7 +162,11 @@ The sign of $(q_e - q)$ determines direction:
 
 $q_e$ is not constant. It is computed at every point from the Toth isotherm:
 
-$$q_e = \frac{n_s \, b \, p_{CO_2}}{\left(1 + (b \, p_{CO_2})^{t_T}\right)^{1/t_T}}$$
+
+$$
+q_e = \frac{n_s \, b \, p_{CO_2}}{\left(1 + (b \, p_{CO_2})^{t_T}\right)^{1/t_T}}
+$$
+
 
 where $p_{CO_2}$ is the local CO₂ partial pressure and $n_s$, $b$, $t_T$ are temperature-dependent parameters.
 
@@ -168,15 +176,27 @@ where $p_{CO_2}$ is the local CO₂ partial pressure and $n_s$, $b$, $t_T$ are t
 
 **Adsorption affinity** (Van't Hoff):
 
-$$b(T) = b_0 \exp\!\left(\frac{\Delta H_0}{R T_0}\left(\frac{T_0}{T} - 1\right)\right)$$
+
+$$
+b(T) = b_0 \exp\!\left(\frac{\Delta H_0}{R T_0}\left(\frac{T_0}{T} - 1\right)\right)
+$$
+
 
 **Saturation capacity:**
 
-$$n_s(T) = n_{s0} \exp\!\left(\chi\left(1 - \frac{T}{T_0}\right)\right)$$
+
+$$
+n_s(T) = n_{s0} \exp\!\left(\chi\left(1 - \frac{T}{T_0}\right)\right)
+$$
+
 
 **Toth exponent:**
 
-$$t_T(T) = t_{T0} + \alpha\left(1 - \frac{T_0}{T}\right)$$
+
+$$
+t_T(T) = t_{T0} + \alpha\left(1 - \frac{T_0}{T}\right)
+$$
+
 
 where $T_0$ is the reference temperature and $\Delta H_0$, $\chi$, $\alpha$ are fitted material constants.
 
@@ -184,7 +204,11 @@ where $T_0$ is the reference temperature and $\Delta H_0$, $\chi$, $\alpha$ are 
 
 ## Partial Pressure
 
-$$p_{CO_2} = C_A \cdot R \cdot T$$
+
+$$
+p_{CO_2} = C_A \cdot R \cdot T
+$$
+
 
 where $C_A$ is the local molar concentration of CO₂ from the transport equation.
 

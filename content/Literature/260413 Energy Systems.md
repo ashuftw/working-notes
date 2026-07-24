@@ -6,18 +6,26 @@ date: 2026-04-13
 ---
 ## Energy, Work and Power
 - **Energy**: Capacity of a system to do work. It is the stored amount. 
-	$$\boxed{E = P*t}$$
+
+	$$
+	\boxed{E = P*t}
+	$$
+
 	- Unit for Energy
-	$$
-	1 \mathrm{~J}=1 \mathrm{~kg} \mathrm{~m}^2 / \mathrm{s}^2=1 \mathrm{Ws}=1 \mathrm{Nm}=\frac{1}{3600} \mathrm{~Wh}
-	$$
+
+		$$
+		1 \mathrm{~J}=1 \mathrm{~kg} \mathrm{~m}^2 / \mathrm{s}^2=1 \mathrm{Ws}=1 \mathrm{Nm}=\frac{1}{3600} \mathrm{~Wh}
+		$$
+
 - **Work**: It is the transfer of energy via force over a distance.
 	$$\boxed{W = F*d}
+
 	$$
-- **Power**: is the rate of Energy transfer 
+	- **Power**: is the rate of Energy transfer
 	$$\boxed{P=\frac{W}{t}}$$
 	- Unit for Power
-$$
+	$$
+
 1 \mathrm{~W}=1 \mathrm{~J} / \mathrm{s}=1 \mathrm{VA}=1 \mathrm{~kg} \mathrm{~m}^2 / \mathrm{s}^3
 $$
 ## Types of Systems 

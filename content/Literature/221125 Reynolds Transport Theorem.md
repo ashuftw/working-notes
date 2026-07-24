@@ -64,9 +64,11 @@ $$
 
 
 
+
 	$$
 	\frac{d}{dt}(B_\text{sys})= \int_{\text{CS}}\beta\rho(\vec v \cdot \vec n)dA
 	$$
+
 
 
 

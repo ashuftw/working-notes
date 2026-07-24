@@ -39,7 +39,7 @@ To calculate the porosity. One takes a small volume of the soil and measures the
 > The core assumption of the soil conductance (based on potential) falls apart when you have a crack or micro pore. Then all the flow is through that crack or pore (bypass)
 
 ### Relationship between Porosity & Conductivity
-High porosity does not necessarily mean high conductivity. Connectedness also plays an important role. If pores are tine or poorly connected (like clay) then the conductivity is low. 
+High porosity does not necessarily mean high conductivity. **Connectedness** also plays an important role. If pores are tine or poorly connected (like clay) then the conductivity is low. 
 ## **Soil water retention curve**
 It give the relationship between the amount of water $\theta$ and the amount pressure ($h$) needed to be applied (suction) to remove the water. 
 ![[../../Files/Pasted image 20260421122733.png|center]]
