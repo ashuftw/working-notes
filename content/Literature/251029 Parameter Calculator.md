@@ -77,9 +77,11 @@ $$
 $$
 
 ### Droplet Viscosity
-$$\boxed{
+$$
+\boxed{
 \mu_d = \lambda \cdot \mu_m
-}$$
+}
+$$
 
 Where $\lambda$ is the viscosity ratio.
 

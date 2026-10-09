@@ -18,9 +18,11 @@ K \rightarrow K(\theta)  \text { or } K(\Psi)
 $$
 Where $\theta$ is water content and $\Psi$ is the soil water potential
 The updated Darcy's law
-$$\boxed{
+$$
+\boxed{
 q=-K(\Psi) \Psi
-}$$
+}
+$$
 where $q$ is the water flux (flow of water through the soil per unit area, per unit time)
 
 > [!Tip] Coductivity of the soil drops in a non-linear fashion

@@ -18,16 +18,23 @@ date: 2026-04-13
 		$$
 
 - **Work**: It is the transfer of energy via force over a distance.
-	$$\boxed{W = F*d}
 
 	$$
+	\boxed{W = F*d}
+	$$
+
 	- **Power**: is the rate of Energy transfer
-	$$\boxed{P=\frac{W}{t}}$$
-	- Unit for Power
-	$$
 
-1 \mathrm{~W}=1 \mathrm{~J} / \mathrm{s}=1 \mathrm{VA}=1 \mathrm{~kg} \mathrm{~m}^2 / \mathrm{s}^3
-$$
+		$$
+		\boxed{P=\frac{W}{t}}
+		$$
+
+	- Unit for Power
+
+		$$
+		1 \mathrm{~W}=1 \mathrm{~J} / \mathrm{s}=1 \mathrm{VA}=1 \mathrm{~kg} \mathrm{~m}^2 / \mathrm{s}^3
+		$$
+
 ## Types of Systems 
 Systems are arrangement of elements that together exhibit a behaviour or function that the individual elements cannot accomplish by themselves. The three ways to analyse of think of systems are:
 - **Functional**: Here the relationship between different functions and behaviours are considered. The components are treated like a black box: Example electricity is the input, resulting in heat and products. 

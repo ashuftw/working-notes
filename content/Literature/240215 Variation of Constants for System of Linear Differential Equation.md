@@ -8,7 +8,7 @@ date: 2024-02-15
 
 
 $$
-q_h(t)=V D(t) c
+q_h(t)=V D(t) c
 $$
 
 
@@ -17,7 +17,7 @@ $$
 
 
 $$
-q_p(t)=V D(t) c(t)
+q_p(t)=V D(t) c(t)
 $$
 
 
@@ -25,8 +25,8 @@ $$
 
 
 $$
-\begin{aligned} q'_p(t)&= V D'(t) c(t)+V D(t) c'(t)\\
-&=V \Lambda D'(t) c(t)+V D(t) c'(t)\end{aligned}
+\begin{aligned} q'_p(t)&= V D'(t) c(t)+V D(t) c'(t)\\
+&=V \Lambda D'(t) c(t)+V D(t) c'(t)\end{aligned}
 $$
 
 
@@ -38,7 +38,7 @@ Similar to the [[221120 Solution method for Variation of Constants|1-D case]],
 
 
 $$
-q'_p(t)-V \Lambda D'(t) c(t)=V D(t) c'(t)
+q'_p(t)-V \Lambda D'(t) c(t)=V D(t) c'(t)
 $$
 
 

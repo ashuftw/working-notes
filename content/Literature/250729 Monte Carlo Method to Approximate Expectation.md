@@ -17,7 +17,8 @@ Where,
 > Note: $y=\mathcal M(x)$ 
 
 ## Multi-dimensional Case
-$$\boxed{
+$$
+\boxed{
 \mu=\mathbb{E}[\gamma] \approx \tilde{\mu}_K=\frac{1}{K} \sum_{i=1}^K y^{(i)}=\frac{1}{K} \sum_{i=1}^K \mathcal{M}\left(\mathbf{x}^{(i)}\right)}
 $$
 The sample $\left\{\mathbf{x}^{(i)}\right\}_{i=1}^K$ now contains vectors.

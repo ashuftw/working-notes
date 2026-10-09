@@ -12,7 +12,7 @@ date: 2026-04-13
 6. [[260519 Soil Plant Atmosphere Continuum|Soil Plant Atmosphere Continuum]]
 7. [[260602 Leaf Hydraulics and Transpiration|Leaf Hydraulics and Transpiration]]
 8. [[260609 Modelling Approaches for Plant Hydraulics|Modelling Approaches for Plant Hydraulics]]
-9. [[Drought Stress and Plant Response|Drought Stress and Plant Response]]
+9. [[260616 Drought Stress and Plant Response|Drought Stress and Plant Response]]
 10. [[260630 Measurement Techniques|Measurement Techniques]]
 
 --- 

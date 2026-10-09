@@ -66,8 +66,8 @@ The models improve in 3 stages:
 	- Jarvis: start open, multiply penalties. No carbon link.
 		- *Guesses how open the pore is from the weather alone. Just fits the observed response to light, heat, dryness and CO$_2$ never asks why the plant opens the pore in the first place.*
 		$$
-g_{\mathrm{s}}=g_{\mathrm{s}, \max } f_{\mathrm{PAR}} f_{T_a} f_{\Psi_L} f_{\mathrm{VPD}_L} f_{\mathrm{CO}_2}
-$$
+		g_{\mathrm{s}}=g_{\mathrm{s}, \max } f_{\mathrm{PAR}} f_{T_a} f_{\Psi_L} f_{\mathrm{VPD}_L} f_{\mathrm{CO}_2}
+		$$
 
 2. **Semi-empirical** 
 	- Ball–Berry: open $\propto$ photosynthesis (adds the carbon link). 

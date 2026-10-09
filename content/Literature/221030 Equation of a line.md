@@ -14,12 +14,12 @@ $$
 
 
 **Point-slope form**
-	For an arbitrary point $\text b (x,y)
+	For an arbitrary point $\text b (x,y)$
 
 
 
 $$
-$m=\frac{y-y_1}{x-x_1}
+m=\frac{y-y_1}{x-x_1}
 $$
 
 

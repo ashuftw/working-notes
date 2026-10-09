@@ -13,7 +13,8 @@ date: 2026-04-21
 ### Preferential flow & Darcy's law 
 It's when water flows through macro-pores created by earthworms, roots etc. One can lump these effects and describe the flow using Darcy's law.	
 ![[../../Files/Pasted image 20260421114916.png|center]]
-$$\boxed{
+$$
+\boxed{
 v_f=-K \frac{\Delta \psi}{\Delta \ell} \approx-K \frac{\partial \psi}{\partial \ell}}
 $$
 

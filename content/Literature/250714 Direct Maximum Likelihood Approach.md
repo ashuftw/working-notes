@@ -44,5 +44,5 @@ Where,
 - $t_n$ is the label for the $n-$th data point, $x_n$. ([[250710 One of K Encoding Scheme|One of K Encoding Scheme]])
 
 **Example**:
-if $40$ out of $100$ data points in your training set belong to class $C_1$​, the formula gives you: $\pi=\frac{100}{40}​=0.4$
+if $40$ out of $100$ data points in your training set belong to class $C_1$, the formula gives you: $\pi=\frac{100}{40}=0.4$
 

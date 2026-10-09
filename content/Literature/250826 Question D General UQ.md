@@ -14,7 +14,8 @@ date:
 
 	$$
 	Y = \frac{1}{d_1 d_2 d_3}\int_{\frac{-d_1}{2}}^{\frac{d_1}{2}} \int_{\frac{-d_2}{2}}^{\frac{d_2}{2}}\int_{\frac{-d_3}{2}}^{\frac{d_3}{2}} P(r_1,r_2,r_3)\,dr_1dr_2dr_3
-	= M(X) $$
+	= M(X)
+	$$
 	Note: We do integrate because we care about the average
 	2. **Specify the model input distribution and justify as much as possible**
 	Input vector reads
